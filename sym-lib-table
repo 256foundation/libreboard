@@ -3,4 +3,7 @@
   (lib (name "libreboard")(type "KiCad")(uri "${KIPRJMOD}/libreboard.kicad_sym")(options "")(descr ""))
   (lib (name "emberone")(type "KiCad")(uri "${KIPRJMOD}/emberone.kicad_sym")(options "")(descr ""))
   (lib (name "CONN_SM04B-SRSS-TB_JST")(type "KiCad")(uri "${KIPRJMOD}/CONN_SM04B-SRSS-TB_JST.kicad_sym")(options "")(descr ""))
+  (lib (name "BLM15PX221SN1D")(type "KiCad")(uri "${KIPRJMOD}/BLM15PX221SN1D.kicad_sym")(options "")(descr ""))
+  (lib (name "MOLEX_2169890001")(type "KiCad")(uri "${KIPRJMOD}/2025-07-01_02-11-34.kicad_sym")(options "")(descr ""))
+  (lib (name "LMR51450FNDRRR")(type "KiCad")(uri "${KIPRJMOD}/LMR51450FNDRRR.kicad_sym")(options "")(descr ""))
 )

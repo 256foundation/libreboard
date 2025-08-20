@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.5,
-          "height": 2.7,
-          "width": 2.7
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.8
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -59,44 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|139230000|150500000|44050c2e-137a-4ee5-aab6-af6e82cb550c|c1309054-b3ec-4f1e-9334-00cba6baa146",
-          ""
-        ],
-        [
-          "clearance|140500000|149230000|fcebfa8a-eb3d-4196-9404-532dc9ddde9f|c1309054-b3ec-4f1e-9334-00cba6baa146",
-          ""
-        ],
-        [
-          "clearance|140920000|151770000|40ece557-24f2-47a4-bf57-058580957d62|44050c2e-137a-4ee5-aab6-af6e82cb550c",
-          ""
-        ],
-        [
-          "clearance|141770000|150920000|40ece557-24f2-47a4-bf57-058580957d62|fcebfa8a-eb3d-4196-9404-532dc9ddde9f",
-          ""
-        ],
-        [
-          "clearance|146205000|147060000|cf9a04ac-e742-4cc4-b820-74b94e875632|fd267553-ab4f-45b2-b9de-3fd8c755208d",
-          ""
-        ],
-        [
-          "clearance|159795000|147060000|386d8066-f8d7-448e-8535-fb964d94eab0|49b00fb2-fbf7-4862-ac04-916c407cd0f2",
-          ""
-        ],
-        [
-          "clearance|159975000|145410000|029ebbb9-b02f-45bd-96ed-01f4d0ed11f9|8cfd9587-a6c9-4a80-b337-75a1568e78eb",
-          ""
-        ],
-        [
-          "clearance|163003858|146776424|a2c51ef8-4a45-4b19-8a83-e2fa4ed59648|49b00fb2-fbf7-4862-ac04-916c407cd0f2",
-          ""
-        ],
-        [
-          "footprint_type_mismatch|187000000|157525000|00000000-0000-0000-0000-00005d2fec1a|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -164,12 +127,12 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.125,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.01,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.19,
-        "min_hole_to_hole": 0.24,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -180,7 +143,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_annulus": 0.049999999999999996,
-        "min_via_diameter": 0.45,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -528,7 +491,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.125,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.13,
@@ -539,7 +502,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13,
+        "track_width": 0.1,
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
@@ -716,6 +679,36 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
         }
       ],
       "filter_string": "",
