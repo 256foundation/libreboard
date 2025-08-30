@@ -15837,7 +15837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Part Description" "Buffer, Non-Inverting, 1 Element, 1 Bit per Element, Open Drain, Output SOT-353"
 			(at 165.1 139.7 0)
 			(effects
 				(font
@@ -15846,7 +15846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "2425492"
+		(property "Dist. P/N" "74LVC1G07SE-7DITR-ND"
 			(at 165.1 139.7 0)
 			(effects
 				(font
@@ -15855,7 +15855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "74LVC1G07SE-7"
+		(property "Distributor" "Digikey"
 			(at 165.1 139.7 0)
 			(effects
 				(font
@@ -15864,7 +15864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Diodes"
+		(property "Manufacturer" "Diodes Inc."
 			(at 165.1 139.7 0)
 			(effects
 				(font
@@ -15873,7 +15873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element Open Drain Output SOT-353"
+		(property "Manf. P/N" "74LVC1G07SE-7"
 			(at 165.1 139.7 0)
 			(effects
 				(font
@@ -15940,7 +15940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9742/DS9742-00.pdf"
+		(property "Datasheet" "https://www.richtek.com/SaveDownload.aspx?specid=RT9742"
 			(at 252.73 161.29 0)
 			(effects
 				(font
@@ -15958,7 +15958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Field8" ""
 			(at 252.73 161.29 0)
 			(effects
 				(font
@@ -15967,7 +15967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "	2545875"
+		(property "Part Description" "Power Switch/Driver, 1:1, N-Channel, 1A, TSOT-23-5"
 			(at 252.73 161.29 0)
 			(effects
 				(font
@@ -15976,7 +15976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "RT9742GGJ5"
+		(property "Dist. P/N" "1028-1436-2-ND"
 			(at 252.73 161.29 0)
 			(effects
 				(font
@@ -15985,7 +15985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "RichTek"
+		(property "Distributor" "Digikey"
 			(at 252.73 161.29 0)
 			(effects
 				(font
@@ -15994,7 +15994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "USWI00166"
+		(property "Manufacturer" "RichTek"
 			(at 252.73 161.29 0)
 			(effects
 				(font
@@ -16003,7 +16003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	Power Switch/Driver 1:1 N-Channel 1A TSOT-23-5"
+		(property "Manf. P/N" "RT9742GGJ5"
 			(at 252.73 161.29 0)
 			(effects
 				(font
@@ -16135,7 +16135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10164227.pdf"
 			(at 214.63 104.14 0)
 			(effects
 				(font
@@ -16153,23 +16153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Amphenol"
-			(at 72.39 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "2x 10164227-1001A1RLF"
-			(at 72.39 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field6" "2x 10164227-1001A1RLF"
+		(property "Part Description" "Connector, CM Receptacle, 100 pin, 0.4mm P"
 			(at 72.39 77.47 0)
 			(effects
 				(font
@@ -16178,7 +16162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Hirose"
+		(property "Dist. P/N" "609-10164227-1001A1RLFTR-ND"
 			(at 72.39 77.47 0)
 			(effects
 				(font
@@ -16187,7 +16171,25 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	100 Position Connector Receptacle, Center Strip Contacts Surface Mount Gold"
+		(property "Distributor" "Digikey"
+			(at 72.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Amphenol"
+			(at 72.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "10164227-1001A1RLF x2"
 			(at 72.39 77.47 0)
 			(effects
 				(font
@@ -16823,7 +16825,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 231.521 43.053 0)
 			(effects
 				(font
@@ -16841,7 +16843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 228.6 41.91 0)
 			(effects
 				(font
@@ -16859,7 +16861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at 228.6 41.91 0)
 			(effects
 				(font
@@ -16868,7 +16870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "2611911"
+		(property "Field8" ""
 			(at 228.6 41.91 0)
 			(effects
 				(font
@@ -16877,7 +16879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "RM EMK105 B7104KV-F"
+		(property "Dist. P/N" "478-11504-2-ND"
 			(at 228.6 41.91 0)
 			(effects
 				(font
@@ -16886,7 +16888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
+		(property "Distributor" "Digikey"
 			(at 228.6 41.91 0)
 			(effects
 				(font
@@ -16895,7 +16897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Manufacturer" "Kyocera"
 			(at 228.6 41.91 0)
 			(effects
 				(font
@@ -16904,7 +16906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "110091611"
+		(property "Manf. P/N" "04026D104KAT4A"
 			(at 228.6 41.91 0)
 			(effects
 				(font
@@ -17010,7 +17012,7 @@
 				)
 			)
 		)
-		(property "Value" "THD-02-R"
+		(property "Value" "Conn_2x02_Male"
 			(at 207.01 86.9696 0)
 			(effects
 				(font
@@ -17027,7 +17029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.toby.co.uk/uploads/publications/1673.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/10897040?display=pdf"
 			(at 205.74 90.17 0)
 			(effects
 				(font
@@ -17045,7 +17047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Toby"
+		(property "Field8" ""
 			(at 205.74 90.17 0)
 			(effects
 				(font
@@ -17054,7 +17056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "THD-02-R"
+		(property "Part Description" "Pin Header, Male, 2x02, 2.54mm P, Vertical"
 			(at 205.74 90.17 0)
 			(effects
 				(font
@@ -17063,7 +17065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "151-604-425-761"
+		(property "Dist. P/N" "WM22702-ND"
 			(at 205.74 90.17 0)
 			(effects
 				(font
@@ -17072,7 +17074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "EDAC"
+		(property "Distributor" "Digikey"
 			(at 205.74 90.17 0)
 			(effects
 				(font
@@ -17081,7 +17083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "UCON00791"
+		(property "Manufacturer" "Molex"
 			(at 205.74 90.17 0)
 			(effects
 				(font
@@ -17090,7 +17092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "PinHeader_2x02_P2.54mm_Vertical"
+		(property "Manf. P/N" "0010897040"
 			(at 205.74 90.17 0)
 			(effects
 				(font
@@ -17137,7 +17139,7 @@
 				)
 			)
 		)
-		(property "Value" "THD-20-R"
+		(property "Value" "Conn_2x20_Male"
 			(at 158.75 20.9296 0)
 			(effects
 				(font
@@ -17154,7 +17156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.toby.co.uk/uploads/publications/1673.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/10897400?display=pdf"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -17172,7 +17174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Toby"
+		(property "Field8" ""
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -17181,7 +17183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "THD-20-R"
+		(property "Part Description" "Pin Header, Male, 2x20, 2.54mm P, Vertical"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -17190,7 +17192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "THD-20-R"
+		(property "Dist. P/N" "WM19411-ND"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -17199,7 +17201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Toby"
+		(property "Distributor" "Digikey"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -17208,7 +17210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "UCON00511"
+		(property "Manufacturer" "Molex"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -17217,7 +17219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "PinHeader_2x20_P2.54mm_Vertical"
+		(property "Manf. P/N" "0010897400"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -17373,7 +17375,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10µF"
 			(at 213.741 123.063 0)
 			(effects
 				(font
@@ -17391,7 +17393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 210.82 121.92 0)
 			(effects
 				(font
@@ -17409,7 +17411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "490-14381-1-ND"
+		(property "Part Description" "Capacitor, Ceramic, 10µF, ±10%, 10V, X5R, 0805 (2012m)"
 			(at 210.82 121.92 0)
 			(effects
 				(font
@@ -17418,7 +17420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey"
+		(property "Field8" ""
 			(at 210.82 121.92 0)
 			(effects
 				(font
@@ -17427,7 +17429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "GRM21BR71A106KA73L"
+		(property "Dist. P/N" "478-KGM21AR51A106KUTR-ND"
 			(at 210.82 121.92 0)
 			(effects
 				(font
@@ -17436,7 +17438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Murata"
+		(property "Distributor" "Digikey"
 			(at 210.82 121.92 0)
 			(effects
 				(font
@@ -17445,7 +17447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Manufacturer" "Kyocera"
 			(at 210.82 121.92 0)
 			(effects
 				(font
@@ -17454,7 +17456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "111893011"
+		(property "Manf. P/N" "0805ZD106KAT2A"
 			(at 210.82 121.92 0)
 			(effects
 				(font
@@ -17625,7 +17627,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "470Ω"
 			(at 232.41 71.9836 90)
 			(effects
 				(font
@@ -17642,7 +17644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 232.41 74.93 0)
 			(effects
 				(font
@@ -17660,7 +17662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Field8" ""
 			(at 232.41 74.93 0)
 			(effects
 				(font
@@ -17669,7 +17671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "9239197"
+		(property "Part Description" "Resistor, 470Ω, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 232.41 74.93 0)
 			(effects
 				(font
@@ -17678,8 +17680,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "KOA EUROPE GMBH"
-			(at 232.41 74.93 0)
+		(property "Dist. P/N" "P470LTR-ND"
+			(at 232.41 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17687,8 +17689,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "RK73G1ETQTP4700D         "
-			(at 232.41 74.93 0)
+		(property "Distributor" "Digikey"
+			(at 232.41 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17696,8 +17698,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "120887981"
-			(at 232.41 74.93 0)
+		(property "Manufacturer" "Panasonic"
+			(at 232.41 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17705,8 +17707,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Resistor 470R M1005 1% 63mW"
-			(at 232.41 74.93 0)
+		(property "Manf. P/N" "ERJ-2RKF4700X"
+			(at 232.41 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17746,7 +17748,7 @@
 				)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "470Ω"
 			(at 232.41 82.55 90)
 			(effects
 				(font
@@ -17763,7 +17765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 232.41 80.01 0)
 			(effects
 				(font
@@ -17781,7 +17783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Field8" ""
 			(at 232.41 80.01 0)
 			(effects
 				(font
@@ -17790,7 +17792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "9239197"
+		(property "Part Description" "Resistor, 470Ω, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 232.41 80.01 0)
 			(effects
 				(font
@@ -17799,8 +17801,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "KOA EUROPE GMBH"
-			(at 232.41 80.01 0)
+		(property "Dist. P/N" "P470LTR-ND"
+			(at 232.41 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17808,8 +17810,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "RK73G1ETQTP4700D         "
-			(at 232.41 80.01 0)
+		(property "Distributor" "Digikey"
+			(at 232.41 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17817,8 +17819,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "120887981"
-			(at 232.41 80.01 0)
+		(property "Manufacturer" "Panasonic"
+			(at 232.41 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17826,8 +17828,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Resistor 470R M1005 1% 63mW"
-			(at 232.41 80.01 0)
+		(property "Manf. P/N" "ERJ-2RKF4700X"
+			(at 232.41 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18016,7 +18018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf"
 			(at 116.84 27.94 0)
 			(effects
 				(font
@@ -18034,42 +18036,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey "
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "LTST-S270KGKT"
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "SML-A12M8TT86N"
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field8" "650263301"
 			(at 116.84 27.94 0)
 			(effects
@@ -18079,8 +18045,44 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	Green 572nm LED Indication - Discrete 2.2V 2-SMD, No Lead"
+		(property "Part Description" "LED, Green, 572nm, 2.2V, SMD 0603"
 			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "160-1478-2-ND"
+			(at 116.84 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey "
+			(at 116.84 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 116.84 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "LTST-S270KGKT"
+			(at 116.84 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18121,7 +18123,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kΩ"
 			(at 118.618 41.783 0)
 			(effects
 				(font
@@ -18139,7 +18141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDQ0000/ast-ind-151033.pdf"
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -18157,7 +18159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Part Description" "Resistor, 1kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -18166,7 +18168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "9239235"
+		(property "Field8" ""
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -18175,7 +18177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "KOA EUROPE GMBH"
+		(property "Dist. P/N" "10-ERJ-H2RF1001XTR-ND"
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -18184,7 +18186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "RK73H1ETTP1001F"
+		(property "Distributor" "Digikey"
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -18193,7 +18195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Resistor 1K M1005 1% 63mW"
+		(property "Manufacturer" "Panasonic"
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -18202,7 +18204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "125049511"
+		(property "Manf. P/N" "ERJ-H2RF1001X"
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -18328,7 +18330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2000-210/LTST-S270KRKT.pdf"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-210/LTST-S270KRKT.pdf"
 			(at 172.72 119.38 0)
 			(effects
 				(font
@@ -18346,42 +18348,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey "
-			(at 172.72 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "	LTST-S270KRKT"
-			(at 172.72 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "SML-A12U8TT86Q"
-			(at 172.72 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 172.72 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field8" "650295101"
 			(at 172.72 119.38 0)
 			(effects
@@ -18391,8 +18357,44 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	Red 620nm LED Indication - Discrete 2.2V 2-SMD, No Lead"
+		(property "Part Description" "LED, Red, 620nm, 2.2V, SMD 0603"
 			(at 172.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "160-1479-2-ND"
+			(at 172.72 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey "
+			(at 172.72 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 172.72 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "LTST-S270KRKT"
+			(at 172.72 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18433,7 +18435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kΩ"
 			(at 174.498 130.683 0)
 			(effects
 				(font
@@ -18451,7 +18453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDQ0000/ast-ind-151033.pdf"
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -18469,7 +18471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Part Description" "Resistor, 1kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -18478,7 +18480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "9239235"
+		(property "Field8" ""
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -18487,7 +18489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "KOA EUROPE GMBH"
+		(property "Dist. P/N" "10-ERJ-H2RF1001XTR-ND"
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -18496,7 +18498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "RK73H1ETTP1001F"
+		(property "Distributor" "Digikey"
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -18505,7 +18507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Resistor 1K M1005 1% 63mW"
+		(property "Manufacturer" "Panasonic"
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -18514,7 +18516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "125049511"
+		(property "Manf. P/N" "ERJ-H2RF1001X"
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -18572,7 +18574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd4eusb30.pdf"
 			(at 207.01 62.23 0)
 			(effects
 				(font
@@ -18590,7 +18592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Field8" ""
 			(at 207.01 62.23 0)
 			(effects
 				(font
@@ -18599,7 +18601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "2335455"
+		(property "Part Description" "Diode, TVS, 8V clamp, 1A"
 			(at 207.01 62.23 0)
 			(effects
 				(font
@@ -18608,7 +18610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "CDDFN10-3324P-13"
+		(property "Dist. P/N" "296-28063-2-ND"
 			(at 207.01 62.23 0)
 			(effects
 				(font
@@ -18617,7 +18619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Bourns"
+		(property "Distributor" "Digikey"
 			(at 207.01 62.23 0)
 			(effects
 				(font
@@ -18626,7 +18628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "UDIO00346"
+		(property "Manufacturer" "Texas Instruments"
 			(at 207.01 62.23 0)
 			(effects
 				(font
@@ -18635,7 +18637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Quad TVS diode for high speed signals (USB3, GigE etc.)"
+		(property "Manf. P/N" "TPD4EUSB30DQAR"
 			(at 207.01 62.23 0)
 			(effects
 				(font
@@ -18737,44 +18739,44 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "nf"
-			(at 167.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 167.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 167.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "nf"
-			(at 167.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "Test point"
 			(at 167.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "nf"
+			(at 167.64 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "nf"
+			(at 167.64 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "nf"
+			(at 167.64 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "nf"
+			(at 167.64 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18812,7 +18814,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0Ω"
 			(at 160.02 88.9 90)
 			(effects
 				(font
@@ -18830,7 +18832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ6GEY0R00V"
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -18848,7 +18850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Part Description" "Resistor, Jumper,  0Ω, SMD 0805 (2012m)"
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -18857,7 +18859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "9233750"
+		(property "Field8" ""
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -18866,8 +18868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Rohm"
-			(at 156.21 91.44 0)
+		(property "Dist. P/N" "P0.0ATR-ND"
+			(at 156.21 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18875,8 +18877,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "MCR10EZPJ000"
-			(at 156.21 91.44 0)
+		(property "Distributor" "Digikey"
+			(at 156.21 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18884,8 +18886,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Resistor 0R M2012 5% "
-			(at 156.21 91.44 0)
+		(property "Manufacturer" "Panasonic"
+			(at 156.21 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18893,8 +18895,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "121629591"
-			(at 156.21 91.44 0)
+		(property "Manf. P/N" "ERJ-6GEY0R00V"
+			(at 156.21 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18971,8 +18973,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "nf"
-			(at 156.21 95.25 0)
+		(property "Dist. P/N" "nf"
+			(at 156.21 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18980,8 +18982,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "nf"
-			(at 156.21 95.25 0)
+		(property "Distributor" "nf"
+			(at 156.21 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18989,8 +18991,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "nf"
-			(at 156.21 95.25 0)
+		(property "Manufacturer" "nf"
+			(at 156.21 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19065,42 +19067,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
-			(at 255.27 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "2358234"
-			(at 255.27 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "503398-1892"
-			(at 255.27 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Molex"
-			(at 255.27 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "9 (8 + 1) Position Card Connector microSD™ Surface Mount, Right Angle Gold"
 			(at 255.27 125.73 0)
 			(effects
@@ -19111,6 +19077,42 @@
 			)
 		)
 		(property "Field8" "UCON00512"
+			(at 255.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "2358234"
+			(at 255.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Farnell"
+			(at 255.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 255.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "503398-1892"
 			(at 255.27 125.73 0)
 			(effects
 				(font
@@ -19308,7 +19310,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x07_Odd_Even"
+		(property "Value" "Conn_2x07_Male"
 			(at 38.1 167.005 0)
 			(effects
 				(font
@@ -19325,7 +19327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.toby.co.uk/uploads/publications/1673.pdf"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/10897140?display=pdf"
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -19343,7 +19345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Toby"
+		(property "Part Description" "Pin Header, Male, 2x07, 2.54mm P, Vertical"
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -19352,7 +19354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "THD-07-R"
+		(property "Dist. P/N" "WM9875-ND"
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -19361,7 +19363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "THD-07-R"
+		(property "Distributor" "Digikey"
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -19370,7 +19372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Toby"
+		(property "Manufacturer" "Molex"
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -19379,7 +19381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "PinHeader_2x07_P2.54mm_Vertical"
+		(property "Manf. P/N" "0010897140"
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -19456,7 +19458,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "Conn_1x03_Male"
 			(at 121.1072 127.6096 0)
 			(effects
 				(font
@@ -19473,7 +19475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/403/4030/022032031_sd.pdf?inline"
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -19491,7 +19493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "nf"
+		(property "Part Description" "Pin Header, Male, 1x03, 2.54mm P, Vertical"
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -19500,7 +19502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "nf"
+		(property "Dist. P/N" "900-0022032031-ND"
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -19509,7 +19511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "nf"
+		(property "Distributor" "Digikey"
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -19518,7 +19520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "nf"
+		(property "Manufacturer" "Molex"
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -19527,7 +19529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "3pin 0.1\" connector"
+		(property "Manf. P/N" "0022032031"
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -19588,7 +19590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpd4eusb30.pdf"
 			(at 207.01 30.48 0)
 			(effects
 				(font
@@ -19606,7 +19608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Field8" ""
 			(at 207.01 30.48 0)
 			(effects
 				(font
@@ -19615,7 +19617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "2335455"
+		(property "Part Description" "Diode, TVS, 8V clamp, 1A"
 			(at 207.01 30.48 0)
 			(effects
 				(font
@@ -19624,7 +19626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "CDDFN10-3324P-13"
+		(property "Dist. P/N" "296-28063-2-ND"
 			(at 207.01 30.48 0)
 			(effects
 				(font
@@ -19633,7 +19635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Bourns"
+		(property "Distributor" "Digikey"
 			(at 207.01 30.48 0)
 			(effects
 				(font
@@ -19642,7 +19644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "UDIO00346"
+		(property "Manufacturer" "Texas Instruments"
 			(at 207.01 30.48 0)
 			(effects
 				(font
@@ -19651,7 +19653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Quad TVS diode for high speed signals (USB3, GigE etc.)"
+		(property "Manf. P/N" "TPD4EUSB30DQAR"
 			(at 207.01 30.48 0)
 			(effects
 				(font
@@ -19948,7 +19950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey"
+		(property "Part Description" "Retainer, Battery, 20.0mm 1 Cell SMD (SMT) Tab"
 			(at 111.76 176.53 0)
 			(effects
 				(font
@@ -19957,7 +19959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "36-3034-ND"
+		(property "Dist. P/N" "36-3034-ND"
 			(at 111.76 176.53 0)
 			(effects
 				(font
@@ -19966,7 +19968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "3034"
+		(property "Distributor" "Digikey"
 			(at 111.76 176.53 0)
 			(effects
 				(font
@@ -19975,7 +19977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Keystone"
+		(property "Manufacturer" "Keystone"
 			(at 111.76 176.53 0)
 			(effects
 				(font
@@ -19984,7 +19986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab"
+		(property "Manf. P/N" "3034"
 			(at 111.76 176.53 0)
 			(effects
 				(font
@@ -20044,7 +20046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://p.globalsources.com/IMAGES/PDT/SPEC/690/K1160305690.pdf"
+		(property "Datasheet" "https://www.taoglas.com/datasheets/TMJG4926HENL.pdf"
 			(at 267.97 92.71 0)
 			(effects
 				(font
@@ -20062,7 +20064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "TRJG0926HENL"
+		(property "Field8" ""
 			(at 267.97 92.71 0)
 			(effects
 				(font
@@ -20071,7 +20073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Trxcon"
+		(property "Part Description" "Receptacle, RJ45, 1Gb"
 			(at 267.97 92.71 0)
 			(effects
 				(font
@@ -20080,7 +20082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "UCON00900"
+		(property "Dist. P/N" "931-TMJG4926HENL-ND"
 			(at 267.97 92.71 0)
 			(effects
 				(font
@@ -20089,7 +20091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Gigabit Ethernet Magjack"
+		(property "Manufacturer" "Taoglas Limited"
 			(at 267.97 92.71 0)
 			(effects
 				(font
@@ -20098,7 +20100,16 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "TRJG0926HENL"
+		(property "Manf. P/N" "TMJG4926HENL"
+			(at 267.97 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
 			(at 267.97 92.71 0)
 			(effects
 				(font
@@ -20324,7 +20335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST_SHBM04B-SRSS-TB"
+		(property "Value" "JST_BM04B-SRSS-TB"
 			(at 139.7 159.385 0)
 			(effects
 				(font
@@ -20342,7 +20353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 142.24 148.59 0)
 			(effects
 				(font
@@ -20360,7 +20371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
+		(property "Part Description" "Connector, Male, 1x04, vertical, 1mm P"
 			(at 142.24 148.59 0)
 			(effects
 				(font
@@ -20369,7 +20380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "SHBM04B-SRSS-TB"
+		(property "Dist. P/N" "455-BM04B-SRSS-TBTR-ND"
 			(at 142.24 148.59 0)
 			(effects
 				(font
@@ -20378,7 +20389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "SHBM04B-SRSS-TB"
+		(property "Manufacturer" "JST"
 			(at 142.24 148.59 0)
 			(effects
 				(font
@@ -20387,7 +20398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "JST"
+		(property "Manf. P/N" "BM04B-SRSS-TB"
 			(at 142.24 148.59 0)
 			(effects
 				(font
@@ -20396,7 +20407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "4 pin vertical 1mm pitch connector"
+		(property "Distributor" "Digikey"
 			(at 142.24 148.59 0)
 			(effects
 				(font
@@ -20461,7 +20472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108251530_OPSCO-Optoelectronics-SK6812SIDE-A-RVS_C2890037.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2890037.pdf"
 			(at 183.642 162.306 0)
 			(effects
 				(font
@@ -20481,6 +20492,51 @@
 		)
 		(property "LCSC" "C2890037"
 			(at 193.548 166.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "C2890037"
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LSCS"
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "SK6812SIDE-A-RVS"
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "OPSCO"
+			(at 185.42 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "LED, RGB, 475-620nm, 3.7v-5.5v, SMD"
+			(at 185.42 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20527,7 +20583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST_SHBM04B-SRSS-TB"
+		(property "Value" "JST_BM04B-SRSS-TB"
 			(at 149.86 180.975 0)
 			(effects
 				(font
@@ -20545,7 +20601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -20563,7 +20619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
+		(property "Part Description" "Connector, Male, 1x04, vertical, 1mm P"
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -20572,7 +20628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "SHBM04B-SRSS-TB"
+		(property "Dist. P/N" "455-BM04B-SRSS-TBTR-ND"
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -20581,7 +20637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "SHBM04B-SRSS-TB"
+		(property "Manufacturer" "JST"
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -20590,7 +20646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "JST"
+		(property "Manf. P/N" "BM04B-SRSS-TB"
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -20599,7 +20655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "4 pin vertical 1mm pitch connector"
+		(property "Distributor" "Digikey"
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -20665,7 +20721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/240/Littelfuse-3050591.pdf"
+		(property "Datasheet" "https://www.ckswitches.com/media/1471/pts645.pdf"
 			(at 85.09 175.26 0)
 			(effects
 				(font
@@ -20683,7 +20739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "PTS645VH58-2LFS"
+		(property "Part Description" "Switch, Tactile, SPST-NO, Right Angle"
 			(at 80.01 175.26 0)
 			(effects
 				(font
@@ -20692,8 +20748,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "PTS645VH58-2LFS"
-			(at 80.01 175.26 0)
+		(property "Dist. P/N" "CKN9120-ND"
+			(at 80.01 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20701,8 +20757,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "CK"
-			(at 80.01 175.26 0)
+		(property "Manufacturer" "C&K"
+			(at 80.01 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20710,8 +20766,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Right angle through hole Tact switch"
-			(at 80.01 175.26 0)
+		(property "Manf. P/N" "PTS645VH58-2 LFS"
+			(at 80.01 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 80.01 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20770,7 +20835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/240/Littelfuse-3050591.pdf"
+		(property "Datasheet" "https://www.ckswitches.com/media/1471/pts645.pdf"
 			(at 86.36 158.75 0)
 			(effects
 				(font
@@ -20788,7 +20853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "PTS645VH58-2LFS"
+		(property "Part Description" "Switch, Tactile, SPST-NO, Right Angle"
 			(at 81.28 158.75 0)
 			(effects
 				(font
@@ -20797,8 +20862,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "PTS645VH58-2LFS"
-			(at 81.28 158.75 0)
+		(property "Dist. P/N" "CKN9120-ND"
+			(at 81.28 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20806,8 +20871,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "CK"
-			(at 81.28 158.75 0)
+		(property "Manufacturer" "C&K"
+			(at 81.28 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20815,8 +20880,17 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Right angle through hole Tact switch"
-			(at 81.28 158.75 0)
+		(property "Manf. P/N" "PTS645VH58-2 LFS"
+			(at 81.28 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 81.28 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20893,44 +20967,44 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "nf"
-			(at 123.19 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 123.19 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 123.19 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "nf"
-			(at 123.19 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "Test point"
 			(at 123.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "nf"
+			(at 123.19 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "nf"
+			(at 123.19 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "nf"
+			(at 123.19 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "nf"
+			(at 123.19 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21034,7 +21108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "Conn_1x03_Male"
 			(at 146.05 114.2999 0)
 			(effects
 				(font
@@ -21052,7 +21126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/403/4030/022032031_sd.pdf?inline"
 			(at 143.51 113.03 0)
 			(effects
 				(font
@@ -21062,6 +21136,51 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "900-0022032031-ND"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "0022032031"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Pin Header, Male, 1x03, 2.54mm P, Vertical"
 			(at 143.51 113.03 0)
 			(effects
 				(font

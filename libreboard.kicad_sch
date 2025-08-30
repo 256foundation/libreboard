@@ -8705,43 +8705,43 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "nf"
-			(at 18.415 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 18.415 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 18.415 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "nf"
-			(at 18.415 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "M2.5 mounting hole"
+			(at 18.415 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "nf"
+			(at 18.415 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "nf"
+			(at 18.415 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "nf"
+			(at 18.415 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "nf"
 			(at 18.415 193.04 0)
 			(effects
 				(font
@@ -8813,43 +8813,43 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "nf"
-			(at 18.415 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 18.415 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 18.415 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "nf"
-			(at 18.415 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "M2.5 mounting hole"
+			(at 18.415 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "nf"
+			(at 18.415 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "nf"
+			(at 18.415 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "nf"
+			(at 18.415 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "nf"
 			(at 18.415 187.96 0)
 			(effects
 				(font
@@ -8921,43 +8921,43 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "nf"
-			(at 18.415 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 18.415 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 18.415 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "nf"
-			(at 18.415 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "M2.5 mounting hole"
+			(at 18.415 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "nf"
+			(at 18.415 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "nf"
+			(at 18.415 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "nf"
+			(at 18.415 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "nf"
 			(at 18.415 182.88 0)
 			(effects
 				(font
@@ -9029,43 +9029,43 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "nf"
-			(at 18.415 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 18.415 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 18.415 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "nf"
-			(at 18.415 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "M2.5 mounting hole"
+			(at 18.415 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "nf"
+			(at 18.415 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "nf"
+			(at 18.415 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "nf"
+			(at 18.415 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "nf"
 			(at 18.415 177.8 0)
 			(effects
 				(font
@@ -9137,43 +9137,43 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "nf"
-			(at 39.37 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 39.37 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 39.37 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "nf"
-			(at 39.37 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "M2.5 mounting hole"
+			(at 39.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "nf"
+			(at 39.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "nf"
+			(at 39.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "nf"
+			(at 39.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "nf"
 			(at 39.37 177.8 0)
 			(effects
 				(font
@@ -9245,43 +9245,43 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "nf"
-			(at 39.37 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 39.37 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 39.37 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "nf"
-			(at 39.37 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "M2.5 mounting hole"
+			(at 39.37 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "nf"
+			(at 39.37 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "nf"
+			(at 39.37 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "nf"
+			(at 39.37 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "nf"
 			(at 39.37 193.04 0)
 			(effects
 				(font
@@ -9353,43 +9353,43 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "nf"
-			(at 39.37 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 39.37 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 39.37 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "nf"
-			(at 39.37 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "M2.5 mounting hole"
+			(at 39.37 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "nf"
+			(at 39.37 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "nf"
+			(at 39.37 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "nf"
+			(at 39.37 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "nf"
 			(at 39.37 187.96 0)
 			(effects
 				(font
@@ -9461,43 +9461,43 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "nf"
-			(at 39.37 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 39.37 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 39.37 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "nf"
-			(at 39.37 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "M2.5 mounting hole"
+			(at 39.37 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "nf"
+			(at 39.37 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "nf"
+			(at 39.37 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "nf"
+			(at 39.37 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "nf"
 			(at 39.37 182.88 0)
 			(effects
 				(font
@@ -9552,7 +9552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
 			(at 81.28 288.29 0)
 			(effects
 				(font
@@ -9562,6 +9562,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 81.28 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "08055C101JAT2A"
+			(at 81.28 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 81.28 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "08055C101JAT2A"
+			(at 81.28 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 81.28 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 100pF, ±5%, 50V, X7R, 0805 (2012m)"
 			(at 81.28 288.29 0)
 			(effects
 				(font
@@ -9689,7 +9734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "470531000"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/470531000?display=pdf"
 			(at 92.71 110.49 0)
 			(effects
 				(font
@@ -9700,6 +9745,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "WM4330-ND"
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "0470531000"
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Connector, Fan 1, 12V, 4 pin"
 			(at 92.71 110.49 0)
 			(effects
 				(font
@@ -9766,7 +9856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "="
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 19.05 304.8 0)
 			(effects
 				(font
@@ -9776,6 +9866,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 19.05 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM43AR71H224KVTR-ND"
+			(at 19.05 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 19.05 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "KGM43AR71H224KV"
+			(at 19.05 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 19.05 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 0.22µF, ±10%, 50V, X7R, 1812 (4532m)"
 			(at 19.05 304.8 0)
 			(effects
 				(font
@@ -9884,7 +10019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "19.1 kΩ"
+		(property "Value" "19.1kΩ"
 			(at 139.7 435.6099 0)
 			(effects
 				(font
@@ -9902,7 +10037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
 			(at 137.16 434.34 0)
 			(effects
 				(font
@@ -9912,6 +10047,51 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 137.16 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-UP3F1912VTR-ND"
+			(at 137.16 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 137.16 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-UP3F1912V"
+			(at 137.16 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 137.16 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 19.1kΩ, ±1%, 0.25W, SMD 0603 (1608m)"
 			(at 137.16 434.34 0)
 			(effects
 				(font
@@ -9972,7 +10152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
 			(at 0 287.02 0)
 			(effects
 				(font
@@ -9982,6 +10162,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 0 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-UP3F6491VTR-ND"
+			(at 0 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 0 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-UP3F6491V"
+			(at 0 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 6.49kΩ, ±1%, 0.25W, SMD 0603 (1608m)"
 			(at 0 287.02 0)
 			(effects
 				(font
@@ -10024,7 +10249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7 uF"
+		(property "Value" "4.7µF"
 			(at 29.21 420.3762 0)
 			(effects
 				(font
@@ -10042,7 +10267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 26.67 419.1 0)
 			(effects
 				(font
@@ -10052,6 +10277,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 26.67 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM21AR51H475KUTR-ND"
+			(at 26.67 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 26.67 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "KGM21AR51H475KU"
+			(at 26.67 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 26.67 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 4.7µF, ±10%, 50V, X5R, 0805 (2012m)"
 			(at 26.67 419.1 0)
 			(effects
 				(font
@@ -10093,7 +10363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1µF"
 			(at 30.48 137.668 0)
 			(effects
 				(font
@@ -10111,7 +10381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 27.94 135.89 0)
 			(effects
 				(font
@@ -10121,6 +10391,60 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-11504-2-ND"
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "04026D104KAT4A"
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 27.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at 27.94 135.89 0)
 			(effects
 				(font
@@ -10182,7 +10506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "470531000"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/470531000?display=pdf"
 			(at 92.71 125.73 0)
 			(effects
 				(font
@@ -10193,6 +10517,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 92.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "WM4330-ND"
+			(at 92.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 92.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "0470531000"
+			(at 92.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 92.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Connector, Fan 2, 12V, 4 pin"
 			(at 92.71 125.73 0)
 			(effects
 				(font
@@ -10240,7 +10609,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 86.741 77.343 0)
 			(effects
 				(font
@@ -10258,7 +10627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -10276,7 +10645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Field8" ""
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -10285,7 +10654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "2611911"
+		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -10294,7 +10663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "RM EMK105 B7104KV-F"
+		(property "Dist. P/N" "478-11504-2-ND"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -10303,7 +10672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
+		(property "Distributor" "Digikey"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -10312,7 +10681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "110091611"
+		(property "Manufacturer" "Kyocera"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -10321,7 +10690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Manf. P/N" "04026D104KAT4A"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -10428,7 +10797,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 68.58 116.84 90)
 			(effects
 				(font
@@ -10445,7 +10814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 68.58 114.3 0)
 			(effects
 				(font
@@ -10456,6 +10825,51 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 68.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-U02F1002XTR-ND"
+			(at 68.58 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 68.58 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-U02F1002X"
+			(at 68.58 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 68.58 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 10kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 68.58 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10646,7 +11060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51440.pdf"
 			(at 71.12 421.64 0)
 			(effects
 				(font
@@ -10701,6 +11115,51 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "296-LMR51450FNDRRRTR-ND"
+			(at 71.12 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 71.12 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "LMR51450FNDRRR"
+			(at 71.12 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 71.12 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Buck Switching Regulator, IC Positive Adjustable, 0.8V, 1 Output, 5A, 12-WFDFN, Exposed Pad"
+			(at 71.12 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10854,7 +11313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LM5155DSSR"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm5155.pdf"
 			(at 48.26 285.75 0)
 			(effects
 				(font
@@ -10865,6 +11324,51 @@
 			)
 		)
 		(property "Description" "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=76991F136CBADE83"
+			(at 48.26 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "296-LM5155DSSRTR-ND"
+			(at 48.26 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 48.26 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "LM5155DSSR"
+			(at 48.26 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 48.26 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Controller, Step-up, DC-DC"
 			(at 48.26 285.75 0)
 			(effects
 				(font
@@ -10958,7 +11462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71J106MA12-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/C0GNP0-KGM.pdf"
 			(at -21.59 287.02 0)
 			(effects
 				(font
@@ -10968,6 +11472,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at -21.59 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM03ACG1H100JHTR-ND"
+			(at -21.59 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at -21.59 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "KGM03ACG1H100JH"
+			(at -21.59 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at -21.59 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 10pF, ±5%, 50V, C0G/NP0, 0201 (0603m)"
 			(at -21.59 287.02 0)
 			(effects
 				(font
@@ -11010,7 +11559,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 kΩ"
+		(property "Value" "100kΩ"
 			(at 139.7 426.7199 0)
 			(effects
 				(font
@@ -11028,7 +11577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
 			(at 137.16 425.45 0)
 			(effects
 				(font
@@ -11038,6 +11587,51 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 137.16 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-UP3F1003VTR-ND "
+			(at 137.16 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 137.16 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-UP3F1003V"
+			(at 137.16 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 137.16 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 100kΩ, ±1%, 0.25W, SMD 0603 (1608m)"
 			(at 137.16 425.45 0)
 			(effects
 				(font
@@ -11221,7 +11815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0612_1632Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_1632Metric"
 			(at 97.028 284.48 90)
 			(effects
 				(font
@@ -11230,7 +11824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf"
 			(at 95.25 284.48 0)
 			(effects
 				(font
@@ -11240,6 +11834,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 95.25 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "P0.018BVTR-ND"
+			(at 95.25 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 95.25 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-8CWFR018V"
+			(at 95.25 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 95.25 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 18mΩ, ±1%, 1W, SMD 1206 (3216m)"
 			(at 95.25 284.48 0)
 			(effects
 				(font
@@ -11280,7 +11919,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 68.58 114.3 90)
 			(effects
 				(font
@@ -11297,7 +11936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 68.58 116.84 0)
 			(effects
 				(font
@@ -11308,6 +11947,51 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 68.58 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-U02F1002XTR-ND"
+			(at 68.58 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 68.58 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-U02F1002X"
+			(at 68.58 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 68.58 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 10kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 68.58 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11367,7 +12051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
 			(at 22.86 332.74 0)
 			(effects
 				(font
@@ -11377,6 +12061,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 22.86 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-UP3F6812VTR-ND"
+			(at 22.86 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 22.86 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-UP3F6812V"
+			(at 22.86 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 22.86 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 68.1kΩ, ±1%, 0.25W, SMD 0603 (1608m)"
 			(at 22.86 332.74 0)
 			(effects
 				(font
@@ -11435,7 +12164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
 			(at 87.63 280.67 0)
 			(effects
 				(font
@@ -11446,6 +12175,51 @@
 		)
 		(property "Description" "Resistor"
 			(at 87.63 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-UP3F1000VTR-ND"
+			(at 87.63 280.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 87.63 280.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-UP3F1000V"
+			(at 87.63 280.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 87.63 280.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 100Ω, ±1%, 0.25W, SMD 0603 (1608m)"
+			(at 87.63 280.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11487,7 +12261,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µF"
 			(at -22.86 245.1099 0)
 			(effects
 				(font
@@ -11505,7 +12279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71J106MA12-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at -27.94 243.84 0)
 			(effects
 				(font
@@ -11515,6 +12289,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at -27.94 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM32AR71H106KUTR-ND"
+			(at -27.94 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at -27.94 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "12105C106KAT2A"
+			(at -27.94 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at -27.94 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 10µF, ±10%, 50V, X7R, 1210 (3225m)"
 			(at -27.94 243.84 0)
 			(effects
 				(font
@@ -11557,7 +12376,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 88.9 252.7299 0)
 			(effects
 				(font
@@ -11575,7 +12394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71J106MA12-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 83.82 251.46 0)
 			(effects
 				(font
@@ -11585,6 +12404,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 83.82 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM15BR51H105MTTR-ND"
+			(at 83.82 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 83.82 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "06035D105MAT2A"
+			(at 83.82 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 83.82 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 1µF, ±10%, 50V, X5R, 0603 (1608m)"
 			(at 83.82 251.46 0)
 			(effects
 				(font
@@ -11645,7 +12509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
 			(at 170.18 284.48 0)
 			(effects
 				(font
@@ -11655,6 +12519,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-UP3F5112VTR-ND"
+			(at 170.18 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 170.18 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-UP3F5112V"
+			(at 170.18 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 170.18 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 51.1kΩ, ±1%, 0.25W, SMD 0603 (1608m)"
 			(at 170.18 284.48 0)
 			(effects
 				(font
@@ -11695,7 +12604,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 68.58 119.38 90)
 			(effects
 				(font
@@ -11712,7 +12621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 68.58 119.38 0)
 			(effects
 				(font
@@ -11723,6 +12632,51 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 68.58 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-U02F1002XTR-ND"
+			(at 68.58 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 68.58 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-U02F1002X"
+			(at 68.58 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 68.58 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 10kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 68.58 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11783,7 +12737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "470531000"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/470531000?display=pdf"
 			(at 92.71 156.21 0)
 			(effects
 				(font
@@ -11794,6 +12748,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 92.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "WM4330-ND"
+			(at 92.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 92.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "0470531000"
+			(at 92.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 92.71 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Connector, Fan 4, 12V, 4 pin"
 			(at 92.71 156.21 0)
 			(effects
 				(font
@@ -11894,6 +12893,51 @@
 				(hide yes)
 			)
 		)
+		(property "Dist. P/N" "36-7771-ND"
+			(at 19.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 19.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "7771"
+			(at 19.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 19.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Screw Terminal, M3"
+			(at 19.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "edd01999-3e2e-4b9a-94e7-f5cac48f5430")
 		)
@@ -11923,7 +12967,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 50.8 123.444 90)
 			(effects
 				(font
@@ -11940,7 +12984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 50.8 123.19 0)
 			(effects
 				(font
@@ -11951,6 +12995,51 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-U02F1002XTR-ND"
+			(at 50.8 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 50.8 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-U02F1002X"
+			(at 50.8 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 50.8 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 10kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 50.8 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12076,7 +13165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
 			(at 11.43 297.18 0)
 			(effects
 				(font
@@ -12086,6 +13175,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 11.43 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-UP3F9311VTR-ND"
+			(at 11.43 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 11.43 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-UP3F9311V"
+			(at 11.43 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 11.43 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 9.31kΩ, ±1%, 0.25W, SMD 0603 (1608m)"
 			(at 11.43 297.18 0)
 			(effects
 				(font
@@ -12277,7 +13411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71J106MA12-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 16.51 256.54 0)
 			(effects
 				(font
@@ -12287,6 +13421,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 16.51 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM15AR71H103KMTR-ND"
+			(at 16.51 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 16.51 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "KGM15AR71H103KM"
+			(at 16.51 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 16.51 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 10nF, ±10%, 50V, X7R, 0603 (1608m)"
 			(at 16.51 256.54 0)
 			(effects
 				(font
@@ -12386,6 +13565,51 @@
 				(hide yes)
 			)
 		)
+		(property "Dist. P/N" "296-48119-2-ND"
+			(at 92.71 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 92.71 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "CSD18511Q5A"
+			(at 92.71 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 92.71 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "MOSFET, 40V, 159A, 104W"
+			(at 92.71 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "3b27703c-d32f-48df-941b-f6b3a2582b8d")
 		)
@@ -12445,7 +13669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-GF-A_16P_TopMnt_Horizontal"
 			(at 50.8 59.69 0)
 			(effects
 				(font
@@ -12454,7 +13678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://gct.co/files/specs/usb4105-spec.pdf"
 			(at 50.8 59.69 0)
 			(effects
 				(font
@@ -12472,7 +13696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "USBF31-0171"
+		(property "Part Description" "Connector, USB-C, 2.0 data and power"
 			(at 46.99 59.69 0)
 			(effects
 				(font
@@ -12481,7 +13705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "USBF31-0171"
+		(property "Dist. P/N" "2073-USB4105-GF-ATR-ND"
 			(at 46.99 59.69 0)
 			(effects
 				(font
@@ -12490,7 +13714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "MTCONN"
+		(property "Manufacturer" "GCT"
 			(at 46.99 59.69 0)
 			(effects
 				(font
@@ -12499,7 +13723,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "USBC USB2 data and power connector"
+		(property "Manf. P/N" "USB4105-GF-A"
+			(at 46.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
 			(at 46.99 59.69 0)
 			(effects
 				(font
@@ -12585,7 +13818,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "22kΩ"
 			(at 36.83 144.78 90)
 			(effects
 				(font
@@ -12602,7 +13835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 36.83 144.78 0)
 			(effects
 				(font
@@ -12613,6 +13846,51 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 36.83 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "P22.0KLTR-ND"
+			(at 36.83 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 36.83 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-2RKF2202X"
+			(at 36.83 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 36.83 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 22kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 36.83 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12653,7 +13931,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 106.68 255.27 90)
 			(effects
 				(font
@@ -12670,7 +13948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_Y5V.pdf"
 			(at 106.68 260.35 0)
 			(effects
 				(font
@@ -12680,6 +13958,51 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 106.68 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM31NV51H105ZUTR-ND"
+			(at 106.68 260.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 106.68 260.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "12065G105ZAT2A"
+			(at 106.68 260.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 106.68 260.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 1µF, -20% +80%, 50V, Y5V, 1206 (3216m)"
+			(at 106.68 260.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12721,7 +14044,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30.9 kΩ"
+		(property "Value" "30.9kΩ"
 			(at 50.8 440.6899 0)
 			(effects
 				(font
@@ -12739,7 +14062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
 			(at 48.26 439.42 0)
 			(effects
 				(font
@@ -12757,7 +14080,43 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" ""
+		(property "Dist. P/N" "10-ERJ-UP3F3092VTR-ND"
+			(at 48.26 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 48.26 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-UP3F3092V"
+			(at 48.26 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 48.26 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 30.9kΩ, ±1%, 0.25W, SMD 0603 (1608m)"
 			(at 48.26 439.42 0)
 			(effects
 				(font
@@ -12798,7 +14157,7 @@
 				)
 			)
 		)
-		(property "Value" "100 kΩ"
+		(property "Value" "100kΩ"
 			(at 105.41 431.8 90)
 			(effects
 				(font
@@ -12815,7 +14174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
 			(at 105.41 434.34 0)
 			(effects
 				(font
@@ -12826,6 +14185,51 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 105.41 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-UP3F1003VTR-ND "
+			(at 105.41 434.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 105.41 434.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-UP3F1003V"
+			(at 105.41 434.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 105.41 434.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 100kΩ, ±1%, 0.25W, SMD 0603 (1608m)"
+			(at 105.41 434.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12867,7 +14271,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47 uF"
+		(property "Value" "47µF"
 			(at 171.45 433.0762 0)
 			(effects
 				(font
@@ -12885,7 +14289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 168.91 431.8 0)
 			(effects
 				(font
@@ -12895,6 +14299,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 168.91 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM21AR51A476MUTR-ND"
+			(at 168.91 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 168.91 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "0805ZD476MAT2A"
+			(at 168.91 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 168.91 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 47µF, ±20%, 10V, X5R, 0805 (2012m)"
 			(at 168.91 431.8 0)
 			(effects
 				(font
@@ -12935,7 +14384,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "33kΩ"
 			(at 39.37 144.78 90)
 			(effects
 				(font
@@ -12952,7 +14401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 39.37 144.78 0)
 			(effects
 				(font
@@ -12963,6 +14412,51 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 39.37 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-U02F3302XTR-ND"
+			(at 39.37 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 39.37 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-U02F3302X"
+			(at 39.37 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 39.37 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 33kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 39.37 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13048,6 +14542,51 @@
 			)
 		)
 		(property "PARTNO" "36-7770"
+			(at 19.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "36-7771-ND"
+			(at 19.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 19.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "7771"
+			(at 19.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
+			(at 19.05 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Screw Terminal, M3"
 			(at 19.05 93.98 0)
 			(effects
 				(font
@@ -13171,7 +14710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
 			(at 0 257.81 0)
 			(effects
 				(font
@@ -13181,6 +14720,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 0 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-UP3F4322VTR-ND"
+			(at 0 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 0 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-UP3F4322V"
+			(at 0 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 43.2kΩ, ±1%, 0.25W, SMD 0603 (1608m)"
 			(at 0 257.81 0)
 			(effects
 				(font
@@ -13288,7 +14872,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K 1%"
+		(property "Value" "2.2kΩ"
 			(at 77.978 48.26 0)
 			(effects
 				(font
@@ -13306,7 +14890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 87.63 48.26 0)
 			(effects
 				(font
@@ -13324,43 +14908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
+		(property "Part Description" "Resistor, 2.2kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 87.63 48.26 0)
 			(effects
 				(font
@@ -13370,6 +14918,42 @@
 			)
 		)
 		(property "Field8" ""
+			(at 87.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 87.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "P2.20KLTR-ND"
+			(at 87.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-2RKF2201X"
+			(at 87.63 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 87.63 48.26 0)
 			(effects
 				(font
@@ -13410,7 +14994,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 50.8 120.65 90)
 			(effects
 				(font
@@ -13427,7 +15011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 50.8 120.65 0)
 			(effects
 				(font
@@ -13438,6 +15022,51 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 50.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-U02F1002XTR-ND"
+			(at 50.8 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 50.8 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-U02F1002X"
+			(at 50.8 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 50.8 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 10kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 50.8 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13477,7 +15106,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 68.58 122.174 90)
 			(effects
 				(font
@@ -13494,7 +15123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 68.58 121.92 0)
 			(effects
 				(font
@@ -13505,6 +15134,51 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 68.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-U02F1002XTR-ND"
+			(at 68.58 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 68.58 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-U02F1002X"
+			(at 68.58 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 68.58 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 10kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 68.58 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,7 +15370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C337.pdf"
 			(at 170.18 326.39 0)
 			(effects
 				(font
@@ -13706,6 +15380,51 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 170.18 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-UP3F4701VTR-ND"
+			(at 170.18 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 170.18 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-UP3F4701V"
+			(at 170.18 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 170.18 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Resistor, 4.7kΩ, ±1%, 0.25W, SMD 0603 (1608m)"
 			(at 170.18 326.39 0)
 			(effects
 				(font
@@ -13814,7 +15533,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47 uF"
+		(property "Value" "47µF"
 			(at 160.02 433.0762 0)
 			(effects
 				(font
@@ -13832,7 +15551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 157.48 431.8 0)
 			(effects
 				(font
@@ -13842,6 +15561,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM21AR51A476MUTR-ND"
+			(at 157.48 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 157.48 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "0805ZD476MAT2A"
+			(at 157.48 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 157.48 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 47µF, ±20%, 10V, X5R, 0805 (2012m)"
 			(at 157.48 431.8 0)
 			(effects
 				(font
@@ -13912,6 +15676,51 @@
 		)
 		(property "Description" "Multiple RPM-Based PWM Fan Controller for 5 Fans, up to 26 kHz, 3.3V power supply, VQFN-16"
 			(at 58.42 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "EMC2305-1-AP-TR-ND"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "EMC2305-1-AP-TR"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Motor Driver, PWM, 16-QFN, 4x4"
+			(at 58.42 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13997,7 +15806,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 75.311 77.343 0)
 			(effects
 				(font
@@ -14015,7 +15824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -14033,7 +15842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Field8" ""
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -14042,7 +15851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "2611911"
+		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -14051,7 +15860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "RM EMK105 B7104KV-F"
+		(property "Dist. P/N" "478-11504-2-ND"
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -14060,7 +15869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
+		(property "Distributor" "Digikey"
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -14069,7 +15878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "110091611"
+		(property "Manufacturer" "Kyocera"
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -14078,7 +15887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Manf. P/N" "04026D104KAT4A"
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -14120,7 +15929,7 @@
 				)
 			)
 		)
-		(property "Value" "5.6 uH"
+		(property "Value" "5.6µH"
 			(at 118.11 416.56 90)
 			(effects
 				(font
@@ -14137,7 +15946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.coilcraft.com/getmedia/ea51f14b-7f32-4dc6-8dfe-d4b70549040f/xal60xx.pdf"
 			(at 118.11 419.1 0)
 			(effects
 				(font
@@ -14148,6 +15957,51 @@
 		)
 		(property "Description" "XAL6060-562MEB"
 			(at 118.11 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "2457-XAL6060-562MEC-ND"
+			(at 118.11 419.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 118.11 419.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "XAL6060-562MEC"
+			(at 118.11 419.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Coilcraft"
+			(at 118.11 419.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Inductor, 5.6µH, ±20%, 10A, 15.9Ω"
+			(at 118.11 419.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14403,7 +16257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
 			(at 22.86 320.04 0)
 			(effects
 				(font
@@ -14422,7 +16276,43 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" ""
+		(property "Dist. P/N" "478-1368-2-ND"
+			(at 22.86 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 22.86 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "08055C561KAT2A"
+			(at 22.86 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 22.86 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 560pF, ±10%, 50V, X7R, 0805 (2012m)"
 			(at 22.86 320.04 0)
 			(effects
 				(font
@@ -14484,7 +16374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "470531000"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/470531000?display=pdf"
 			(at 92.71 140.97 0)
 			(effects
 				(font
@@ -14495,6 +16385,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "WM4330-ND"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "0470531000"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Connector, Fan 3, 12V, 4 pin"
 			(at 92.71 140.97 0)
 			(effects
 				(font
@@ -14542,7 +16477,7 @@
 				)
 			)
 		)
-		(property "Value" "455mV 20A"
+		(property "Value" "850mV @ 20A"
 			(at 136.2075 246.38 0)
 			(effects
 				(font
@@ -14559,7 +16494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00228904.pdf"
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group2/8f/d3/41/ea/82/b2/4b/5a/CD00228904/files/CD00228904.pdf/jcr:content/translations/en.CD00228904.pdf"
 			(at 135.89 250.19 0)
 			(effects
 				(font
@@ -14569,6 +16504,51 @@
 			)
 		)
 		(property "Description" "Schottky diode"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "497-10993-2-ND"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "STPS20M100SG-TR"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Diode, Schottky, 100V, 20A, Vf = 850 mV @ 20 A"
 			(at 135.89 250.19 0)
 			(effects
 				(font
@@ -14611,7 +16591,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µF"
 			(at -6.35 245.1099 0)
 			(effects
 				(font
@@ -14629,7 +16609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER71J106MA12-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at -11.43 243.84 0)
 			(effects
 				(font
@@ -14639,6 +16619,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at -11.43 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM32AR71H106KUTR-ND"
+			(at -11.43 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at -11.43 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "12105C106KAT2A"
+			(at -11.43 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at -11.43 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 10µF, ±10%, 50V, X7R, 1210 (3225m)"
 			(at -11.43 243.84 0)
 			(effects
 				(font
@@ -14681,7 +16706,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uH"
+		(property "Value" "2.2µH"
 			(at 110.49 245.9989 90)
 			(effects
 				(font
@@ -14699,7 +16724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/54/SRF1260A-1391447.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRF1260A.pdf"
 			(at 106.68 245.11 0)
 			(effects
 				(font
@@ -14710,6 +16735,51 @@
 		)
 		(property "Description" "Coupled inductor with iron core"
 			(at 106.68 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "118-SRF1260A-2R2YTR-ND"
+			(at 106.68 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 106.68 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "SRF1260A-2R2Y"
+			(at 106.68 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 106.68 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Inductor, 2.2µH, ±30%, 5.46A, 33.3Ω"
+			(at 106.68 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14775,7 +16845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/C0GNP0-KGM.pdf"
 			(at 7.62 326.39 0)
 			(effects
 				(font
@@ -14794,7 +16864,43 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" ""
+		(property "Dist. P/N" "478-KGM05ACG1H331JHTR-ND"
+			(at 7.62 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 7.62 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "KGM05ACG1H331JH"
+			(at 7.62 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 7.62 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 330pF, ±5%, 50V, C0G/NP0, 0402 (1005m)"
 			(at 7.62 326.39 0)
 			(effects
 				(font
@@ -14837,7 +16943,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "100nF"
 			(at 40.64 420.3762 0)
 			(effects
 				(font
@@ -14855,7 +16961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 38.1 419.1 0)
 			(effects
 				(font
@@ -14865,6 +16971,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 38.1 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM21NR71H104KTTR-ND"
+			(at 38.1 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 38.1 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "KGM21NR71H104KT"
+			(at 38.1 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 38.1 419.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 50V, X7R, 0805 (2012m)"
 			(at 38.1 419.1 0)
 			(effects
 				(font
@@ -14973,7 +17124,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22µF"
 			(at 158.75 256.5399 0)
 			(effects
 				(font
@@ -14991,7 +17142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 153.67 255.27 0)
 			(effects
 				(font
@@ -15001,6 +17152,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 153.67 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM32AR51E226KUTR-ND"
+			(at 153.67 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 153.67 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "12103D226KAT2A"
+			(at 153.67 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 153.67 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 22µF, ±10%, 25V, X5R, 1210 (3225m)"
 			(at 153.67 255.27 0)
 			(effects
 				(font
@@ -15175,7 +17371,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "100nF"
 			(at 97.79 408.9462 0)
 			(effects
 				(font
@@ -15193,7 +17389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 95.25 407.67 0)
 			(effects
 				(font
@@ -15203,6 +17399,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 95.25 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM21NR71H104KTTR-ND"
+			(at 95.25 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 95.25 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "KGM21NR71H104KT"
+			(at 95.25 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
+			(at 95.25 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 50V, X7R, 0805 (2012m)"
 			(at 95.25 407.67 0)
 			(effects
 				(font

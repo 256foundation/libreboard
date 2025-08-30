@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.45,
-          "width": 1.0
+          "height": 0.7,
+          "width": 0.2
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -474,6 +474,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -634,26 +635,26 @@
         },
         {
           "group_by": false,
-          "label": "Field4",
-          "name": "Field4",
+          "label": "Distributor",
+          "name": "Distributor",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Field5",
-          "name": "Field5",
+          "label": "Dist. P/N",
+          "name": "Dist. P/N",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Field6",
-          "name": "Field6",
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Field7",
-          "name": "Field7",
+          "label": "Manf. P/N",
+          "name": "Manf. P/N",
           "show": true
         },
         {

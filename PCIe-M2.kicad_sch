@@ -4230,7 +4230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf"
 			(at 201.93 68.58 0)
 			(effects
 				(font
@@ -4248,42 +4248,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey "
-			(at 201.93 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "LTST-S270KGKT"
-			(at 201.93 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "SML-A12M8TT86N"
-			(at 201.93 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 201.93 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Field8" "650263301"
 			(at 201.93 68.58 0)
 			(effects
@@ -4293,8 +4257,44 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	Green 572nm LED Indication - Discrete 2.2V 2-SMD, No Lead"
+		(property "Part Description" "LED, Green, 572nm, 2.2V, SMD 0603"
 			(at 201.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "160-1478-2-ND"
+			(at 201.93 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey "
+			(at 201.93 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Lite-On Inc."
+			(at 201.93 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "LTST-S270KGKT"
+			(at 201.93 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4335,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10µF"
 			(at 155.321 173.863 0)
 			(effects
 				(font
@@ -4353,7 +4353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -4371,7 +4371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey"
+		(property "Field8" ""
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -4380,7 +4380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "490-14381-1-ND"
+		(property "Part Description" "Capacitor, Ceramic, 10µF, ±10%, 10V, X5R, 0805 (2012m)"
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -4389,7 +4389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "GRM21BR71A106KA73L"
+		(property "Dist. P/N" "478-KGM21AR51A106KUTR-ND"
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -4398,7 +4398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Murata"
+		(property "Distributor" "Digikey"
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -4407,7 +4407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "111893011"
+		(property "Manufacturer" "Kyocera"
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -4416,7 +4416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Manf. P/N" "0805ZD106KAT2A"
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -4523,7 +4523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10µF"
 			(at 49.911 172.593 0)
 			(effects
 				(font
@@ -4541,7 +4541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -4559,7 +4559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey"
+		(property "Field8" ""
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -4568,7 +4568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "490-14381-1-ND"
+		(property "Part Description" "Capacitor, Ceramic, 10µF, ±10%, 10V, X5R, 0805 (2012m)"
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -4577,7 +4577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "GRM21BR71A106KA73L"
+		(property "Dist. P/N" "478-KGM21AR51A106KUTR-ND"
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -4586,7 +4586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Murata"
+		(property "Distributor" "Digikey"
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -4595,7 +4595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "111893011"
+		(property "Manufacturer" "Kyocera"
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -4604,7 +4604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Manf. P/N" "0805ZD106KAT2A"
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -4682,44 +4682,44 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "nf"
-			(at 208.28 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" "nf"
-			(at 208.28 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "nf"
-			(at 208.28 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "nf"
-			(at 208.28 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Description" "Test point"
 			(at 208.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "nf"
+			(at 208.28 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "nf"
+			(at 208.28 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "nf"
+			(at 208.28 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "nf"
+			(at 208.28 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +4952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1kΩ"
 			(at 203.708 83.693 0)
 			(effects
 				(font
@@ -4970,7 +4970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDQ0000/ast-ind-151033.pdf"
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -4988,7 +4988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Part Description" "Resistor, 1kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -4997,7 +4997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "9239235"
+		(property "Field8" ""
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -5006,7 +5006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "KOA EUROPE GMBH"
+		(property "Dist. P/N" "10-ERJ-H2RF1001XTR-ND"
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -5015,7 +5015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "RK73H1ETTP1001F"
+		(property "Distributor" "Digikey"
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -5024,7 +5024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Resistor 1K M1005 1% 63mW"
+		(property "Manufacturer" "Panasonic"
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -5033,7 +5033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "125049511"
+		(property "Manf. P/N" "ERJ-H2RF1001X"
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -5076,7 +5076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M.2 Solder Nut"
+		(property "Value" "M2-0.4mm nut"
 			(at 262.89 114.2999 0)
 			(effects
 				(font
@@ -5094,7 +5094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2916320.pdf"
 			(at 257.81 113.03 0)
 			(effects
 				(font
@@ -5112,7 +5112,43 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Solder nut for M.2 slot"
+		(property "Part Description" "Standoff, M2 thread, 1.5mm H, 5.56mm Diam."
+			(at 257.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "C2916320"
+			(at 257.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 257.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "SMTSO2015CTJ"
+			(at 257.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sinhoo"
 			(at 257.81 113.03 0)
 			(effects
 				(font
@@ -5147,7 +5183,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uH"
+		(property "Value" "2.2µH"
 			(at 101.6 165.1254 90)
 			(effects
 				(font
@@ -5164,7 +5200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp5030cc.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP5030CC.pdf"
 			(at 101.6 167.64 0)
 			(effects
 				(font
@@ -5182,7 +5218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "SRP5030CC-2R2M"
+		(property "Part Description" "Inductor, 2.2µH, ±20%, 7A, 32Ω"
 			(at 101.6 167.64 0)
 			(effects
 				(font
@@ -5191,8 +5227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Bourns"
-			(at 101.6 167.64 0)
+		(property "Dist. P/N" "118-SRP5030CC-2R2MTR-ND"
+			(at 101.6 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,8 +5236,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Inductor, SMT, 2520, 2u2, IRMS=7A, ISAT=8A, DCR=0.032R"
-			(at 101.6 167.64 0)
+		(property "Manufacturer" "Bourns"
+			(at 101.6 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,8 +5245,17 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "SRP5030CC-2R2M"
-			(at 101.6 167.64 0)
+		(property "Manf. P/N" "SRP5030CC-2R2M"
+			(at 101.6 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 101.6 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5361,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K 1%"
+		(property "Value" "10kΩ"
 			(at 121.158 172.593 0)
 			(effects
 				(font
@@ -5334,7 +5379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 119.38 171.45 0)
 			(effects
 				(font
@@ -5352,7 +5397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Part Description" "Resistor, 10kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 119.38 171.45 0)
 			(effects
 				(font
@@ -5361,7 +5406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" ""
+		(property "Distributor" "Digikey"
 			(at 119.38 171.45 0)
 			(effects
 				(font
@@ -5370,7 +5415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Rohm"
+		(property "Manufacturer" "Panasonic"
 			(at 119.38 171.45 0)
 			(effects
 				(font
@@ -5379,7 +5424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "MCR01MZPF1002"
+		(property "Manf. P/N" "ERJ-U02F1002X"
 			(at 119.38 171.45 0)
 			(effects
 				(font
@@ -5388,7 +5433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Resistor 10K M1005 1% 63mW"
+		(property "Dist. P/N" "10-ERJ-U02F1002XTR-ND"
 			(at 119.38 171.45 0)
 			(effects
 				(font
@@ -5430,7 +5475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 236.601 140.843 0)
 			(effects
 				(font
@@ -5448,7 +5493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -5466,7 +5511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Field8" ""
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -5475,7 +5520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "2611911"
+		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -5484,7 +5529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "RM EMK105 B7104KV-F"
+		(property "Dist. P/N" "478-11504-2-ND"
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -5493,7 +5538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
+		(property "Distributor" "Digikey"
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -5502,7 +5547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "110091611"
+		(property "Manufacturer" "Kyocera"
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -5511,7 +5556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Manf. P/N" "04026D104KAT4A"
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -5553,7 +5598,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K 1%"
+		(property "Value" "100kΩ"
 			(at 90.17 173.99 0)
 			(effects
 				(font
@@ -5571,7 +5616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 88.9 173.99 0)
 			(effects
 				(font
@@ -5589,43 +5634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
-			(at 88.9 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field5" ""
-			(at 88.9 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" "MCR01MZPF1003"
-			(at 88.9 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" "Rohm"
-			(at 88.9 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor 100K M1005 1% 63mW"
+		(property "Part Description" "Resistor, 100kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 88.9 173.99 0)
 			(effects
 				(font
@@ -5635,6 +5644,42 @@
 			)
 		)
 		(property "Field8" ""
+			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "ERJ-U02F1003X"
+			(at 88.9 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-U02F1003XTR-ND"
 			(at 88.9 173.99 0)
 			(effects
 				(font
@@ -5676,7 +5721,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K 1%"
+		(property "Value" "2.2kΩ"
 			(at 121.158 181.483 0)
 			(effects
 				(font
@@ -5694,7 +5739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 119.38 180.34 0)
 			(effects
 				(font
@@ -5712,7 +5757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Part Description" "Resistor, 2.2kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 119.38 180.34 0)
 			(effects
 				(font
@@ -5721,7 +5766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" ""
+		(property "Distributor" "Digikey"
 			(at 119.38 180.34 0)
 			(effects
 				(font
@@ -5730,7 +5775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" ""
+		(property "Dist. P/N" "P2.20KLTR-ND"
 			(at 119.38 180.34 0)
 			(effects
 				(font
@@ -5739,7 +5784,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Resistor 2.2K M1005 1% 63mW"
+		(property "Manf. P/N" "ERJ-2RKF2201X"
+			(at 119.38 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
 			(at 119.38 180.34 0)
 			(effects
 				(font
@@ -5816,7 +5870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "ASEK-32.768KHZ-L-R-T"
+		(property "Part Description" "Oscillator, 32.768kHz, 3.3V"
 			(at 215.9 129.54 0)
 			(effects
 				(font
@@ -5825,7 +5879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "ASEK-32.768KHZ-L-R-T"
+		(property "Dist. P/N" "535-ASEK-32.768KHZ-L-R-TTR-ND"
 			(at 215.9 129.54 0)
 			(effects
 				(font
@@ -5834,7 +5888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "abracon"
+		(property "Manufacturer" "Abracon"
 			(at 215.9 129.54 0)
 			(effects
 				(font
@@ -5843,7 +5897,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "32KHz Xtal oscilator"
+		(property "Manf. P/N" "ASEK-32.768KHZ-L-R-T"
+			(at 215.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
 			(at 215.9 129.54 0)
 			(effects
 				(font
@@ -5891,7 +5954,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10µF"
 			(at 41.021 172.593 0)
 			(effects
 				(font
@@ -5909,7 +5972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -5927,7 +5990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey"
+		(property "Field8" ""
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -5936,7 +5999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "490-14381-1-ND"
+		(property "Part Description" "Capacitor, Ceramic, 10µF, ±10%, 10V, X5R, 0805 (2012m)"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -5945,7 +6008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "GRM21BR71A106KA73L"
+		(property "Dist. P/N" "478-KGM21AR51A106KUTR-ND"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -5954,7 +6017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Murata"
+		(property "Distributor" "Digikey"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -5963,7 +6026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "111893011"
+		(property "Manufacturer" "Kyocera"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -5972,7 +6035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Manf. P/N" "0805ZD106KAT2A"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -6049,7 +6112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "AP3441SHE-7B"
+		(property "Part Description" "Buck Converter, 0.6V, 3A"
 			(at 73.66 167.64 0)
 			(effects
 				(font
@@ -6058,7 +6121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "AP3441SHE-7B"
+		(property "Dist. P/N" "AP3441SHE-7BDITR-ND"
 			(at 73.66 167.64 0)
 			(effects
 				(font
@@ -6067,7 +6130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Diodes"
+		(property "Manufacturer" "Diodes Inc."
 			(at 73.66 167.64 0)
 			(effects
 				(font
@@ -6076,7 +6139,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "3A DC-DC converter"
+		(property "Manf. P/N" "AP3441SHE-7B"
+			(at 73.66 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
 			(at 73.66 167.64 0)
 			(effects
 				(font
@@ -6139,7 +6211,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 58.801 172.593 0)
 			(effects
 				(font
@@ -6157,7 +6229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71C104KA88-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -6175,7 +6247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Field8" ""
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -6184,7 +6256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "2611911"
+		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -6193,7 +6265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "RM EMK105 B7104KV-F"
+		(property "Dist. P/N" "478-11504-2-ND"
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -6202,7 +6274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "TAIYO YUDEN EUROPE GMBH"
+		(property "Distributor" "Digikey"
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -6211,7 +6283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "110091611"
+		(property "Manufacturer" "Kyocera"
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -6220,7 +6292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	0.1uF 10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+		(property "Manf. P/N" "04026D104KAT4A"
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -6262,7 +6334,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10µF"
 			(at 135.001 173.863 0)
 			(effects
 				(font
@@ -6280,7 +6352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -6298,7 +6370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey"
+		(property "Field8" ""
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -6307,7 +6379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "490-14381-1-ND"
+		(property "Part Description" "Capacitor, Ceramic, 10µF, ±10%, 10V, X5R, 0805 (2012m)"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -6316,7 +6388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "GRM21BR71A106KA73L"
+		(property "Dist. P/N" "478-KGM21AR51A106KUTR-ND"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -6325,7 +6397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Murata"
+		(property "Distributor" "Digikey"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -6334,7 +6406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "111893011"
+		(property "Manufacturer" "Kyocera"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -6343,7 +6415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Manf. P/N" "0805ZD106KAT2A"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -6581,7 +6653,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M.2 Screw"
+		(property "Value" "M2x4mm screw"
 			(at 267.97 143.5099 0)
 			(effects
 				(font
@@ -6599,7 +6671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mcmaster.com/92000A011/"
 			(at 260.35 142.24 0)
 			(effects
 				(font
@@ -6617,7 +6689,43 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "M.2 Screw"
+		(property "Part Description" "PHCS, M2-0.4 x 4mm, Phillips, Stainless Steel "
+			(at 260.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "92000A011"
+			(at 260.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "McMaster"
+			(at 260.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "N/A"
+			(at 260.35 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Misc."
 			(at 260.35 142.24 0)
 			(effects
 				(font
@@ -6736,7 +6844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 109.22 171.45 0)
 			(effects
 				(font
@@ -6754,7 +6862,43 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "4.7nF capacitor 0402"
+		(property "Part Description" "Capacitor, Ceramic, 4700pF, ±10%, 10V, X7R, 0402 (1005m)"
+			(at 109.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "478-KGM05AR71A472KHTR-ND"
+			(at 109.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 109.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "KGM05AR71A472KH"
+			(at 109.22 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kyocera"
 			(at 109.22 171.45 0)
 			(effects
 				(font
@@ -6797,7 +6941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M.2 Solder Nut"
+		(property "Value" "M2-0.4mm nut"
 			(at 262.89 101.5999 0)
 			(effects
 				(font
@@ -6815,7 +6959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2916320.pdf"
 			(at 257.81 100.33 0)
 			(effects
 				(font
@@ -6833,7 +6977,43 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Solder nut for M.2 slot"
+		(property "Part Description" "Standoff, M2 thread, 1.5mm H, 5.56mm Diam."
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "C2916320"
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "SMTSO2015CTJ"
+			(at 257.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sinhoo"
 			(at 257.81 100.33 0)
 			(effects
 				(font
@@ -6935,7 +7115,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M.2 Solder Nut"
+		(property "Value" "M2-0.4mm nut"
 			(at 262.89 88.8999 0)
 			(effects
 				(font
@@ -6953,7 +7133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2916320.pdf"
 			(at 257.81 87.63 0)
 			(effects
 				(font
@@ -6971,7 +7151,43 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Solder nut for M.2 slot"
+		(property "Part Description" "Standoff, M2 thread, 1.5mm H, 5.56mm Diam."
+			(at 257.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "C2916320"
+			(at 257.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 257.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "SMTSO2015CTJ"
+			(at 257.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sinhoo"
 			(at 257.81 87.63 0)
 			(effects
 				(font
@@ -7072,7 +7288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10µF"
 			(at 145.161 173.863 0)
 			(effects
 				(font
@@ -7090,7 +7306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 142.24 172.72 0)
 			(effects
 				(font
@@ -7108,7 +7324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey"
+		(property "Field8" ""
 			(at 142.24 172.72 0)
 			(effects
 				(font
@@ -7117,7 +7333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "490-14381-1-ND"
+		(property "Part Description" "Capacitor, Ceramic, 10µF, ±10%, 10V, X5R, 0805 (2012m)"
 			(at 142.24 172.72 0)
 			(effects
 				(font
@@ -7126,7 +7342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "GRM21BR71A106KA73L"
+		(property "Dist. P/N" "478-KGM21AR51A106KUTR-ND"
 			(at 142.24 172.72 0)
 			(effects
 				(font
@@ -7135,7 +7351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Murata"
+		(property "Distributor" "Digikey"
 			(at 142.24 172.72 0)
 			(effects
 				(font
@@ -7144,7 +7360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "111893011"
+		(property "Manufacturer" "Kyocera"
 			(at 142.24 172.72 0)
 			(effects
 				(font
@@ -7153,7 +7369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Manf. P/N" "0805ZD106KAT2A"
 			(at 142.24 172.72 0)
 			(effects
 				(font
@@ -7278,7 +7494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.te.com/usa-en/product-1-2199119-5.datasheet.pdf"
 			(at 161.29 53.34 0)
 			(effects
 				(font
@@ -7296,7 +7512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "MTSSD03-67MSW337"
+		(property "Part Description" "Connector, M.2, M-Key, 67 pin, 0.5mm P, 3.2mm H"
 			(at 161.29 80.01 0)
 			(effects
 				(font
@@ -7305,7 +7521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "MTSSD03-67MSW337"
+		(property "Dist. P/N" "A115902TR-ND"
 			(at 161.29 80.01 0)
 			(effects
 				(font
@@ -7314,7 +7530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "MTCONN"
+		(property "Manufacturer" "TE Connectivity"
 			(at 161.29 80.01 0)
 			(effects
 				(font
@@ -7323,7 +7539,16 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "M.2 M Key connector"
+		(property "Manf. P/N" "1-2199119-5"
+			(at 161.29 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
 			(at 161.29 80.01 0)
 			(effects
 				(font
@@ -7644,7 +7869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M.2 Solder Nut"
+		(property "Value" "M2-0.4mm nut"
 			(at 262.89 126.9999 0)
 			(effects
 				(font
@@ -7662,7 +7887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2916320.pdf"
 			(at 257.81 125.73 0)
 			(effects
 				(font
@@ -7680,7 +7905,43 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Solder nut for M.2 slot"
+		(property "Part Description" "Standoff, M2 thread, 1.5mm H, 5.56mm Diam."
+			(at 257.81 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "C2916320"
+			(at 257.81 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "LCSC"
+			(at 257.81 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "SMTSO2015CTJ"
+			(at 257.81 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sinhoo"
 			(at 257.81 125.73 0)
 			(effects
 				(font
@@ -7716,7 +7977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10µF"
 			(at 165.481 173.863 0)
 			(effects
 				(font
@@ -7734,7 +7995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR71A106KA73-01.pdf"
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 162.56 172.72 0)
 			(effects
 				(font
@@ -7752,7 +8013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" "Digikey"
+		(property "Field8" ""
 			(at 162.56 172.72 0)
 			(effects
 				(font
@@ -7761,7 +8022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" "490-14381-1-ND"
+		(property "Part Description" "Capacitor, Ceramic, 10µF, ±10%, 10V, X5R, 0805 (2012m)"
 			(at 162.56 172.72 0)
 			(effects
 				(font
@@ -7770,7 +8031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" "GRM21BR71A106KA73L"
+		(property "Dist. P/N" "478-KGM21AR51A106KUTR-ND"
 			(at 162.56 172.72 0)
 			(effects
 				(font
@@ -7779,7 +8040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field7" "Murata"
+		(property "Distributor" "Digikey"
 			(at 162.56 172.72 0)
 			(effects
 				(font
@@ -7788,7 +8049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8" "111893011"
+		(property "Manufacturer" "Kyocera"
 			(at 162.56 172.72 0)
 			(effects
 				(font
@@ -7797,7 +8058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	10uF 10% 10V Ceramic Capacitor X7R 0805 (2012 Metric)"
+		(property "Manf. P/N" "0805ZD106KAT2A"
 			(at 162.56 172.72 0)
 			(effects
 				(font
