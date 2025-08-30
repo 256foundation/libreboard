@@ -38,8 +38,13 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
+<<<<<<< HEAD
           "height": 5.5,
           "width": 1.43
+=======
+          "height": 0.7,
+          "width": 0.2
+>>>>>>> 65ce161 (update BOM)
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -474,6 +479,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -640,18 +646,37 @@
         },
         {
           "group_by": false,
+<<<<<<< HEAD
           "label": "Dist. P/N",
           "name": "Dist. P/N",
+=======
+          "label": "Distributor",
+          "name": "Distributor",
+>>>>>>> 65ce161 (update BOM)
           "show": true
         },
         {
           "group_by": false,
+<<<<<<< HEAD
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+=======
+          "label": "Dist. P/N",
+          "name": "Dist. P/N",
+>>>>>>> 65ce161 (update BOM)
+          "show": true
+        },
+        {
+          "group_by": false,
+<<<<<<< HEAD
+=======
           "label": "Manufacturer",
           "name": "Manufacturer",
           "show": true
         },
         {
           "group_by": false,
+>>>>>>> 65ce161 (update BOM)
           "label": "Manf. P/N",
           "name": "Manf. P/N",
           "show": true

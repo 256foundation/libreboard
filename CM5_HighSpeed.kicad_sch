@@ -16284,7 +16284,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "FH12-22S-0.5SH55"
+=======
+		(property "Manufacturer" "Hirose"
+>>>>>>> 65ce161 (update BOM)
 			(at 156.21 50.8 0)
 			(effects
 				(font
@@ -16293,6 +16297,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Hirose"
 			(at 156.21 50.8 0)
 			(effects
@@ -16330,6 +16335,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "FH12-22S-0.5SH55"
+>>>>>>> 65ce161 (update BOM)
 			(at 156.21 50.8 0)
 			(effects
 				(font
@@ -16503,7 +16511,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "2086581051"
+=======
+		(property "Manufacturer" "Molex"
+>>>>>>> 65ce161 (update BOM)
 			(at 264.16 50.8 0)
 			(effects
 				(font
@@ -16512,6 +16524,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Molex"
 			(at 264.16 50.8 0)
 			(effects
@@ -16549,6 +16562,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "2086581051"
+>>>>>>> 65ce161 (update BOM)
 			(at 264.16 50.8 0)
 			(effects
 				(font
@@ -16725,7 +16741,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 273.05 153.67 0)
 			(effects
 				(font
@@ -16734,6 +16754,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 273.05 153.67 0)
 			(effects
@@ -16771,6 +16792,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 273.05 153.67 0)
 			(effects
 				(font
@@ -16884,7 +16908,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 240.03 153.67 0)
 			(effects
 				(font
@@ -16893,6 +16921,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 240.03 153.67 0)
 			(effects
@@ -16930,6 +16959,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 240.03 153.67 0)
 			(effects
 				(font
@@ -17041,7 +17073,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "RT9742SNGV"
+=======
+		(property "Manufacturer" "RichTek"
+>>>>>>> 65ce161 (update BOM)
 			(at 256.54 153.67 0)
 			(effects
 				(font
@@ -17050,6 +17086,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "RichTek"
 			(at 256.54 153.67 0)
 			(effects
@@ -17087,6 +17124,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "RT9742SNGV"
+>>>>>>> 65ce161 (update BOM)
 			(at 256.54 153.67 0)
 			(effects
 				(font
@@ -17387,6 +17427,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "10164227-1001A1RLF x2"
 			(at -71.12 86.36 0)
 			(effects
@@ -17396,6 +17437,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(property "Manufacturer" "Amphenol"
 			(at -71.12 86.36 0)
 			(effects
@@ -17405,6 +17448,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at -71.12 86.36 0)
 			(effects
@@ -17433,6 +17477,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "10164227-1001A1RLF x2"
+>>>>>>> 65ce161 (update BOM)
 			(at -71.12 86.36 0)
 			(effects
 				(font
@@ -18205,7 +18252,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D106MAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 237.49 224.79 0)
 			(effects
 				(font
@@ -18214,6 +18265,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 237.49 224.79 0)
 			(effects
@@ -18251,6 +18303,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D106MAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 237.49 224.79 0)
 			(effects
 				(font
@@ -18364,7 +18419,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 45.72 271.78 0)
 			(effects
 				(font
@@ -18373,6 +18432,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 45.72 271.78 0)
 			(effects
@@ -18410,6 +18470,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 45.72 271.78 0)
 			(effects
 				(font
@@ -18533,6 +18596,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 109.22 270.51 0)
 			(effects
@@ -18569,6 +18633,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "563fd9f6-1db1-4c1c-8459-704c6fc4fdb3")
 		)
@@ -18674,7 +18740,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 217.17 224.79 0)
 			(effects
 				(font
@@ -18683,6 +18753,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 217.17 224.79 0)
 			(effects
@@ -18720,6 +18791,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 217.17 224.79 0)
 			(effects
 				(font
@@ -18908,6 +18982,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 41.91 245.11 0)
 			(effects
@@ -18944,6 +19019,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "bc90ad9a-b337-446d-88de-cb032e0b98d5")
 		)
@@ -19059,6 +19136,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 238.76 245.11 0)
 			(effects
@@ -19095,6 +19173,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "A5"
 			(uuid "cdf97ded-08d9-4be5-abfd-7007cc1d700c")
 		)
@@ -19236,7 +19316,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 175.26 224.79 0)
 			(effects
 				(font
@@ -19245,6 +19329,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 175.26 224.79 0)
 			(effects
@@ -19282,6 +19367,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 175.26 224.79 0)
 			(effects
 				(font
@@ -19402,6 +19490,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 292.1 325.12 90)
 			(effects
@@ -19438,6 +19527,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "ca0d560d-0776-4190-9806-d48d5980c286")
 		)
@@ -19550,6 +19641,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 158.75 104.14 90)
 			(effects
@@ -19586,6 +19678,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "2"
 			(uuid "4f218f27-dadb-4bc5-8676-416bae783ce2")
 		)
@@ -19691,7 +19785,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 227.33 224.79 0)
 			(effects
 				(font
@@ -19700,6 +19798,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 227.33 224.79 0)
 			(effects
@@ -19737,6 +19836,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 227.33 224.79 0)
 			(effects
 				(font
@@ -20052,6 +20154,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 226.06 353.06 90)
 			(effects
@@ -20088,6 +20191,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "5c630eb4-be50-4e89-85de-67afff906466")
 		)
@@ -20265,6 +20370,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 224.79 284.48 90)
 			(effects
@@ -20301,6 +20407,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "0e8d5250-42bf-459c-ae3e-15f10a9ee6d9")
 		)
@@ -20413,6 +20521,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 292.1 292.1 90)
 			(effects
@@ -20449,6 +20558,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "c7f5e32d-0e39-4d9e-a83c-f4868d8a8b10")
 		)
@@ -20562,6 +20673,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 62.23 220.98 90)
 			(effects
@@ -20598,6 +20710,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "2"
 			(uuid "b3062480-0c3f-4114-b827-598c094e0ba3")
 		)
@@ -20703,7 +20817,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0805ZD106KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 100.33 181.61 0)
 			(effects
 				(font
@@ -20712,6 +20830,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 100.33 181.61 0)
 			(effects
@@ -20749,6 +20868,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0805ZD106KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 100.33 181.61 0)
 			(effects
 				(font
@@ -20927,7 +21049,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 207.01 224.79 0)
 			(effects
 				(font
@@ -20936,6 +21062,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 207.01 224.79 0)
 			(effects
@@ -20973,6 +21100,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 207.01 224.79 0)
 			(effects
 				(font
@@ -21093,6 +21223,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 224.79 317.5 90)
 			(effects
@@ -21129,6 +21260,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "40b1abba-4f66-4cfc-b964-84a27cc4f8ab")
 		)
@@ -21234,7 +21367,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0805ZD106KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 260.35 105.41 0)
 			(effects
 				(font
@@ -21243,6 +21380,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 260.35 105.41 0)
 			(effects
@@ -21280,6 +21418,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0805ZD106KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 260.35 105.41 0)
 			(effects
 				(font
@@ -21400,6 +21541,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 292.1 360.68 90)
 			(effects
@@ -21436,6 +21578,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "aba5ec06-64d5-4155-ad81-bae8ba34ce28")
 		)
@@ -21606,7 +21750,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 71.12 224.79 0)
 			(effects
 				(font
@@ -21615,6 +21763,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 71.12 224.79 0)
 			(effects
@@ -21652,6 +21801,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 71.12 224.79 0)
 			(effects
 				(font
@@ -21765,7 +21917,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0805ZD106KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 270.51 105.41 0)
 			(effects
 				(font
@@ -21774,6 +21930,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 270.51 105.41 0)
 			(effects
@@ -21811,6 +21968,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0805ZD106KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 270.51 105.41 0)
 			(effects
 				(font
@@ -21989,7 +22149,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "ERJ-2RKF1502X"
+=======
+		(property "Manufacturer" "Panasonic"
+>>>>>>> 65ce161 (update BOM)
 			(at 238.76 101.6 90)
 			(effects
 				(font
@@ -21998,6 +22162,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Panasonic"
 			(at 238.76 101.6 90)
 			(effects
@@ -22035,6 +22200,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "ERJ-2RKF1502X"
+>>>>>>> 65ce161 (update BOM)
 			(at 238.76 101.6 90)
 			(effects
 				(font
@@ -22156,6 +22324,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 139.7 124.46 0)
 			(effects
@@ -22192,6 +22361,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "S1"
 			(uuid "a2d4a7f3-7bd6-4228-9c83-401b6acebe8e")
 		)
@@ -22366,7 +22537,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D106MAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 113.03 224.79 0)
 			(effects
 				(font
@@ -22375,6 +22550,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 113.03 224.79 0)
 			(effects
@@ -22412,6 +22588,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D106MAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 113.03 224.79 0)
 			(effects
 				(font
@@ -22646,6 +22825,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "A700X107M010ATE010"
 			(at 87.63 181.61 0)
 			(effects
@@ -22655,6 +22835,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(property "Manufacturer" "Kemet"
 			(at 87.63 181.61 0)
 			(effects
@@ -22664,6 +22846,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 87.63 181.61 0)
 			(effects
@@ -22692,6 +22875,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "A700X107M010ATE010"
+>>>>>>> 65ce161 (update BOM)
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -22805,7 +22991,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 41.91 254 0)
 			(effects
 				(font
@@ -22814,6 +23004,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 41.91 254 0)
 			(effects
@@ -22851,6 +23042,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 41.91 254 0)
 			(effects
 				(font
@@ -23029,7 +23223,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "ERJ-2RKF1502X"
+=======
+		(property "Manufacturer" "Panasonic"
+>>>>>>> 65ce161 (update BOM)
 			(at 78.74 177.8 90)
 			(effects
 				(font
@@ -23038,6 +23236,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Panasonic"
 			(at 78.74 177.8 90)
 			(effects
@@ -23075,6 +23274,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "ERJ-2RKF1502X"
+>>>>>>> 65ce161 (update BOM)
 			(at 78.74 177.8 90)
 			(effects
 				(font
@@ -23196,6 +23398,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 256.54 220.98 90)
 			(effects
@@ -23232,6 +23435,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "2"
 			(uuid "678d5dd7-3dce-40fb-81c2-336aa7e1e7b4")
 		)
@@ -23391,7 +23596,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "AP22653W6-7"
+=======
+		(property "Manufacturer" "Diodes Inc."
+>>>>>>> 65ce161 (update BOM)
 			(at 219.71 101.6 0)
 			(effects
 				(font
@@ -23400,6 +23609,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Diodes Inc."
 			(at 219.71 101.6 0)
 			(effects
@@ -23437,6 +23647,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "AP22653W6-7"
+>>>>>>> 65ce161 (update BOM)
 			(at 219.71 101.6 0)
 			(effects
 				(font
@@ -23627,7 +23840,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 81.28 224.79 0)
 			(effects
 				(font
@@ -23636,6 +23853,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 81.28 224.79 0)
 			(effects
@@ -23673,6 +23891,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 81.28 224.79 0)
 			(effects
 				(font
@@ -23795,6 +24016,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 283.21 218.44 0)
 			(effects
@@ -23831,6 +24053,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "e28d79ee-04d5-48f1-8f30-cdd427d3c99d")
 		)
@@ -24001,6 +24225,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "A700X107M010ATE010"
 			(at 247.65 105.41 0)
 			(effects
@@ -24010,6 +24235,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(property "Manufacturer" "Kemet"
 			(at 247.65 105.41 0)
 			(effects
@@ -24019,6 +24246,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 247.65 105.41 0)
 			(effects
@@ -24047,6 +24275,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "A700X107M010ATE010"
+>>>>>>> 65ce161 (update BOM)
 			(at 247.65 105.41 0)
 			(effects
 				(font
@@ -24160,7 +24391,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0805ZD106KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 189.23 104.14 0)
 			(effects
 				(font
@@ -24169,6 +24404,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 189.23 104.14 0)
 			(effects
@@ -24206,6 +24442,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0805ZD106KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 189.23 104.14 0)
 			(effects
 				(font
@@ -24523,6 +24762,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 172.72 144.78 0)
 			(effects
@@ -24559,6 +24799,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "3db11d02-f132-4e4f-be04-4e4c53dd55db")
 		)
@@ -24664,7 +24906,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D105KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 297.18 214.63 0)
 			(effects
 				(font
@@ -24673,6 +24919,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 297.18 214.63 0)
 			(effects
@@ -24710,6 +24957,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D105KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 297.18 214.63 0)
 			(effects
 				(font
@@ -24830,6 +25080,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 63.5 281.94 0)
 			(effects
@@ -24866,6 +25117,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "4"
 			(uuid "b6959ba8-861f-47c9-9f57-5b407bf3e538")
 		)
@@ -25107,7 +25360,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0805ZD106KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 110.49 181.61 0)
 			(effects
 				(font
@@ -25116,6 +25373,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 110.49 181.61 0)
 			(effects
@@ -25153,6 +25411,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0805ZD106KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 110.49 181.61 0)
 			(effects
 				(font
@@ -25534,6 +25795,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 107.95 313.69 90)
 			(effects
@@ -25570,6 +25832,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "e19edba1-f000-4135-9fa9-728fe0b7b38a")
 		)
@@ -25686,6 +25950,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 151.13 280.67 0)
 			(effects
@@ -25722,6 +25987,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "16"
 			(uuid "fc2d357b-e441-4184-b3b6-403f11653fb8")
 		)
@@ -26088,6 +26355,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 293.37 257.81 90)
 			(effects
@@ -26124,6 +26392,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "42af25cb-b1ef-420c-9548-80c6363e9713")
 		)
@@ -26283,7 +26553,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "AP22653W6-7"
+=======
+		(property "Manufacturer" "Diodes Inc."
+>>>>>>> 65ce161 (update BOM)
 			(at 59.69 177.8 0)
 			(effects
 				(font
@@ -26292,6 +26566,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Diodes Inc."
 			(at 59.69 177.8 0)
 			(effects
@@ -26329,6 +26604,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "AP22653W6-7"
+>>>>>>> 65ce161 (update BOM)
 			(at 59.69 177.8 0)
 			(effects
 				(font
@@ -26454,7 +26732,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D105KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 269.24 214.63 0)
 			(effects
 				(font
@@ -26463,6 +26745,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 269.24 214.63 0)
 			(effects
@@ -26500,6 +26783,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D105KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 269.24 214.63 0)
 			(effects
 				(font
@@ -26613,7 +26899,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 195.58 224.79 0)
 			(effects
 				(font
@@ -26622,6 +26912,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 195.58 224.79 0)
 			(effects
@@ -26659,6 +26950,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 195.58 224.79 0)
 			(effects
 				(font
@@ -26782,6 +27076,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 237.49 279.4 0)
 			(effects
@@ -26818,6 +27113,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "A5"
 			(uuid "17ad757b-1bf0-4490-94bf-71e7c62fba30")
 		)
@@ -27226,6 +27523,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 158.75 106.68 90)
 			(effects
@@ -27262,6 +27560,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "973d0ff9-8823-4cb4-9eef-37b8234aafe6")
 		)
@@ -27374,6 +27674,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 224.79 250.19 90)
 			(effects
@@ -27410,6 +27711,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "ee7c23cd-f350-4729-811d-18071194d831")
 		)
@@ -27645,7 +27948,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 185.42 224.79 0)
 			(effects
 				(font
@@ -27654,6 +27961,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 185.42 224.79 0)
 			(effects
@@ -27691,6 +27999,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 185.42 224.79 0)
 			(effects
 				(font
@@ -27814,6 +28125,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 237.49 312.42 0)
 			(effects
@@ -27850,6 +28162,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "A5"
 			(uuid "99bde5dc-afbd-44a2-a5d0-f47fd470ce5d")
 		)
@@ -28066,6 +28380,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 160.02 144.78 0)
 			(effects
@@ -28102,6 +28417,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "1"
 			(uuid "c1fccb67-062d-4886-bb20-9c8dc11d4569")
 		)
@@ -28207,7 +28524,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0805ZD106KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 29.21 180.34 0)
 			(effects
 				(font
@@ -28216,6 +28537,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 29.21 180.34 0)
 			(effects
@@ -28253,6 +28575,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0805ZD106KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 29.21 180.34 0)
 			(effects
 				(font
@@ -28366,7 +28691,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 91.44 224.79 0)
 			(effects
 				(font
@@ -28375,6 +28704,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 91.44 224.79 0)
 			(effects
@@ -28412,6 +28742,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 91.44 224.79 0)
 			(effects
 				(font
@@ -28525,7 +28858,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 165.1 224.79 0)
 			(effects
 				(font
@@ -28534,6 +28871,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 165.1 224.79 0)
 			(effects
@@ -28571,6 +28909,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 165.1 224.79 0)
 			(effects
 				(font
@@ -28694,6 +29035,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 237.49 347.98 0)
 			(effects
@@ -28730,6 +29072,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "A5"
 			(uuid "3e46543c-af4e-4dd2-a3ad-810731385f8f")
 		)
@@ -28871,7 +29215,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 101.6 224.79 0)
 			(effects
 				(font
@@ -28880,6 +29228,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 101.6 224.79 0)
 			(effects
@@ -28917,6 +29266,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 101.6 224.79 0)
 			(effects
 				(font

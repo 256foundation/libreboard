@@ -15592,7 +15592,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "74LVC1G07SE-7"
+=======
+		(property "Manufacturer" "Diodes Inc."
+>>>>>>> 65ce161 (update BOM)
 			(at 165.1 139.7 0)
 			(effects
 				(font
@@ -15601,6 +15605,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Diodes Inc."
 			(at 165.1 139.7 0)
 			(effects
@@ -15638,6 +15643,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "74LVC1G07SE-7"
+>>>>>>> 65ce161 (update BOM)
 			(at 165.1 139.7 0)
 			(effects
 				(font
@@ -15758,7 +15766,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "RT9742GGJ5"
+=======
+		(property "Manufacturer" "RichTek"
+>>>>>>> 65ce161 (update BOM)
 			(at 252.73 161.29 0)
 			(effects
 				(font
@@ -15767,6 +15779,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "RichTek"
 			(at 252.73 161.29 0)
 			(effects
@@ -15804,6 +15817,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "RT9742GGJ5"
+>>>>>>> 65ce161 (update BOM)
 			(at 252.73 161.29 0)
 			(effects
 				(font
@@ -15980,6 +15996,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "10164227-1001A1RLF x2"
 			(at 72.39 77.47 0)
 			(effects
@@ -15989,6 +16006,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(property "Manufacturer" "Amphenol"
 			(at 72.39 77.47 0)
 			(effects
@@ -15998,6 +16017,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 72.39 77.47 0)
 			(effects
@@ -16026,6 +16046,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "10164227-1001A1RLF x2"
+>>>>>>> 65ce161 (update BOM)
 			(at 72.39 77.47 0)
 			(effects
 				(font
@@ -16733,7 +16756,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 228.6 41.91 0)
 			(effects
 				(font
@@ -16742,6 +16769,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 228.6 41.91 0)
 			(effects
@@ -16779,6 +16807,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 228.6 41.91 0)
 			(effects
 				(font
@@ -16868,6 +16899,136 @@
 		)
 	)
 	(symbol
+<<<<<<< HEAD
+=======
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(at 205.74 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005dd09d38")
+		(property "Reference" "J9"
+			(at 207.01 84.6582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_2x02_Male"
+			(at 207.01 86.9696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/10897040?display=pdf"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field8" ""
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Pin Header, Male, 2x02, 2.54mm P, Vertical"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "WM22702-ND"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "0010897040"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7670d6a4-669e-4a95-8178-29fc8bb78054")
+		)
+		(pin "2"
+			(uuid "4a8f9efa-0cc8-49f1-a296-c0ae29b30fa4")
+		)
+		(pin "3"
+			(uuid "d41115c9-7c02-4897-9fd1-4a591b7b2833")
+		)
+		(pin "4"
+			(uuid "9acfcfc7-989c-4acc-abb2-e00b92310a55")
+		)
+		(instances
+			(project "CM5IO"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> 65ce161 (update BOM)
 		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
 		(at 157.48 46.99 0)
 		(unit 1)
@@ -16955,7 +17116,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0010897400"
+=======
+		(property "Manufacturer" "Molex"
+>>>>>>> 65ce161 (update BOM)
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -16964,6 +17129,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Molex"
 			(at 157.48 46.99 0)
 			(effects
@@ -17001,6 +17167,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0010897400"
+>>>>>>> 65ce161 (update BOM)
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -17228,7 +17397,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0805ZD106KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 210.82 121.92 0)
 			(effects
 				(font
@@ -17237,6 +17410,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 210.82 121.92 0)
 			(effects
@@ -17274,6 +17448,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0805ZD106KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 210.82 121.92 0)
 			(effects
 				(font
@@ -17515,7 +17692,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "ERJ-2RKF4700X"
+=======
+		(property "Manufacturer" "Panasonic"
+>>>>>>> 65ce161 (update BOM)
 			(at 232.41 74.93 90)
 			(effects
 				(font
@@ -17524,6 +17705,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Panasonic"
 			(at 232.41 74.93 90)
 			(effects
@@ -17561,6 +17743,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "ERJ-2RKF4700X"
+>>>>>>> 65ce161 (update BOM)
 			(at 232.41 74.93 90)
 			(effects
 				(font
@@ -17672,7 +17857,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "ERJ-2RKF4700X"
+=======
+		(property "Manufacturer" "Panasonic"
+>>>>>>> 65ce161 (update BOM)
 			(at 232.41 80.01 90)
 			(effects
 				(font
@@ -17681,6 +17870,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Panasonic"
 			(at 232.41 80.01 90)
 			(effects
@@ -17718,6 +17908,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "ERJ-2RKF4700X"
+>>>>>>> 65ce161 (update BOM)
 			(at 232.41 80.01 90)
 			(effects
 				(font
@@ -17961,6 +18154,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "LTST-S270KGKT"
 			(at 116.84 27.94 90)
 			(effects
@@ -17970,6 +18164,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(property "Manufacturer" "Lite-On Inc."
 			(at 116.84 27.94 90)
 			(effects
@@ -17979,6 +18175,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 116.84 27.94 90)
 			(effects
@@ -18007,6 +18204,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "LTST-S270KGKT"
+>>>>>>> 65ce161 (update BOM)
 			(at 116.84 27.94 90)
 			(effects
 				(font
@@ -18120,7 +18320,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "ERJ-H2RF1001X"
+=======
+		(property "Manufacturer" "Panasonic"
+>>>>>>> 65ce161 (update BOM)
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -18129,6 +18333,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Panasonic"
 			(at 116.84 40.64 0)
 			(effects
@@ -18166,6 +18371,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "ERJ-H2RF1001X"
+>>>>>>> 65ce161 (update BOM)
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -18345,6 +18553,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "LTST-S270KRKT"
 			(at 172.72 119.38 90)
 			(effects
@@ -18354,6 +18563,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(property "Manufacturer" "Lite-On Inc."
 			(at 172.72 119.38 90)
 			(effects
@@ -18363,6 +18574,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 172.72 119.38 90)
 			(effects
@@ -18391,6 +18603,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "LTST-S270KRKT"
+>>>>>>> 65ce161 (update BOM)
 			(at 172.72 119.38 90)
 			(effects
 				(font
@@ -18504,7 +18719,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "ERJ-H2RF1001X"
+=======
+		(property "Manufacturer" "Panasonic"
+>>>>>>> 65ce161 (update BOM)
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -18513,6 +18732,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Panasonic"
 			(at 172.72 129.54 0)
 			(effects
@@ -18550,6 +18770,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "ERJ-H2RF1001X"
+>>>>>>> 65ce161 (update BOM)
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -18661,7 +18884,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "TPD4EUSB30DQAR"
+=======
+		(property "Manufacturer" "Texas Instruments"
+>>>>>>> 65ce161 (update BOM)
 			(at 207.01 62.23 0)
 			(effects
 				(font
@@ -18670,6 +18897,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Texas Instruments"
 			(at 207.01 62.23 0)
 			(effects
@@ -18707,6 +18935,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "TPD4EUSB30DQAR"
+>>>>>>> 65ce161 (update BOM)
 			(at 207.01 62.23 0)
 			(effects
 				(font
@@ -18835,7 +19066,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" ""
+=======
+		(property "Manufacturer" "nf"
+>>>>>>> 65ce161 (update BOM)
 			(at 167.64 124.46 90)
 			(effects
 				(font
@@ -18844,6 +19079,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" ""
 			(at 167.64 124.46 90)
 			(effects
@@ -18881,6 +19117,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "nf"
+>>>>>>> 65ce161 (update BOM)
 			(at 167.64 124.46 90)
 			(effects
 				(font
@@ -18991,7 +19230,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "ERJ-6GEY0R00V"
+=======
+		(property "Manufacturer" "Panasonic"
+>>>>>>> 65ce161 (update BOM)
 			(at 156.21 91.44 90)
 			(effects
 				(font
@@ -19000,6 +19243,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Panasonic"
 			(at 156.21 91.44 90)
 			(effects
@@ -19037,6 +19281,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "ERJ-6GEY0R00V"
+>>>>>>> 65ce161 (update BOM)
 			(at 156.21 91.44 90)
 			(effects
 				(font
@@ -19132,6 +19379,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" ""
 			(at 156.21 95.25 90)
 			(effects
@@ -19178,6 +19426,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manufacturer" "nf"
+>>>>>>> 65ce161 (update BOM)
 			(at 156.21 95.25 90)
 			(effects
 				(font
@@ -19289,6 +19540,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "503398-1892"
 			(at 255.27 125.73 0)
 			(effects
@@ -19298,6 +19550,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(property "Manufacturer" "Molex"
 			(at 255.27 125.73 0)
 			(effects
@@ -19307,6 +19561,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 255.27 125.73 0)
 			(effects
@@ -19335,6 +19590,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "503398-1892"
+>>>>>>> 65ce161 (update BOM)
 			(at 255.27 125.73 0)
 			(effects
 				(font
@@ -19594,7 +19852,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0010897140"
+=======
+		(property "Manufacturer" "Molex"
+>>>>>>> 65ce161 (update BOM)
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -19603,6 +19865,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Molex"
 			(at 36.83 177.8 0)
 			(effects
@@ -19640,6 +19903,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0010897140"
+>>>>>>> 65ce161 (update BOM)
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -19778,7 +20044,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0022032031"
+=======
+		(property "Manufacturer" "Molex"
+>>>>>>> 65ce161 (update BOM)
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -19787,6 +20057,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Molex"
 			(at 123.19 133.35 0)
 			(effects
@@ -19824,6 +20095,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0022032031"
+>>>>>>> 65ce161 (update BOM)
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -19938,7 +20212,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "TPD4EUSB30DQAR"
+=======
+		(property "Manufacturer" "Texas Instruments"
+>>>>>>> 65ce161 (update BOM)
 			(at 207.01 30.48 0)
 			(effects
 				(font
@@ -19947,6 +20225,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Texas Instruments"
 			(at 207.01 30.48 0)
 			(effects
@@ -19984,6 +20263,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "TPD4EUSB30DQAR"
+>>>>>>> 65ce161 (update BOM)
 			(at 207.01 30.48 0)
 			(effects
 				(font
@@ -20307,7 +20589,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "3034"
+=======
+		(property "Manufacturer" "Keystone"
+>>>>>>> 65ce161 (update BOM)
 			(at 111.76 176.53 0)
 			(effects
 				(font
@@ -20316,6 +20602,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Keystone"
 			(at 111.76 176.53 0)
 			(effects
@@ -20353,6 +20640,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "3034"
+>>>>>>> 65ce161 (update BOM)
 			(at 111.76 176.53 0)
 			(effects
 				(font
@@ -20457,7 +20747,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Distributor" "Digikey"
+=======
+		(property "Manufacturer" "Taoglas Limited"
+>>>>>>> 65ce161 (update BOM)
 			(at 267.97 92.71 0)
 			(effects
 				(font
@@ -20475,6 +20769,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Taoglas Limited"
 			(at 267.97 92.71 0)
 			(effects
@@ -20512,6 +20807,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Distributor" "Digikey"
+>>>>>>> 65ce161 (update BOM)
 			(at 267.97 92.71 0)
 			(effects
 				(font
@@ -20791,7 +21089,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Distributor" "Digikey"
+=======
+		(property "Manufacturer" "JST"
+>>>>>>> 65ce161 (update BOM)
 			(at 142.24 148.59 0)
 			(effects
 				(font
@@ -20809,6 +21111,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "JST"
 			(at 142.24 148.59 0)
 			(effects
@@ -20846,6 +21149,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Distributor" "Digikey"
+>>>>>>> 65ce161 (update BOM)
 			(at 142.24 148.59 0)
 			(effects
 				(font
@@ -20982,6 +21288,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 185.42 153.67 0)
 			(effects
@@ -21018,6 +21325,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "4"
 			(uuid "c92a76c3-a3a4-4693-af39-4aa6c724db56")
 		)
@@ -21176,7 +21485,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Distributor" "Digikey"
+=======
+		(property "Manufacturer" "JST"
+>>>>>>> 65ce161 (update BOM)
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -21194,6 +21507,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "JST"
 			(at 152.4 170.18 0)
 			(effects
@@ -21231,6 +21545,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Distributor" "Digikey"
+>>>>>>> 65ce161 (update BOM)
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -21332,7 +21649,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Distributor" "Digikey"
+=======
+		(property "Manufacturer" "C&K"
+>>>>>>> 65ce161 (update BOM)
 			(at 80.01 175.26 90)
 			(effects
 				(font
@@ -21350,6 +21671,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "C&K"
 			(at 80.01 175.26 90)
 			(effects
@@ -21387,6 +21709,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Distributor" "Digikey"
+>>>>>>> 65ce161 (update BOM)
 			(at 80.01 175.26 90)
 			(effects
 				(font
@@ -21482,7 +21807,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Distributor" "Digikey"
+=======
+		(property "Manufacturer" "C&K"
+>>>>>>> 65ce161 (update BOM)
 			(at 81.28 158.75 90)
 			(effects
 				(font
@@ -21500,6 +21829,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "C&K"
 			(at 81.28 158.75 90)
 			(effects
@@ -21537,6 +21867,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Distributor" "Digikey"
+>>>>>>> 65ce161 (update BOM)
 			(at 81.28 158.75 90)
 			(effects
 				(font
@@ -21641,7 +21974,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" ""
+=======
+		(property "Manufacturer" "nf"
+>>>>>>> 65ce161 (update BOM)
 			(at 123.19 34.29 90)
 			(effects
 				(font
@@ -21650,6 +21987,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" ""
 			(at 123.19 34.29 90)
 			(effects
@@ -21687,6 +22025,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "nf"
+>>>>>>> 65ce161 (update BOM)
 			(at 123.19 34.29 90)
 			(effects
 				(font
@@ -21872,6 +22213,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 143.51 113.03 0)
 			(effects
@@ -21908,6 +22250,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(pin "2"
 			(uuid "2bb2d452-ee03-4fa2-aadf-e62abf15bf31")
 		)

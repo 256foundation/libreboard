@@ -4284,6 +4284,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "LTST-S270KGKT"
 			(at 201.93 68.58 90)
 			(effects
@@ -4293,6 +4294,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(property "Manufacturer" "Lite-On Inc."
 			(at 201.93 68.58 90)
 			(effects
@@ -4302,6 +4305,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
 			(at 201.93 68.58 90)
 			(effects
@@ -4330,6 +4334,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "LTST-S270KGKT"
+>>>>>>> 65ce161 (update BOM)
 			(at 201.93 68.58 90)
 			(effects
 				(font
@@ -4443,7 +4450,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0805ZD106KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -4452,6 +4463,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 152.4 172.72 0)
 			(effects
@@ -4489,6 +4501,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0805ZD106KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -4667,7 +4682,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0805ZD106KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -4676,6 +4695,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 46.99 171.45 0)
 			(effects
@@ -4713,6 +4733,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0805ZD106KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -4817,7 +4840,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" ""
+=======
+		(property "Manufacturer" "nf"
+>>>>>>> 65ce161 (update BOM)
 			(at 208.28 74.93 90)
 			(effects
 				(font
@@ -4826,6 +4853,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" ""
 			(at 208.28 74.93 90)
 			(effects
@@ -4863,6 +4891,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "nf"
+>>>>>>> 65ce161 (update BOM)
 			(at 208.28 74.93 90)
 			(effects
 				(font
@@ -5168,7 +5199,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "ERJ-H2RF1001X"
+=======
+		(property "Manufacturer" "Panasonic"
+>>>>>>> 65ce161 (update BOM)
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -5177,6 +5212,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Panasonic"
 			(at 201.93 82.55 0)
 			(effects
@@ -5214,6 +5250,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "ERJ-H2RF1001X"
+>>>>>>> 65ce161 (update BOM)
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -5329,6 +5368,7 @@
 			)
 		)
 		(property "Manufacturer" "Sinhoo"
+<<<<<<< HEAD
 			(at 257.81 113.03 0)
 			(effects
 				(font
@@ -5365,6 +5405,8 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+>>>>>>> 65ce161 (update BOM)
 			(at 257.81 113.03 0)
 			(effects
 				(font
@@ -5452,7 +5494,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Distributor" "Digikey"
+=======
+		(property "Manufacturer" "Bourns"
+>>>>>>> 65ce161 (update BOM)
 			(at 101.6 167.64 90)
 			(effects
 				(font
@@ -5470,6 +5516,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Bourns"
 			(at 101.6 167.64 90)
 			(effects
@@ -5507,6 +5554,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Distributor" "Digikey"
+>>>>>>> 65ce161 (update BOM)
 			(at 101.6 167.64 90)
 			(effects
 				(font
@@ -5658,7 +5708,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Dist. P/N" "10-ERJ-U02F1002XTR-ND"
+=======
+		(property "Distributor" "Digikey"
+>>>>>>> 65ce161 (update BOM)
 			(at 119.38 171.45 0)
 			(effects
 				(font
@@ -5667,7 +5721,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Distributor" "Digikey"
+=======
+		(property "Manufacturer" "Panasonic"
+>>>>>>> 65ce161 (update BOM)
 			(at 119.38 171.45 0)
 			(effects
 				(font
@@ -5685,6 +5743,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Panasonic"
 			(at 119.38 171.45 0)
 			(effects
@@ -5722,6 +5781,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Dist. P/N" "10-ERJ-U02F1002XTR-ND"
+>>>>>>> 65ce161 (update BOM)
 			(at 119.38 171.45 0)
 			(effects
 				(font
@@ -5835,7 +5897,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -5844,6 +5910,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 233.68 139.7 0)
 			(effects
@@ -5881,6 +5948,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -5976,6 +6046,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Dist. P/N" "10-ERJ-U02F1003XTR-ND"
 			(at 88.9 173.99 0)
 			(effects
@@ -5985,6 +6056,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(property "Distributor" "Digikey"
 			(at 88.9 173.99 0)
 			(effects
@@ -5994,6 +6067,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "ERJ-U02F1003X"
 			(at 88.9 173.99 0)
 			(effects
@@ -6003,6 +6077,8 @@
 				(hide yes)
 			)
 		)
+=======
+>>>>>>> 65ce161 (update BOM)
 		(property "Manufacturer" "Panasonic"
 			(at 88.9 173.99 0)
 			(effects
@@ -6012,7 +6088,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MANUFACTURER" ""
+=======
+		(property "Manf. P/N" "ERJ-U02F1003X"
+>>>>>>> 65ce161 (update BOM)
 			(at 88.9 173.99 0)
 			(effects
 				(font
@@ -6021,6 +6101,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
 			(at 88.9 173.99 0)
 			(effects
@@ -6040,6 +6121,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Dist. P/N" "10-ERJ-U02F1003XTR-ND"
+>>>>>>> 65ce161 (update BOM)
 			(at 88.9 173.99 0)
 			(effects
 				(font
@@ -6126,7 +6210,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Dist. P/N" "P2.20KLTR-ND"
+=======
+		(property "Distributor" "Digikey"
+>>>>>>> 65ce161 (update BOM)
 			(at 119.38 180.34 0)
 			(effects
 				(font
@@ -6135,7 +6223,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Distributor" "Digikey"
+=======
+		(property "Dist. P/N" "P2.20KLTR-ND"
+>>>>>>> 65ce161 (update BOM)
 			(at 119.38 180.34 0)
 			(effects
 				(font
@@ -6154,6 +6246,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
+<<<<<<< HEAD
 			(at 119.38 180.34 0)
 			(effects
 				(font
@@ -6190,6 +6283,8 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+>>>>>>> 65ce161 (update BOM)
 			(at 119.38 180.34 0)
 			(effects
 				(font
@@ -6284,7 +6379,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Distributor" "Digikey"
+=======
+		(property "Manufacturer" "Abracon"
+>>>>>>> 65ce161 (update BOM)
 			(at 215.9 129.54 0)
 			(effects
 				(font
@@ -6302,6 +6401,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Abracon"
 			(at 215.9 129.54 0)
 			(effects
@@ -6339,6 +6439,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Distributor" "Digikey"
+>>>>>>> 65ce161 (update BOM)
 			(at 215.9 129.54 0)
 			(effects
 				(font
@@ -6458,7 +6561,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0805ZD106KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -6467,6 +6574,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 38.1 171.45 0)
 			(effects
@@ -6504,6 +6612,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0805ZD106KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -6598,7 +6709,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Distributor" "Digikey"
+=======
+		(property "Manufacturer" "Diodes Inc."
+>>>>>>> 65ce161 (update BOM)
 			(at 73.66 167.64 0)
 			(effects
 				(font
@@ -6616,6 +6731,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Diodes Inc."
 			(at 73.66 167.64 0)
 			(effects
@@ -6653,6 +6769,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Distributor" "Digikey"
+>>>>>>> 65ce161 (update BOM)
 			(at 73.66 167.64 0)
 			(effects
 				(font
@@ -6787,7 +6906,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "04026D104KAT4A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -6796,6 +6919,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 55.88 171.45 0)
 			(effects
@@ -6833,6 +6957,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "04026D104KAT4A"
+>>>>>>> 65ce161 (update BOM)
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -6946,7 +7073,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0805ZD106KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -6955,6 +7086,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 132.08 172.72 0)
 			(effects
@@ -6992,6 +7124,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0805ZD106KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -7302,6 +7437,7 @@
 			)
 		)
 		(property "Manufacturer" "Misc."
+<<<<<<< HEAD
 			(at 260.35 142.24 0)
 			(effects
 				(font
@@ -7338,6 +7474,8 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+>>>>>>> 65ce161 (update BOM)
 			(at 260.35 142.24 0)
 			(effects
 				(font
@@ -7511,6 +7649,7 @@
 			)
 		)
 		(property "Manufacturer" "Kyocera"
+<<<<<<< HEAD
 			(at 109.22 171.45 0)
 			(effects
 				(font
@@ -7547,6 +7686,8 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+>>>>>>> 65ce161 (update BOM)
 			(at 109.22 171.45 0)
 			(effects
 				(font
@@ -7662,6 +7803,7 @@
 			)
 		)
 		(property "Manufacturer" "Sinhoo"
+<<<<<<< HEAD
 			(at 257.81 100.33 0)
 			(effects
 				(font
@@ -7698,6 +7840,8 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+>>>>>>> 65ce161 (update BOM)
 			(at 257.81 100.33 0)
 			(effects
 				(font
@@ -7872,6 +8016,7 @@
 			)
 		)
 		(property "Manufacturer" "Sinhoo"
+<<<<<<< HEAD
 			(at 257.81 87.63 0)
 			(effects
 				(font
@@ -7908,6 +8053,8 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+>>>>>>> 65ce161 (update BOM)
 			(at 257.81 87.63 0)
 			(effects
 				(font
@@ -8080,7 +8227,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0805ZD106KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 142.24 172.72 0)
 			(effects
 				(font
@@ -8089,6 +8240,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 142.24 172.72 0)
 			(effects
@@ -8126,6 +8278,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0805ZD106KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 142.24 172.72 0)
 			(effects
 				(font
@@ -8286,7 +8441,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Distributor" "Digikey"
+=======
+		(property "Manufacturer" "TE Connectivity"
+>>>>>>> 65ce161 (update BOM)
 			(at 161.29 80.01 0)
 			(effects
 				(font
@@ -8304,6 +8463,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "TE Connectivity"
 			(at 161.29 80.01 0)
 			(effects
@@ -8341,6 +8501,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Distributor" "Digikey"
+>>>>>>> 65ce161 (update BOM)
 			(at 161.29 80.01 0)
 			(effects
 				(font
@@ -8734,6 +8897,7 @@
 			)
 		)
 		(property "Manufacturer" "Sinhoo"
+<<<<<<< HEAD
 			(at 257.81 125.73 0)
 			(effects
 				(font
@@ -8770,6 +8934,8 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+>>>>>>> 65ce161 (update BOM)
 			(at 257.81 125.73 0)
 			(effects
 				(font
@@ -8877,7 +9043,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manf. P/N" "0805ZD106KAT2A"
+=======
+		(property "Manufacturer" "Kyocera"
+>>>>>>> 65ce161 (update BOM)
 			(at 162.56 172.72 0)
 			(effects
 				(font
@@ -8886,6 +9056,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "Kyocera"
 			(at 162.56 172.72 0)
 			(effects
@@ -8923,6 +9094,9 @@
 			)
 		)
 		(property "STANDARD" ""
+=======
+		(property "Manf. P/N" "0805ZD106KAT2A"
+>>>>>>> 65ce161 (update BOM)
 			(at 162.56 172.72 0)
 			(effects
 				(font
