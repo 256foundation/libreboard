@@ -6,4 +6,6 @@
   (lib (name "BLM15PX221SN1D")(type "KiCad")(uri "${KIPRJMOD}/BLM15PX221SN1D.kicad_sym")(options "")(descr ""))
   (lib (name "MOLEX_2169890001")(type "KiCad")(uri "${KIPRJMOD}/2025-07-01_02-11-34.kicad_sym")(options "")(descr ""))
   (lib (name "LMR51450FNDRRR")(type "KiCad")(uri "${KIPRJMOD}/LMR51450FNDRRR.kicad_sym")(options "")(descr ""))
+  (lib (name "SBRD10200")(type "KiCad")(uri "${KIPRJMOD}/SBRD10200.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS55289")(type "KiCad")(uri "${KIPRJMOD}/TPS55289.kicad_sym")(options "")(descr ""))
 )
