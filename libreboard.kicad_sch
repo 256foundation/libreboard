@@ -9669,7 +9669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at -13.97 358.14 0)
 			(effects
 				(font
@@ -9687,7 +9687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-KGM05CR50J106MHTR-ND"
 			(at -13.97 358.14 0)
 			(effects
 				(font
@@ -9705,7 +9705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "04026D106MAT2A"
 			(at -13.97 358.14 0)
 			(effects
 				(font
@@ -9714,7 +9714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at -13.97 358.14 0)
 			(effects
 				(font
@@ -9723,7 +9723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 10µF, ±20%, 6.3V, X5R, 0402 (1005m)"
 			(at -13.97 358.14 0)
 			(effects
 				(font
@@ -9820,7 +9820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGQ-Series.pdf"
 			(at 115.57 401.32 0)
 			(effects
 				(font
@@ -9838,7 +9838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-KGQ05FCG1H1R0BHTR-ND"
 			(at 115.57 401.32 0)
 			(effects
 				(font
@@ -9856,7 +9856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "04025U1R0BAT2A"
 			(at 115.57 401.32 0)
 			(effects
 				(font
@@ -9865,7 +9865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at 115.57 401.32 0)
 			(effects
 				(font
@@ -9874,7 +9874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 1pF, ±10%, 50V, C0G/NP0, 0402 (1005m)"
 			(at 115.57 401.32 0)
 			(effects
 				(font
@@ -9971,7 +9971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at -2.54 246.38 0)
 			(effects
 				(font
@@ -9989,7 +9989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-KGM05AR50J105KHTR-ND"
 			(at -2.54 246.38 0)
 			(effects
 				(font
@@ -10007,7 +10007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "04026D105KAT2A"
 			(at -2.54 246.38 0)
 			(effects
 				(font
@@ -10016,7 +10016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at -2.54 246.38 0)
 			(effects
 				(font
@@ -10025,7 +10025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at -2.54 246.38 0)
 			(effects
 				(font
@@ -10121,7 +10121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PTPS55289RYQR"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps55289.pdf"
 			(at 45.72 243.84 0)
 			(effects
 				(font
@@ -10168,6 +10168,51 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 45.72 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "296-TPS55289RYQRTR-ND"
+			(at 45.72 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 45.72 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "TPS55289RYQR"
+			(at 45.72 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 45.72 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "IC, Buck Boost, 0.8v, 1-output, 8A"
 			(at 45.72 243.84 0)
 			(effects
 				(font
@@ -10350,7 +10395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C193.pdf"
 			(at 179.07 393.7 0)
 			(effects
 				(font
@@ -10396,6 +10441,51 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 179.07 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "P16432TR-ND"
+			(at 179.07 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 179.07 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "10SVP270M"
+			(at 179.07 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 179.07 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Aluminum, 270µF, ±20%, 10V, 25mΩ ESR"
 			(at 179.07 393.7 0)
 			(effects
 				(font
@@ -10502,6 +10592,51 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 175.26 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "P122099TR-ND"
+			(at 175.26 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 175.26 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "20SVF56M"
+			(at 175.26 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 175.26 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Aluminum, 56µF, ±20%, 20V, 30mΩ ESR"
 			(at 175.26 281.94 0)
 			(effects
 				(font
@@ -10713,7 +10848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at -11.43 276.86 0)
 			(effects
 				(font
@@ -10722,7 +10857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kyocera-avx/12065C475KAT2A/2676431"
 			(at -11.43 276.86 0)
 			(effects
 				(font
@@ -10740,7 +10875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-KGM31AR71H475KUTR-ND"
 			(at -11.43 276.86 0)
 			(effects
 				(font
@@ -10758,7 +10893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" " 12065C475KAT2A"
 			(at -11.43 276.86 0)
 			(effects
 				(font
@@ -10767,7 +10902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at -11.43 276.86 0)
 			(effects
 				(font
@@ -10776,7 +10911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 4.7µF, ±10%, 50V, X7R, 1206 (3216m)"
 			(at -11.43 276.86 0)
 			(effects
 				(font
@@ -10873,7 +11008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 10.16 307.34 0)
 			(effects
 				(font
@@ -10891,7 +11026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "P48.7KLTR-ND"
 			(at 10.16 307.34 0)
 			(effects
 				(font
@@ -10909,7 +11044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "ERJ-2RKF4872X"
 			(at 10.16 307.34 0)
 			(effects
 				(font
@@ -10918,7 +11053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Panasonic"
 			(at 10.16 307.34 0)
 			(effects
 				(font
@@ -10927,7 +11062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Resistor, 48.7kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 10.16 307.34 0)
 			(effects
 				(font
@@ -11024,7 +11159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012005011.pdf"
 			(at 142.24 393.7 0)
 			(effects
 				(font
@@ -11042,7 +11177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "732-7429-2-ND"
 			(at 142.24 393.7 0)
 			(effects
 				(font
@@ -11060,7 +11195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "885012005011"
 			(at 142.24 393.7 0)
 			(effects
 				(font
@@ -11069,7 +11204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Würth Elektronik"
 			(at 142.24 393.7 0)
 			(effects
 				(font
@@ -11078,7 +11213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 47pF, ±5%, 10V, C0G/NP0, 0402 (1005m)"
 			(at 142.24 393.7 0)
 			(effects
 				(font
@@ -11175,7 +11310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
 			(at 101.6 401.32 0)
 			(effects
 				(font
@@ -11193,7 +11328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-1098-2-ND"
 			(at 101.6 401.32 0)
 			(effects
 				(font
@@ -11211,7 +11346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "04025C561KAT2A"
 			(at 101.6 401.32 0)
 			(effects
 				(font
@@ -11220,7 +11355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at 101.6 401.32 0)
 			(effects
 				(font
@@ -11229,7 +11364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 560pF, ±10%, 50V, X7R, 0402 (1005m)"
 			(at 101.6 401.32 0)
 			(effects
 				(font
@@ -12738,7 +12873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012005011.pdf"
 			(at 153.67 393.7 0)
 			(effects
 				(font
@@ -12756,7 +12891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "732-7429-2-ND"
 			(at 153.67 393.7 0)
 			(effects
 				(font
@@ -12774,7 +12909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "885012005011"
 			(at 153.67 393.7 0)
 			(effects
 				(font
@@ -12783,7 +12918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Würth Elektronik"
 			(at 153.67 393.7 0)
 			(effects
 				(font
@@ -12792,7 +12927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 47pF, ±5%, 10V, C0G/NP0, 0402 (1005m)"
 			(at 153.67 393.7 0)
 			(effects
 				(font
@@ -12889,7 +13024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
 			(at 97.79 289.56 0)
 			(effects
 				(font
@@ -12907,7 +13042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-KGM05AR71H471KHTR-ND "
 			(at 97.79 289.56 0)
 			(effects
 				(font
@@ -12925,7 +13060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "KGM05AR71H471KH"
 			(at 97.79 289.56 0)
 			(effects
 				(font
@@ -12934,7 +13069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at 97.79 289.56 0)
 			(effects
 				(font
@@ -12943,7 +13078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 470pF, ±10%, 50V, X7R, 0402 (1005m)"
 			(at 97.79 289.56 0)
 			(effects
 				(font
@@ -13040,7 +13175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 16.51 251.46 0)
 			(effects
 				(font
@@ -13058,7 +13193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "10-ERJ-U02F1003XTR-ND"
 			(at 16.51 251.46 0)
 			(effects
 				(font
@@ -13076,7 +13211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "ERJ-U02F1003X"
 			(at 16.51 251.46 0)
 			(effects
 				(font
@@ -13085,7 +13220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Panasonic"
 			(at 16.51 251.46 0)
 			(effects
 				(font
@@ -13094,7 +13229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Resistor, 100kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 16.51 251.46 0)
 			(effects
 				(font
@@ -13876,7 +14011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 1.27 358.14 0)
 			(effects
 				(font
@@ -13894,7 +14029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-KGM05AR50J105KHTR-ND"
 			(at 1.27 358.14 0)
 			(effects
 				(font
@@ -13912,7 +14047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "04026D105KAT2A"
 			(at 1.27 358.14 0)
 			(effects
 				(font
@@ -13921,7 +14056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at 1.27 358.14 0)
 			(effects
 				(font
@@ -13930,7 +14065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at 1.27 358.14 0)
 			(effects
 				(font
@@ -14158,7 +14293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 125.73 281.94 0)
 			(effects
 				(font
@@ -14176,7 +14311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-KGM05AR50J105KHTR-ND"
 			(at 125.73 281.94 0)
 			(effects
 				(font
@@ -14194,7 +14329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "04026D105KAT2A"
 			(at 125.73 281.94 0)
 			(effects
 				(font
@@ -14203,7 +14338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at 125.73 281.94 0)
 			(effects
 				(font
@@ -14212,7 +14347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at 125.73 281.94 0)
 			(effects
 				(font
@@ -14309,7 +14444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
 			(at -30.48 358.14 0)
 			(effects
 				(font
@@ -14355,6 +14490,51 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at -30.48 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "399-A768EB226M1HLAE048TR-ND"
+			(at -30.48 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at -30.48 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "A768EB226M1HLAE048"
+			(at -30.48 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at -30.48 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Aluminum, 22µF, ±20%, 50V, 48mΩ ESR"
 			(at -30.48 358.14 0)
 			(effects
 				(font
@@ -14609,7 +14789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 97.79 303.53 0)
 			(effects
 				(font
@@ -14627,7 +14807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "P105KLTR-ND"
 			(at 97.79 303.53 0)
 			(effects
 				(font
@@ -14645,7 +14825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "ERJ-2RKF1053X"
 			(at 97.79 303.53 0)
 			(effects
 				(font
@@ -14654,7 +14834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Panasonic"
 			(at 97.79 303.53 0)
 			(effects
 				(font
@@ -14663,7 +14843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "50 mW"
+		(property "Part Description" "Resistor, 105kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 97.79 303.53 0)
 			(effects
 				(font
@@ -14760,7 +14940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at 129.54 393.7 0)
 			(effects
 				(font
@@ -14778,7 +14958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-KGM05AR50J105KHTR-ND"
 			(at 129.54 393.7 0)
 			(effects
 				(font
@@ -14796,7 +14976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "04026D105KAT2A"
 			(at 129.54 393.7 0)
 			(effects
 				(font
@@ -14805,7 +14985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at 129.54 393.7 0)
 			(effects
 				(font
@@ -14814,7 +14994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at 129.54 393.7 0)
 			(effects
 				(font
@@ -15585,7 +15765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 13.97 419.1 0)
 			(effects
 				(font
@@ -15603,7 +15783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "541-CRCW040250K0FKEDTR-ND"
 			(at 13.97 419.1 0)
 			(effects
 				(font
@@ -15621,7 +15801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "CRCW040250K0FKED"
 			(at 13.97 419.1 0)
 			(effects
 				(font
@@ -15630,7 +15810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 13.97 419.1 0)
 			(effects
 				(font
@@ -15639,7 +15819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Resistor, 50kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 13.97 419.1 0)
 			(effects
 				(font
@@ -15859,7 +16039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at -7.62 388.62 0)
 			(effects
 				(font
@@ -15868,7 +16048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kyocera-avx/12065C475KAT2A/2676431"
 			(at -7.62 388.62 0)
 			(effects
 				(font
@@ -15886,7 +16066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-KGM31AR71H475KUTR-ND"
 			(at -7.62 388.62 0)
 			(effects
 				(font
@@ -15904,7 +16084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" " 12065C475KAT2A"
 			(at -7.62 388.62 0)
 			(effects
 				(font
@@ -15913,7 +16093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at -7.62 388.62 0)
 			(effects
 				(font
@@ -15922,7 +16102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 4.7µF, ±10%, 50V, X7R, 1206 (3216m)"
 			(at -7.62 388.62 0)
 			(effects
 				(font
@@ -16019,7 +16199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 129.54 238.76 0)
 			(effects
 				(font
@@ -16037,7 +16217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-11504-2-ND"
 			(at 129.54 238.76 0)
 			(effects
 				(font
@@ -16055,7 +16235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "04026D104KAT4A"
 			(at 129.54 238.76 0)
 			(effects
 				(font
@@ -16064,7 +16244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at 129.54 238.76 0)
 			(effects
 				(font
@@ -16073,7 +16253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at 129.54 238.76 0)
 			(effects
 				(font
@@ -16170,7 +16350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 100.33 349.25 0)
 			(effects
 				(font
@@ -16188,7 +16368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-11504-2-ND"
 			(at 100.33 349.25 0)
 			(effects
 				(font
@@ -16206,7 +16386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "04026D104KAT4A"
 			(at 100.33 349.25 0)
 			(effects
 				(font
@@ -16215,7 +16395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at 100.33 349.25 0)
 			(effects
 				(font
@@ -16224,7 +16404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at 100.33 349.25 0)
 			(effects
 				(font
@@ -16627,7 +16807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PTPS55289RYQR"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps55289.pdf"
 			(at 49.53 355.6 0)
 			(effects
 				(font
@@ -16674,6 +16854,51 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 49.53 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "296-TPS55289RYQRTR-ND"
+			(at 49.53 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 49.53 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "TPS55289RYQR"
+			(at 49.53 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 49.53 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "IC, Buck Boost, 0.8v, 1-output, 8A"
 			(at 49.53 355.6 0)
 			(effects
 				(font
@@ -16939,7 +17164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 133.35 350.52 0)
 			(effects
 				(font
@@ -16957,7 +17182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-11504-2-ND"
 			(at 133.35 350.52 0)
 			(effects
 				(font
@@ -16975,7 +17200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "04026D104KAT4A"
 			(at 133.35 350.52 0)
 			(effects
 				(font
@@ -16984,7 +17209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at 133.35 350.52 0)
 			(effects
 				(font
@@ -16993,7 +17218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at 133.35 350.52 0)
 			(effects
 				(font
@@ -17156,7 +17381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/C0GNP0-KGM.pdf"
 			(at 111.76 289.56 0)
 			(effects
 				(font
@@ -17174,7 +17399,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-KGM05ACG1H3R9BHTR-ND"
 			(at 111.76 289.56 0)
 			(effects
 				(font
@@ -17192,7 +17417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "KGM05ACG1H3R9BH"
 			(at 111.76 289.56 0)
 			(effects
 				(font
@@ -17201,7 +17426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at 111.76 289.56 0)
 			(effects
 				(font
@@ -17210,7 +17435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 3.9pF, ±2.5%, 50V, C0G/NP0, 0402 (1005m)"
 			(at 111.76 289.56 0)
 			(effects
 				(font
@@ -17307,7 +17532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
 			(at -17.78 246.38 0)
 			(effects
 				(font
@@ -17325,7 +17550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-KGM05CR50J106MHTR-ND"
 			(at -17.78 246.38 0)
 			(effects
 				(font
@@ -17343,7 +17568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "04026D106MAT2A"
 			(at -17.78 246.38 0)
 			(effects
 				(font
@@ -17352,7 +17577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at -17.78 246.38 0)
 			(effects
 				(font
@@ -17361,7 +17586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 10µF, ±20%, 6.3V, X5R, 0402 (1005m)"
 			(at -17.78 246.38 0)
 			(effects
 				(font
@@ -17458,7 +17683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 16.51 245.11 0)
 			(effects
 				(font
@@ -17476,7 +17701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "P887KLTR-ND"
 			(at 16.51 245.11 0)
 			(effects
 				(font
@@ -17494,7 +17719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "ERJ-2RKF8873X"
 			(at 16.51 245.11 0)
 			(effects
 				(font
@@ -17503,7 +17728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Panasonic"
 			(at 16.51 245.11 0)
 			(effects
 				(font
@@ -17512,7 +17737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Resistor, 887kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 16.51 245.11 0)
 			(effects
 				(font
@@ -17609,7 +17834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
 			(at 20.32 363.22 0)
 			(effects
 				(font
@@ -17627,7 +17852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "10-ERJ-U02F1003XTR-ND"
 			(at 20.32 363.22 0)
 			(effects
 				(font
@@ -17645,7 +17870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "ERJ-U02F1003X"
 			(at 20.32 363.22 0)
 			(effects
 				(font
@@ -17654,7 +17879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Panasonic"
 			(at 20.32 363.22 0)
 			(effects
 				(font
@@ -17663,7 +17888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Resistor, 100kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 20.32 363.22 0)
 			(effects
 				(font
@@ -17760,7 +17985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 20.32 356.87 0)
 			(effects
 				(font
@@ -17778,7 +18003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "P887KLTR-ND"
 			(at 20.32 356.87 0)
 			(effects
 				(font
@@ -17796,7 +18021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "ERJ-2RKF8873X"
 			(at 20.32 356.87 0)
 			(effects
 				(font
@@ -17805,7 +18030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Panasonic"
 			(at 20.32 356.87 0)
 			(effects
 				(font
@@ -17814,7 +18039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Resistor, 887kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 20.32 356.87 0)
 			(effects
 				(font
@@ -17911,7 +18136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
 			(at 96.52 237.49 0)
 			(effects
 				(font
@@ -17929,7 +18154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-11504-2-ND"
 			(at 96.52 237.49 0)
 			(effects
 				(font
@@ -17947,7 +18172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "04026D104KAT4A"
 			(at 96.52 237.49 0)
 			(effects
 				(font
@@ -17956,7 +18181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kyocera"
 			(at 96.52 237.49 0)
 			(effects
 				(font
@@ -17965,7 +18190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
 			(at 96.52 237.49 0)
 			(effects
 				(font
@@ -18771,7 +18996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/A770KE396M1HLAS042"
 			(at -34.29 246.38 0)
 			(effects
 				(font
@@ -18817,6 +19042,51 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at -34.29 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "399-A770KE396M1HLAS042TR-ND"
+			(at -34.29 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at -34.29 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "A770KE396M1HLAS042"
+			(at -34.29 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Kemet"
+			(at -34.29 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Capacitor, Aluminum, 39µF, ±20%, 50V, 42mΩ ESR"
 			(at -34.29 246.38 0)
 			(effects
 				(font
@@ -18877,7 +19147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
 			(at 101.6 415.29 0)
 			(effects
 				(font
@@ -18895,7 +19165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "P105KLTR-ND"
 			(at 101.6 415.29 0)
 			(effects
 				(font
@@ -18913,7 +19183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "ERJ-2RKF1053X"
 			(at 101.6 415.29 0)
 			(effects
 				(font
@@ -18922,7 +19192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Panasonic"
 			(at 101.6 415.29 0)
 			(effects
 				(font
@@ -18931,7 +19201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "50 mW"
+		(property "Part Description" "Resistor, 105kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 101.6 415.29 0)
 			(effects
 				(font
@@ -19028,7 +19298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012005011.pdf"
 			(at 163.83 393.7 0)
 			(effects
 				(font
@@ -19046,7 +19316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "732-7429-2-ND"
 			(at 163.83 393.7 0)
 			(effects
 				(font
@@ -19064,7 +19334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "885012005011"
 			(at 163.83 393.7 0)
 			(effects
 				(font
@@ -19073,7 +19343,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Würth Elektronik"
 			(at 163.83 393.7 0)
 			(effects
 				(font
@@ -19082,7 +19352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "Capacitor, Ceramic, 47pF, ±5%, 10V, C0G/NP0, 0402 (1005m)"
 			(at 163.83 393.7 0)
 			(effects
 				(font

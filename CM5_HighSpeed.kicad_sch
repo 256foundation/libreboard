@@ -22619,7 +22619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Capacitor, AO-Cap, 100µF, ±20%, 10V, 10mΩ ESR"
+		(property "Part Description" "Capacitor, Aluminum, 100µF, ±20%, 10V, 10mΩ ESR"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -23974,7 +23974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Capacitor, AO-Cap, 100µF, ±20%, 10V, 10mΩ ESR"
+		(property "Part Description" "Capacitor, Aluminum, 100µF, ±20%, 10V, 10mΩ ESR"
 			(at 247.65 105.41 0)
 			(effects
 				(font

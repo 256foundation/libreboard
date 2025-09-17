@@ -1,0 +1,342 @@
+Info: Processing symbol 'J15:Connector_USB:USB_C_Receptacle_Molex_105450-0101'.
+Info: Processing symbol 'J6:libreboard:216989-0001_MOL'.
+Info: Processing symbol 'U18:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'U15:Package_TO_SOT_SMD:SOT-23-6'.
+Info: Processing symbol 'J7:CM5IO:SDCARD_MOLEX_503398-1892'.
+Info: Processing symbol 'J8:Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical'.
+Info: Processing symbol 'J10:libreboard:216989-0001_MOL'.
+Info: Processing symbol 'U14:libreboard:RYQ0021A-MFG'.
+Info: Processing symbol 'U13:Package_TO_SOT_SMD:SOT-23-5'.
+Info: Processing symbol 'U12:Package_TO_SOT_SMD:TSOT-23_HandSoldering'.
+Info: Processing symbol 'J11:Connector_USB:USB_C_Receptacle_GCT_USB4105-GF-A_16P_TopMnt_Horizontal'.
+Info: Processing symbol 'U11:Package_QFP:HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias'.
+Info: Processing symbol 'J14:Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical'.
+Info: Processing symbol 'U10:Package_DFN_QFN:Texas_RGV0016A_VQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm_ThermalVias'.
+Info: Processing symbol 'U9:CM5IO:LED-SMD_4P-L4.0-W1.6-L'.
+Info: Processing symbol 'BT1:CM5IO:BatteryHolder_Keystone_3034_1x20mm'.
+Info: Processing symbol 'J16:Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical'.
+Info: Processing symbol 'U8:Package_DFN_QFN:DFN-8-1EP_2x2mm_P0.5mm_EP1.05x1.75mm'.
+Info: Processing symbol 'J17:libreboard:216989-0001_MOL'.
+Info: Processing symbol 'U7:Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm'.
+Info: Processing symbol 'U6:Package_TO_SOT_SMD:SOT-23-6'.
+Info: Processing symbol 'J19:Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical'.
+Info: Processing symbol 'J22:CM5IO:EDAC 690-019-298-412'.
+Info: Processing symbol 'J51:libreboard:CONN_SD-47053-001_H10p00_MOL'.
+Info: Processing symbol 'J52:libreboard:CONN_SD-47053-001_H10p00_MOL'.
+Info: Processing symbol 'J53:libreboard:CONN_SD-47053-001_H10p00_MOL'.
+Info: Processing symbol 'J54:libreboard:CONN_SD-47053-001_H10p00_MOL'.
+Info: Processing symbol 'J100:libreboard:KEYSTONE_7790'.
+Info: Processing symbol 'U5:Package_TO_SOT_SMD:SOT-353_SC-70-5'.
+Info: Processing symbol 'H1:libreboard:MountingHole_2.7mm_M2.5_DIN965'.
+Info: Processing symbol 'C62:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C63:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C64:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C65:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C66:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C67:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C68:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C69:Capacitor_SMD:CP_Elec_6.3x9.9'.
+Info: Processing symbol 'D1:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'D2:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'D3:LED_SMD:LED_0603_1608Metric'.
+Info: Processing symbol 'FB1:libreboard:BEADC1005X55N'.
+Info: Processing symbol 'FB2:libreboard:BEADC1005X55N'.
+Info: Processing symbol 'U4:libreboard:RYQ0021A-MFG'.
+Info: Processing symbol 'H2:libreboard:MountingHole_2.7mm_M2.5_DIN965'.
+Info: Processing symbol 'H3:libreboard:MountingHole_2.7mm_M2.5_DIN965'.
+Info: Processing symbol 'H4:libreboard:MountingHole_2.7mm_M2.5_DIN965'.
+Info: Processing symbol 'H5:libreboard:MountingHole_2.7mm_M2.5_DIN965'.
+Info: Processing symbol 'H6:libreboard:MountingHole_2.7mm_M2.5_DIN965'.
+Info: Processing symbol 'H7:libreboard:MountingHole_2.7mm_M2.5_DIN965'.
+Info: Processing symbol 'H8:libreboard:MountingHole_2.7mm_M2.5_DIN965'.
+Info: Processing symbol 'J1:libreboard:216989-0001_MOL'.
+Info: Processing symbol 'J2:Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical'.
+Info: Processing symbol 'J3:Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical'.
+Info: Processing symbol 'J4:CM5IO:M.2 M Key socket'.
+Info: Processing symbol 'J5:CM5IO:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal'.
+Info: Processing symbol 'Y1:Oscillator:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm'.
+Info: Processing symbol 'R34:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R21:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R22:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R23:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R24:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R25:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R26:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R27:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R28:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R29:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R30:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R31:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R32:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R33:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R20:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R35:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R36:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R37:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R38:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R39:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R40:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R41:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R46:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'SW1:Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS'.
+Info: Processing symbol 'SW2:Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS'.
+Info: Processing symbol 'TP1:TestPoint:TestPoint_Pad_2.0x2.0mm'.
+Info: Processing symbol 'TP3:TestPoint:TestPoint_Pad_2.0x2.0mm'.
+Info: Processing symbol 'TP5:TestPoint:TestPoint_Pad_2.0x2.0mm'.
+Info: Processing symbol 'R6:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'J101:libreboard:KEYSTONE_7790'.
+Info: Processing symbol 'U3:CM5IO:TRJG0926HENL'.
+Info: Processing symbol 'U2:Package_SON:USON-10_2.5x1.0mm_P0.5mm'.
+Info: Processing symbol 'L1:CM5IO:L_Bourns_SRP5030CC'.
+Info: Processing symbol 'U1:Package_SON:USON-10_2.5x1.0mm_P0.5mm'.
+Info: Processing symbol 'L2:Inductor_SMD:L_Bourns_SRN8040TA'.
+Info: Processing symbol 'L3:Inductor_SMD:L_Bourns_SRN8040TA'.
+Info: Processing symbol 'Module1:CM5IO:Raspberry-Pi-5-Compute-Module'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R4:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R5:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Total warnings: 34, errors: 10.
+Info: Processing symbol 'R7:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R8:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R9:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R10:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R11:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R12:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R13:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R14:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R15:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R16:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R17:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R18:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'R19:Resistor_SMD:R_0402_1005Metric'.
+Info: Processing symbol 'C46:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C40:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C20:Capacitor_SMD:CP_Elec_8x6.7'.
+Info: Processing symbol 'C41:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C42:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C19:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C43:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C44:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C18:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C45:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C39:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C17:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C47:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C16:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C48:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C15:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C49:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C14:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C13:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C50:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C33:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C26:Capacitor_SMD:CP_Elec_5x5.9'.
+Info: Processing symbol 'C25:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C27:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C28:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C29:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C30:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C24:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C31:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C32:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C61:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C34:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C35:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C23:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'C36:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C37:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C22:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C38:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C21:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C4:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C53:Capacitor_SMD:C_1206_3216Metric'.
+Info: Processing symbol 'C8:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C7:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C54:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C6:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C55:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C56:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C5:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C12:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C57:Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D'.
+Info: Processing symbol 'C3:Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D'.
+Info: Processing symbol 'C58:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C59:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'C60:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C1:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C9:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C10:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C11:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C52:Capacitor_SMD:C_0402_1005Metric'.
+Info: Processing symbol 'C51:Capacitor_SMD:CP_Elec_6.3x5.9'.
+Update R5 fields.
+Update R6 fields.
+Update C22 fields.
+Update C3 fields.
+Update R4 fields.
+Update C14 fields.
+Update R46 fields.
+Update R3 fields.
+Change C23 footprint from 'Capacitor_SMD:C_0402_1005Metric' to 'Capacitor_SMD:C_1206_3216Metric'.
+Update R20 fields.
+Update R2 fields.
+Update C2 fields.
+Update SW1 fields.
+Update C23 fields.
+Update C13 fields.
+Update R1 fields.
+Update SW2 fields.
+Update C1 fields.
+Update Module1 fields.
+Update TP5 fields.
+Update TP1 fields.
+Update C12 fields.
+Update TP3 fields.
+Update C35 fields.
+Update C9 fields.
+Update R15 fields.
+Update C16 fields.
+Update C8 fields.
+Update R14 fields.
+Update C17 fields.
+Update R16 fields.
+Update R13 fields.
+Update C7 fields.
+Update R12 fields.
+Update C18 fields.
+Update R11 fields.
+Update C6 fields.
+Update R19 fields.
+Update R10 fields.
+Update R17 fields.
+Update C19 fields.
+Update R9 fields.
+Update C15 fields.
+Update C5 fields.
+Update R8 fields.
+Update R18 fields.
+Update C20 fields.
+Update R7 fields.
+Update C4 fields.
+Update C10 fields.
+
+Update H4 fields.
+Update H5 fields.
+Update C51 fields.
+Update H6 fields.
+Update H7 fields.
+Update C50 fields.
+Update H8 fields.
+
+Update H3 fields.
+Update C63 fields.
+Update C60 fields.
+Update C49 fields.
+Update J2 fields.
+Update J3 fields.
+Update C48 fields.
+Update C62 fields.
+Update J4 fields.
+Update D1 fields.
+Update C64 fields.
+Update C59 fields.
+Update C66 fields.
+Update C58 fields.
+Update C67 fields.
+Update C68 fields.
+Update C57 fields.
+Update C69 fields.
+Update C26 fields.
+Update C56 fields.
+Update D2 fields.
+Update D3 fields.
+Update C54 fields.
+Update H1 fields.
+Update C53 fields.
+Update H2 fields.
+Change C53 footprint from 'Capacitor_SMD:C_0402_1005Metric' to 'Capacitor_SMD:C_1206_3216Metric'.
+Update J22 fields.
+Update J16 fields.
+Update U8 fields.
+Update C38 fields.
+Update U7 fields.
+Update C37 fields.
+Update U6 fields.
+Update C36 fields.
+Update U5 fields.
+Update C39 fields.
+Update C61 fields.
+Update C34 fields.
+Update U4 fields.
+Update U3 fields.
+Update C30 fields.
+Update U2 fields.
+Update U1 fields.
+Update L1 fields.
+Update C44 fields.
+Update J5 fields.
+Update C47 fields.
+Update C46 fields.
+Update U18 fields.
+Update U15 fields.
+Update C45 fields.
+Update U14 fields.
+Update J7 fields.
+Update J8 fields.
+Update C43 fields.
+Update U12 fields.
+Update C42 fields.
+Update C41 fields.
+Update J11 fields.
+Update J14 fields.
+Update C40 fields.
+Warning: No net found for component J5 pad MP (no pin MP in symbol).
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: Via connected to unknown net ().
+Warning: No net found for component J16 pad MP (no pin MP in symbol).
+Warning: No net found for component J5 pad MP (no pin MP in symbol).
+Warning: No net found for component J6 pad 17 (no pin 17 in symbol).
+Warning: No net found for component J6 pad 15 (no pin 15 in symbol).
+Warning: No net found for component J6 pad 16 (no pin 16 in symbol).
+Warning: No net found for component J6 pad 18 (no pin 18 in symbol).
+Warning: No net found for component J10 pad 15 (no pin 15 in symbol).
+Warning: No net found for component J10 pad 18 (no pin 18 in symbol).
+Warning: No net found for component J10 pad 16 (no pin 16 in symbol).
+Warning: No net found for component J10 pad 17 (no pin 17 in symbol).
+Warning: No net found for component J1 pad 16 (no pin 16 in symbol).
+Warning: No net found for component J14 pad MP (no pin MP in symbol).
+Warning: No net found for component J1 pad 18 (no pin 18 in symbol).
+Warning: No net found for component J14 pad MP (no pin MP in symbol).
+Warning: No net found for component J16 pad MP (no pin MP in symbol).
+Warning: No net found for component J17 pad 18 (no pin 18 in symbol).
+Warning: No net found for component J17 pad 17 (no pin 17 in symbol).
+Warning: No net found for component J17 pad 16 (no pin 16 in symbol).
+Warning: No net found for component J17 pad 15 (no pin 15 in symbol).
+Warning: No net found for component J1 pad 17 (no pin 17 in symbol).
+Warning: No net found for component J100 pad 1_2 (no pin 1_2 in symbol).
+Warning: No net found for component J100 pad 1_4 (no pin 1_4 in symbol).
+Warning: No net found for component J100 pad 1_1 (no pin 1_1 in symbol).
+Warning: No net found for component J100 pad 1_3 (no pin 1_3 in symbol).
+Warning: No net found for component J1 pad 15 (no pin 15 in symbol).
+Warning: No net found for component J101 pad 1_4 (no pin 1_4 in symbol).
+Warning: No net found for component J101 pad 1_2 (no pin 1_2 in symbol).
+Warning: No net found for component J101 pad 1_3 (no pin 1_3 in symbol).
+Warning: No net found for component J101 pad 1_1 (no pin 1_1 in symbol).
+Error: Cannot add BT1 (footprint 'CM5IO:BatteryHolder_Keystone_3034_1x20mm' not found).
+Error: Cannot update J4 (footprint 'CM5IO:M.2 M Key socket' not found).
+Error: Cannot update U9 (footprint 'CM5IO:LED-SMD_4P-L4.0-W1.6-L' not found).
+Error: Cannot update J5 (footprint 'CM5IO:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal' not found).
+Error: Cannot update J7 (footprint 'CM5IO:SDCARD_MOLEX_503398-1892' not found).
+Error: Cannot update J11 (footprint 'Connector_USB:USB_C_Receptacle_GCT_USB4105-GF-A_16P_TopMnt_Horizontal' not found).
+Error: Cannot update Module1 (footprint 'CM5IO:Raspberry-Pi-5-Compute-Module' not found).
+Error: Cannot update J22 (footprint 'CM5IO:EDAC 690-019-298-412' not found).
+Error: Cannot update U3 (footprint 'CM5IO:TRJG0926HENL' not found).
+Error: Cannot update L1 (footprint 'CM5IO:L_Bourns_SRP5030CC' not found).
+
+
+Info: Total warnings: 34, errors: 10.
