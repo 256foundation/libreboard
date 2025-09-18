@@ -5182,6 +5182,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 266.7) (xy 45.72 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db9fe78-7ab8-45e9-9874-8a1842c6ce56")
+	)
+	(wire
+		(pts
 			(xy 101.6 433.07) (xy 115.57 433.07)
 		)
 		(stroke
@@ -6732,6 +6742,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 383.54) (xy 49.53 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85f053f1-aad8-4c02-8be6-91d60246ea25")
+	)
+	(wire
+		(pts
 			(xy 45.72 261.62) (xy 29.21 261.62)
 		)
 		(stroke
@@ -6909,6 +6929,16 @@
 			(type solid)
 		)
 		(uuid "909b030b-fa1a-4fe8-b1ee-422b4d9e23cf")
+	)
+	(wire
+		(pts
+			(xy 39.37 271.78) (xy 45.72 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b4ec6c-473e-4099-a111-61be441c89a1")
 	)
 	(wire
 		(pts
@@ -7772,6 +7802,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 378.46) (xy 49.53 378.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3827236-1748-4e47-9d99-707ee6147348")
+	)
+	(wire
+		(pts
 			(xy 58.42 114.3) (xy 66.04 114.3)
 		)
 		(stroke
@@ -8360,6 +8400,16 @@
 		)
 		(uuid "28c76331-1bb2-429e-88ba-1bacab9de126")
 	)
+	(label "ID_SC"
+		(at 39.37 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28f617d0-b8b5-492a-a46b-c71f653fde43")
+	)
 	(label "CC2"
 		(at 119.38 133.35 0)
 		(effects
@@ -8400,6 +8450,36 @@
 		)
 		(uuid "5740c959-93d8-47fd-8f68-62f0109e753d")
 	)
+	(label "ID_SC"
+		(at 149.86 109.22 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62aed552-6209-4ac6-a2f1-581388f9767e")
+	)
+	(label "ID_SC"
+		(at 43.18 378.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e28e04c-b79b-4a51-955e-051799cf2aef")
+	)
+	(label "ID_SD"
+		(at 39.37 271.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76dabc1d-a428-447a-b48b-15bffd8634e0")
+	)
 	(label "USB2_P"
 		(at 74.93 62.23 180)
 		(effects
@@ -8419,6 +8499,16 @@
 			(justify left bottom)
 		)
 		(uuid "7d5a2b2f-0ea3-4086-b538-65807005ae2a")
+	)
+	(label "ID_SD"
+		(at 146.05 109.22 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "833a6772-c97b-45bd-9493-15e6cc8ab6f3")
 	)
 	(label "USB2_N"
 		(at 74.93 57.15 180)
@@ -8479,6 +8569,16 @@
 			(justify left bottom)
 		)
 		(uuid "d4106691-9af4-4d1a-b5eb-d17aeb47a3f6")
+	)
+	(label "ID_SD"
+		(at 43.18 383.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef7c1121-f974-4231-b5d8-5054c9c93f4b")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -12135,7 +12235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 149.86 281.94 0)
 			(effects
 				(font
@@ -12713,7 +12813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 160.02 281.94 0)
 			(effects
 				(font
@@ -19440,7 +19540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 138.43 281.94 0)
 			(effects
 				(font
