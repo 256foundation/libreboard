@@ -12244,7 +12244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 149.86 281.94 0)
 			(effects
 				(font
@@ -12262,7 +12262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "445-8046-1-ND - Cut Tape"
 			(at 149.86 281.94 0)
 			(effects
 				(font
@@ -12280,7 +12280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "C3216X5R1E336M160AC"
 			(at 149.86 281.94 0)
 			(effects
 				(font
@@ -12289,7 +12289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK Corporation"
 			(at 149.86 281.94 0)
 			(effects
 				(font
@@ -12298,7 +12298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "33 µF ±20% 25V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 149.86 281.94 0)
 			(effects
 				(font
@@ -12822,7 +12822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 160.02 281.94 0)
 			(effects
 				(font
@@ -12840,7 +12840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "445-8046-1-ND - Cut Tape"
 			(at 160.02 281.94 0)
 			(effects
 				(font
@@ -12858,7 +12858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "C3216X5R1E336M160AC"
 			(at 160.02 281.94 0)
 			(effects
 				(font
@@ -12867,7 +12867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK Corporation"
 			(at 160.02 281.94 0)
 			(effects
 				(font
@@ -12876,7 +12876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "33 µF ±20% 25V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 160.02 281.94 0)
 			(effects
 				(font
@@ -19549,7 +19549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 138.43 281.94 0)
 			(effects
 				(font
@@ -19567,7 +19567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "445-8046-1-ND - Cut Tape"
 			(at 138.43 281.94 0)
 			(effects
 				(font
@@ -19585,7 +19585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" ""
+		(property "Manf. P/N" "C3216X5R1E336M160AC"
 			(at 138.43 281.94 0)
 			(effects
 				(font
@@ -19594,7 +19594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TDK Corporation"
 			(at 138.43 281.94 0)
 			(effects
 				(font
@@ -19603,7 +19603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" ""
+		(property "Part Description" "33 µF ±20% 25V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 138.43 281.94 0)
 			(effects
 				(font
