@@ -2386,6 +2386,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -2942,12 +2951,6 @@
 		(uuid "b9111aad-79f3-4be0-80db-033ad9470bf0")
 	)
 	(junction
-		(at 201.93 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5fad215-1823-4629-bffb-1dbcfea4818c")
-	)
-	(junction
 		(at 152.4 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3485,16 +3488,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 74.93) (xy 208.28 74.93)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "7820b7b6-18d1-4c8d-9119-bf906b975f88")
-	)
-	(wire
-		(pts
 			(xy 238.76 133.35) (xy 224.79 133.35)
 		)
 		(stroke
@@ -3652,6 +3645,26 @@
 			(type default)
 		)
 		(uuid "a4ff6458-3879-4531-8766-d5640c1d31c8")
+	)
+	(wire
+		(pts
+			(xy 167.64 147.32) (xy 163.83 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95160de-413b-4fa0-b5b9-1eb4fd01bc12")
+	)
+	(wire
+		(pts
+			(xy 167.64 151.13) (xy 167.64 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b01d05b8-b486-40d6-b1b4-9726e143e140")
 	)
 	(wire
 		(pts
@@ -3815,7 +3828,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 74.93) (xy 201.93 78.74)
+			(xy 201.93 72.39) (xy 201.93 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3832,16 +3845,6 @@
 			(type default)
 		)
 		(uuid "d4b0cccc-10f4-48f5-b455-5881984c5cde")
-	)
-	(wire
-		(pts
-			(xy 201.93 74.93) (xy 201.93 72.39)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "d5f76e2c-52ed-4630-a0a9-57d3de6674c1")
 	)
 	(wire
 		(pts
@@ -4012,6 +4015,16 @@
 			(justify left bottom)
 		)
 		(uuid "111611e6-b227-4178-9e95-e3b6e064fa8e")
+	)
+	(label "M2_3v3"
+		(at 147.32 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bb181a5-f722-4430-ae26-be79d15bd54f")
 	)
 	(label "+5v"
 		(at 34.29 167.64 0)
@@ -4230,7 +4243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf"
+		(property "Datasheet" "~"
 			(at 201.93 68.58 0)
 			(effects
 				(font
@@ -4239,7 +4252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 201.93 68.58 0)
 			(effects
 				(font
@@ -4338,6 +4351,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 201.93 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81837322-b40e-4659-a1e6-d664620e3e77")
 		)
@@ -4389,7 +4411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -4398,7 +4420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 152.4 172.72 0)
 			(effects
 				(font
@@ -4613,7 +4635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -4622,7 +4644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 46.99 171.45 0)
 			(effects
 				(font
@@ -4737,153 +4759,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 208.28 74.93 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "0d6db532-f0dd-4c0d-bf0a-0aec728b6d4b")
-		(property "Reference" "TP1"
-			(at 209.55 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 207.01 76.835 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Test point"
-			(at 208.28 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. P/N" "nf"
-			(at 208.28 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "nf"
-			(at 208.28 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manf. P/N" ""
-			(at 208.28 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 208.28 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 208.28 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 208.28 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 208.28 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 208.28 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e831905a-7b9e-4294-8828-513615b4d74f")
-		)
-		(instances
-			(project "CM5IO"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005ed4bb5b"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 46.99 176.53 0)
 		(unit 1)
@@ -4943,6 +4818,71 @@
 			(project "CM5IO"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005ed4bb5b"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bab1a94-e572-464e-a87e-eb4d6b3af319")
+		(property "Reference" "#PWR047"
+			(at 167.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 164.084 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75295f6b-ec6f-484e-be73-c4f600c24549")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005ed4bb5b"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5114,7 +5054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDQ0000/ast-ind-151033.pdf"
+		(property "Datasheet" "~"
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -5123,7 +5063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 201.93 82.55 0)
 			(effects
 				(font
@@ -5407,7 +5347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5IO:L_Bourns_SRP5030CC"
+		(property "Footprint" "libreboard:L_Bourns_SRP5030CC"
 			(at 101.6 167.64 0)
 			(effects
 				(font
@@ -5416,7 +5356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP5030CC.pdf"
+		(property "Datasheet" "~"
 			(at 101.6 167.64 0)
 			(effects
 				(font
@@ -5425,7 +5365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor"
 			(at 101.6 167.64 0)
 			(effects
 				(font
@@ -5631,7 +5571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+		(property "Datasheet" "~"
 			(at 119.38 171.45 0)
 			(effects
 				(font
@@ -5640,7 +5580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 119.38 171.45 0)
 			(effects
 				(font
@@ -5781,7 +5721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -5790,7 +5730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -5940,7 +5880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+		(property "Datasheet" "~"
 			(at 88.9 173.99 0)
 			(effects
 				(font
@@ -5949,7 +5889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 88.9 173.99 0)
 			(effects
 				(font
@@ -6099,7 +6039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 119.38 180.34 0)
 			(effects
 				(font
@@ -6108,7 +6048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 119.38 180.34 0)
 			(effects
 				(font
@@ -6404,7 +6344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -6413,7 +6353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 38.1 171.45 0)
 			(effects
 				(font
@@ -6733,7 +6673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -6742,7 +6682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 55.88 171.45 0)
 			(effects
 				(font
@@ -6892,7 +6832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -6901,7 +6841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 132.08 172.72 0)
 			(effects
 				(font
@@ -7075,6 +7015,153 @@
 			(project "CM5IO"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005ed4bb5b"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 163.83 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "77132d71-7425-40ce-b065-ab8e79e8e605")
+		(property "Reference" "TP5"
+			(at 161.4678 144.653 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint GND"
+			(at 168.656 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 163.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 163.83 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Test point"
+			(at 163.83 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "nf"
+			(at 163.83 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "nf"
+			(at 163.83 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" ""
+			(at 163.83 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 163.83 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 163.83 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 163.83 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 163.83 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 163.83 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a4333f1-b7e7-472e-b412-96cb70710a46")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005ed4bb5b"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -7456,7 +7543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+		(property "Datasheet" "~"
 			(at 109.22 171.45 0)
 			(effects
 				(font
@@ -7465,7 +7552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 109.22 171.45 0)
 			(effects
 				(font
@@ -7710,6 +7797,153 @@
 			(project "CM5IO"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005ed4bb5b"
 					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "9e83c509-30be-4afa-b353-c5a8e3eb4176")
+		(property "Reference" "TP3"
+			(at 144.9578 144.653 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint +3.3V"
+			(at 145.034 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 147.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "Test point"
+			(at 147.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "nf"
+			(at 147.32 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "nf"
+			(at 147.32 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" ""
+			(at 147.32 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 147.32 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 147.32 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 147.32 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 147.32 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 147.32 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d07ff0aa-5592-4e07-a18d-2060b5ad69eb")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005ed4bb5b"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -8026,7 +8260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 142.24 172.72 0)
 			(effects
 				(font
@@ -8035,7 +8269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 142.24 172.72 0)
 			(effects
 				(font
@@ -8241,7 +8475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CM5IO:M.2 M Key socket"
+		(property "Footprint" "libreboard:M.2 M Key socket"
 			(at 161.29 53.34 0)
 			(effects
 				(font
@@ -8823,7 +9057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 162.56 172.72 0)
 			(effects
 				(font
@@ -8832,7 +9066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 162.56 172.72 0)
 			(effects
 				(font

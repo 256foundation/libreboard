@@ -11,6 +11,279 @@
 		(comment 1 "www.raspberrypi.com")
 	)
 	(lib_symbols
+		(symbol "BAT-HLD-007-SMT-TR:BAT-HLD-007-SMT-TR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at -5.08 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "BAT-HLD-007-SMT-TR"
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "BAT-HLD-007-SMT-TR:BAT_BAT-HLD-007-SMT-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-007-SMT-TR/Linx/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/BAT-HLD-007-SMT-TR/Linx/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Linx Technologies Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "BAT-HLD-007-SMT-TR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12171525&manufacturer=Linx Technologies Inc.&part_name=BAT-HLD-007-SMT-TR&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Battery Holder Coin 20 SMT Nickel T&R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "BAT-HLD-007-SMT-TR_0_0"
+				(polyline
+					(pts
+						(xy -3.81 1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.54) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "CM5IO:74LVC1G07_copy"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9520,6 +9793,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -9747,180 +10029,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "LED_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_1_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10628,12 +10736,6 @@
 		(uuid "91686bb5-7a82-42fb-9000-db29e45a41fa")
 	)
 	(junction
-		(at 172.72 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96fdea46-808b-478f-b07f-9feb6cc1653b")
-	)
-	(junction
 		(at 38.1 36.83)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -10688,12 +10790,6 @@
 		(uuid "b8834576-b2f1-484c-934f-325a1fb1b67b")
 	)
 	(junction
-		(at 116.84 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be9300d1-d498-451a-8aba-c36b19bc90bd")
-	)
-	(junction
 		(at 151.13 72.39)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -10746,10 +10842,6 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "fc4733a3-c200-4f8e-9f63-f3b7c6201473")
-	)
-	(no_connect
-		(at 39.37 115.57)
-		(uuid "0b8fd4e2-331d-4f87-8623-676b8df7dbfa")
 	)
 	(no_connect
 		(at 39.37 107.95)
@@ -11047,7 +11139,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 36.83) (xy 116.84 34.29)
+			(xy 116.84 31.75) (xy 116.84 36.83)
 		)
 		(stroke
 			(width 0)
@@ -11387,16 +11479,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 124.46) (xy 172.72 124.46)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "345d0db5-afa8-4790-839b-293d8c7171b3")
-	)
-	(wire
-		(pts
 			(xy 165.1 137.16) (xy 165.1 132.08)
 		)
 		(stroke
@@ -11414,6 +11496,16 @@
 			(type solid)
 		)
 		(uuid "37081654-8f99-4a40-95a5-cb89ab90304e")
+	)
+	(wire
+		(pts
+			(xy 187.96 175.26) (xy 194.31 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385113a8-d1e6-4b52-91e4-c2b44a46a0e4")
 	)
 	(wire
 		(pts
@@ -12047,16 +12139,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 34.29) (xy 116.84 31.75)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "7087eb60-8768-46f6-a30a-c818144536a3")
-	)
-	(wire
-		(pts
 			(xy 125.73 113.03) (xy 138.43 113.03)
 		)
 		(stroke
@@ -12487,7 +12569,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 123.19) (xy 172.72 124.46)
+			(xy 172.72 123.19) (xy 172.72 125.73)
 		)
 		(stroke
 			(width 0)
@@ -12734,6 +12816,16 @@
 			(type solid)
 		)
 		(uuid "a523695c-35b4-4859-b781-154824ab5ca9")
+	)
+	(wire
+		(pts
+			(xy 209.55 176.53) (xy 209.55 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d61851-109a-4900-82ff-96a0c26fd187")
 	)
 	(wire
 		(pts
@@ -13227,6 +13319,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 115.57) (xy 39.37 115.57)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "cb777a29-ca12-45a1-90c6-ac33fb61bc34")
+	)
+	(wire
+		(pts
 			(xy 38.1 29.21) (xy 38.1 36.83)
 		)
 		(stroke
@@ -13707,16 +13809,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 124.46) (xy 172.72 125.73)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "f28736d6-1125-4cc0-b54b-7d5c5c3e60ea")
-	)
-	(wire
-		(pts
 			(xy 210.82 118.11) (xy 218.44 118.11)
 		)
 		(stroke
@@ -13794,16 +13886,6 @@
 			(type solid)
 		)
 		(uuid "f6bd7aba-1f99-4f1e-b21f-516a44b7739d")
-	)
-	(wire
-		(pts
-			(xy 116.84 34.29) (xy 123.19 34.29)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "f6d80c07-f1bb-4215-a565-9714fdcb6ed6")
 	)
 	(wire
 		(pts
@@ -14605,7 +14687,7 @@
 		)
 		(uuid "64ab901b-ea46-43a5-9f7f-64cceeb0129b")
 	)
-	(label "ID_SC"
+	(label "GPIO3"
 		(at 134.62 153.67 180)
 		(effects
 			(font
@@ -14635,7 +14717,7 @@
 		)
 		(uuid "6dd24007-4e31-4437-a050-fa6e699c9468")
 	)
-	(label "ID_SD"
+	(label "GPIO2"
 		(at 129.54 151.13 0)
 		(effects
 			(font
@@ -14944,6 +15026,16 @@
 			(justify right bottom)
 		)
 		(uuid "a5b2a88f-fa1e-47a1-b1fe-06f37e21ca1b")
+	)
+	(label "VBAT"
+		(at 30.48 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5e91d60-0e32-46a5-aef3-36c2e734bbac")
 	)
 	(label "+3.3v"
 		(at 148.59 91.44 180)
@@ -15454,6 +15546,16 @@
 			(justify right bottom)
 		)
 		(uuid "fa446760-8dc3-4bcf-a101-423c8f96b1a6")
+	)
+	(label "VBAT"
+		(at 187.96 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc7f0522-95b3-49b3-9184-013d12f02bcd")
 	)
 	(label "TRD2_P"
 		(at 227.33 33.02 180)
@@ -16044,7 +16146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5IO:Raspberry-Pi-5-Compute-Module"
+		(property "Footprint" "libreboard:Raspberry-Pi-5-Compute-Module"
 			(at 214.63 104.14 0)
 			(effects
 				(font
@@ -16797,7 +16899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 228.6 41.91 0)
 			(effects
 				(font
@@ -16806,7 +16908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 228.6 41.91 0)
 			(effects
 				(font
@@ -17019,7 +17121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/10897400?display=pdf"
+		(property "Datasheet" "~"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -17028,7 +17130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 157.48 46.99 0)
 			(effects
 				(font
@@ -17292,7 +17394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 210.82 121.92 0)
 			(effects
 				(font
@@ -17301,7 +17403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 210.82 121.92 0)
 			(effects
 				(font
@@ -17579,7 +17681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 232.41 74.93 0)
 			(effects
 				(font
@@ -17588,7 +17690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 232.41 74.93 0)
 			(effects
 				(font
@@ -17736,7 +17838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 232.41 80.01 0)
 			(effects
 				(font
@@ -17745,7 +17847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 232.41 80.01 0)
 			(effects
 				(font
@@ -18025,7 +18127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-226/LTST-S270KGKT.pdf"
+		(property "Datasheet" "~"
 			(at 116.84 27.94 0)
 			(effects
 				(font
@@ -18034,7 +18136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 116.84 27.94 0)
 			(effects
 				(font
@@ -18133,6 +18235,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 116.84 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd1b2abd-acdb-456a-b12a-78be5659d6b2")
 		)
@@ -18184,7 +18295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDQ0000/ast-ind-151033.pdf"
+		(property "Datasheet" "~"
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -18193,7 +18304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -18373,7 +18484,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_1")
 		(lib_id "Device:LED")
 		(at 172.72 119.38 90)
 		(unit 1)
@@ -18409,7 +18519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-210/LTST-S270KRKT.pdf"
+		(property "Datasheet" "~"
 			(at 172.72 119.38 0)
 			(effects
 				(font
@@ -18418,7 +18528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 172.72 119.38 0)
 			(effects
 				(font
@@ -18517,6 +18627,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c352ce5-8dcd-4676-8f85-0d97597fd098")
 		)
@@ -18568,7 +18687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDQ0000/ast-ind-151033.pdf"
+		(property "Datasheet" "~"
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -18577,7 +18696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 172.72 129.54 0)
 			(effects
 				(font
@@ -18873,153 +18992,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 167.64 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-00005e5bd558")
-		(property "Reference" "TP5"
-			(at 165.2778 121.793 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 170.3578 126.873 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 167.64 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Test point"
-			(at 167.64 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. P/N" "nf"
-			(at 167.64 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "nf"
-			(at 167.64 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manf. P/N" ""
-			(at 167.64 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 167.64 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 167.64 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 167.64 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 167.64 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 167.64 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32ad7fbe-e026-4d57-9f6b-f4af30c894d9")
-		)
-		(instances
-			(project "CM5IO"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 156.21 91.44 90)
 		(unit 1)
@@ -19055,7 +19027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ6GEY0R00V"
+		(property "Datasheet" "~"
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -19064,7 +19036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -19214,7 +19186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/mcr-e.pdf"
+		(property "Datasheet" "~"
 			(at 156.21 95.25 0)
 			(effects
 				(font
@@ -19223,7 +19195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 156.21 95.25 0)
 			(effects
 				(font
@@ -19344,7 +19316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5IO:SDCARD_MOLEX_503398-1892"
+		(property "Footprint" "libreboard:SDCARD_MOLEX_503398-1892"
 			(at 307.34 107.95 0)
 			(effects
 				(font
@@ -19353,7 +19325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1"
+		(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=&productname=&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en"
 			(at 255.27 123.19 0)
 			(effects
 				(font
@@ -19362,7 +19334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Micro SD Card Socket with two card detection pins"
 			(at 255.27 125.73 0)
 			(effects
 				(font
@@ -19667,7 +19639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/10897140?display=pdf"
+		(property "Datasheet" "~"
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -19676,7 +19648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 36.83 177.8 0)
 			(effects
 				(font
@@ -19851,7 +19823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/403/4030/022032031_sd.pdf?inline"
+		(property "Datasheet" "~"
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -19860,7 +19832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 123.19 133.35 0)
 			(effects
 				(font
@@ -20371,7 +20343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 121.92 187.96 0)
 			(effects
 				(font
@@ -20380,7 +20352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 121.92 187.96 0)
 			(effects
 				(font
@@ -20389,7 +20361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 121.92 193.04 0)
 			(effects
 				(font
@@ -20492,6 +20464,214 @@
 		)
 	)
 	(symbol
+		(lib_id "BAT-HLD-007-SMT-TR:BAT-HLD-007-SMT-TR")
+		(at 201.93 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11b63360-04fd-4616-9fc5-ed1550e3c4f5")
+		(property "Reference" "BT1"
+			(at 204.9272 172.8216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 209.296 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "libreboard:BAT_BAT-HLD-007-SMT-TR"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" "3034"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field7" "Keystone"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "	Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-007-SMT-TR/Linx/view-part/?ref=snap"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BAT-HLD-007-SMT-TR/Linx/view-part/?ref=eda"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Linx Technologies Inc."
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BAT-HLD-007-SMT-TR"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12171525&manufacturer=Linx Technologies Inc.&part_name=BAT-HLD-007-SMT-TR&search_term=None"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Battery Holder Coin 20 SMT Nickel T&R"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P_2"
+			(uuid "afb3c71c-5c1b-4a5e-a94b-014fff5120e7")
+		)
+		(pin "N"
+			(uuid "2febe397-9bc0-4cc1-9ead-cc00ed992d01")
+		)
+		(pin "P_1"
+			(uuid "280b46af-fe34-4dbb-8e65-70072836612d")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CM5IO:MagJack-A70-112-331N126")
 		(at 267.97 92.71 0)
 		(unit 1)
@@ -20518,7 +20698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CM5IO:TRJG0926HENL"
+		(property "Footprint" "libreboard:TRJG0926HENL"
 			(at 267.97 92.71 0)
 			(effects
 				(font
@@ -21000,7 +21180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 142.24 204.47 0)
 			(effects
 				(font
@@ -21009,7 +21189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 142.24 209.55 0)
 			(effects
 				(font
@@ -21112,6 +21292,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 209.55 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4abfab5c-3120-4642-b85d-92f2bcd5089e")
+		(property "Reference" "#PWR031"
+			(at 209.55 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.677 180.9242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f252a246-a0cb-4ca1-a72e-0e6c627963e8")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 142.24 148.59 0)
 		(unit 1)
@@ -21147,7 +21392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Datasheet" "~"
 			(at 142.24 148.59 0)
 			(effects
 				(font
@@ -21156,7 +21401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 142.24 148.59 0)
 			(effects
 				(font
@@ -21303,7 +21548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 163.83 187.96 0)
 			(effects
 				(font
@@ -21312,7 +21557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 163.83 193.04 0)
 			(effects
 				(font
@@ -21440,7 +21685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5IO:LED-SMD_4P-L4.0-W1.6-L"
+		(property "Footprint" "libreboard:LED-SMD_4P-L4.0-W1.6-L"
 			(at 195.326 164.592 0)
 			(effects
 				(font
@@ -21614,7 +21859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 163.83 204.47 0)
 			(effects
 				(font
@@ -21623,7 +21868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 163.83 209.55 0)
 			(effects
 				(font
@@ -21826,7 +22071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+		(property "Datasheet" "~"
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -21835,7 +22080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 152.4 170.18 0)
 			(effects
 				(font
@@ -21982,7 +22227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1471/pts645.pdf"
+		(property "Datasheet" "~"
 			(at 82.55 180.34 0)
 			(effects
 				(font
@@ -22132,7 +22377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 102.87 166.37 0)
 			(effects
 				(font
@@ -22141,7 +22386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 102.87 171.45 0)
 			(effects
 				(font
@@ -22344,7 +22589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 101.6 204.47 0)
 			(effects
 				(font
@@ -22353,7 +22598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 101.6 209.55 0)
 			(effects
 				(font
@@ -22491,7 +22736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1471/pts645.pdf"
+		(property "Datasheet" "~"
 			(at 81.28 158.75 0)
 			(effects
 				(font
@@ -22607,153 +22852,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 123.19 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "a747e8fd-28f4-402b-969b-2c8e62ca6408")
-		(property "Reference" "TP3"
-			(at 124.46 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 121.92 36.195 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 123.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Test point"
-			(at 123.19 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. P/N" "nf"
-			(at 123.19 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "nf"
-			(at 123.19 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manf. P/N" ""
-			(at 123.19 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 123.19 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 123.19 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 123.19 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 123.19 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 123.19 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "974678fc-a03f-4be4-9b67-a5d08857a8c2")
-		)
-		(instances
-			(project "CM5IO"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 142.24 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22788,7 +22886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 142.24 187.96 0)
 			(effects
 				(font
@@ -22797,7 +22895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 142.24 193.04 0)
 			(effects
 				(font
@@ -22991,7 +23089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 101.6 187.96 0)
 			(effects
 				(font
@@ -23000,7 +23098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 101.6 187.96 0)
 			(effects
 				(font
@@ -23009,7 +23107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 101.6 193.04 0)
 			(effects
 				(font
@@ -23277,7 +23375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 121.92 204.47 0)
 			(effects
 				(font
@@ -23286,7 +23384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 121.92 209.55 0)
 			(effects
 				(font
@@ -23395,7 +23493,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e89b7729-6b50-47dc-bcb2-f834529d04f7")
 		(property "Reference" "J19"
@@ -23425,7 +23523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/403/4030/022032031_sd.pdf?inline"
+		(property "Datasheet" "~"
 			(at 143.51 113.03 0)
 			(effects
 				(font
@@ -23643,7 +23741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 119.38 166.37 0)
 			(effects
 				(font
@@ -23652,7 +23750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 119.38 171.45 0)
 			(effects
 				(font

@@ -16230,7 +16230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CM5IO:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal"
+		(property "Footprint" "libreboard:Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal"
 			(at 156.21 50.8 0)
 			(effects
 				(font
@@ -16239,7 +16239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.hirose.com/product/document?clcode=&productname=&series=FH12&documenttype=Catalog&lang=en&documentid=D31648_en"
+		(property "Datasheet" "~"
 			(at 156.21 50.8 0)
 			(effects
 				(font
@@ -16248,7 +16248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x22, script generated"
 			(at 156.21 50.8 0)
 			(effects
 				(font
@@ -16440,7 +16440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CM5IO:EDAC 690-019-298-412"
+		(property "Footprint" "libreboard:EDAC 690-019-298-412"
 			(at 264.795 50.8 0)
 			(effects
 				(font
@@ -16671,7 +16671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 162.56 261.62 0)
 			(effects
 				(font
@@ -16680,7 +16680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 162.56 261.62 0)
 			(effects
 				(font
@@ -16830,7 +16830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 129.54 261.62 0)
 			(effects
 				(font
@@ -16839,7 +16839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 129.54 261.62 0)
 			(effects
 				(font
@@ -17333,7 +17333,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM5IO:Raspberry-Pi-5-Compute-Module"
+		(property "Footprint" "libreboard:Raspberry-Pi-5-Compute-Module"
 			(at 71.12 113.03 0)
 			(effects
 				(font
@@ -18151,7 +18151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 335.28 102.87 0)
 			(effects
 				(font
@@ -18160,7 +18160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 335.28 102.87 0)
 			(effects
 				(font
@@ -18310,7 +18310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 143.51 149.86 0)
 			(effects
 				(font
@@ -18319,7 +18319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 143.51 149.86 0)
 			(effects
 				(font
@@ -18470,7 +18470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 207.01 148.59 0)
 			(effects
 				(font
@@ -18620,7 +18620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 314.96 102.87 0)
 			(effects
 				(font
@@ -18629,7 +18629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 314.96 102.87 0)
 			(effects
 				(font
@@ -18845,7 +18845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+		(property "Datasheet" "~"
 			(at 139.7 123.19 0)
 			(effects
 				(font
@@ -18985,7 +18985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libreboard:216989-0001_MOL"
+		(property "Footprint" "216989-0001_MOL"
 			(at 336.55 119.38 0)
 			(effects
 				(font
@@ -18995,7 +18995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2169890001"
+		(property "Datasheet" "2169890001"
 			(at 336.55 119.38 0)
 			(effects
 				(font
@@ -19182,7 +19182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 273.05 102.87 0)
 			(effects
 				(font
@@ -19191,7 +19191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 273.05 102.87 0)
 			(effects
 				(font
@@ -19339,7 +19339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 389.89 199.39 0)
 			(effects
 				(font
@@ -19487,7 +19487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 48.26 212.09 0)
 			(effects
 				(font
@@ -19637,7 +19637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 325.12 102.87 0)
 			(effects
 				(font
@@ -19646,7 +19646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 325.12 102.87 0)
 			(effects
 				(font
@@ -19989,7 +19989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 323.85 227.33 0)
 			(effects
 				(font
@@ -20202,7 +20202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 322.58 158.75 0)
 			(effects
 				(font
@@ -20350,7 +20350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 389.89 166.37 0)
 			(effects
 				(font
@@ -20499,7 +20499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.laird.com/sites/default/files/li0402c221r-10-datasheet.pdf"
+		(property "Datasheet" "~"
 			(at 160.02 99.06 0)
 			(effects
 				(font
@@ -20649,7 +20649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 100.33 181.61 0)
 			(effects
 				(font
@@ -20658,7 +20658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 100.33 181.61 0)
 			(effects
 				(font
@@ -20873,7 +20873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 304.8 102.87 0)
 			(effects
 				(font
@@ -20882,7 +20882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 304.8 102.87 0)
 			(effects
 				(font
@@ -21030,7 +21030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 322.58 191.77 0)
 			(effects
 				(font
@@ -21180,7 +21180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 149.86 213.36 0)
 			(effects
 				(font
@@ -21189,7 +21189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 149.86 213.36 0)
 			(effects
 				(font
@@ -21337,7 +21337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 389.89 234.95 0)
 			(effects
 				(font
@@ -21552,7 +21552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 168.91 102.87 0)
 			(effects
 				(font
@@ -21561,7 +21561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 168.91 102.87 0)
 			(effects
 				(font
@@ -21711,7 +21711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 160.02 213.36 0)
 			(effects
 				(font
@@ -21720,7 +21720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 160.02 213.36 0)
 			(effects
 				(font
@@ -21935,7 +21935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 128.27 209.55 0)
 			(effects
 				(font
@@ -21944,7 +21944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 128.27 209.55 0)
 			(effects
 				(font
@@ -22093,7 +22093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/ps/PS-105448-001.pdf"
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 33.02 232.41 0)
 			(effects
 				(font
@@ -22312,7 +22312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 210.82 102.87 0)
 			(effects
 				(font
@@ -22321,7 +22321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 210.82 102.87 0)
 			(effects
 				(font
@@ -22601,7 +22601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_T2091_A700-A720"
+		(property "Datasheet" "~"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -22610,7 +22610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -22751,7 +22751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 139.7 132.08 0)
 			(effects
 				(font
@@ -22760,7 +22760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 139.7 132.08 0)
 			(effects
 				(font
@@ -22975,7 +22975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 78.74 177.8 0)
 			(effects
 				(font
@@ -22984,7 +22984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 78.74 177.8 0)
 			(effects
 				(font
@@ -23133,7 +23133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.laird.com/sites/default/files/li0402c221r-10-datasheet.pdf"
+		(property "Datasheet" "~"
 			(at 354.33 99.06 0)
 			(effects
 				(font
@@ -23573,7 +23573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 179.07 102.87 0)
 			(effects
 				(font
@@ -23582,7 +23582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 179.07 102.87 0)
 			(effects
 				(font
@@ -23956,7 +23956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_T2091_A700-A720"
+		(property "Datasheet" "~"
 			(at 137.16 213.36 0)
 			(effects
 				(font
@@ -23965,7 +23965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 137.16 213.36 0)
 			(effects
 				(font
@@ -24106,7 +24106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 78.74 212.09 0)
 			(effects
 				(font
@@ -24115,7 +24115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 78.74 212.09 0)
 			(effects
 				(font
@@ -24460,7 +24460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 62.23 252.73 0)
 			(effects
 				(font
@@ -24610,7 +24610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 394.97 92.71 0)
 			(effects
 				(font
@@ -24619,7 +24619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 394.97 92.71 0)
 			(effects
 				(font
@@ -24767,7 +24767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
 			(at 156.845 156.845 0)
 			(effects
 				(font
@@ -25053,7 +25053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 110.49 181.61 0)
 			(effects
 				(font
@@ -25062,7 +25062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 110.49 181.61 0)
 			(effects
 				(font
@@ -25471,7 +25471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+		(property "Datasheet" "~"
 			(at 205.74 191.77 0)
 			(effects
 				(font
@@ -25623,7 +25623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tusb4041i.pdf"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tusb4041i.pdf"
 			(at 241.3 153.67 0)
 			(effects
 				(font
@@ -26025,7 +26025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 391.16 132.08 0)
 			(effects
 				(font
@@ -26400,7 +26400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 367.03 92.71 0)
 			(effects
 				(font
@@ -26409,7 +26409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 367.03 92.71 0)
 			(effects
 				(font
@@ -26559,7 +26559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 293.37 102.87 0)
 			(effects
 				(font
@@ -26568,7 +26568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 293.37 102.87 0)
 			(effects
 				(font
@@ -26708,7 +26708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libreboard:216989-0001_MOL"
+		(property "Footprint" "216989-0001_MOL"
 			(at 335.28 153.67 0)
 			(effects
 				(font
@@ -26718,7 +26718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2169890001"
+		(property "Datasheet" "2169890001"
 			(at 335.28 153.67 0)
 			(effects
 				(font
@@ -27163,7 +27163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 48.26 214.63 0)
 			(effects
 				(font
@@ -27311,7 +27311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 322.58 124.46 0)
 			(effects
 				(font
@@ -27591,7 +27591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 283.21 102.87 0)
 			(effects
 				(font
@@ -27600,7 +27600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 283.21 102.87 0)
 			(effects
 				(font
@@ -27740,7 +27740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libreboard:216989-0001_MOL"
+		(property "Footprint" "216989-0001_MOL"
 			(at 335.28 186.69 0)
 			(effects
 				(font
@@ -27750,7 +27750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2169890001"
+		(property "Datasheet" "2169890001"
 			(at 335.28 186.69 0)
 			(effects
 				(font
@@ -28003,7 +28003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 49.53 252.73 0)
 			(effects
 				(font
@@ -28153,7 +28153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 29.21 180.34 0)
 			(effects
 				(font
@@ -28162,7 +28162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 29.21 180.34 0)
 			(effects
 				(font
@@ -28312,7 +28312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 189.23 102.87 0)
 			(effects
 				(font
@@ -28321,7 +28321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 189.23 102.87 0)
 			(effects
 				(font
@@ -28471,7 +28471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 262.89 102.87 0)
 			(effects
 				(font
@@ -28480,7 +28480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 262.89 102.87 0)
 			(effects
 				(font
@@ -28620,7 +28620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libreboard:216989-0001_MOL"
+		(property "Footprint" "216989-0001_MOL"
 			(at 335.28 222.25 0)
 			(effects
 				(font
@@ -28630,7 +28630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2169890001"
+		(property "Datasheet" "2169890001"
 			(at 335.28 222.25 0)
 			(effects
 				(font
@@ -28817,7 +28817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 199.39 102.87 0)
 			(effects
 				(font
@@ -28826,7 +28826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 199.39 102.87 0)
 			(effects
 				(font

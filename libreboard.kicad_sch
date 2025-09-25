@@ -1237,122 +1237,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Conn_01x01_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2158,9 +2042,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x01"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2876,130 +2757,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -3511,12 +3268,92 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 5.08 0)
@@ -3589,516 +3426,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PTPS55289RYQR_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "PTPS55289RYQR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "RYQ0021A-MFG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "PTPS55289RYQR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "PTPS55289RYQR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "RYQ0021A-MFG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PTPS55289RYQR_1_0_1"
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 -53.34)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -53.34) (xy 38.1 -53.34)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 5.08) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 -53.34) (xy 38.1 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "EXTVCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -17.78 0)
-					(length 5.08)
-					(name "EN_UVLO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -22.86 0)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -27.94 0)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -33.02 0)
-					(length 5.08)
-					(name "MODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -40.64 0)
-					(length 5.08)
-					(name "DITH_SYNC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -45.72 0)
-					(length 5.08)
-					(name "FSW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -50.8 0)
-					(length 5.08)
-					(name "CDC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 0 180)
-					(length 5.08)
-					(name "BOOT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 -5.08 180)
-					(length 5.08)
-					(name "SW1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 -10.16 180)
-					(length 5.08)
-					(name "SW2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 -15.24 180)
-					(length 5.08)
-					(name "BOOT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 -22.86 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 -27.94 180)
-					(length 5.08)
-					(name "ISP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 -30.48 180)
-					(length 5.08)
-					(name "ISN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 -35.56 180)
-					(length 5.08)
-					(name "FB_INT_N"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 -40.64 180)
-					(length 5.08)
-					(name "COMP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 43.18 -48.26 180)
-					(length 5.08)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PTPS55289RYQR_1_1_1"
-				(pin unspecified line
-					(at 43.18 -50.8 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -5124,15 +4451,25 @@
 		)
 		(uuid "4d609e7c-74c9-4ae9-a26d-946ff00c167d")
 	)
-	(text "Discharge Resistor\nNeeded by some\nType C PSUs"
+	(text "Check what to do with CC pins"
 		(exclude_from_sim no)
-		(at 99.314 48.514 0)
+		(at 85.598 48.514 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "710a1632-709e-4159-b2c0-e34b4ead79a5")
+		(uuid "7e1cf081-d120-413d-b293-dab08c78e53b")
+	)
+	(text "Check for under voltage dropout at 8 Volts"
+		(exclude_from_sim no)
+		(at 147.828 188.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "82a036cc-ee84-4a5c-97c9-a4644318084b")
 	)
 	(text "TypeC Power connector"
 		(exclude_from_sim no)
@@ -5155,6 +4492,16 @@
 			(justify left bottom)
 		)
 		(uuid "a501555e-bbc7-4b58-ad89-28a0cd3dd6d0")
+	)
+	(text "Check for under voltage dropout at 8 Volts"
+		(exclude_from_sim no)
+		(at 148.59 300.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9b6aa47-5068-40ec-89bf-01932a9eec5f")
 	)
 	(text "https://webench.ti.com/appinfo/webench/scripts/SDP.cgi?ID=1FB30C76529277AD"
 		(exclude_from_sim no)
@@ -5729,6 +5076,10 @@
 		(uuid "8cb9b9a1-3b61-48bb-b0ad-b451b3c8375f")
 	)
 	(no_connect
+		(at 62.23 44.45)
+		(uuid "c20449ba-90aa-4532-a5da-a1fbded9656b")
+	)
+	(no_connect
 		(at 62.23 74.93)
 		(uuid "c919a6fc-ea93-4c0f-a4d2-e46e6b4eb69c")
 	)
@@ -6259,6 +5610,16 @@
 			(type default)
 		)
 		(uuid "284542e5-a0cf-4fb7-8604-8a9bc5b4a7ef")
+	)
+	(wire
+		(pts
+			(xy 24.13 90.17) (xy 24.13 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293fb916-69d4-43ed-8925-b424178080af")
 	)
 	(wire
 		(pts
@@ -7599,16 +6960,6 @@
 			(type default)
 		)
 		(uuid "87bb36ba-29f1-42a3-bbe2-2a8ab9166154")
-	)
-	(wire
-		(pts
-			(xy 62.23 44.45) (xy 87.63 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88848e1a-94f9-4abe-8312-936be7b01e84")
 	)
 	(wire
 		(pts
@@ -9370,16 +8721,6 @@
 		)
 		(uuid "cfd30f19-1f1d-4301-a62d-4f3fb33dd092")
 	)
-	(label "+5v"
-		(at 64.77 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4106691-9af4-4d1a-b5eb-d17aeb47a3f6")
-	)
 	(label "ID_SD"
 		(at 171.45 334.01 0)
 		(effects
@@ -9435,7 +8776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 18.415 193.04 0)
 			(effects
 				(font
@@ -9579,7 +8920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 18.415 187.96 0)
 			(effects
 				(font
@@ -9723,7 +9064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 18.415 182.88 0)
 			(effects
 				(font
@@ -9867,7 +9208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 18.415 177.8 0)
 			(effects
 				(font
@@ -10011,7 +9352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 39.37 177.8 0)
 			(effects
 				(font
@@ -10155,7 +9496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 39.37 193.04 0)
 			(effects
 				(font
@@ -10299,7 +9640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 39.37 187.96 0)
 			(effects
 				(font
@@ -10443,7 +9784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 39.37 182.88 0)
 			(effects
 				(font
@@ -10579,7 +9920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 114.3 308.61 0)
 			(effects
 				(font
@@ -10588,7 +9929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 50V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 114.3 308.61 0)
 			(effects
 				(font
@@ -10730,7 +10071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGQ-Series.pdf"
+		(property "Datasheet" "~"
 			(at 243.84 351.79 0)
 			(effects
 				(font
@@ -10739,7 +10080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 25V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 243.84 351.79 0)
 			(effects
 				(font
@@ -10881,7 +10222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 125.73 196.85 0)
 			(effects
 				(font
@@ -10890,7 +10231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 50V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 125.73 196.85 0)
 			(effects
 				(font
@@ -11202,71 +10543,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f587d05-4aa1-46ea-a0c4-07798c4d83f9")
-		(property "Reference" "#PWR031"
-			(at 87.63 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.757 56.4642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7f90bb2-0431-4d78-adca-17ef654f711b")
-		)
-		(instances
-			(project "libreboard"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 321.31 204.47 90)
 		(unit 1)
@@ -11302,7 +10578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 321.31 199.39 0)
 			(effects
 				(font
@@ -11311,7 +10587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 321.31 204.47 0)
 			(effects
 				(font
@@ -11449,7 +10725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 309.88 199.39 0)
 			(effects
 				(font
@@ -11458,7 +10734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 309.88 204.47 0)
 			(effects
 				(font
@@ -11597,7 +10873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C193.pdf"
+		(property "Datasheet" "~"
 			(at 307.34 344.17 0)
 			(effects
 				(font
@@ -11606,7 +10882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM POLY"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 307.34 344.17 0)
 			(effects
 				(font
@@ -11748,7 +11024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C211.pdf"
+		(property "Datasheet" "~"
 			(at 303.53 232.41 0)
 			(effects
 				(font
@@ -11757,7 +11033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP ALUM POLY 56UF 20% 20V SMD, P122099CT-ND"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 303.53 232.41 0)
 			(effects
 				(font
@@ -12059,7 +11335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kyocera-avx/12065C475KAT2A/2676431"
+		(property "Datasheet" "~"
 			(at 116.84 227.33 0)
 			(effects
 				(font
@@ -12068,7 +11344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 16V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 116.84 227.33 0)
 			(effects
 				(font
@@ -12209,7 +11485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 309.88 308.61 0)
 			(effects
 				(font
@@ -12218,7 +11494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 309.88 313.69 0)
 			(effects
 				(font
@@ -12357,7 +11633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 138.43 257.81 0)
 			(effects
 				(font
@@ -12508,7 +11784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012005011.pdf"
+		(property "Datasheet" "~"
 			(at 270.51 344.17 0)
 			(effects
 				(font
@@ -12517,7 +11793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 25V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 270.51 344.17 0)
 			(effects
 				(font
@@ -12659,7 +11935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
+		(property "Datasheet" "~"
 			(at 229.87 351.79 0)
 			(effects
 				(font
@@ -12668,7 +11944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 50V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 229.87 351.79 0)
 			(effects
 				(font
@@ -12809,7 +12085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 27.94 135.89 0)
 			(effects
 				(font
@@ -13183,7 +12459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -13192,7 +12468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 83.82 76.2 0)
 			(effects
 				(font
@@ -13407,7 +12683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRN8040.pdf"
+		(property "Datasheet" "~"
 			(at 248.92 295.91 0)
 			(effects
 				(font
@@ -13416,7 +12692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SRN8040-4R7Y"
+		(property "Description" "Inductor"
 			(at 248.92 295.91 0)
 			(effects
 				(font
@@ -13558,7 +12834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+		(property "Datasheet" "~"
 			(at 278.13 232.41 0)
 			(effects
 				(font
@@ -13567,7 +12843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 25V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 278.13 232.41 0)
 			(effects
 				(font
@@ -13706,7 +12982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+		(property "Datasheet" "~"
 			(at 68.58 114.3 0)
 			(effects
 				(font
@@ -13921,7 +13197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 326.39 308.61 0)
 			(effects
 				(font
@@ -13930,7 +13206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 326.39 313.69 0)
 			(effects
 				(font
@@ -14132,7 +13408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+		(property "Datasheet" "~"
 			(at 68.58 116.84 0)
 			(effects
 				(font
@@ -14283,7 +13559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+		(property "Datasheet" "~"
 			(at 288.29 232.41 0)
 			(effects
 				(font
@@ -14292,7 +13568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 25V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 288.29 232.41 0)
 			(effects
 				(font
@@ -14434,7 +13710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012005011.pdf"
+		(property "Datasheet" "~"
 			(at 281.94 344.17 0)
 			(effects
 				(font
@@ -14443,7 +13719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 25V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 281.94 344.17 0)
 			(effects
 				(font
@@ -14585,7 +13861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/KGM_X7R.pdf"
+		(property "Datasheet" "~"
 			(at 226.06 240.03 0)
 			(effects
 				(font
@@ -14594,7 +13870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 50V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 226.06 240.03 0)
 			(effects
 				(font
@@ -14700,6 +13976,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 38.1 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "732b09d0-61eb-46f9-b5b9-1b9e68282473")
+		(property "Reference" "FID2"
+			(at 40.64 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 40.64 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 38.1 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 38.1 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 144.78 201.93 0)
 		(unit 1)
@@ -14736,7 +14076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+		(property "Datasheet" "~"
 			(at 144.78 201.93 0)
 			(effects
 				(font
@@ -14884,7 +14224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+		(property "Datasheet" "~"
 			(at 68.58 119.38 0)
 			(effects
 				(font
@@ -15158,7 +14498,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_01x01_1")
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 19.05 101.6 180)
 		(unit 1)
@@ -15193,7 +14532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p69.pdf"
+		(property "Datasheet" "~"
 			(at 19.05 101.6 0)
 			(effects
 				(font
@@ -15202,7 +14541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 19.05 101.6 0)
 			(effects
 				(font
@@ -15356,7 +14695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+		(property "Datasheet" "~"
 			(at 50.8 123.19 0)
 			(effects
 				(font
@@ -15573,7 +14912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 129.54 308.61 0)
 			(effects
 				(font
@@ -15582,7 +14921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 50V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 129.54 308.61 0)
 			(effects
 				(font
@@ -15855,7 +15194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 254 232.41 0)
 			(effects
 				(font
@@ -15864,7 +15203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 25V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 254 232.41 0)
 			(effects
 				(font
@@ -16006,7 +15345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_A4088_A768"
+		(property "Datasheet" "~"
 			(at 97.79 308.61 0)
 			(effects
 				(font
@@ -16015,7 +15354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Aluminum - Polymer Capacitors, 35V,"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 97.79 308.61 0)
 			(effects
 				(font
@@ -16146,7 +15485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-GF-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "libreboard:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 50.8 59.69 0)
 			(effects
 				(font
@@ -16155,7 +15494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://gct.co/files/specs/usb4105-spec.pdf"
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 50.8 59.69 0)
 			(effects
 				(font
@@ -16164,7 +15503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 46.99 59.69 0)
 			(effects
 				(font
@@ -16315,6 +15654,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 36.83 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "993cbfd6-c728-4dc6-95af-3ac5da09756e")
+		(property "Reference" "FID4"
+			(at 39.37 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 39.37 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 36.83 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 36.83 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 226.06 254 0)
 		(unit 1)
@@ -16351,7 +15754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 226.06 254 0)
 			(effects
 				(font
@@ -16502,7 +15905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 257.81 344.17 0)
 			(effects
 				(font
@@ -16511,7 +15914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 25V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 257.81 344.17 0)
 			(effects
 				(font
@@ -16650,7 +16053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 36.83 144.78 0)
 			(effects
 				(font
@@ -16799,7 +16202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRN8040.pdf"
+		(property "Datasheet" "~"
 			(at 245.11 184.15 0)
 			(effects
 				(font
@@ -16808,7 +16211,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SRN8040-4R7Y"
+		(property "Description" "Inductor"
 			(at 245.11 184.15 0)
 			(effects
 				(font
@@ -16914,6 +16317,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 20.32 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6fd2e32-994d-4de3-9be4-be601c65f446")
+		(property "Reference" "FID3"
+			(at 22.86 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 22.86 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 20.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 20.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 199.39 384.81 0)
 		(unit 1)
@@ -17012,7 +16479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+		(property "Datasheet" "~"
 			(at 39.37 144.78 0)
 			(effects
 				(font
@@ -17161,7 +16628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p69.pdf"
+		(property "Datasheet" "~"
 			(at 19.05 93.98 0)
 			(effects
 				(font
@@ -17170,7 +16637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 19.05 93.98 0)
 			(effects
 				(font
@@ -17327,7 +16794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "~"
 			(at 142.24 369.57 0)
 			(effects
 				(font
@@ -17609,7 +17076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/kyocera-avx/12065C475KAT2A/2676431"
+		(property "Datasheet" "~"
 			(at 120.65 339.09 0)
 			(effects
 				(font
@@ -17618,7 +17085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 16V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 120.65 339.09 0)
 			(effects
 				(font
@@ -17760,7 +17227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 257.81 189.23 0)
 			(effects
 				(font
@@ -17769,7 +17236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 16V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 257.81 189.23 0)
 			(effects
 				(font
@@ -17911,7 +17378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 228.6 299.72 0)
 			(effects
 				(font
@@ -17920,7 +17387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 16V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 228.6 299.72 0)
 			(effects
 				(font
@@ -18026,165 +17493,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 87.63 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b30c000d-795b-488f-8e69-a058391ab578")
-		(property "Reference" "R9"
-			(at 83.058 46.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2kΩ"
-			(at 77.978 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 85.852 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Description" "Resistor, 2.2kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field8" ""
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dist. P/N" "P2.20KLTR-ND"
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" "Digikey"
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manf. P/N" "ERJ-2RKF2201X"
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 87.63 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31bcfe0a-bb6a-4e1b-98c4-465ef952edcd")
-		)
-		(pin "2"
-			(uuid "b96ce79e-de64-4bb5-8b7f-4429c99aa19f")
-		)
-		(instances
-			(project "libreboard"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 50.8 120.65 90)
 		(unit 1)
@@ -18218,7 +17526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+		(property "Datasheet" "~"
 			(at 50.8 120.65 0)
 			(effects
 				(font
@@ -18333,7 +17641,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PTPS55289RYQR_1")
 		(lib_id "TPS55289:PTPS55289RYQR")
 		(at 177.8 306.07 0)
 		(unit 1)
@@ -18573,7 +17880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+		(property "Datasheet" "~"
 			(at 68.58 121.92 0)
 			(effects
 				(font
@@ -18724,7 +18031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 261.62 300.99 0)
 			(effects
 				(font
@@ -18733,7 +18040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 16V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 261.62 300.99 0)
 			(effects
 				(font
@@ -18905,7 +18212,7 @@
 	)
 	(symbol
 		(lib_id "power:+VDC")
-		(at 24.13 93.98 0)
+		(at 24.13 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18914,7 +18221,7 @@
 		(fields_autoplaced yes)
 		(uuid "beacfa82-5b0d-4f83-b5d9-9ba39980a260")
 		(property "Reference" "#PWR033"
-			(at 24.13 96.52 0)
+			(at 24.13 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18923,7 +18230,7 @@
 			)
 		)
 		(property "Value" "+VDC"
-			(at 24.13 86.36 0)
+			(at 24.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18931,7 +18238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 93.98 0)
+			(at 24.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18940,7 +18247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 93.98 0)
+			(at 24.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18949,7 +18256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VDC\""
-			(at 24.13 93.98 0)
+			(at 24.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19006,7 +18313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/C0GNP0-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 240.03 240.03 0)
 			(effects
 				(font
@@ -19015,7 +18322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 25V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 240.03 240.03 0)
 			(effects
 				(font
@@ -19157,7 +18464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r-KGM.pdf"
+		(property "Datasheet" "~"
 			(at 110.49 196.85 0)
 			(effects
 				(font
@@ -19166,7 +18473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 50V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 110.49 196.85 0)
 			(effects
 				(font
@@ -19308,7 +18615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 144.78 195.58 0)
 			(effects
 				(font
@@ -19459,7 +18766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+		(property "Datasheet" "~"
 			(at 148.59 313.69 0)
 			(effects
 				(font
@@ -19610,7 +18917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 148.59 307.34 0)
 			(effects
 				(font
@@ -19761,7 +19068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 224.79 187.96 0)
 			(effects
 				(font
@@ -19770,7 +19077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 16V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 224.79 187.96 0)
 			(effects
 				(font
@@ -20172,7 +19479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "~"
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -20181,7 +19488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -20585,6 +19892,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 21.59 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ead08906-7408-4b31-a782-506816397655")
+		(property "Reference" "FID1"
+			(at 24.13 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 24.13 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 21.59 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 21.59 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 93.98 196.85 0)
 		(unit 1)
@@ -20621,7 +19992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.kemet.com/download/specsheet/A770KE396M1HLAS042"
+		(property "Datasheet" "~"
 			(at 93.98 196.85 0)
 			(effects
 				(font
@@ -20630,7 +20001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Aluminum - Polymer Capacitors, 50V, 399-A768KE396M1HLAE042CT-ND"
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 93.98 196.85 0)
 			(effects
 				(font
@@ -20772,7 +20143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf"
+		(property "Datasheet" "~"
 			(at 229.87 365.76 0)
 			(effects
 				(font
@@ -20923,7 +20294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885012005011.pdf"
+		(property "Datasheet" "~"
 			(at 292.1 344.17 0)
 			(effects
 				(font
@@ -20932,7 +20303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 25V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 292.1 344.17 0)
 			(effects
 				(font
@@ -21074,7 +20445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+		(property "Datasheet" "~"
 			(at 266.7 232.41 0)
 			(effects
 				(font
@@ -21083,7 +20454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceramic 25V"
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 266.7 232.41 0)
 			(effects
 				(font

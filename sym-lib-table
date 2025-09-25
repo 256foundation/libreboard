@@ -8,4 +8,5 @@
   (lib (name "LMR51450FNDRRR")(type "KiCad")(uri "${KIPRJMOD}/LMR51450FNDRRR.kicad_sym")(options "")(descr ""))
   (lib (name "SBRD10200")(type "KiCad")(uri "${KIPRJMOD}/SBRD10200.kicad_sym")(options "")(descr ""))
   (lib (name "TPS55289")(type "KiCad")(uri "${KIPRJMOD}/TPS55289.kicad_sym")(options "")(descr ""))
+  (lib (name "BAT-HLD-007-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/BAT-HLD-007-SMT-TR.kicad_sym")(options "")(descr ""))
 )

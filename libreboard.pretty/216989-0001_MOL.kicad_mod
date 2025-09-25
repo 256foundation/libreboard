@@ -277,7 +277,7 @@
 		(uuid "87366c42-a9c9-4d82-ae89-0ee2cdd11983")
 	)
 	(pad "18" smd oval
-		(at 1.82 -0.05)
+		(at 1.8087 -0.127328)
 		(size 0.889 1.905)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "282c412c-f230-41f0-b212-0635f51ece9e")
