@@ -4,10 +4,7 @@ Learn more at https://libreboard.org/
 
 ![Libre Logo](assets/libreboard-logo.jpg)
 
-![Libre Board Top Face View](assets/renders/face_top.png)
+![Libre Board Front](assets/renders/libreboard_front.png)
 
-![Libre Board Front Edge View](assets/renders/edge_front.png)
 
-![Libre Board Top Edge View](assets/renders/edge_top.png)
-
-![Libre Board Back Edge View](assets/renders/edge_back.png)
+![Libre Board Back](assets/renders/libreboard_back.jpg)
