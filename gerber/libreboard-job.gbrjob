@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.3"
+      "Version": "9.0.6"
     },
-    "CreationDate": "2025-08-24T22:17:20-04:00"
+    "CreationDate": "2025-10-31T11:06:38-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -29,82 +29,82 @@
       "PadToTrack": 0.1,
       "TrackToTrack": 0.1,
       "MinLineWidth": 0.1,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "TrackToRegion": 0.1,
+      "RegionToRegion": 0.1
     },
     {
       "Layers": "Inner",
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
       "TrackToTrack": 0.1,
-      "MinLineWidth": 0.1,
+      "MinLineWidth": 0.127,
       "TrackToRegion": 0.39,
       "RegionToRegion": 0.39
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "libreboard-Top Layer.gbr",
+      "Path": "libreboard-Top Layer.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "libreboard-GND1.gbr",
+      "Path": "libreboard-GND1.g1",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "libreboard-PWR.g2",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "libreboard-SIG.g3",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "libreboard-GND2.g4",
       "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "libreboard-PWR.gbr",
-      "FileFunction": "Copper,L7,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "libreboard-SIG.gbr",
-      "FileFunction": "Copper,L9,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "libreboard-GND2.gbr",
-      "FileFunction": "Copper,L11,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "libreboard-Bottom Layer.gbr",
+      "Path": "libreboard-Bottom Layer.gbl",
       "FileFunction": "Copper,L6,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "libreboard-Top Paste.gbr",
+      "Path": "libreboard-Top Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "libreboard-Bottom Paste.gbr",
+      "Path": "libreboard-Bottom Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "libreboard-Top Overlay.gbr",
+      "Path": "libreboard-Top Overlay.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "libreboard-Bottom Overlay.gbr",
+      "Path": "libreboard-Bottom Overlay.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "libreboard-Top Solder.gbr",
+      "Path": "libreboard-Top Solder.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "libreboard-Bottom Solder.gbr",
+      "Path": "libreboard-Bottom Solder.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "libreboard-Edge_Cuts.gbr",
+      "Path": "libreboard-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

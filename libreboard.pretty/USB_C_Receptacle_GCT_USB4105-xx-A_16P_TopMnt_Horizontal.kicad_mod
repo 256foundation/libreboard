@@ -9,7 +9,7 @@
 		(at 0 -5.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "95c2ba4d-6f60-4594-9ea9-52fbf5601365")
+		(uuid "a3dfcefe-8967-4700-ad68-eaaf86ef9062")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at 0 5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "36f32ef8-742f-42a9-978b-4071d547df0a")
+		(uuid "9a4f8acd-7871-48f8-a916-dddc502f9dd6")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c1a4ba32-8ff6-4dfa-89e1-4f582d16d9c7")
+		(uuid "06b7072f-9f08-4bed-bc62-d57166c84410")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "45efde1a-fc26-4d48-bdd5-2dacd928e126")
+		(uuid "00bc0e16-0fca-4939-a7b2-480d9617df4e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -194,26 +194,12 @@
 		(roundrect_rratio 0.25)
 		(uuid "595ae39d-d672-4856-b605-8898a89fda23")
 	)
-	(pad "A12" smd roundrect
-		(at 3.2 -3.68)
-		(size 0.6 1.15)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "202e60a7-76af-4458-b990-25ff72340931")
-	)
 	(pad "B1" smd roundrect
 		(at 3.2 -3.68)
 		(size 0.6 1.15)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "9186e189-4f60-4225-9538-5b0db14606e6")
-	)
-	(pad "B4" smd roundrect
-		(at 2.4 -3.68)
-		(size 0.6 1.15)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "4437d973-f023-4f9a-a794-b78890c89902")
 	)
 	(pad "B5" smd roundrect
 		(at 1.75 -3.68)
@@ -242,20 +228,6 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "dca3f9c4-82e9-4e2c-9698-351f58bc8155")
-	)
-	(pad "B9" smd roundrect
-		(at -2.4 -3.68)
-		(size 0.6 1.15)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "58847fd6-e878-4927-89e4-f29cb253b2b3")
-	)
-	(pad "B12" smd roundrect
-		(at -3.2 -3.68)
-		(size 0.6 1.15)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "4cb58fa9-1918-4541-89bb-74fe8b7edf8b")
 	)
 	(pad "S1" thru_hole oval
 		(at -4.32 -3.105)

@@ -10240,7 +10240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" "478-KGM05AR50J105KHTR-ND"
+		(property "Dist. P/N" "490-GRM155R61H105KE05DTR-ND"
 			(at 125.73 196.85 0)
 			(effects
 				(font
@@ -10258,7 +10258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" "04026D105KAT2A"
+		(property "Manf. P/N" "GRM155R61H105KE05D"
 			(at 125.73 196.85 0)
 			(effects
 				(font
@@ -10267,7 +10267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kyocera"
+		(property "Manufacturer" "Murata Electronics"
 			(at 125.73 196.85 0)
 			(effects
 				(font
@@ -10276,7 +10276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
+		(property "Part Description" "1 µF ±10% 50V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 125.73 196.85 0)
 			(effects
 				(font
@@ -14930,7 +14930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" "478-KGM05AR50J105KHTR-ND"
+		(property "Dist. P/N" "490-GRM155R61H105KE05DTR-ND"
 			(at 129.54 308.61 0)
 			(effects
 				(font
@@ -14948,7 +14948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" "04026D105KAT2A"
+		(property "Manf. P/N" "GRM155R61H105KE05D"
 			(at 129.54 308.61 0)
 			(effects
 				(font
@@ -14957,7 +14957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kyocera"
+		(property "Manufacturer" "Murata Electronics"
 			(at 129.54 308.61 0)
 			(effects
 				(font
@@ -14966,7 +14966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
+		(property "Part Description" "1 µF ±10% 50V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 129.54 308.61 0)
 			(effects
 				(font
@@ -17227,7 +17227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 257.81 189.23 0)
 			(effects
 				(font
@@ -17245,7 +17245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" "478-11504-2-ND"
+		(property "Dist. P/N" "490-10700-2-ND"
 			(at 257.81 189.23 0)
 			(effects
 				(font
@@ -17263,7 +17263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" "04026D104KAT4A"
+		(property "Manf. P/N" "GRM155R71H104KE14D"
 			(at 257.81 189.23 0)
 			(effects
 				(font
@@ -17272,7 +17272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kyocera"
+		(property "Manufacturer" "Murata Electronics"
 			(at 257.81 189.23 0)
 			(effects
 				(font
@@ -17281,7 +17281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
+		(property "Part Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 257.81 189.23 0)
 			(effects
 				(font
@@ -17378,7 +17378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 228.6 299.72 0)
 			(effects
 				(font
@@ -17396,7 +17396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" "478-11504-2-ND"
+		(property "Dist. P/N" "490-10700-2-ND"
 			(at 228.6 299.72 0)
 			(effects
 				(font
@@ -17414,7 +17414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" "04026D104KAT4A"
+		(property "Manf. P/N" "GRM155R71H104KE14D"
 			(at 228.6 299.72 0)
 			(effects
 				(font
@@ -17423,7 +17423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kyocera"
+		(property "Manufacturer" "Murata Electronics"
 			(at 228.6 299.72 0)
 			(effects
 				(font
@@ -17432,7 +17432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
+		(property "Part Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 228.6 299.72 0)
 			(effects
 				(font
@@ -18031,7 +18031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 261.62 300.99 0)
 			(effects
 				(font
@@ -18049,7 +18049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" "478-11504-2-ND"
+		(property "Dist. P/N" "490-10700-2-ND"
 			(at 261.62 300.99 0)
 			(effects
 				(font
@@ -18067,7 +18067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" "04026D104KAT4A"
+		(property "Manf. P/N" "GRM155R71H104KE14D"
 			(at 261.62 300.99 0)
 			(effects
 				(font
@@ -18076,7 +18076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kyocera"
+		(property "Manufacturer" "Murata Electronics"
 			(at 261.62 300.99 0)
 			(effects
 				(font
@@ -18085,7 +18085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
+		(property "Part Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 261.62 300.99 0)
 			(effects
 				(font
@@ -19068,7 +19068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
 			(at 224.79 187.96 0)
 			(effects
 				(font
@@ -19086,7 +19086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" "478-11504-2-ND"
+		(property "Dist. P/N" "490-10700-2-ND"
 			(at 224.79 187.96 0)
 			(effects
 				(font
@@ -19104,7 +19104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" "04026D104KAT4A"
+		(property "Manf. P/N" "GRM155R71H104KE14D"
 			(at 224.79 187.96 0)
 			(effects
 				(font
@@ -19113,7 +19113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kyocera"
+		(property "Manufacturer" "Murata Electronics"
 			(at 224.79 187.96 0)
 			(effects
 				(font
@@ -19122,7 +19122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
+		(property "Part Description" "CAP CER 0.1UF 50V X7R 0402"
 			(at 224.79 187.96 0)
 			(effects
 				(font

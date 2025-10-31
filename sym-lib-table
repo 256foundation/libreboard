@@ -10,4 +10,5 @@
   (lib (name "TPS55289")(type "KiCad")(uri "${KIPRJMOD}/TPS55289.kicad_sym")(options "")(descr ""))
   (lib (name "BAT-HLD-007-SMT-TR")(type "KiCad")(uri "${KIPRJMOD}/BAT-HLD-007-SMT-TR.kicad_sym")(options "")(descr ""))
   (lib (name "SN74AHCT1G125DRLR")(type "KiCad")(uri "${KIPRJMOD}/SN74AHCT1G125DRLR.kicad_sym")(options "")(descr ""))
+  (lib (name "TCA9538")(type "KiCad")(uri "${KIPRJMOD}/2025-10-29_23-37-46.kicad_sym")(options "")(descr ""))
 )
