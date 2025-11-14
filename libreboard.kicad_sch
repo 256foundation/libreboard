@@ -9911,7 +9911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 114.3 308.61 0)
 			(effects
 				(font
@@ -9920,7 +9920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf"
 			(at 114.3 308.61 0)
 			(effects
 				(font
@@ -9938,7 +9938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" "478-KGM05CR50J106MHTR-ND"
+		(property "Dist. P/N" "490-18663-2-ND"
 			(at 114.3 308.61 0)
 			(effects
 				(font
@@ -9956,7 +9956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" "04026D106MAT2A"
+		(property "Manf. P/N" "GRM21BR61H106KE43L"
 			(at 114.3 308.61 0)
 			(effects
 				(font
@@ -9965,7 +9965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kyocera"
+		(property "Manufacturer" "Murata Electronics"
 			(at 114.3 308.61 0)
 			(effects
 				(font
@@ -9974,7 +9974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 10µF, ±20%, 6.3V, X5R, 0402 (1005m)"
+		(property "Part Description" "10 µF ±10% 50V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 114.3 308.61 0)
 			(effects
 				(font
@@ -18455,7 +18455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.49 196.85 0)
 			(effects
 				(font
@@ -18464,7 +18464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf"
 			(at 110.49 196.85 0)
 			(effects
 				(font
@@ -18482,7 +18482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dist. P/N" "478-KGM05CR50J106MHTR-ND"
+		(property "Dist. P/N" "490-18663-2-ND"
 			(at 110.49 196.85 0)
 			(effects
 				(font
@@ -18500,7 +18500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manf. P/N" "04026D106MAT2A"
+		(property "Manf. P/N" "GRM21BR61H106KE43L"
 			(at 110.49 196.85 0)
 			(effects
 				(font
@@ -18509,7 +18509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Kyocera"
+		(property "Manufacturer" "Murata Electronics"
 			(at 110.49 196.85 0)
 			(effects
 				(font
@@ -18518,7 +18518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 10µF, ±20%, 6.3V, X5R, 0402 (1005m)"
+		(property "Part Description" "10 µF ±10% 50V Ceramic Capacitor X5R 0805 (2012 Metric)"
 			(at 110.49 196.85 0)
 			(effects
 				(font

@@ -21118,7 +21118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=BAT-HLD-007-SMT-TR&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-007-SMT-TR"
 			(at 201.93 175.26 0)
 			(effects
 				(font
@@ -21172,7 +21172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "	Battery Retainer Coin, 20.0mm 1 Cell SMD (SMT) Tab"
+		(property "Part Description" "BATTERY RETAINER COIN 12.5MM SMD"
 			(at 201.93 175.26 0)
 			(effects
 				(font
@@ -21268,6 +21268,42 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Dist. P/N" "343-BAT-HLD-007-SMT-TR-ND"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manf. P/N" "BAT-HLD-007-SMT-TR"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity Linx"
+			(at 201.93 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
