@@ -15549,6 +15549,16 @@
 		)
 		(uuid "058e77a4-10af-4bc8-a984-5984d3bbee4c")
 	)
+	(label "USB2_VBUS"
+		(at 320.04 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a8f4fa7-22ce-41ac-84f7-ac6b94f71d0a")
+	)
 	(label "DPHY0_D2_N"
 		(at 134.62 50.8 0)
 		(effects
@@ -15658,6 +15668,16 @@
 			(justify left bottom)
 		)
 		(uuid "1c92f382-4ec3-478f-a1ca-afadd3087787")
+	)
+	(label "USB2_VBUS"
+		(at 393.7 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f563312-dc6f-49ab-9d98-8dc1c7f7d710")
 	)
 	(label "USB3-0-TX_N"
 		(at 44.45 240.03 0)
@@ -15929,6 +15949,16 @@
 		)
 		(uuid "617498ce-8469-4f4b-9f2b-09a2437561eb")
 	)
+	(label "USB2_VBUS"
+		(at 320.04 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "668255cb-3537-475c-9106-5d759aa0c0be")
+	)
 	(label "DPHY1_C_P"
 		(at 102.87 137.16 0)
 		(effects
@@ -15958,6 +15988,26 @@
 			(justify left bottom)
 		)
 		(uuid "6999550c-f78a-4aae-9243-1b3881f5bb3b")
+	)
+	(label "USB2_VBUS"
+		(at 392.43 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69af9ea3-2be3-43dc-bc51-ca2a4b67a0cd")
+	)
+	(label "USB2_VBUS"
+		(at 321.31 227.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6c147170-cef7-4385-96d6-a22e116c70ee")
 	)
 	(label "HDMI0_CEC"
 		(at 102.87 88.9 0)
@@ -16029,6 +16079,16 @@
 		)
 		(uuid "8202d57b-d5d2-4a80-8c03-3c6bdbbd1ddf")
 	)
+	(label "USB2_VBUS"
+		(at 392.43 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "834f0fe5-8631-4400-94e8-f3bcea9fe578")
+	)
 	(label "DPHY0_D3_N"
 		(at 114.935 73.66 180)
 		(effects
@@ -16078,6 +16138,16 @@
 			(justify left bottom)
 		)
 		(uuid "893378e2-94a1-4cb2-a292-83f7c9441602")
+	)
+	(label "USB2_VBUS"
+		(at 392.43 234.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c67d2eb-1380-4583-a060-da988e253d18")
 	)
 	(label "USB3-0-RX_N"
 		(at 44.45 232.41 0)
@@ -16278,6 +16348,16 @@
 			(justify left bottom)
 		)
 		(uuid "c3d0d41a-a258-46c6-a7fe-b7d3b2a32b63")
+	)
+	(label "USB2_VBUS"
+		(at 320.04 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3d691c5-6ce3-4087-98ca-27bed58eaba1")
 	)
 	(label "DPHY1_D2_P"
 		(at 102.87 144.78 0)
@@ -19135,83 +19215,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 392.43 166.37 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "02301b3e-6242-4ef5-9ea3-1a4393bce174")
-		(property "Reference" "#PWR068"
-			(at 398.78 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 396.8242 166.243 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 392.43 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 392.43 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 392.43 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43ba585b-b615-4c2a-8287-bd31fd31ff6f")
-		)
-		(instances
-			(project "libreboard"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 189.23 119.38 0)
 		(unit 1)
 		(body_style 1)
@@ -21301,7 +21304,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "56kΩ"
 			(at 389.89 199.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21311,7 +21314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 389.89 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -21344,7 +21347,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P5.10KLTR-ND"
+		(property "Dist. P/N" "P56.0KHTR-ND"
 			(at 389.89 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -21366,7 +21369,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-2RKF5101X"
+		(property "Manf. P/N" "ERJ-3EKF5602V"
 			(at 389.89 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -21388,7 +21391,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 5.1kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
 			(at 389.89 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -21905,83 +21908,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 392.43 199.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "32800d19-e4b1-4647-8519-1c98a5b4cacf")
-		(property "Reference" "#PWR067"
-			(at 398.78 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 396.8242 199.263 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 392.43 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 392.43 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 392.43 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80034051-2de5-407b-98b0-d97dbc48da96")
-		)
-		(instances
-			(project "libreboard"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 323.85 227.33 270)
 		(unit 1)
@@ -22002,7 +21928,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "56kΩ"
 			(at 323.85 227.33 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22012,7 +21938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 323.85 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -22045,7 +21971,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P5.10KLTR-ND"
+		(property "Dist. P/N" "P56.0KHTR-ND"
 			(at 323.85 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -22067,7 +21993,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-2RKF5101X"
+		(property "Manf. P/N" "ERJ-3EKF5602V"
 			(at 323.85 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -22089,7 +22015,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 5.1kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
 			(at 323.85 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -22160,83 +22086,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 393.7 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "37327144-52f3-4d30-9df2-adf64bc74490")
-		(property "Reference" "#PWR069"
-			(at 400.05 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 398.0942 131.953 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 393.7 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 393.7 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 393.7 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b9174a1-d1fe-4986-a394-83cfa0821e0a")
-		)
-		(instances
-			(project "libreboard"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
-					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 322.58 158.75 270)
 		(unit 1)
@@ -22257,7 +22106,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "56kΩ"
 			(at 322.58 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22267,7 +22116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 322.58 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -22300,7 +22149,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P5.10KLTR-ND"
+		(property "Dist. P/N" "P56.0KHTR-ND"
 			(at 322.58 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -22322,7 +22171,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-2RKF5101X"
+		(property "Manf. P/N" "ERJ-3EKF5602V"
 			(at 322.58 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -22344,7 +22193,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 5.1kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
 			(at 322.58 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -22589,7 +22438,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "56kΩ"
 			(at 389.89 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22599,7 +22448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 389.89 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -22632,7 +22481,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P5.10KLTR-ND"
+		(property "Dist. P/N" "P56.0KHTR-ND"
 			(at 389.89 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -22654,7 +22503,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-2RKF5101X"
+		(property "Manf. P/N" "ERJ-3EKF5602V"
 			(at 389.89 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -22676,7 +22525,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 5.1kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
 			(at 389.89 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -23482,7 +23331,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "56kΩ"
 			(at 322.58 191.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23492,7 +23341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 322.58 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -23525,7 +23374,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P5.10KLTR-ND"
+		(property "Dist. P/N" "P56.0KHTR-ND"
 			(at 322.58 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -23547,7 +23396,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-2RKF5101X"
+		(property "Manf. P/N" "ERJ-3EKF5602V"
 			(at 322.58 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -23569,7 +23418,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 5.1kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
 			(at 322.58 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -23851,7 +23700,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "56kΩ"
 			(at 389.89 234.95 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23861,7 +23710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 389.89 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -23894,7 +23743,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P5.10KLTR-ND"
+		(property "Dist. P/N" "P56.0KHTR-ND"
 			(at 389.89 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -23916,7 +23765,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-2RKF5101X"
+		(property "Manf. P/N" "ERJ-3EKF5602V"
 			(at 389.89 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -23938,7 +23787,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 5.1kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
 			(at 389.89 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -25169,160 +25018,6 @@
 			(project "libreboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 320.04 124.46 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6bfc3ada-c033-4d79-93de-a6f5b86dfa82")
-		(property "Reference" "#PWR062"
-			(at 313.69 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 315.6458 124.587 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "484d9259-b8c5-4d38-81d4-bf57e8cc1b48")
-		)
-		(instances
-			(project "libreboard"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 392.43 234.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "70ed7cf3-e0c8-4f01-b44e-423ea64e9848")
-		(property "Reference" "#PWR066"
-			(at 398.78 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 396.8242 234.823 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 392.43 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 392.43 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 392.43 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dec30480-de6b-4296-99c5-8db6accef3b0")
-		)
-		(instances
-			(project "libreboard"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -27417,83 +27112,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 321.31 227.33 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9317077e-4ba0-4e5c-bcc0-4aef1245dce9")
-		(property "Reference" "#PWR065"
-			(at 314.96 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 316.9158 227.457 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 321.31 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 321.31 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 321.31 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9d57240-399b-412b-9c4c-0752b1cc6310")
-		)
-		(instances
-			(project "libreboard"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 345.44 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -28119,83 +27737,6 @@
 			(project "libreboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 320.04 158.75 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9bd586d5-8db0-4119-ac19-9fa6a5692014")
-		(property "Reference" "#PWR063"
-			(at 313.69 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 315.6458 158.877 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5fda852e-d953-416e-a607-0043486bfdaa")
-		)
-		(instances
-			(project "libreboard"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -29713,7 +29254,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "56kΩ"
 			(at 391.16 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29723,7 +29264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 391.16 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -29756,7 +29297,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P5.10KLTR-ND"
+		(property "Dist. P/N" "P56.0KHTR-ND"
 			(at 391.16 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -29778,7 +29319,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-2RKF5101X"
+		(property "Manf. P/N" "ERJ-3EKF5602V"
 			(at 391.16 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -29800,7 +29341,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 5.1kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
 			(at 391.16 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -31259,83 +30800,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 320.04 191.77 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dce3f6e6-db31-45e5-87ca-c4d095874557")
-		(property "Reference" "#PWR064"
-			(at 313.69 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 315.6458 191.897 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 320.04 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 320.04 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f6c0802-c54f-4c70-872c-31c91e038cb2")
-		)
-		(instances
-			(project "libreboard"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 48.26 214.63 90)
 		(unit 1)
@@ -31670,7 +31134,7 @@
 				)
 			)
 		)
-		(property "Value" "5.1kΩ"
+		(property "Value" "56kΩ"
 			(at 322.58 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31680,7 +31144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 322.58 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -31713,7 +31177,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P5.10KLTR-ND"
+		(property "Dist. P/N" "P56.0KHTR-ND"
 			(at 322.58 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -31735,7 +31199,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-2RKF5101X"
+		(property "Manf. P/N" "ERJ-3EKF5602V"
 			(at 322.58 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -31757,7 +31221,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 5.1kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
 			(at 322.58 124.46 90)
 			(hide yes)
 			(show_name no)
