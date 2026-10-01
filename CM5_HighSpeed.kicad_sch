@@ -20827,7 +20827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "216989-0001_MOL"
+		(property "Footprint" "libreboard:216989-0001_MOL"
 			(at 336.55 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -30169,7 +30169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "216989-0001_MOL"
+		(property "Footprint" "libreboard:216989-0001_MOL"
 			(at 335.28 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -31668,7 +31668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "216989-0001_MOL"
+		(property "Footprint" "libreboard:216989-0001_MOL"
 			(at 335.28 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -32855,7 +32855,7 @@
 				)
 			)
 		)
-		(property "Footprint" "216989-0001_MOL"
+		(property "Footprint" "libreboard:216989-0001_MOL"
 			(at 335.28 222.25 0)
 			(hide yes)
 			(show_name no)

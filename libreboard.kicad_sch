@@ -10995,7 +10995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RYQ0021A-MFG"
+		(property "Footprint" "libreboard:RYQ0021A-MFG"
 			(at 173.99 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -19725,7 +19725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RYQ0021A-MFG"
+		(property "Footprint" "libreboard:RYQ0021A-MFG"
 			(at 177.8 306.07 0)
 			(hide yes)
 			(show_name no)
