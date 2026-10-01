@@ -10062,12 +10062,6 @@
 		(uuid "06abcca9-9697-446e-965b-47f05b717cf6")
 	)
 	(junction
-		(at 389.89 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bffab57-4aa0-4946-b6eb-ba1d55934f04")
-	)
-	(junction
 		(at 381 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13182,16 +13176,6 @@
 			(type solid)
 		)
 		(uuid "840456dd-4540-4be6-9e3c-598c33447689")
-	)
-	(wire
-		(pts
-			(xy 389.89 96.52) (xy 389.89 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "843d6eea-c555-4807-9c27-dafd3efe6f71")
 	)
 	(wire
 		(pts
@@ -25380,7 +25364,7 @@
 				)
 			)
 		)
-		(property "Value" "220Ω @ 100Mhz"
+		(property "Value" "120Ω @ 100MHz"
 			(at 354.2919 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25390,7 +25374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libreboard:BEADC1005X55N"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 354.33 100.838 90)
 			(hide yes)
 			(show_name no)
@@ -25401,7 +25385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM18KG121TN1%23"
 			(at 354.33 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -25423,7 +25407,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "240-2554-2-ND"
+		(property "Dist. P/N" "490-5254-2-ND"
 			(at 354.33 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -25445,7 +25429,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "LI0402C221R-10"
+		(property "Manf. P/N" "BLM18KG121TN1D"
 			(at 354.33 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -25456,7 +25440,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Laird Signal"
+		(property "Manufacturer" "Murata"
 			(at 354.33 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -25467,7 +25451,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Filter, Ferrite Bead, 220Ω @ 100MHz, SMD 0402"
+		(property "Part Description" "Filter, Ferrite Bead, 120Ω @ 100MHz, 3A, 30mΩ DCR max, SMD 0603 (1608m)"
 			(at 354.33 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -26228,7 +26212,7 @@
 				)
 			)
 		)
-		(property "Value" "TLV73311PDBV"
+		(property "Value" "TLV75712PDBVR"
 			(at 381 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26250,7 +26234,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv757p.pdf"
 			(at 381 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -26261,7 +26245,7 @@
 				)
 			)
 		)
-		(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 1.1V, SOT-23-5"
+		(property "Description" "1 A low-dropout regulator, fixed 1.2 V output, SOT-23-5"
 			(at 381 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -26272,7 +26256,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "296-38620-2-ND"
+		(property "Dist. P/N" "296-50412-2-ND"
 			(at 381 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -26294,7 +26278,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "TLV73311PDBVT"
+		(property "Manf. P/N" "TLV75712PDBVR"
 			(at 381 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -26316,7 +26300,7 @@
 				)
 			)
 		)
-		(property "Part Description" "LVR, IC Positive Fixed, 1 Output, 300mA, SOT-23-5"
+		(property "Part Description" "LDO, fixed 1.2 V, 1 A, SOT-23-5"
 			(at 381 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -28123,6 +28107,83 @@
 			(project "libreboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 389.89 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a120f8b2-a5fa-4751-ac66-d6d543ea03f3")
+		(property "Reference" "#PWR005"
+			(at 389.89 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 389.89 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.89 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.89 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 389.89 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3849a6a2-d0ee-4856-93fa-fe68cafce730")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff70b1"
+					(reference "#PWR005")
 					(unit 1)
 				)
 			)
