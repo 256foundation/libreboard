@@ -21314,7 +21314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 389.89 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -21347,7 +21347,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P56.0KHTR-ND"
+		(property "Dist. P/N" "P56.0KLTR-ND"
 			(at 389.89 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -21369,7 +21369,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-3EKF5602V"
+		(property "Manf. P/N" "ERJ-2RKF5602X"
 			(at 389.89 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -21391,7 +21391,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 389.89 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -21938,7 +21938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 323.85 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -21971,7 +21971,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P56.0KHTR-ND"
+		(property "Dist. P/N" "P56.0KLTR-ND"
 			(at 323.85 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -21993,7 +21993,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-3EKF5602V"
+		(property "Manf. P/N" "ERJ-2RKF5602X"
 			(at 323.85 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -22015,7 +22015,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 323.85 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -22116,7 +22116,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 322.58 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -22149,7 +22149,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P56.0KHTR-ND"
+		(property "Dist. P/N" "P56.0KLTR-ND"
 			(at 322.58 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -22171,7 +22171,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-3EKF5602V"
+		(property "Manf. P/N" "ERJ-2RKF5602X"
 			(at 322.58 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -22193,7 +22193,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 322.58 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -22448,7 +22448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 389.89 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -22481,7 +22481,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P56.0KHTR-ND"
+		(property "Dist. P/N" "P56.0KLTR-ND"
 			(at 389.89 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -22503,7 +22503,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-3EKF5602V"
+		(property "Manf. P/N" "ERJ-2RKF5602X"
 			(at 389.89 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -22525,7 +22525,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 389.89 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -23341,7 +23341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 322.58 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -23374,7 +23374,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P56.0KHTR-ND"
+		(property "Dist. P/N" "P56.0KLTR-ND"
 			(at 322.58 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -23396,7 +23396,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-3EKF5602V"
+		(property "Manf. P/N" "ERJ-2RKF5602X"
 			(at 322.58 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -23418,7 +23418,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 322.58 191.77 90)
 			(hide yes)
 			(show_name no)
@@ -23710,7 +23710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 389.89 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -23743,7 +23743,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P56.0KHTR-ND"
+		(property "Dist. P/N" "P56.0KLTR-ND"
 			(at 389.89 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -23765,7 +23765,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-3EKF5602V"
+		(property "Manf. P/N" "ERJ-2RKF5602X"
 			(at 389.89 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -23787,7 +23787,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 389.89 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -29264,7 +29264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 391.16 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -29297,7 +29297,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P56.0KHTR-ND"
+		(property "Dist. P/N" "P56.0KLTR-ND"
 			(at 391.16 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -29319,7 +29319,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-3EKF5602V"
+		(property "Manf. P/N" "ERJ-2RKF5602X"
 			(at 391.16 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -29341,7 +29341,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 391.16 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -31144,7 +31144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 322.58 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -31177,7 +31177,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P56.0KHTR-ND"
+		(property "Dist. P/N" "P56.0KLTR-ND"
 			(at 322.58 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -31199,7 +31199,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-3EKF5602V"
+		(property "Manf. P/N" "ERJ-2RKF5602X"
 			(at 322.58 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -31221,7 +31221,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
+		(property "Part Description" "Resistor, 56kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 322.58 124.46 90)
 			(hide yes)
 			(show_name no)
