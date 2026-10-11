@@ -667,6 +667,14 @@
         "pattern": "/CM5_HighSpeed/USB3*"
       },
       {
+        "netclass": "90R",
+        "pattern": "/CM5_HighSpeed/J15_TX*"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "/CM5_HighSpeed/J15_RX*"
+      },
+      {
         "netclass": "100R",
         "pattern": "/CM5_HighSpeed/DPHY*"
       },
