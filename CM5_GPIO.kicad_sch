@@ -11674,6 +11674,12 @@
 		(uuid "01f83146-4808-4dce-868e-509173e2f2d2")
 	)
 	(junction
+		(at 101.6 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "054bf952-f8e8-4aa3-89bb-592d24da44dd")
+	)
+	(junction
 		(at 245.11 72.39)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -11900,6 +11906,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "a78d65ce-1ebe-48d4-902e-55f5beb03611")
+	)
+	(junction
+		(at 101.6 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8c7abef-4e5a-4b57-a6bc-ddaa4cbbbc32")
 	)
 	(junction
 		(at 38.1 29.21)
@@ -12833,16 +12845,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 243.84) (xy 113.03 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d18a3a1-2334-4a84-8033-a2b35e7412fd")
-	)
-	(wire
-		(pts
 			(xy 101.6 49.53) (xy 101.6 62.23)
 		)
 		(stroke
@@ -12980,6 +12982,16 @@
 			(type solid)
 		)
 		(uuid "4805cbab-da73-4d3e-afa3-21868e76e954")
+	)
+	(wire
+		(pts
+			(xy 101.6 236.22) (xy 101.6 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4e4949-0bb5-4a89-99f9-0229be00603a")
 	)
 	(wire
 		(pts
@@ -13933,6 +13945,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 243.84) (xy 101.6 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9595e597-f6e8-4c63-8ab0-016fb91ec19d")
+	)
+	(wire
+		(pts
 			(xy 228.6 36.83) (xy 245.11 36.83)
 		)
 		(stroke
@@ -14500,6 +14522,16 @@
 			(type solid)
 		)
 		(uuid "bce33354-18a7-44b2-9dba-ee85e434d6ee")
+	)
+	(wire
+		(pts
+			(xy 101.6 243.84) (xy 113.03 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdce749a-6ebb-4021-b35c-217f8621fc6b")
 	)
 	(wire
 		(pts
@@ -15500,6 +15532,16 @@
 			(justify left bottom)
 		)
 		(uuid "0cdebb81-7707-4273-b91b-84c97256655a")
+	)
+	(label "+3.3v"
+		(at 101.6 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e5ab1a0-6d38-43c8-9d61-9d28ff704046")
 	)
 	(label "TRD3_N"
 		(at 245.11 54.61 180)
@@ -22608,6 +22650,140 @@
 			(project "libreboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13024bfa-40ec-428e-a943-d5517297a2e5")
+		(property "Reference" "R52"
+			(at 105.41 238.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 105.41 241.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 101.6 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist. P/N" "P10.0KHTR-ND"
+			(at 101.6 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 101.6 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf. P/N" "ERJ-3EKF1002V"
+			(at 101.6 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 101.6 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "Resistor, 10kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
+			(at 101.6 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56772248-9936-4de9-a9cc-f4ed406336b9")
+		)
+		(pin "2"
+			(uuid "b2360f39-d659-486d-94d6-0358d560fdc2")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "R52")
 					(unit 1)
 				)
 			)
