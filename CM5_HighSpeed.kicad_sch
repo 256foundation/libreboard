@@ -30609,7 +30609,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
+		(lib_id "Device:C")
 		(at 137.16 213.36 0)
 		(unit 1)
 		(body_style 1)
@@ -30630,7 +30630,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100µF"
+		(property "Value" "47µF"
 			(at 140.1572 214.503 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30641,7 +30641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 138.1252 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -30663,7 +30663,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Unpolarized capacitor"
 			(at 137.16 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -30674,7 +30674,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Capacitor, Aluminum, 100µF, ±20%, 10V, 10mΩ ESR"
+		(property "Part Description" "47 µF ±20% 10V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 137.16 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -30685,7 +30685,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "399-11382-2-ND"
+		(property "Dist. P/N" "445-6006-2-ND"
 			(at 137.16 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -30707,7 +30707,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "A700X107M010ATE010"
+		(property "Manf. P/N" "C3216X5R1A476M160AB"
 			(at 137.16 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -30718,7 +30718,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kemet"
+		(property "Manufacturer" "TDK Corporation"
 			(at 137.16 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -30773,7 +30773,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3275146"
+		(property "LCSC" "C96123"
 			(at 137.16 213.36 0)
 			(hide yes)
 			(show_name no)
