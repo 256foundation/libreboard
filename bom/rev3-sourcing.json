@@ -676,8 +676,8 @@
    "notes": "Exact part at JLC is extended C4153103 (stock 4591). Need 150.; DigiKey returns mfr_part_number 0805ZD106KAT2A for this number (DigiKey PN uses Kyocera's new KGM name). 10uF 10V X5R +-10% 0805. LOW STOCK: 59 vs 150 needed; T&R min_qty 3000."
   },
   {
-   "refs": "C3 C57",
-   "qty_per_board": 2,
+   "refs": "C3",
+   "qty_per_board": 1,
    "value": "100µF",
    "footprint": "CP_EIA-7343-31_Kemet-D",
    "manufacturer": "Kemet",
@@ -1050,8 +1050,8 @@
    "notes": "Exact MPN not at JLC. Need 30.; DigiKey returns mfr_part_number 04026D105KAT2A for this number (DigiKey PN uses Kyocera's new KGM name). 1uF 6.3V X5R +-10% 0402. T&R min_qty 10000."
   },
   {
-   "refs": "C66 C67 C68",
-   "qty_per_board": 3,
+   "refs": "C57 C66 C67 C68",
+   "qty_per_board": 4,
    "value": "47µF",
    "footprint": "C_1206_3216Metric",
    "manufacturer": "TDK Corporation",

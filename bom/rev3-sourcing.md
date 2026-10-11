@@ -47,7 +47,7 @@ mounting holes and test points.
 
 | Part | JLC stock | Needed for 10 boards | Note |
 |---|---|---|---|
-| C3/C57 A700X107M010ATE010 (100 µF polymer, 7343) | 31 | 20 | No other 7343 polymer at JLC meets 10 mΩ (closest is 15 mΩ). |
+| C3 A700X107M010ATE010 (100 µF polymer, 7343) | 31 | 10 | No other 7343 polymer at JLC meets 10 mΩ (closest is 15 mΩ). C57 changed to a 47 µF 1206 ceramic in `e869b1f`. |
 | C20 A770KE396M1HLAS042 (39 µF, 50 V polymer) | 24 | 10 | Backup: KEMET A768KE396M1HLAE042 (C1517683), same specs. |
 | J11 USB4105-GF-A (USB-C) | 39 | 10 | Same-series variants with -060/-120 suffixes have plenty of stock. |
 | R50 158k 0603 | (exact part: 15) | 10 | Switched to UNI-ROYAL 0603WAF1583T5E (C22883, 52k in stock). |
