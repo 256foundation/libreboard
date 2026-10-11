@@ -4173,6 +4173,534 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TPS55289:TPS552892RYQR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TPS552892RYQR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "RYQ0021A-MFG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps552892.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" "36-V, 8-A buck-boost converter, output set by FB resistor divider, no I2C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TPS552892RYQR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RYQ0021A-MFG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS552892RYQR_0_1"
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 -53.34)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -53.34) (xy 38.1 -53.34)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38.1 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 38.1 -53.34) (xy 38.1 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "EN_UVLO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -33.02 0)
+					(length 5.08)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "CC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -40.64 0)
+					(length 5.08)
+					(name "DITH_SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -45.72 0)
+					(length 5.08)
+					(name "FSW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43.18 -5.08 180)
+					(length 5.08)
+					(name "SW1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43.18 -10.16 180)
+					(length 5.08)
+					(name "SW2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43.18 -22.86 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43.18 -27.94 180)
+					(length 5.08)
+					(name "ISP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43.18 -30.48 180)
+					(length 5.08)
+					(name "ISN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43.18 -35.56 180)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43.18 -40.64 180)
+					(length 5.08)
+					(name "COMP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -50.8 0)
+					(length 5.08)
+					(name "CDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43.18 -48.26 180)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43.18 -15.24 180)
+					(length 5.08)
+					(name "BOOT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 43.18 0 180)
+					(length 5.08)
+					(name "BOOT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "EXTVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS552892RYQR_1_1"
+				(pin unspecified line
+					(at 43.18 -50.8 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power global)
 			(pin_numbers
@@ -4739,7 +5267,7 @@
 		)
 		(uuid "4d609e7c-74c9-4ae9-a26d-946ff00c167d")
 	)
-	(text "Check for under voltage dropout at 8 Volts"
+	(text "UVLO: starts at 9.4 V, drops out at 7.9 V (R18/R19, R6/R7)"
 		(exclude_from_sim no)
 		(at 147.828 188.468 0)
 		(effects
@@ -4771,7 +5299,7 @@
 		)
 		(uuid "a501555e-bbc7-4b58-ad89-28a0cd3dd6d0")
 	)
-	(text "Check for under voltage dropout at 8 Volts"
+	(text "UVLO: starts at 9.4 V, drops out at 7.9 V (R18/R19, R6/R7)"
 		(exclude_from_sim no)
 		(at 148.59 300.228 0)
 		(effects
@@ -4874,10 +5402,22 @@
 		(uuid "142b7f56-c655-4950-851f-d858f1ecc883")
 	)
 	(junction
+		(at 320.04 342.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1902ed10-6210-4a75-be10-880f20306049")
+	)
+	(junction
 		(at 110.49 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1940f959-675f-4f61-ba82-7708c3ae3bf9")
+	)
+	(junction
+		(at 165.1 321.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c83f992-c8af-4fe3-a37f-15a7f3c2285a")
 	)
 	(junction
 		(at 114.3 302.26)
@@ -5276,6 +5816,12 @@
 		(uuid "cbcc5c4a-2b73-453a-baae-a05b225732ff")
 	)
 	(junction
+		(at 317.5 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8e870ec-4fa4-4f0e-925f-bdf7afc0f844")
+	)
+	(junction
 		(at 129.54 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5342,12 +5888,12 @@
 		(uuid "fbe2b4c8-9c4d-4460-9199-c248593c36bb")
 	)
 	(no_connect
-		(at 220.98 341.63)
-		(uuid "49d1daf1-97c4-4aeb-ac76-a7ded05bba8f")
+		(at 177.8 334.01)
+		(uuid "03221566-87cc-47c8-bc23-26cf04ca59a8")
 	)
 	(no_connect
-		(at 217.17 229.87)
-		(uuid "65040870-0303-41b6-816d-5732e5a4bb6d")
+		(at 177.8 328.93)
+		(uuid "0edb7c6d-6f92-4a2f-bd88-ef3be10b56ca")
 	)
 	(no_connect
 		(at 173.99 245.11)
@@ -5366,8 +5912,16 @@
 		(uuid "db067a41-77e1-4f0d-ad47-4dd0df5ef7e1")
 	)
 	(no_connect
+		(at 173.99 217.17)
+		(uuid "ea383f85-6936-43f4-a4b6-6909f085f76c")
+	)
+	(no_connect
 		(at 177.8 356.87)
 		(uuid "eaa77cc3-bfc6-47cb-b314-c70aa841d1d2")
+	)
+	(no_connect
+		(at 173.99 222.25)
+		(uuid "f6cff783-f203-4aad-bf82-eae220de2c4a")
 	)
 	(wire
 		(pts
@@ -5381,16 +5935,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 339.09) (xy 154.94 339.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0071e0d2-5d95-4f70-b45b-0315d0b1c5df")
-	)
-	(wire
-		(pts
 			(xy 58.42 170.18) (xy 58.42 171.45)
 		)
 		(stroke
@@ -5398,6 +5942,16 @@
 			(type default)
 		)
 		(uuid "01bac3d6-d257-4297-8f96-b43b2afad393")
+	)
+	(wire
+		(pts
+			(xy 217.17 229.87) (xy 222.25 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02810ca7-f0d8-4290-9eff-12af6c896a9f")
 	)
 	(wire
 		(pts
@@ -5558,16 +6112,6 @@
 			(type default)
 		)
 		(uuid "0c17b51a-65cf-44bf-bff7-12dae22752ba")
-	)
-	(wire
-		(pts
-			(xy 167.64 217.17) (xy 173.99 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0db9fe78-7ab8-45e9-9874-8a1842c6ce56")
 	)
 	(wire
 		(pts
@@ -5841,6 +6385,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 340.36) (xy 320.04 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25011fae-8460-40a3-ba18-50e70f815602")
+	)
+	(wire
+		(pts
 			(xy 306.07 222.25) (xy 306.07 217.17)
 		)
 		(stroke
@@ -6101,6 +6655,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 231.14) (xy 325.12 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389c1bf1-eba7-48ae-b43f-c4f0e4d0f8b4")
+	)
+	(wire
+		(pts
 			(xy 195.58 273.05) (xy 195.58 271.78)
 		)
 		(stroke
@@ -6208,6 +6772,16 @@
 			(type default)
 		)
 		(uuid "3ea31566-6aff-48af-a6aa-30bb32f64bf9")
+	)
+	(wire
+		(pts
+			(xy 317.5 231.14) (xy 317.5 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41bac632-bb6a-4e83-8ebc-cd34ba53075c")
 	)
 	(wire
 		(pts
@@ -6321,6 +6895,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 339.09) (xy 165.1 339.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a7ac6dd-2d6d-4716-be83-2a6a357de26a")
+	)
+	(wire
+		(pts
 			(xy 80.01 204.47) (xy 93.98 204.47)
 		)
 		(stroke
@@ -6348,16 +6932,6 @@
 			(type default)
 		)
 		(uuid "4b9333fe-383f-4745-b6a2-d677664b4edc")
-	)
-	(wire
-		(pts
-			(xy 154.94 339.09) (xy 154.94 383.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f6030d7-3c59-4433-b100-c180c5557438")
 	)
 	(wire
 		(pts
@@ -6558,6 +7132,16 @@
 			(type default)
 		)
 		(uuid "62a7e1c7-c66d-42f2-be2b-fba208a1a29d")
+	)
+	(wire
+		(pts
+			(xy 317.5 228.6) (xy 317.5 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648d8e56-fa30-43b0-b5e8-991026f534a5")
 	)
 	(wire
 		(pts
@@ -7211,16 +7795,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 334.01) (xy 177.8 334.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85f053f1-aad8-4c02-8be6-91d60246ea25")
-	)
-	(wire
-		(pts
 			(xy 173.99 212.09) (xy 157.48 212.09)
 		)
 		(stroke
@@ -7391,6 +7965,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 339.09) (xy 165.1 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d245892-eb26-4cb3-a6b2-133196232e3e")
+	)
+	(wire
+		(pts
 			(xy 242.57 64.77) (xy 255.27 64.77)
 		)
 		(stroke
@@ -7398,16 +7982,6 @@
 			(type solid)
 		)
 		(uuid "909b030b-fa1a-4fe8-b1ee-422b4d9e23cf")
-	)
-	(wire
-		(pts
-			(xy 167.64 222.25) (xy 173.99 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91b4ec6c-473e-4099-a111-61be441c89a1")
 	)
 	(wire
 		(pts
@@ -7428,6 +8002,16 @@
 			(type default)
 		)
 		(uuid "93ab1bc2-8072-4378-9ade-2fb0bab3c418")
+	)
+	(wire
+		(pts
+			(xy 320.04 342.9) (xy 320.04 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94cc720d-b342-4cac-8f67-5a544482262e")
 	)
 	(wire
 		(pts
@@ -7801,6 +8385,16 @@
 	)
 	(wire
 		(pts
+			(xy 320.04 342.9) (xy 327.66 342.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af2415d0-ad7e-49b1-8e68-06ee6efd3203")
+	)
+	(wire
+		(pts
 			(xy 27.94 138.43) (xy 27.94 170.18)
 		)
 		(stroke
@@ -8111,6 +8705,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 341.63) (xy 226.06 341.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c29eae72-e8c7-4ea2-a022-9dbfaacb10a6")
+	)
+	(wire
+		(pts
 			(xy 177.8 346.71) (xy 133.35 346.71)
 		)
 		(stroke
@@ -8298,16 +8902,6 @@
 			(type default)
 		)
 		(uuid "d3695c76-28bf-4795-874a-c14ef093206a")
-	)
-	(wire
-		(pts
-			(xy 171.45 328.93) (xy 177.8 328.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3827236-1748-4e47-9d99-707ee6147348")
 	)
 	(wire
 		(pts
@@ -8889,6 +9483,16 @@
 		)
 		(uuid "ff8fc7f9-4ff3-45c1-a23c-1115209da664")
 	)
+	(label "U14_FB"
+		(at 327.66 342.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0222560f-ea2c-407a-83a9-c3a35d92179f")
+	)
 	(label "+5v"
 		(at 72.39 72.39 0)
 		(effects
@@ -8899,15 +9503,15 @@
 		)
 		(uuid "09f3f04e-f789-44e1-b801-79a009ead9da")
 	)
-	(label "ID_SC"
-		(at 167.64 217.17 0)
+	(label "U4_FB"
+		(at 222.25 229.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "28f617d0-b8b5-492a-a46b-c71f653fde43")
+		(uuid "0e3cbc6b-d02b-4d29-8a71-1744b6c378d0")
 	)
 	(label "+5v"
 		(at 246.38 64.77 0)
@@ -8949,25 +9553,15 @@
 		)
 		(uuid "62aed552-6209-4ac6-a2f1-581388f9767e")
 	)
-	(label "ID_SC"
-		(at 171.45 328.93 0)
+	(label "U14_FB"
+		(at 226.06 341.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6e28e04c-b79b-4a51-955e-051799cf2aef")
-	)
-	(label "ID_SD"
-		(at 167.64 222.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76dabc1d-a428-447a-b48b-15bffd8634e0")
+		(uuid "6f14a82a-75a5-4022-a7ca-d06ba219cb75")
 	)
 	(label "USB2_P"
 		(at 74.93 62.23 180)
@@ -9009,6 +9603,16 @@
 		)
 		(uuid "a06e8e78-f567-42e6-b645-013b1073ca31")
 	)
+	(label "U4_FB"
+		(at 325.12 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd037227-4d3d-4463-af96-7e4f747634f2")
+	)
 	(label "+3.3v"
 		(at 120.015 76.2 0)
 		(effects
@@ -9028,16 +9632,6 @@
 			(justify left bottom)
 		)
 		(uuid "cfd30f19-1f1d-4301-a62d-4f3fb33dd092")
-	)
-	(label "ID_SD"
-		(at 171.45 334.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef7c1121-f974-4231-b5d8-5054c9c93f4b")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -10635,7 +11229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1pF"
+		(property "Value" "3.9pF"
 			(at 246.38 353.0662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10679,7 +11273,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "478-KGQ05FCG1H1R0BHTR-ND"
+		(property "Dist. P/N" "478-KGM05ACG1H3R9BHTR-ND"
 			(at 243.84 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -10701,7 +11295,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "04025U1R0BAT2A"
+		(property "Manf. P/N" "KGM05ACG1H3R9BH"
 			(at 243.84 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -10723,7 +11317,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 1pF, ±10%, 50V, C0G/NP0, 0402 (1005m)"
+		(property "Part Description" "Capacitor, Ceramic, 3.9pF, ±2.5%, 50V, C0G/NP0, 0402 (1005m)"
 			(at 243.84 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -10788,6 +11382,142 @@
 			(project "libreboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 317.5 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06f90c97-680d-4573-a14f-802507e95ecc")
+		(property "Reference" "R56"
+			(at 320.04 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "11.0kΩ"
+			(at 320.04 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 317.5 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 317.5 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist. P/N" "P11.0KLTR-ND"
+			(at 317.5 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 317.5 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf. P/N" "ERJ-2RKF1102X"
+			(at 317.5 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 317.5 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "Resistor, 11.0kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 317.5 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "311044ba-3263-42f0-89e0-c7e4016a70fc")
+		)
+		(pin "2"
+			(uuid "d742c595-c6d4-4503-adde-8135b6c7ce0d")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -10975,7 +11705,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TPS55289:PTPS55289RYQR")
+		(lib_id "TPS55289:TPS552892RYQR")
 		(at 173.99 194.31 0)
 		(unit 1)
 		(body_style 1)
@@ -10995,7 +11725,7 @@
 				)
 			)
 		)
-		(property "Value" "PTPS55289RYQR"
+		(property "Value" "TPS552892RYQR"
 			(at 195.58 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11017,7 +11747,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "PTPS55289RYQR"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps552892.pdf"
 			(at 173.99 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11029,7 +11759,7 @@
 				)
 			)
 		)
-		(property "Description" "i2c Address 74H"
+		(property "Description" "No I2C: 12.1 V (R55/R56)"
 			(at 194.818 191.516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11083,7 +11813,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "296-TPS55289RYQRTR-ND"
+		(property "Dist. P/N" "296-TPS552892RYQRTR-ND"
 			(at 173.99 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11105,7 +11835,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "TPS55289RYQR"
+		(property "Manf. P/N" "TPS552892RYQR"
 			(at 173.99 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11127,7 +11857,7 @@
 				)
 			)
 		)
-		(property "Part Description" "IC, Buck Boost, 0.8v, 1-output, 8A"
+		(property "Part Description" "IC, Buck Boost, 0.8-22V, 1-output, 8A, external feedback, no I2C"
 			(at 173.99 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -12859,7 +13589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560pF"
+		(property "Value" "2.2nF"
 			(at 232.41 353.0662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12903,7 +13633,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "478-1098-2-ND"
+		(property "Dist. P/N" "478-KGM05AR71H222KHTR-ND"
 			(at 229.87 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -12925,7 +13655,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "04025C561KAT2A"
+		(property "Manf. P/N" "KGM05AR71H222KH"
 			(at 229.87 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -12947,7 +13677,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 560pF, ±10%, 50V, X7R, 0402 (1005m)"
+		(property "Part Description" "Capacitor, Ceramic, 2.2nF, ±10%, 50V, X7R, 0402 (1005m)"
 			(at 229.87 351.79 0)
 			(hide yes)
 			(show_name no)
@@ -13655,6 +14385,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 320.04 347.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f90b1da-8f70-4f85-9303-82597c3e6271")
+		(property "Reference" "R54"
+			(at 322.58 346.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30.1kΩ"
+			(at 322.58 349.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 320.04 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 320.04 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist. P/N" "P30.1KLTR-ND"
+			(at 320.04 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 320.04 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf. P/N" "ERJ-2RKF3012X"
+			(at 320.04 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 320.04 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "Resistor, 30.1kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 320.04 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ea88ee2-1aaf-4609-85b1-ec3aa07a0952")
+		)
+		(pin "2"
+			(uuid "51113a35-b419-4e69-a925-d5a15039286c")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+VDC")
 		(at 80.01 190.5 0)
 		(unit 1)
@@ -14342,6 +15208,142 @@
 			(project "libreboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 320.04 337.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a5b1a1f-5d73-4a67-929f-4c8c89861fd9")
+		(property "Reference" "R53"
+			(at 322.58 336.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 322.58 339.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 320.04 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 320.04 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-U02F1003XTR-ND"
+			(at 320.04 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 320.04 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf. P/N" "ERJ-U02F1003X"
+			(at 320.04 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 320.04 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "Resistor, 100kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 320.04 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ee6adc0-2fe4-457b-9197-fbb394f0eb66")
+		)
+		(pin "2"
+			(uuid "02904253-1850-4b37-8ea6-7a4a9e4fae39")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -15165,7 +16167,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "1nF"
 			(at 228.6 241.3062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15209,7 +16211,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "478-KGM05AR71H471KHTR-ND "
+		(property "Dist. P/N" ""
 			(at 226.06 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -15231,7 +16233,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "KGM05AR71H471KH"
+		(property "Manf. P/N" "GRM1555C1H102JA01D"
 			(at 226.06 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -15242,7 +16244,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera"
+		(property "Manufacturer" "Murata Electronics"
 			(at 226.06 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -15253,7 +16255,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 470pF, ±10%, 50V, X7R, 0402 (1005m)"
+		(property "Part Description" "Capacitor, Ceramic, 1nF, ±5%, 50V, C0G/NP0, 0402 (1005m)"
 			(at 226.06 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -15422,7 +16424,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
+		(property "Value" "45.3kΩ"
 			(at 147.32 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15466,7 +16468,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "10-ERJ-U02F1003XTR-ND"
+		(property "Dist. P/N" "P45.3KLTR-ND"
 			(at 144.78 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -15488,7 +16490,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-U02F1003X"
+		(property "Manf. P/N" "ERJ-2RKF4532X"
 			(at 144.78 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -15510,7 +16512,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 100kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 45.3kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 144.78 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -16402,6 +17404,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 317.5 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "869546a7-c6e5-4fcd-93d1-d97d63b735b0")
+		(property "Reference" "#PWR145"
+			(at 317.5 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 317.5 219.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 317.5 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0958f32e-fb19-4460-8e1f-10fd0c06c9de")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 129.54 308.61 0)
 		(unit 1)
@@ -16804,7 +17883,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "478-KGM05AR50J105KHTR-ND"
+		(property "Dist. P/N" "490-GRM155R61H105KE05DTR-ND"
 			(at 254 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -16826,7 +17905,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "04026D105KAT2A"
+		(property "Manf. P/N" "GRM155R61H105KE05D"
 			(at 254 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -16837,7 +17916,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera"
+		(property "Manufacturer" "Murata Electronics"
 			(at 254 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -16848,7 +17927,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 1µF, ±10%, 6.3V, X5R, 0402 (1005m)"
+		(property "Part Description" "1 µF ±10% 50V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 254 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -16913,6 +17992,83 @@
 			(project "libreboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 320.04 350.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d4b3263-5884-4c75-b703-28b2abe02701")
+		(property "Reference" "#PWR144"
+			(at 320.04 356.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 320.04 354.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 320.04 350.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "061b8e70-a106-47f1-84d9-904bdce76c1a")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR144")
 					(unit 1)
 				)
 			)
@@ -17422,7 +18578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "105kΩ"
+		(property "Value" "60.4kΩ"
 			(at 228.6 255.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17466,7 +18622,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P105KLTR-ND"
+		(property "Dist. P/N" "P60.4KLTR-ND"
 			(at 226.06 254 0)
 			(hide yes)
 			(show_name no)
@@ -17488,7 +18644,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-2RKF1053X"
+		(property "Manf. P/N" "ERJ-2RKF6042X"
 			(at 226.06 254 0)
 			(hide yes)
 			(show_name no)
@@ -17510,7 +18666,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 105kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 60.4kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 226.06 254 0)
 			(hide yes)
 			(show_name no)
@@ -19165,6 +20321,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 317.5 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae95e02e-3c56-4ef5-80f0-f29577575035")
+		(property "Reference" "R55"
+			(at 320.04 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kΩ"
+			(at 320.04 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-U02F1003XTR-ND"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf. P/N" "ERJ-U02F1003X"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "Resistor, 100kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15bfbbd7-1e78-44dd-bc13-c1867369a8de")
+		)
+		(pin "2"
+			(uuid "0f7b809f-786a-40de-871f-5b4a8a212273")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 257.81 189.23 0)
 		(unit 1)
@@ -19527,6 +20819,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 320.04 335.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b373b2ae-12a3-4e46-912c-00b2a5879cf7")
+		(property "Reference" "#PWR143"
+			(at 320.04 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5v"
+			(at 320.04 331.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 320.04 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9145ae3b-69d2-485d-bb1c-4314796057e2")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 50.8 120.65 90)
 		(unit 1)
@@ -19705,7 +21074,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TPS55289:PTPS55289RYQR")
+		(lib_id "TPS55289:TPS552892RYQR")
 		(at 177.8 306.07 0)
 		(unit 1)
 		(body_style 1)
@@ -19725,7 +21094,7 @@
 				)
 			)
 		)
-		(property "Value" "PTPS55289RYQR"
+		(property "Value" "TPS552892RYQR"
 			(at 199.39 298.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19747,7 +21116,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "PTPS55289RYQR"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps552892.pdf"
 			(at 177.8 306.07 0)
 			(hide yes)
 			(show_name no)
@@ -19759,7 +21128,7 @@
 				)
 			)
 		)
-		(property "Description" "i2c address 75H"
+		(property "Description" "No I2C: 5.19 V (R53/R54)"
 			(at 199.898 303.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19813,7 +21182,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "296-TPS55289RYQRTR-ND"
+		(property "Dist. P/N" "296-TPS552892RYQRTR-ND"
 			(at 177.8 306.07 0)
 			(hide yes)
 			(show_name no)
@@ -19835,7 +21204,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "TPS55289RYQR"
+		(property "Manf. P/N" "TPS552892RYQR"
 			(at 177.8 306.07 0)
 			(hide yes)
 			(show_name no)
@@ -19857,7 +21226,7 @@
 				)
 			)
 		)
-		(property "Part Description" "IC, Buck Boost, 0.8v, 1-output, 8A"
+		(property "Part Description" "IC, Buck Boost, 0.8-22V, 1-output, 8A, external feedback, no I2C"
 			(at 177.8 306.07 0)
 			(hide yes)
 			(show_name no)
@@ -20477,7 +21846,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.9pF"
+		(property "Value" "6.8pF"
 			(at 242.57 241.3062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20521,7 +21890,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "478-KGM05ACG1H3R9BHTR-ND"
+		(property "Dist. P/N" ""
 			(at 240.03 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -20543,7 +21912,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "KGM05ACG1H3R9BH"
+		(property "Manf. P/N" "04025A6R8CAT2A"
 			(at 240.03 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -20565,7 +21934,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 3.9pF, ±2.5%, 50V, C0G/NP0, 0402 (1005m)"
+		(property "Part Description" "Capacitor, Ceramic, 6.8pF, ±0.25pF, 50V, C0G/NP0, 0402 (1005m)"
 			(at 240.03 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -20839,7 +22208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "887kΩ"
+		(property "Value" "301kΩ"
 			(at 147.32 196.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20883,7 +22252,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P887KLTR-ND"
+		(property "Dist. P/N" "P301KLTR-ND"
 			(at 144.78 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -20905,7 +22274,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-2RKF8873X"
+		(property "Manf. P/N" "ERJ-2RKF3013X"
 			(at 144.78 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -20927,7 +22296,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 887kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 301kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 144.78 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -21020,7 +22389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kΩ"
+		(property "Value" "45.3kΩ"
 			(at 151.13 314.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21064,7 +22433,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "10-ERJ-U02F1003XTR-ND"
+		(property "Dist. P/N" "P45.3KLTR-ND"
 			(at 148.59 313.69 0)
 			(hide yes)
 			(show_name no)
@@ -21086,7 +22455,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-U02F1003X"
+		(property "Manf. P/N" "ERJ-2RKF4532X"
 			(at 148.59 313.69 0)
 			(hide yes)
 			(show_name no)
@@ -21108,7 +22477,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 100kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 45.3kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 148.59 313.69 0)
 			(hide yes)
 			(show_name no)
@@ -21201,7 +22570,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "887kΩ"
+		(property "Value" "301kΩ"
 			(at 151.13 308.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21245,7 +22614,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P887KLTR-ND"
+		(property "Dist. P/N" "P301KLTR-ND"
 			(at 148.59 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -21267,7 +22636,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-2RKF8873X"
+		(property "Manf. P/N" "ERJ-2RKF3013X"
 			(at 148.59 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -21289,7 +22658,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 887kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 301kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 148.59 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -22189,6 +23558,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 317.5 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dce4dcf7-4a51-4bbf-81ea-95b875001274")
+		(property "Reference" "#PWR146"
+			(at 317.5 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 317.5 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 317.5 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 317.5 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9628f52-4726-421d-96ff-87f235a87bb8")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2025-05-04_20-53-25:470531000")
 		(at 92.71 140.97 0)
 		(unit 1)
@@ -22657,7 +24103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "105kΩ"
+		(property "Value" "25.5kΩ"
 			(at 232.41 367.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22701,7 +24147,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P105KLTR-ND"
+		(property "Dist. P/N" "P25.5KLTR-ND"
 			(at 229.87 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -22723,7 +24169,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-2RKF1053X"
+		(property "Manf. P/N" "ERJ-2RKF2552X"
 			(at 229.87 365.76 0)
 			(hide yes)
 			(show_name no)
@@ -22745,7 +24191,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 105kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+		(property "Part Description" "Resistor, 25.5kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 229.87 365.76 0)
 			(hide yes)
 			(show_name no)
