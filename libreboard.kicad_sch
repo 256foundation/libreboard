@@ -8481,6 +8481,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 96.52) (xy 175.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e069a3b9-1bf1-475c-95d5-b3c550ad1d59")
+	)
+	(wire
+		(pts
 			(xy 133.35 383.54) (xy 142.24 383.54)
 		)
 		(stroke
@@ -23479,6 +23489,16 @@
 				(justify left)
 			)
 		)
+		(pin "HUB_SW_RESETz" output
+			(at 175.26 111.76 90)
+			(uuid "3d2f2013-6042-4a78-b02a-cdb597befb0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "libreboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -23718,6 +23738,16 @@
 		(pin "CAM_GPIO1" input
 			(at 162.56 96.52 270)
 			(uuid "cc308e1b-5fdf-487c-b567-00ff68875e44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HUB_SW_RESETz" input
+			(at 175.26 96.52 270)
+			(uuid "04818922-c4b0-47c3-acea-671670020099")
 			(effects
 				(font
 					(size 1.27 1.27)

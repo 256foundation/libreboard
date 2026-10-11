@@ -11908,6 +11908,12 @@
 		(uuid "a92045c5-4f45-4090-af92-e196e8719e05")
 	)
 	(junction
+		(at 54.61 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b073de4e-af66-4b3c-b5d2-aed08b3d0de8")
+	)
+	(junction
 		(at 21.59 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13287,6 +13293,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 223.52) (xy 95.25 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66305384-b8f3-40a7-a8b7-b8cb4e74e5f9")
+	)
+	(wire
+		(pts
 			(xy 38.1 95.25) (xy 39.37 95.25)
 		)
 		(stroke
@@ -13764,6 +13780,16 @@
 			(type solid)
 		)
 		(uuid "8b398452-7864-4ae1-87b2-f3c31f993db8")
+	)
+	(wire
+		(pts
+			(xy 54.61 241.3) (xy 54.61 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ba92b27-3f8d-4bb0-9a26-969c5513f30b")
 	)
 	(wire
 		(pts
@@ -15374,6 +15400,16 @@
 			(type solid)
 		)
 		(uuid "fcad587d-8ae7-4c7d-a56f-02c87f607c8d")
+	)
+	(wire
+		(pts
+			(xy 54.61 238.76) (xy 38.1 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fece73b5-d845-4e3f-aa90-fa1d0d0cfbda")
 	)
 	(wire
 		(pts
@@ -17061,6 +17097,17 @@
 			(justify left)
 		)
 		(uuid "396b75b5-8301-434d-a10a-ad2aa7eccc47")
+	)
+	(hierarchical_label "HUB_SW_RESETz"
+		(shape output)
+		(at 95.25 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4982b1b8-5690-4299-95b2-4fccc17e0052")
 	)
 	(hierarchical_label "SCL0"
 		(shape output)
@@ -26475,6 +26522,83 @@
 			(project "libreboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbcc9cc5-b31c-4112-93ea-317c7115d951")
+		(property "Reference" "#PWR142"
+			(at 38.1 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 242.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "330b5dc5-aa58-4d30-9be6-38303cf6c4ff")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005cff706a"
+					(reference "#PWR142")
 					(unit 1)
 				)
 			)

@@ -11012,10 +11012,6 @@
 		(uuid "30653909-c407-42f6-8ee2-6aa0d5635c76")
 	)
 	(no_connect
-		(at 149.86 185.42)
-		(uuid "622183f1-5a54-4626-b872-48da48458a34")
-	)
-	(no_connect
 		(at 149.86 187.96)
 		(uuid "8b55fba2-094e-4880-91f7-00052ee3f4bc")
 	)
@@ -11058,6 +11054,16 @@
 			(type default)
 		)
 		(uuid "0249a758-231a-4367-ad3b-74cdba4dd72b")
+	)
+	(wire
+		(pts
+			(xy 149.86 185.42) (xy 147.32 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032c67aa-c535-4201-8e7b-7ce50f2ebdc8")
 	)
 	(wire
 		(pts
@@ -13448,6 +13454,16 @@
 			(type solid)
 		)
 		(uuid "80b9a57f-3326-43ca-b6ca-5e911992b3c4")
+	)
+	(wire
+		(pts
+			(xy 147.32 185.42) (xy 147.32 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f10db4-7f53-4de0-b41a-e6413d836e90")
 	)
 	(wire
 		(pts
@@ -16783,6 +16799,17 @@
 			(justify left)
 		)
 		(uuid "69f75991-c8c0-49a9-aed8-daa6ca9a5d73")
+	)
+	(hierarchical_label "HUB_SW_RESETz"
+		(shape input)
+		(at 147.32 198.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fdb254e-0266-4879-b48a-de5f11a96946")
 	)
 	(hierarchical_label "+3.3v"
 		(shape input)
