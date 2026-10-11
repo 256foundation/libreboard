@@ -13419,7 +13419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 270.51 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -13452,7 +13452,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "732-7429-2-ND"
+		(property "Dist. P/N" ""
 			(at 270.51 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -13474,7 +13474,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "885012005011"
+		(property "Manf. P/N" "C3216X5R1A476M160AB"
 			(at 270.51 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -13485,7 +13485,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "TDK Corporation"
 			(at 270.51 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -13496,7 +13496,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 47pF, ±5%, 10V, C0G/NP0, 0402 (1005m)"
+		(property "Part Description" "47 µF ±20% 10V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 270.51 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -15997,7 +15997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 281.94 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -16030,7 +16030,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "732-7429-2-ND"
+		(property "Dist. P/N" ""
 			(at 281.94 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -16052,7 +16052,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "885012005011"
+		(property "Manf. P/N" "C3216X5R1A476M160AB"
 			(at 281.94 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -16063,7 +16063,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "TDK Corporation"
 			(at 281.94 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -16074,7 +16074,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 47pF, ±5%, 10V, C0G/NP0, 0402 (1005m)"
+		(property "Part Description" "47 µF ±20% 10V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 281.94 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -24295,7 +24295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 292.1 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -24328,7 +24328,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "732-7429-2-ND"
+		(property "Dist. P/N" ""
 			(at 292.1 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -24350,7 +24350,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "885012005011"
+		(property "Manf. P/N" "C3216X5R1A476M160AB"
 			(at 292.1 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -24361,7 +24361,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Manufacturer" "TDK Corporation"
 			(at 292.1 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -24372,7 +24372,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 47pF, ±5%, 10V, C0G/NP0, 0402 (1005m)"
+		(property "Part Description" "47 µF ±20% 10V Ceramic Capacitor X5R 1206 (3216 Metric)"
 			(at 292.1 344.17 0)
 			(hide yes)
 			(show_name no)
