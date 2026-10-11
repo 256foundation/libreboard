@@ -22686,7 +22686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 101.6 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -22719,7 +22719,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P10.0KHTR-ND"
+		(property "Dist. P/N" "10-ERJ-U02F1002XTR-ND"
 			(at 101.6 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -22741,7 +22741,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ERJ-3EKF1002V"
+		(property "Manf. P/N" "ERJ-U02F1002X"
 			(at 101.6 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -22763,7 +22763,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Resistor, 10kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
+		(property "Part Description" "Resistor, 10kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
 			(at 101.6 240.03 0)
 			(hide yes)
 			(show_name no)
