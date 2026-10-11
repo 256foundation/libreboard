@@ -16186,16 +16186,6 @@
 		)
 		(uuid "36b240ad-b900-4655-8180-89e934c83ee3")
 	)
-	(label "HUB_3V3"
-		(at 375.92 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "373ef0b9-6efb-43be-aa2f-f735644f6657")
-	)
 	(label "+3.3v"
 		(at 134.62 78.74 0)
 		(effects
@@ -17216,6 +17206,17 @@
 			(justify right)
 		)
 		(uuid "d68589fa-205b-4356-a20d-821c85f5f45e")
+	)
+	(hierarchical_label "HUB_3V3"
+		(shape output)
+		(at 375.92 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2ada3de-49b1-44c4-98d2-5214ff442118")
 	)
 	(symbol
 		(lib_id "power:GND")

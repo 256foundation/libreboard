@@ -15533,16 +15533,6 @@
 		)
 		(uuid "0cdebb81-7707-4273-b91b-84c97256655a")
 	)
-	(label "+3.3v"
-		(at 101.6 233.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e5ab1a0-6d38-43c8-9d61-9d28ff704046")
-	)
 	(label "TRD3_N"
 		(at 245.11 54.61 180)
 		(effects
@@ -15943,15 +15933,15 @@
 		)
 		(uuid "362755ad-ea41-482e-bb23-627c6eb15a40")
 	)
-	(label "+3.3v"
-		(at 116.84 19.05 180)
+	(label "HUB_3V3"
+		(at 172.72 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "39b32332-d6eb-4066-9c5a-784c77cb509f")
+		(uuid "38f273b2-4498-4434-9f7e-4bbf9ae9c882")
 	)
 	(label "SCL0"
 		(at 128.27 209.55 180)
@@ -16103,16 +16093,6 @@
 		)
 		(uuid "533e0349-e9bd-4e8f-92c0-75eac764bdf1")
 	)
-	(label "+3.3v"
-		(at 35.56 251.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54a26bf8-ff56-4df1-bb5a-361c5599331c")
-	)
 	(label "TRD3_P"
 		(at 245.11 49.53 180)
 		(effects
@@ -16252,6 +16232,16 @@
 			(justify left bottom)
 		)
 		(uuid "73b3efd7-d2be-46cf-b06c-e91017a9877c")
+	)
+	(label "HUB_3V3"
+		(at 35.56 251.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74099b45-e21e-4941-ad67-8da93d577428")
 	)
 	(label "SD_CLK"
 		(at 110.49 92.71 180)
@@ -16593,16 +16583,6 @@
 		)
 		(uuid "b7986f62-ea7a-4dc5-91cd-26acb8e0379b")
 	)
-	(label "+3.3v"
-		(at 161.29 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b988d6e1-acde-48d5-aaac-780083f0a33d")
-	)
 	(label "nRPIBOOT"
 		(at 104.14 138.43 0)
 		(effects
@@ -16702,6 +16682,16 @@
 			(justify right bottom)
 		)
 		(uuid "c6c09f1d-8526-474d-84d1-9ef4e9ca3baa")
+	)
+	(label "HUB_3V3"
+		(at 116.84 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8359d88-704a-434c-b0d7-9f917626ed3b")
 	)
 	(label "ID_SC"
 		(at 109.22 64.77 180)
@@ -16843,16 +16833,6 @@
 		)
 		(uuid "dd25caf2-c470-499e-9b28-d47564283b2f")
 	)
-	(label "+3.3v"
-		(at 172.72 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dfcf21ae-fd3c-40b2-9ae0-524856d8c6da")
-	)
 	(label "GPIO13"
 		(at 148.59 64.77 180)
 		(effects
@@ -16892,6 +16872,16 @@
 			(justify right bottom)
 		)
 		(uuid "e81c06e1-d9e8-4304-b5bd-1c56323303d7")
+	)
+	(label "HUB_3V3"
+		(at 161.29 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ed14e19f-ea60-430b-98fb-b423c02bd02c")
 	)
 	(label "GPIO19"
 		(at 24.13 52.07 0)
@@ -17172,6 +17162,17 @@
 			(justify right)
 		)
 		(uuid "59e8b122-c74b-422c-8f60-6d8ce58f4682")
+	)
+	(hierarchical_label "HUB_3V3"
+		(shape input)
+		(at 101.6 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e31ba56-eb1d-42c9-b27c-4e149339d3cf")
 	)
 	(hierarchical_label "CAM_GPIO0"
 		(shape output)

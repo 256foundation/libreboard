@@ -8385,6 +8385,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 96.52) (xy 165.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0921ed-a396-457f-991c-8312e7a30d24")
+	)
+	(wire
+		(pts
 			(xy 320.04 342.9) (xy 327.66 342.9)
 		)
 		(stroke
@@ -9632,6 +9642,16 @@
 			(justify left bottom)
 		)
 		(uuid "cfd30f19-1f1d-4301-a62d-4f3fb33dd092")
+	)
+	(label "HUB_3V3"
+		(at 165.1 106.68 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f09bacd4-fb4f-4b1a-af44-25558e91928e")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -24945,6 +24965,16 @@
 				(justify right)
 			)
 		)
+		(pin "HUB_3V3" input
+			(at 165.1 111.76 90)
+			(uuid "8b0450b2-24de-423f-ac70-17f63902071e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "libreboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -24998,7 +25028,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB2_P" bidirectional
@@ -25194,6 +25224,16 @@
 		(pin "HUB_SW_RESETz" input
 			(at 175.26 96.52 270)
 			(uuid "04818922-c4b0-47c3-acea-671670020099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HUB_3V3" output
+			(at 165.1 96.52 270)
+			(uuid "c5f0fbb8-8455-4e1e-80ab-baf5b7e45342")
 			(effects
 				(font
 					(size 1.27 1.27)
