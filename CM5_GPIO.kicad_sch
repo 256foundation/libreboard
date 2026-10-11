@@ -17383,6 +17383,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C67531"
+			(at 165.1 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "33f0ff87-5826-47b7-a189-ca3528f1f211")
 		)
@@ -17571,6 +17582,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 252.73 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C250547"
 			(at 252.73 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18630,6 +18652,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 228.6 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2cb9c49e-82d7-476b-bc58-8c6fff3dddf8")
 		)
@@ -19201,6 +19234,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 210.82 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "db3bdaef-0751-479c-99b1-2d09837cc205")
 		)
@@ -19544,6 +19588,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25117"
+			(at 232.41 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2b36193-b632-424c-b534-9f2f874f65c5")
 		)
@@ -19724,6 +19779,17 @@
 		)
 		(property "STANDARD" ""
 			(at 232.41 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 232.41 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20089,6 +20155,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C125113"
+			(at 116.84 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fd1b2abd-acdb-456a-b12a-78be5659d6b2")
 		)
@@ -20270,6 +20347,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 116.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
 			(at 116.84 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -20559,6 +20647,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C125114"
+			(at 172.72 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9c352ce5-8dcd-4676-8f85-0d97597fd098")
 		)
@@ -20740,6 +20839,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 172.72 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
 			(at 172.72 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -20939,6 +21049,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C90627"
+			(at 207.01 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "113c2e5c-5d21-44b9-9699-61a03d05b219")
 		)
@@ -21064,7 +21185,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "2358234"
+		(property "Dist. P/N" "WM11190TR-ND"
 			(at 255.27 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -21075,7 +21196,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Farnell"
+		(property "Distributor" "Digikey"
 			(at 255.27 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -21142,6 +21263,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 255.27 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C428492"
 			(at 255.27 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -21725,6 +21857,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C505002"
+			(at 123.19 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "21c25529-23d9-48dd-b470-801777c483af")
 		)
@@ -21907,6 +22050,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 207.01 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C90627"
 			(at 207.01 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -22638,6 +22792,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7219081"
+			(at 201.93 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "P_2"
 			(uuid "afb3c71c-5c1b-4a5e-a94b-014fff5120e7")
 		)
@@ -22765,6 +22930,17 @@
 			)
 		)
 		(property "Part Description" "Resistor, 10kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 101.6 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 101.6 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -23033,6 +23209,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 267.97 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C37415176"
 			(at 267.97 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -23365,6 +23552,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 43.18 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2574523a-6b22-43cc-82ab-5d7dc004105f")
 		)
@@ -23556,6 +23754,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 170.18 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4ba98826-db29-4245-806c-e02d83d88466")
 		)
@@ -23737,6 +23946,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 160.02 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25117"
 			(at 160.02 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -24082,6 +24302,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 149.86 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 149.86 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -24603,6 +24834,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C160390"
+			(at 142.24 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "312be319-4f51-44ba-87f6-fd6b6d11e1e2")
 		)
@@ -24888,7 +25130,7 @@
 				)
 			)
 		)
-		(property "Distributor" "LSCS"
+		(property "Distributor" "LCSC"
 			(at 196.85 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -25449,6 +25691,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C507216"
+			(at 87.63 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c334b247-5fa4-4436-9698-d3724511a819")
 		)
@@ -25628,6 +25881,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 152.4 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C160390"
 			(at 152.4 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -27134,6 +27398,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15525"
+			(at 180.34 252.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c2ca9d6-b2f3-47ef-8aa7-71cecfcee008")
 		)
@@ -27646,6 +27921,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C505002"
+			(at 143.51 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2bb2d452-ee03-4fa2-aadf-e62abf15bf31")
 		)
@@ -27776,6 +28062,17 @@
 			)
 		)
 		(property "Part Description" "I/O Expander 8 I2C 400 kHz 16-SSOP"
+			(at 72.39 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2652331"
 			(at 72.39 236.22 0)
 			(hide yes)
 			(show_name no)

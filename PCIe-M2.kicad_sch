@@ -4554,6 +4554,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C125113"
+			(at 201.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "81837322-b40e-4659-a1e6-d664620e3e77")
 		)
@@ -4735,6 +4746,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 152.4 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -5003,6 +5025,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 46.99 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 46.99 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -5512,6 +5545,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C11702"
+			(at 201.93 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c37cfdb4-e075-458a-90b9-2fb9750c6afa")
 		)
@@ -5693,6 +5737,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2916320"
+			(at 257.81 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "libreboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005ed4bb5b"
@@ -5856,6 +5911,17 @@
 		)
 		(property "STANDARD" ""
 			(at 101.6 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22404330"
+			(at 101.6 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6122,6 +6188,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 119.38 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64724efb-1b56-481b-9a94-34ecb9e23e36")
 		)
@@ -6303,6 +6380,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 233.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 233.68 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6504,6 +6592,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25741"
+			(at 88.9 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4c539de-bc1a-4b33-9180-cc85871167ab")
 		)
@@ -6684,6 +6783,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25879"
+			(at 119.38 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e8bf4dc9-8e1f-434b-9280-c08e046d520f")
 		)
@@ -6853,6 +6963,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 215.9 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2650753"
 			(at 215.9 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7060,6 +7181,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 38.1 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cfafd1af-90d8-46cc-8d21-f3d0f46f44a0")
 		)
@@ -7229,6 +7361,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 73.66 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2070918"
 			(at 73.66 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -7451,6 +7594,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 55.88 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bf3649ee-6c06-4953-abda-cb7012a3e139")
 		)
@@ -7632,6 +7786,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 132.08 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 132.08 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -8482,6 +8647,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1538"
+			(at 109.22 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1315c287-850c-4b9e-baa6-144fa435d756")
 		)
@@ -8653,6 +8829,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 257.81 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2916320"
 			(at 257.81 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9092,6 +9279,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2916320"
+			(at 257.81 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "libreboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005ed4bb5b"
@@ -9354,6 +9552,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 142.24 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5e1fd3ca-78c4-4c28-9eeb-489941c8616d")
 		)
@@ -9601,6 +9810,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 161.29 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C574849"
 			(at 161.29 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -10082,6 +10302,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2916320"
+			(at 257.81 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "libreboard"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/00000000-0000-0000-0000-00005ed4bb5b"
@@ -10257,6 +10488,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 162.56 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 162.56 172.72 0)
 			(hide yes)
 			(show_name no)

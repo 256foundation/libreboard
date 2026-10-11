@@ -19512,6 +19512,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C597981"
+			(at 156.21 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "76a87642-211c-44f2-a488-190d6dc3728e")
 		)
@@ -19753,6 +19764,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 264.16 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5240402"
 			(at 264.16 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -20017,6 +20039,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 162.56 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fb4e7351-d265-4999-adf6-bc7596c21cf3")
 		)
@@ -20208,6 +20241,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 129.54 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7308e13a-4809-4e8e-af65-9905819aa376")
 		)
@@ -20387,6 +20431,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 146.05 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3235509"
 			(at 146.05 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -20799,6 +20854,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at -71.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6782225"
 			(at -71.12 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -21671,6 +21737,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15525"
+			(at 335.28 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca3d05a2-c17f-449d-be10-2619adf3212d")
 		)
@@ -21939,6 +22016,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 143.51 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "90190628-f906-4979-b385-b8b87ecbb619")
 		)
@@ -22120,6 +22208,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C409938"
+			(at 207.01 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "563fd9f6-1db1-4c1c-8459-704c6fc4fdb3")
 		)
@@ -22246,6 +22345,17 @@
 			)
 		)
 		(property "Part Description" "Voltage supervisor, adjustable (0.405 V SENSE), programmable delay, open-drain RESET, SOT-23-6"
+			(at 160.02 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19653"
 			(at 160.02 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -22459,6 +22569,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 314.96 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7283eb75-f12e-4dae-b277-76d4d9e67ae5")
 		)
@@ -22583,6 +22704,17 @@
 			)
 		)
 		(property "Part Description" "Resistor, 10kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
+			(at 189.23 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 189.23 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -22751,7 +22883,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "2N7002-FDITR-ND"
 			(at 187.96 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -22796,6 +22928,17 @@
 			)
 		)
 		(property "Part Description" "MOSFET, N-channel, 60V, 115mA, SOT-23"
+			(at 187.96 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8545"
 			(at 187.96 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -22935,6 +23078,17 @@
 			)
 		)
 		(property "Part Description" "Resistor, 200kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 165.1 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25764"
 			(at 165.1 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -23116,6 +23270,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 139.7 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 139.7 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -23337,6 +23502,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 139.7 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de056306-054c-46e2-8da9-db1254b9690f")
 		)
@@ -23508,6 +23684,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 336.55 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3197955"
 			(at 336.55 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -23738,6 +23925,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 273.05 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 273.05 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -24080,6 +24278,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25796"
+			(at 389.89 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca0d560d-0776-4190-9806-d48d5980c286")
 		)
@@ -24206,6 +24415,17 @@
 			)
 		)
 		(property "Part Description" "Resistor, 100kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 223.52 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
 			(at 223.52 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -24397,6 +24617,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 325.12 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 325.12 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -24662,6 +24893,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25796"
+			(at 323.85 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5c630eb4-be50-4e89-85de-67afff906466")
 		)
@@ -24908,6 +25150,17 @@
 		)
 		(property "STANDARD" ""
 			(at 322.58 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25796"
+			(at 322.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25249,6 +25502,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25796"
+			(at 389.89 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c7f5e32d-0e39-4d9e-a83c-f4868d8a8b10")
 		)
@@ -25419,6 +25683,17 @@
 		)
 		(property "STANDARD" ""
 			(at 160.02 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C85813"
+			(at 160.02 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25609,6 +25884,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 100.33 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 100.33 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -25832,6 +26118,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1518208"
+			(at 340.36 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23f34dda-5e1b-4c2c-8886-eb0bbc5b5925")
 		)
@@ -26013,6 +26310,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 304.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 304.8 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -26278,6 +26586,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25796"
+			(at 322.58 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "40b1abba-4f66-4cfc-b964-84a27cc4f8ab")
 		)
@@ -26404,6 +26723,17 @@
 			)
 		)
 		(property "Part Description" "Resistor, 200kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 180.34 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25764"
 			(at 180.34 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -26605,6 +26935,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 149.86 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2c089061-417c-4397-8b7d-18caeef28a06")
 		)
@@ -26774,6 +27115,17 @@
 		)
 		(property "STANDARD" ""
 			(at 389.89 234.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25796"
+			(at 389.89 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27051,6 +27403,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 168.91 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "71f94156-cd0b-4ec1-9104-14d8b30d45c4")
 		)
@@ -27232,6 +27595,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 160.02 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 160.02 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -27510,6 +27884,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25756"
+			(at 128.27 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b7f9f82e-6de3-41f4-b2f7-d1c142f8a660")
 		)
@@ -27679,6 +28064,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 29.21 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C134092"
 			(at 29.21 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -27949,6 +28345,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15525"
+			(at 210.82 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b88c63ec-5400-461b-b079-0cad0d7939ab")
 		)
@@ -28162,6 +28569,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2986233"
+			(at 149.86 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6c1382b0-b4de-4f58-9e1a-e7aff380005e")
 		)
@@ -28342,6 +28760,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C3275146"
+			(at 87.63 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "09f421e8-acca-4e6f-ba1f-80adf40332ae")
 		)
@@ -28423,7 +28852,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "2N7002-FDITR-ND"
 			(at 220.98 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -28468,6 +28897,17 @@
 			)
 		)
 		(property "Part Description" "MOSFET, N-channel, 60V, 115mA, SOT-23"
+			(at 220.98 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C8545"
 			(at 220.98 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -28684,6 +29124,17 @@
 			)
 		)
 		(property "Part Description" "CAP CER 0.1UF 50V X7R 0402"
+			(at 259.08 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 259.08 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -28962,6 +29413,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25756"
+			(at 78.74 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "20b7d8a7-7f0d-4cf0-9ca6-dc04f34b16c8")
 		)
@@ -29141,6 +29603,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C85831"
+			(at 354.33 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "678d5dd7-3dce-40fb-81c2-336aa7e1e7b4")
 		)
@@ -29265,6 +29738,17 @@
 			)
 		)
 		(property "Part Description" "Resistor, 4.7kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
+			(at 210.82 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23162"
 			(at 210.82 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -29520,6 +30004,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 109.22 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2158037"
 			(at 109.22 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -29810,6 +30305,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 179.07 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ac3e5316-7096-4137-a6dc-e5c317d3949f")
 		)
@@ -29980,6 +30486,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 381 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1509296"
 			(at 381 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -30256,6 +30773,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C3275146"
+			(at 137.16 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2f02bbee-5d74-4740-a0b2-3a51674c35bd")
 		)
@@ -30437,6 +30965,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 78.74 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 78.74 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -30737,6 +31276,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 190.5 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "135c504e-180a-435c-b78a-8d0c2baa9515")
 		)
@@ -30893,7 +31443,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "296-48293-2-ND"
 			(at 93.98 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -30938,6 +31488,17 @@
 			)
 		)
 		(property "Part Description" "IC, USB Type-C DRP port controller + USB3 SuperSpeed 2:1 mux, WQFN-30"
+			(at 93.98 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C165155"
 			(at 93.98 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -31216,6 +31777,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 394.97 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 394.97 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -31755,6 +32327,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 110.49 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5cccaafe-7218-4c61-bcd5-123669d22dea")
 		)
@@ -32120,6 +32703,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C403390"
+			(at 182.88 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8f24d4a-6280-4a01-bd2c-8956c2fae661")
 		)
@@ -32453,6 +33047,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25900"
+			(at 205.74 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e19edba1-f000-4135-9fa9-728fe0b7b38a")
 		)
@@ -32625,6 +33230,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 248.92 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C192089"
 			(at 248.92 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -33079,6 +33695,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25796"
+			(at 391.16 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "42af25cb-b1ef-420c-9548-80c6363e9713")
 		)
@@ -33488,6 +34115,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2158037"
+			(at 59.69 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6e9965ec-da2e-4a0c-8d06-3f2e1255a520")
 		)
@@ -33691,6 +34329,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 367.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e1cf6f04-b7cb-4771-8e3f-a7d2ffe5caf6")
 		)
@@ -33882,6 +34531,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 293.37 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3deeb506-5152-4c94-be37-b51f6d59cba8")
 		)
@@ -34052,6 +34712,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 335.28 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3197955"
 			(at 335.28 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -34391,6 +35062,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 243.84 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "12c5f63b-b344-4418-ab5c-431e868f7496")
 		)
@@ -34592,6 +35274,17 @@
 			)
 		)
 		(property "Part Description" "Resistor, 158kΩ, ±1%, 0.1W, SMD 0603 (1608m)"
+			(at 139.7 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22883"
 			(at 139.7 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -34913,7 +35606,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "LP38693MP-3.3/NOPBTR-ND"
 			(at 355.6 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -34958,6 +35651,17 @@
 			)
 		)
 		(property "Part Description" "IC, LDO, 3.3V, 500mA, SOT-223-5, enable"
+			(at 355.6 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C130904"
 			(at 355.6 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -35058,7 +35762,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "490-1494-2-ND"
+		(property "Dist. P/N" ""
 			(at 134.62 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -35103,6 +35807,17 @@
 			)
 		)
 		(property "Part Description" "Capacitor, Ceramic, 1nF, ±5%, 50V, C0G, 0603 (1608m)"
+			(at 134.62 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77026"
 			(at 134.62 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -35291,6 +36006,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25796"
+			(at 322.58 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ee7c23cd-f350-4729-811d-18071194d831")
 		)
@@ -35417,6 +36143,17 @@
 			)
 		)
 		(property "Part Description" "Capacitor, Ceramic, 10µF, ±10%, 10V, X5R, 0805 (2012m)"
+			(at 251.46 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 251.46 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -35772,6 +36509,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 283.21 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f54aad5a-32e8-4d44-b83c-b4b121b06495")
 		)
@@ -35908,6 +36656,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C409935"
+			(at 195.58 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "17cf6033-04a5-4aaa-8a06-d5a2b310b486")
 		)
@@ -36034,6 +36793,17 @@
 			)
 		)
 		(property "Part Description" "Resistor, 4.7kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 134.62 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 134.62 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -36224,6 +36994,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C3197955"
+			(at 335.28 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A5"
 			(uuid "99bde5dc-afbd-44a2-a5d0-f47fd470ce5d")
 		)
@@ -36344,7 +37125,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "490-1532-2-ND"
+		(property "Dist. P/N" "311-1344-2-ND"
 			(at 167.64 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -36366,7 +37147,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "GRM188R71C104KA01D"
+		(property "Manf. P/N" "CC0603KRX7R9BB104"
 			(at 167.64 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -36377,7 +37158,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "YAGEO"
 			(at 167.64 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -36388,7 +37169,18 @@
 				)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 0.1µF, ±10%, 16V, X7R, 0603 (1608m)"
+		(property "Part Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 167.64 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
 			(at 167.64 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -36667,6 +37459,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 29.21 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e9d4c57f-e092-4a24-81a8-18efa9bc1ffc")
 		)
@@ -36848,6 +37651,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 189.23 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 189.23 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -37049,6 +37863,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 262.89 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ce5c1b4-9242-453d-968f-b0b10895cd11")
 		)
@@ -37230,6 +38055,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C3197955"
+			(at 335.28 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A5"
 			(uuid "3e46543c-af4e-4dd2-a3ad-810731385f8f")
 		)
@@ -37395,6 +38231,17 @@
 			)
 		)
 		(property "Part Description" "Capacitor, Ceramic, 10µF, ±10%, 10V, X5R, 0805 (2012m)"
+			(at 370.84 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 370.84 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -37586,6 +38433,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 199.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 199.39 102.87 0)
 			(hide yes)
 			(show_name no)

@@ -11211,6 +11211,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C440198"
+			(at 114.3 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "538a7ba7-28ad-42b1-81dc-13bbb6a07034")
 		)
@@ -11392,6 +11403,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1517504"
+			(at 243.84 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7bece434-ed47-49aa-960f-c8e3dbd6d900")
 		)
@@ -11518,6 +11540,17 @@
 			)
 		)
 		(property "Part Description" "Resistor, 11.0kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 317.5 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C409880"
 			(at 317.5 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -11709,6 +11742,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1518208"
+			(at 125.73 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "efe48a0c-6eed-4578-8d46-77a3aa5c0180")
 		)
@@ -11878,6 +11922,17 @@
 			)
 		)
 		(property "Part Description" "IC, Buck Boost, 0.8-22V, 1-output, 8A, external feedback, no I2C"
+			(at 173.99 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19272254"
 			(at 173.99 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -12480,6 +12535,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2944013"
+			(at 307.34 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3b79b4ad-7979-4790-98ce-e6718d78dbcb")
 		)
@@ -12651,6 +12717,17 @@
 			)
 		)
 		(property "Part Description" "Capacitor, Aluminum, 56µF, ±20%, 20V, 30mΩ ESR"
+			(at 303.53 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2162042"
 			(at 303.53 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -12845,6 +12922,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C240840"
+			(at 92.71 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "31e72010-f36a-4f90-9537-e4084bd9f57d")
 		)
@@ -13022,6 +13110,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 116.84 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C29823"
 			(at 116.84 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -13390,6 +13489,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2077134"
+			(at 138.43 257.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b92bf8fc-1f0e-4525-8739-71df36145abf")
 		)
@@ -13472,7 +13582,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "445-6006-2-ND"
 			(at 270.51 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -13561,6 +13671,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 270.51 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C96123"
 			(at 270.51 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -13752,6 +13873,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1531"
+			(at 229.87 351.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "363825e1-eb27-42a2-9a77-41caad590d2c")
 		)
@@ -13922,6 +14054,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 27.94 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 27.94 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -14105,6 +14248,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 92.71 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C240840"
 			(at 92.71 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -14389,6 +14543,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 83.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "291ccd32-a37d-4fac-b11d-c12157e045a7")
 		)
@@ -14515,6 +14680,17 @@
 			)
 		)
 		(property "Part Description" "Resistor, 30.1kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 320.04 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2076806"
 			(at 320.04 347.98 0)
 			(hide yes)
 			(show_name no)
@@ -14716,7 +14892,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Coilcraft"
+		(property "Manufacturer" "Bourns"
 			(at 248.92 295.91 90)
 			(hide yes)
 			(show_name no)
@@ -14773,6 +14949,17 @@
 		)
 		(property "STANDARD" ""
 			(at 248.92 295.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6685196"
+			(at 248.92 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14864,7 +15051,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "445-8046-1-ND - Cut Tape"
+		(property "Dist. P/N" "445-8046-1-ND"
 			(at 278.13 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -14953,6 +15140,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 278.13 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C342307"
 			(at 278.13 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -15132,6 +15330,17 @@
 		)
 		(property "STANDARD" ""
 			(at 68.58 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 68.58 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15344,6 +15553,17 @@
 			)
 		)
 		(property "Part Description" "Resistor, 100kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 320.04 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
 			(at 320.04 337.82 0)
 			(hide yes)
 			(show_name no)
@@ -15787,6 +16007,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 68.58 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d9ab3ed-dece-430b-bca1-64f616961398")
 		)
@@ -15869,7 +16100,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "445-8046-1-ND - Cut Tape"
+		(property "Dist. P/N" "445-8046-1-ND"
 			(at 288.29 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -15968,6 +16199,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C342307"
+			(at 288.29 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3894238a-64dc-423a-b174-9d59d8ce4944")
 		)
@@ -16050,7 +16292,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "445-6006-2-ND"
 			(at 281.94 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -16149,6 +16391,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C96123"
+			(at 281.94 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b5481662-ee69-4c6c-9ce7-5e30eef28954")
 		)
@@ -16231,7 +16484,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "490-3244-2-ND"
 			(at 226.06 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -16320,6 +16573,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 226.06 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76947"
 			(at 226.06 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -16587,6 +16851,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2986582"
+			(at 144.78 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "22bfc4df-73eb-4815-8cee-85ae8bea29a0")
 		)
@@ -16756,6 +17031,17 @@
 		)
 		(property "STANDARD" ""
 			(at 68.58 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 68.58 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16938,6 +17224,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 92.71 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C240840"
 			(at 92.71 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -17155,6 +17452,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5187194"
+			(at 19.05 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "edd01999-3e2e-4b9a-94e7-f5cac48f5430")
 		)
@@ -17321,6 +17629,17 @@
 		)
 		(property "STANDARD" ""
 			(at 50.8 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 50.8 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17656,6 +17975,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 129.54 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1518208"
 			(at 129.54 308.61 0)
 			(hide yes)
 			(show_name no)
@@ -18002,6 +18332,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1518208"
+			(at 254 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c3e65a32-6f7a-4c08-a502-bbce4501126e")
 		)
@@ -18260,6 +18601,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C46550474"
+			(at 97.79 308.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1677193b-acbf-462c-8a82-a9ca93b94b82")
 		)
@@ -18429,6 +18781,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 46.99 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3020560"
 			(at 46.99 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -18741,6 +19104,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2986234"
+			(at 226.06 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8bd8db5b-95e1-40c9-91c1-aedf48b603f3")
 		)
@@ -18912,6 +19286,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 257.81 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 257.81 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -19100,6 +19485,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25768"
+			(at 36.83 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ece9cf3e-fc1a-4161-8255-1b8e9958fbda")
 		)
@@ -19213,7 +19609,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Coilcraft"
+		(property "Manufacturer" "Bourns"
 			(at 245.11 184.15 90)
 			(hide yes)
 			(show_name no)
@@ -19270,6 +19666,17 @@
 		)
 		(property "STANDARD" ""
 			(at 245.11 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6685196"
+			(at 245.11 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19610,6 +20017,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25779"
+			(at 39.37 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "491e574c-fb48-4a3e-a4b2-10a239551d51")
 		)
@@ -19811,6 +20229,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5187194"
+			(at 19.05 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a0ebef8-eaba-45ad-8a84-9c5e1c07ad3a")
 		)
@@ -19979,6 +20408,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 142.24 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7501196"
 			(at 142.24 369.57 0)
 			(hide yes)
 			(show_name no)
@@ -20325,6 +20765,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C29823"
+			(at 120.65 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e2691209-4618-40fe-b124-58de56989e4f")
 		)
@@ -20451,6 +20902,17 @@
 			)
 		)
 		(property "Part Description" "Resistor, 100kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 317.5 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
 			(at 317.5 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -20642,6 +21104,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 257.81 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "76b3deb6-a771-4bf9-ab31-81eb239a68bc")
 		)
@@ -20813,6 +21286,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 228.6 299.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 228.6 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -21078,6 +21562,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 50.8 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c72d7a8f-ac72-4cdf-94d0-40713c727af9")
 		)
@@ -21247,6 +21742,17 @@
 			)
 		)
 		(property "Part Description" "IC, Buck Boost, 0.8-22V, 1-output, 8A, external feedback, no I2C"
+			(at 177.8 306.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19272254"
 			(at 177.8 306.07 0)
 			(hide yes)
 			(show_name no)
@@ -21492,6 +21998,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 68.58 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0c2581b0-7924-4020-bd79-f2b57f58aa14")
 		)
@@ -21663,6 +22180,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 261.62 300.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
 			(at 261.62 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -21910,7 +22438,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "478-KGM05ACG1H6R8CHTR-ND"
 			(at 240.03 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -21999,6 +22527,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 240.03 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1576"
 			(at 240.03 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -22190,6 +22729,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C440198"
+			(at 110.49 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "562d010c-fd65-4714-8bb1-2a63b97def46")
 		)
@@ -22361,6 +22911,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 144.78 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7209900"
 			(at 144.78 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -22552,6 +23113,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2986582"
+			(at 148.59 313.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2d06a5ed-c57c-47b0-9ea1-9c21c0bef1d8")
 		)
@@ -22723,6 +23295,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 148.59 307.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7209900"
 			(at 148.59 307.34 0)
 			(hide yes)
 			(show_name no)
@@ -22914,6 +23497,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C307331"
+			(at 224.79 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2594578c-6468-4aea-b514-f273fe4af88f")
 		)
@@ -23084,6 +23678,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 58.42 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C621415"
 			(at 58.42 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -23398,6 +24003,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 72.39 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 72.39 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -23822,6 +24438,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C240840"
+			(at 92.71 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15df0cb9-a865-4ad6-80e3-eb27d1ce58cd")
 		)
@@ -24085,6 +24712,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7059708"
+			(at 93.98 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eb0436c3-6ab2-4c47-873f-f9d586cf0a1c")
 		)
@@ -24266,6 +24904,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2076811"
+			(at 229.87 365.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "048bfd8c-4ad1-43b4-bd5e-39925ccec52d")
 		)
@@ -24348,7 +24997,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" ""
+		(property "Dist. P/N" "445-6006-2-ND"
 			(at 292.1 344.17 0)
 			(hide yes)
 			(show_name no)
@@ -24447,6 +25096,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C96123"
+			(at 292.1 344.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6ac00bff-2b6b-47b0-bc53-bc8d28d3df62")
 		)
@@ -24529,7 +25189,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "445-8046-1-ND - Cut Tape"
+		(property "Dist. P/N" "445-8046-1-ND"
 			(at 266.7 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -24618,6 +25278,17 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 266.7 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C342307"
 			(at 266.7 232.41 0)
 			(hide yes)
 			(show_name no)
