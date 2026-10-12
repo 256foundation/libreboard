@@ -1320,7 +1320,7 @@
    "jlc_unit_price": 0.3763,
    "jlc_decision": "exact_extended",
    "compared_specs": "Exact MPN, USON-10 (1x2.5), 4-ch, 8V clamp",
-   "notes": ""
+   "notes": "DNP - not fitted (2026-10-11). The CM5 IO board, where these come from, labels them 'Ethernet POE Protection'; LibreBoard has no PoE (cable-side taps unconnected) and the MagJack isolates 1500 Vrms. On Rev1 badly soldered U1/U2 caused the 100 Mb/s dropouts. Flow-through footprints keep the lines connected when unfitted, so they can be fitted later."
   },
   {
    "refs": "U3",

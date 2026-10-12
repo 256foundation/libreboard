@@ -3203,7 +3203,7 @@
 				(pins "1" "10" "2" "9" "3" "8" "4" "7" "5" "6")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.5 1.41)
@@ -11022,7 +11022,7 @@
 				(pins "1" "10" "2" "9" "3" "8" "4" "7" "5" "6")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.5 1.41)

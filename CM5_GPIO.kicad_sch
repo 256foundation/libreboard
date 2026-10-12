@@ -20884,7 +20884,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005e48728e")
 		(property "Reference" "U2"
 			(at 207.01 50.3682 0)
@@ -21895,7 +21895,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ea6ace7")
 		(property "Reference" "U1"
 			(at 207.01 18.6182 0)

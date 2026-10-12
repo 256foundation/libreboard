@@ -69,6 +69,9 @@ mounting holes and test points.
   - C69 → Chemi-Con APXJ160ARA271MF80J: 270 µF, 16 V, 10 mΩ, 6.3 × 7.7 mm.
   - C51 → 22 µF, 50 V, 40 mΩ, rated 105 °C instead of 125 °C.
   - C26 (not fitted) → Panasonic 20SVPF56MX.
+- **U1, U2 (Ethernet TVS, TPD4EUSB30): not fitted (DNP) from 2026-10-11.** The CM5 IO board, where they come from, labels them
+  "Ethernet POE Protection"; LibreBoard has no PoE, and the MagJack already isolates the cable (1500 Vrms). The footprints stay:
+  the lines run through under the chip, so the board works with them empty and they can be fitted later.
 - **2N7002 (Q1, Q2):** CJ 2N7002 (C8545, Basic), standard SOT-23 pinout. **FB1:** Murata BLM15AG221SN1D (220 Ω, 0402).
 
 ## 4. DigiKey changes
@@ -101,7 +104,7 @@ mounting holes and test points.
 
 ## 5. JLC cost estimate (10 boards)
 
-- **Setup fees:** 61 unique extended parts × about $3 ≈ **$183 per order**.
+- **Setup fees:** 60 unique extended parts × about $3 ≈ **$180 per order** (61 before U1/U2 became DNP).
 - **Parts:** about **$100 per board** at JLC's listed unit prices. This leaves out the parts in section 1
   without a JLC source, and the assembly and PCB charges.
 
