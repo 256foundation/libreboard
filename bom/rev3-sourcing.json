@@ -2044,13 +2044,13 @@
    "notes": "No footprint change. Side-loading CR1220 holders at JLC (XDCR-1220-006, KH-BS1220-2-SMT) were rejected: their drawings do not mark + and -."
   },
   {
-   "refs": "Module1",
-   "qty_per_board": 1,
+   "refs": "Module1 Module2",
+   "qty_per_board": 2,
    "value": "ComputeModule5-CM5",
-   "footprint": "Raspberry-Pi-5-Compute-Module",
+   "footprint": "CM5_Connector_A / CM5_Connector_B",
    "manufacturer": "Amphenol",
-   "mpn": "10164227-1001A1RLF x2",
-   "original_mpn": "",
+   "mpn": "10164227-1001A1RLF",
+   "original_mpn": "10164227-1001A1RLF x2",
    "digikey_pn": "609-10164227-1001A1RLFTR-ND",
    "digikey_status": "ok",
    "digikey_stock": 7351,
@@ -2061,9 +2061,9 @@
    "jlc_type": "extended",
    "jlc_stock": 7575,
    "jlc_unit_price": 1.7753,
-   "jlc_decision": "exact_extended",
+   "jlc_decision": "exact_extended (split 2026-10-11)",
    "compared_specs": "exact MPN; 100P 0.4 mm 2-row BTB receptacle, gold",
-   "notes": "Needed 20 (2 per board).; MPN matches 10164227-1001A1RLF (Amphenol BergStak 0.4 mm 100P receptacle). Needed 2 per board = 20. TR reel number, DigiKey min qty 5000 - for 10 boards order cut tape."
+   "notes": "Split 2026-10-11 into Module1 (pins 1-100, footprint CM5_Connector_A, also carries the four CM5 mounting holes and the module outline) and Module2 (pins 101-200, CM5_Connector_B), one placement-file entry each, origin at each connector centre. Needed 20 (2 per board). DigiKey min qty 5000 for the TR number; order cut tape for 10 boards."
   },
   {
    "refs": "M1",
