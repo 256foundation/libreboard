@@ -18955,6 +18955,7 @@
 		(property "Reference" "Module2"
 			(at -16.7 -10.2 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "de9f0aaa-a72e-4fd5-bd43-baab1370f5f4")
 			(effects
 				(font
