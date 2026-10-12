@@ -11789,7 +11789,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS552892RYQR"
+		(property "Value" "TPS552892QWRYQRQ1"
 			(at 195.58 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11811,7 +11811,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps552892.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps552892-q1.pdf"
 			(at 173.99 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11877,7 +11877,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "296-TPS552892RYQRTR-ND"
+		(property "Dist. P/N" "296-TPS552892QWRYQRQ1TR-ND"
 			(at 173.99 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11899,7 +11899,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "TPS552892RYQR"
+		(property "Manf. P/N" "TPS552892QWRYQRQ1"
 			(at 173.99 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11932,7 +11932,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19272254"
+		(property "LCSC" "C22375748"
 			(at 173.99 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -21609,7 +21609,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS552892RYQR"
+		(property "Value" "TPS552892QWRYQRQ1"
 			(at 199.39 298.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21631,7 +21631,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps552892.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps552892-q1.pdf"
 			(at 177.8 306.07 0)
 			(hide yes)
 			(show_name no)
@@ -21697,7 +21697,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "296-TPS552892RYQRTR-ND"
+		(property "Dist. P/N" "296-TPS552892QWRYQRQ1TR-ND"
 			(at 177.8 306.07 0)
 			(hide yes)
 			(show_name no)
@@ -21719,7 +21719,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "TPS552892RYQR"
+		(property "Manf. P/N" "TPS552892QWRYQRQ1"
 			(at 177.8 306.07 0)
 			(hide yes)
 			(show_name no)
@@ -21752,7 +21752,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19272254"
+		(property "LCSC" "C22375748"
 			(at 177.8 306.07 0)
 			(hide yes)
 			(show_name no)

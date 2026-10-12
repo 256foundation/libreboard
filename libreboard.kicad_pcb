@@ -3926,7 +3926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/61304021121.pdf"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -3963,7 +3963,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Pin Header, Male, 2x20, 2.54mm P, Vertical"
+		(property "Part Description" "Pin Header, Male, 2x20, 2.54mm P, Vertical, 2.54mm insulator"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3976,7 +3976,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "WM19411-ND"
+		(property "Dist. P/N" "732-5310-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4002,7 +4002,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "0010897400"
+		(property "Manf. P/N" "61304021121"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4015,7 +4015,20 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "LCSC" "C5364405"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8200e96-3b64-4a2e-ad73-de1e03bf708f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11320,7 +11333,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Pin Header, Male, 2x07, 2.54mm P, Vertical"
+		(property "Part Description" "Pin Header, Male, 2x07, 2.54mm P, Vertical, 15 uin gold"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11333,7 +11346,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "WM9875-ND"
+		(property "Dist. P/N" "538-10-89-7142"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11346,7 +11359,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" "Mouser"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11359,12 +11372,25 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "0010897140"
+		(property "Manf. P/N" "0010897142"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "503a6482-2f91-4aee-9e25-c39f738f39e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C561778"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67cf5ef0-e5f7-4a96-8708-0da8482e946c")
 			(effects
 				(font
 					(size 1 1)
@@ -20945,7 +20971,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=BAT-HLD-007-SMT-TR&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-007-SMT-TR"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p11.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21021,7 +21047,7 @@
 				)
 			)
 		)
-		(property "Part Description" "BATTERY RETAINER COIN 12.5MM SMD"
+		(property "Part Description" "BATTERY RETAINER COIN 12MM SMD (CR1216/1220/1225)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21151,7 +21177,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "343-BAT-HLD-007-SMT-TR-ND"
+		(property "Dist. P/N" "36-3000TR-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21177,7 +21203,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "BAT-HLD-007-SMT-TR"
+		(property "Manf. P/N" "3000TR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21190,7 +21216,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TE Connectivity Linx"
+		(property "Manufacturer" "Keystone Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21203,7 +21229,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7219081"
+		(property "LCSC" "C6997853"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56307,7 +56333,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS552892RYQR"
+		(property "Value" "TPS552892QWRYQRQ1"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56319,7 +56345,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps552892.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps552892-q1.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -56395,7 +56421,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "296-TPS552892RYQRTR-ND"
+		(property "Dist. P/N" "296-TPS552892QWRYQRQ1TR-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56421,7 +56447,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "TPS552892RYQR"
+		(property "Manf. P/N" "TPS552892QWRYQRQ1"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56460,7 +56486,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19272254"
+		(property "LCSC" "C22375748"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59360,7 +59386,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS552892RYQR"
+		(property "Value" "TPS552892QWRYQRQ1"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59372,7 +59398,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps552892.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps552892-q1.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -59448,7 +59474,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "296-TPS552892RYQRTR-ND"
+		(property "Dist. P/N" "296-TPS552892QWRYQRQ1TR-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59474,7 +59500,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "TPS552892RYQR"
+		(property "Manf. P/N" "TPS552892QWRYQRQ1"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59513,7 +59539,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19272254"
+		(property "LCSC" "C22375748"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66117,7 +66143,7 @@
 				)
 			)
 		)
-		(property "Value" "ECS-2520MV-240-CN-TR"
+		(property "Value" "OT252024MJBA4SL"
 			(at 0 2.5 90)
 			(layer "F.Fab")
 			(uuid "a40fec44-567d-4e3c-89c0-9b6c862fe0b9")
@@ -66128,7 +66154,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407310922_YXC-Crystal-Oscillators-OT252024MJBA4SL_C669072.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66154,7 +66180,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "50-ECS-2520MV-240-DN-TR-ND"
+		(property "Dist. P/N" "C669072"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66167,7 +66193,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" "LCSC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66180,7 +66206,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ECS-2520MV-240-DN-TR"
+		(property "Manf. P/N" "OT252024MJBA4SL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66193,7 +66219,20 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ECS Inc."
+		(property "LCSC" "C669072"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84e6920e-d937-4306-8e9a-d147f9e1d0b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "YXC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66206,7 +66245,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Oscillator, 24MHz, 1.6V~3.6V"
+		(property "Part Description" "Oscillator, 24MHz, CMOS, 1.8V~3.3V, 20ppm, pin 1 enables when open"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -81951,7 +81990,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hand-fitted after JLC assembly (JLC stock too low); excluded from the placement file."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -82053,7 +82092,7 @@
 				)
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -4.225 -3.250001)

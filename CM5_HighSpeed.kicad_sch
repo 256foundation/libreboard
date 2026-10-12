@@ -31834,7 +31834,7 @@
 				)
 			)
 		)
-		(property "Value" "ECS-2520MV-240-CN-TR"
+		(property "Value" "OT252024MJBA4SL"
 			(at 177.546 169.418 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31855,7 +31855,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407310922_YXC-Crystal-Oscillators-OT252024MJBA4SL_C669072.pdf"
 			(at 156.845 156.845 0)
 			(hide yes)
 			(show_name no)
@@ -31877,7 +31877,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "50-ECS-2520MV-240-DN-TR-ND"
+		(property "Dist. P/N" "C669072"
 			(at 161.29 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -31888,7 +31888,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" "LCSC"
 			(at 161.29 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -31899,7 +31899,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "ECS-2520MV-240-DN-TR"
+		(property "Manf. P/N" "OT252024MJBA4SL"
 			(at 161.29 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -31910,7 +31910,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ECS Inc."
+		(property "LCSC" "C669072"
 			(at 161.29 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -31921,7 +31921,18 @@
 				)
 			)
 		)
-		(property "Part Description" "Oscillator, 24MHz, 1.6V~3.6V"
+		(property "Manufacturer" "YXC"
+			(at 161.29 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "Oscillator, 24MHz, CMOS, 1.8V~3.3V, 20ppm, pin 1 enables when open"
 			(at 161.29 160.02 0)
 			(hide yes)
 			(show_name no)

@@ -14,34 +14,26 @@ mounting holes and test points.
   - Passives use JLC Basic or Preferred equivalents where one exists with the same value, size,
     tolerance, voltage and dielectric (or better).
   - ICs, connectors and other critical parts use the exact part.
-- **Schematic not written yet.** These values still have to go into the schematic (new hidden `LCSC`
-  field, plus DigiKey fixes). That waits until KiCad is closed: the schematic editor was open overnight.
-  The change has been rehearsed on a copy of the project:
-  - 189 parts edited, 219 field values checked;
-  - connectivity, values and footprints identical;
-  - ERC unchanged at 342.
+- **Written to the schematic** in `875b361` (hidden `LCSC` field plus the DigiKey fixes); connectivity, values
+  and footprints unchanged, ERC unchanged at 342.
 
-## 1. Decisions needed before ordering at JLC
+## 1. Decisions (made 2026-10-11)
 
-| # | Part | Problem | Options |
-|---|---|---|---|
-| 1 | **U4, U14** TPS552892RYQR (self-starting buck-boost) | **Not available anywhere:** JLC 1, DigiKey 0, Mouser 0. | **Recommended:** switch to **TPS552892QWRYQRQ1**, the automotive (AEC-Q100) version. It is a drop-in: all 21 pins, the RYQ package, VREF 1.2 V and the 3–36 V input range compared identical between the two TI datasheets. Stock: Mouser **25**, JLC 5 (LCSC C22375748), DigiKey 0. Buy 20 at Mouser and have JLC use them, or build fewer boards. |
-| 2 | **U17** TCA9538DBR (I/O expander) | JLC has 1. | Buy from DigiKey (21k in stock) and supply it to JLC, or use JLC's parts-sourcing from DigiKey. No same-footprint alternative is in stock. |
-| 3 | **U16** SN74AHCT1G125DRLR (LED buffer, SOT-553) | JLC has 0. | Supply from DigiKey (5.4k), **or** change the footprint to SC-70-5 (SN74AHCT1G125DCKR, C350557, 16k at JLC) or SOT-23-5 (DBVR, C7484, 45k). The pinout is the same; only the footprint changes. |
-| 4 | **U3** MagJack (through-hole) | TMJG4926HENL: JLC 0, DigiKey 4. | **Done (2026-10-11):** switched to **LINK-PP LPJG0926HENL** (LCSC C22457393, 2,305 at JLC, about $4.45). Its datasheet shows the same internal schematic, pinout and footprint as TMJG4926HENL. It is rated 0–70 °C instead of −40 to +85 °C. Not found at DigiKey or Mouser; the DigiKey fallback with the right pinout is TMJG4926HENL (931-TMJG4926HENL-ND). **Never accept TMJG0813GENL:** the Rev1 boards were fitted with it. It fits the same holes, but pin 9 is the centre tap and pin 10 is ground, so gigabit could never link. |
-| 5 | **BT1** BAT-HLD-007-SMT-TR (coin-cell holder) | JLC 0. | Supply from DigiKey (4.1k), or change to a holder JLC stocks (needs a footprint change). |
-| 6 | **U11** TUSB4041IPAPR (USB hub) | JLC has exactly 10, with no spare for losses. | Order quickly, or supply 2–3 spares from DigiKey (141 in stock). |
-| 7 | **Module1** (two CM5 connectors, Amphenol 10164227-1001A1RLF) | Both connectors sit in **one** footprint with one reference, but JLC's placement file needs one entry per connector. | Split it into two footprints/references (for example J9A/J9B), or give JLC separate coordinates for each. LCSC C6782225, 2 per board. |
-| 8 | **M2–M5** SMT nuts (LCSC C2916320) | They have no footprint in the design, so JLC can't place them. | Add a footprint if they should be machine-placed. Otherwise fit them by hand. The M1 screw is never assembled. |
-
-### Parts needing your review (no LCSC code stored yet)
-
-| Refs | Original | JLC candidate | What to check |
-|---|---|---|---|
-| **Y1** | ECS-2520MV-240-DN-TR (exact part 0 at JLC) | YXC **OT252024MJBA4SL**, C669072 (24 MHz CMOS, 1.8–3.3 V, ±20 ppm, 2520 4-pin, 4.5k in stock) | Pin 1 must be an enable pin that is **on when left unconnected**: Y1 pin 1 is no-connect on the board, and Y1 runs from **1.8 V**. |
-| **J2** (2×7 header) | Molex 0010897140 (0 at JLC) | Molex 10897142, C561778. Second choice: Würth 61301421121, C5162129 | Different suffix in the same series; check plating and pin lengths. |
-| **J8** (40-pin header) | Molex 0010897400 (0 at JLC) | Würth 61304021121, C5364405 (192 in stock) | Plastic body is 0.25 mm taller, which raises a HAT slightly. |
-| **SW1, SW2** | C&K PTS645VH58-2 LFS (0 at JLC) | C&K PTS645VK392LFS, C285519 | Shorter actuator and a stiffer press (2.6 N vs 2 N). Check how far the buttons reach at the board edge. |
+| Part | Problem | Decision |
+|---|---|---|
+| **U4, U14** buck-boost | TPS552892RYQR not available anywhere. | **Switched to TPS552892QWRYQRQ1**, the AEC-Q100 version: same 21 pins, RYQ package, VREF 1.2 V and 3–36 V input in both TI datasheets, so the footprint and feedback dividers stay. **Buy 20 from Mouser** (595-PS552892QWRYQRQ1, 25 in stock) and supply them to JLC: JLC now has 0 (C22375748) and DigiKey 0. |
+| **U17** TCA9538DBR | JLC has 1. | **Hand-fitted:** buy from DigiKey (296-43160-2-ND) and solder it after assembly. Excluded from the placement file (symbol `in_pos_files no`, footprint `exclude_from_pos_files`); deselect it in JLC's BOM step. |
+| **U16** LED buffer | SOT-553 (DRLR) has 0 at JLC. | **Footprint changed to SC-70-5: SN74AHCT1G125DCKR** (C350557, 16.6k at JLC). Same pinout (1 OE, 2 A, 3 GND, 4 Y, 5 VCC). SC-70-5 instead of SOT-23-5 because U16 sits 1.5–2.3 mm from C71, C70, R9 and R52. Needs F8 and re-routing. |
+| **U3** MagJack | TMJG4926HENL: JLC 0, DigiKey 4. | **Switched to LINK-PP LPJG0926HENL** (C22457393, 2,305 at JLC); same schematic, pinout and footprint; rated 0–70 °C instead of −40 to +85 °C. DigiKey fallback with the right pinout: TMJG4926HENL. **Never accept TMJG0813GENL**: the Rev1 boards were fitted with it (pin 9 = centre tap, pin 10 = ground), so gigabit could never link. |
+| **U1, U2** Ethernet TVS | — | **Not fitted (DNP)**, footprints kept; see section 3. |
+| **BT1** coin-cell holder | BAT-HLD-007-SMT-TR: JLC 0. | **Switched to Keystone 3000TR** (C6997853, 715 at JLC; DigiKey 36-3000TR-ND). It is the original 12 mm retainer the Linx part copies: + tabs at ±7.9 mm and the − contact is the round board pad under the cell, the same as the existing footprint, so no layout change. CR1216/1220/1225. |
+| **U11** TUSB4041IPAPR | JLC has exactly 10. | **Kept.** Order promptly; no spare for losses. |
+| **Module1** (two Amphenol 10164227-1001A1RLF) | One footprint and one reference for both connectors; JLC's placement file needs one entry per connector. | **Split into two parts** (one symbol unit, footprint and reference per connector). |
+| **M2–M5** SMT nuts | No footprint in the design. | **Fitted by hand.** |
+| **Y1** 24 MHz oscillator | ECS-2520MV-240-DN-TR: 0 at JLC. | **Switched to YXC OT252024MJBA4SL** (C669072, 4.5k at JLC). Checked in the YXC datasheet: pin 1 = tri-state, **enabled when high or floating** (Y1 pin 1 is unconnected), 2 GND, 3 OUT, 4 VDD as on the ECS part; 1.8–3.3 V supply (runs from +1V8), CMOS, ±20 ppm; 2520 land pattern matches the ECS footprint. Not at DigiKey, so Distributor = LCSC. |
+| **J2** 2×7 header | Molex 0010897140: 0 at JLC. | **Switched to Molex 0010897142** (10-89-7142; C561778, 1,026 at JLC; Mouser 538-10-89-7142). Same C-Grid III header with the same 240/110 mil pin lengths and 2.29 mm insulator; gold is 15 µin instead of 30 µin. DigiKey number not found. |
+| **J8** 40-pin header | Molex 0010897400: 0 at JLC. | **Switched to Würth 61304021121** (C5364405, 192 at JLC; DigiKey 732-5310-ND). Insulator 2.54 mm instead of 2.29 mm, so a HAT sits 0.25 mm higher. |
+| **SW1, SW2** buttons | C&K PTS645VH58-2 LFS: 0 at JLC. | **Switched to C&K PTS645VK39-2 LFS** (C285519, 6.5k at JLC; DigiKey CKN10053-ND). 3.85 mm actuator instead of 5.85 mm, 2.6 N instead of 2 N. Footprints set to KiCad's PTS645Vx39-2LFS (same pads as the Vx58/Vx31 ones used before, so routing stays); needs F8. |
 
 ## 2. Low stock to watch
 
@@ -94,7 +86,10 @@ mounting holes and test points.
   - C27–C29: removed the trailing " - Cut Tape" from the number.
   - U9: distributor "LSCS" → "LCSC" (SK6812SIDE-A-RVS is not sold by DigiKey).
   - L2/L3: manufacturer Coilcraft → **Bourns** (SRN8040 is a Bourns part).
-- **Out of stock at DigiKey:** TPS552892RYQR, 74LVC1G07SE-7, ASEK-32.768KHZ-L-R-T, AP3441SHE-7B.
+- **Out of stock at DigiKey:** TPS552892QWRYQRQ1 (and the TPS552892RYQR it replaced), 74LVC1G07SE-7,
+  ASEK-32.768KHZ-L-R-T, AP3441SHE-7B.
+- **Not at DigiKey (other distributor in the schematic):** U3 and Y1 (LCSC), U16 (LCSC; lookup failed),
+  J2 (Mouser 538-10-89-7142; lookup failed).
 - **Low stock at DigiKey:**
   - LI0402C221R-10: 1 in stock.
   - TLV75712PDBVR: 5.
@@ -104,11 +99,12 @@ mounting holes and test points.
 
 ## 5. JLC cost estimate (10 boards)
 
-- **Setup fees:** 60 unique extended parts × about $3 ≈ **$180 per order** (61 before U1/U2 became DNP).
+- **Setup fees:** 60 unique extended parts × about $3 ≈ **$180 per order**, counting only parts JLC places
+  (not the DNP or hand-fitted ones).
 - **Parts:** about **$100 per board** at JLC's listed unit prices. This leaves out the parts in section 1
   without a JLC source, and the assembly and PCB charges.
 
 ## 6. Still open for rev3 (not sourcing)
 
-- Route J15 / U21: HD3SS3220 placed, not routed.
-- Apply the fields above once KiCad is closed (rehearsed, about a minute), then commit.
+- Layout after the 2026-10-11 part switches: run F8 (replace footprints) for U16 (SC-70-5, re-route) and
+  SW1/SW2 (Vx39 outline, same pads).

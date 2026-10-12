@@ -18797,7 +18797,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/61304021121.pdf"
 			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -18830,7 +18830,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Pin Header, Male, 2x20, 2.54mm P, Vertical"
+		(property "Part Description" "Pin Header, Male, 2x20, 2.54mm P, Vertical, 2.54mm insulator"
 			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -18841,7 +18841,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "WM19411-ND"
+		(property "Dist. P/N" "732-5310-ND"
 			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -18863,7 +18863,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "0010897400"
+		(property "Manf. P/N" "61304021121"
 			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -18874,7 +18874,18 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "LCSC" "C5364405"
+			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 157.48 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -21544,7 +21555,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Pin Header, Male, 2x07, 2.54mm P, Vertical"
+		(property "Part Description" "Pin Header, Male, 2x07, 2.54mm P, Vertical, 15 uin gold"
 			(at 36.83 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -21555,7 +21566,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "WM9875-ND"
+		(property "Dist. P/N" "538-10-89-7142"
 			(at 36.83 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -21566,7 +21577,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" "Mouser"
 			(at 36.83 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -21577,7 +21588,18 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "0010897140"
+		(property "Manf. P/N" "0010897142"
+			(at 36.83 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C561778"
 			(at 36.83 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -22563,7 +22585,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=BAT-HLD-007-SMT-TR&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=BAT-HLD-007-SMT-TR"
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p11.pdf"
 			(at 201.93 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -22629,7 +22651,7 @@
 				)
 			)
 		)
-		(property "Part Description" "BATTERY RETAINER COIN 12.5MM SMD"
+		(property "Part Description" "BATTERY RETAINER COIN 12MM SMD (CR1216/1220/1225)"
 			(at 201.93 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -22748,7 +22770,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Dist. P/N" "343-BAT-HLD-007-SMT-TR-ND"
+		(property "Dist. P/N" "36-3000TR-ND"
 			(at 201.93 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -22770,7 +22792,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "BAT-HLD-007-SMT-TR"
+		(property "Manf. P/N" "3000TR"
 			(at 201.93 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -22781,7 +22803,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TE Connectivity Linx"
+		(property "Manufacturer" "Keystone Electronics"
 			(at 201.93 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -22792,7 +22814,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7219081"
+		(property "LCSC" "C6997853"
 			(at 201.93 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -25591,7 +25613,7 @@
 				)
 			)
 		)
-		(property "Value" "SN74AHCT1G125DRLR"
+		(property "Value" "SN74AHCT1G125DCKR"
 			(at 129.032 236.474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25601,7 +25623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libreboard:DRL5-L"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 87.63 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -25636,7 +25658,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "296-19379-2-ND"
+		(property "Dist. P/N" "C350557"
 			(at 87.63 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -25647,7 +25669,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" "LCSC"
 			(at 87.63 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -25658,7 +25680,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "SN74AHCT1G125DRLR"
+		(property "Manf. P/N" "SN74AHCT1G125DCKR"
 			(at 87.63 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -25680,7 +25702,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element 3-State Output SOT-5"
+		(property "Part Description" "Buffer, Non-Inverting 1 Element 1 Bit per Element 3-State Output SC-70-5"
 			(at 87.63 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -25691,7 +25713,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C507216"
+		(property "LCSC" "C350557"
 			(at 87.63 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -25956,7 +25978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx58-2LFS"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
 			(at 82.55 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -25967,7 +25989,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-tactile-pts645v-series-datasheet?assetguid=5014fb06-c6ac-482c-8b16-1ea09e49f7c0"
 			(at 82.55 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -26000,7 +26022,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "CKN9120-ND"
+		(property "Dist. P/N" "CKN10053-ND"
 			(at 77.47 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -26022,7 +26044,18 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "PTS645VH58-2 LFS"
+		(property "Manf. P/N" "PTS645VK39-2 LFS"
+			(at 77.47 180.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C285519"
 			(at 77.47 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -26567,7 +26600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx31-2LFS"
+		(property "Footprint" "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS"
 			(at 81.28 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -26578,7 +26611,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-tactile-pts645v-series-datasheet?assetguid=5014fb06-c6ac-482c-8b16-1ea09e49f7c0"
 			(at 81.28 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -26611,7 +26644,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "CKN9120-ND"
+		(property "Dist. P/N" "CKN10053-ND"
 			(at 76.2 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -26633,7 +26666,18 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "PTS645VH58-2 LFS"
+		(property "Manf. P/N" "PTS645VK39-2 LFS"
+			(at 76.2 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C285519"
 			(at 76.2 158.75 90)
 			(hide yes)
 			(show_name no)
@@ -27958,7 +28002,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef46199b-9786-47d3-a429-360e3cb056a8")
@@ -28006,7 +28050,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Hand-fitted after JLC assembly (JLC stock too low); excluded from the placement file."
 			(at 72.39 236.22 0)
 			(hide yes)
 			(show_name no)
