@@ -34,3 +34,6 @@ fp-info-cache
 *.zip
 
 trash/*
+# JLC/EasyEDA footprint downloads (fab/jlc_fit.py)
+fab/.easyeda-cache/
+__pycache__/

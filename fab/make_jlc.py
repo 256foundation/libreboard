@@ -30,14 +30,18 @@ KICAD_CLI = os.environ.get('KICAD_CLI') or (
     '/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli' if sys.platform == 'darwin' else 'kicad-cli')
 LAYERS = 'F.Cu,In1.Cu,In2.Cu,In3.Cu,In4.Cu,B.Cu,F.Paste,B.Paste,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts'
 
-# JLC placement corrections, matched on the footprint name (regex), checked in JLC's placement preview.
-#   centre: place at the centre of the footprint's numbered pads instead of the footprint origin.
-#           JLC centres its part on the given point; KiCad puts pin 1 at the origin of these footprints.
-#   rot:    degrees added to KiCad's rotation (JLC's library draws these parts turned by that much).
-JLC_CORRECTIONS = [
-    (r'^PinHeader_', {'centre': True, 'rot': 90}),             # J2, J3, J8: JLC drew J8 turned 90 deg and centred on pin 1
-    (r'^CONN_SD-47053-001', {'centre': True, 'rot': 0}),       # J51-J54 fan headers: centred on pin 1
-    (r'^CM5_Connector_[AB]$', {'rot': 90}),                    # Module1/2: JLC drew them across the footprint
+# JLC placement corrections.
+# 1. fab/jlc-corrections.csv (written by fab/jlc_fit.py from JLC's own EasyEDA footprints): per LCSC number
+#    and KiCad footprint, the rotation to add and where JLC's footprint origin lies in our footprint's frame.
+# 2. For parts without a usable entry there (JLC has no footprint for J2, or the file is missing), this
+#    fallback table (regex on the footprint name), taken from the fits of similar parts:
+#      centre: place at the centre of the numbered pads instead of the footprint origin;
+#      rot:    degrees added to KiCad's rotation.
+CORRECTIONS_CSV = os.path.join(ROOT, 'fab', 'jlc-corrections.csv')
+FALLBACK_CORRECTIONS = [
+    (r'^PinHeader_', {'centre': True, 'rot': 270}),            # as fitted for J3 and J8
+    (r'^CONN_SD-47053-001', {'centre': True, 'rot': 0}),       # J51-J54 fan headers
+    (r'^CM5_Connector_[AB]$', {'rot': 270}),                   # Module1/2
 ]
 
 
@@ -67,8 +71,15 @@ def block_end(s, start):
     raise ValueError('unbalanced s-expression')
 
 
+def rotate(x, y, deg):
+    """footprint frame -> board offset (KiCad: y down, angles counter-clockwise on screen)"""
+    a = math.radians(deg)
+    return x * math.cos(a) + y * math.sin(a), -x * math.sin(a) + y * math.cos(a)
+
+
 def footprint_fields(board):
-    """Reference -> (footprint name, LCSC, Value, centre of numbered pads in board mm or None) from the .kicad_pcb"""
+    """Reference -> dict(name, lcsc, value, x, y, rot, centre) from the .kicad_pcb; centre = centre of the
+    numbered pads in the footprint's own frame"""
     s = open(board, encoding='utf-8').read()
     out = {}
     for m in re.finditer(r'\n\t\(footprint "([^"]+)"', s):
@@ -76,24 +87,58 @@ def footprint_fields(board):
         blk = s[st:block_end(s, st)]
         props = dict(re.findall(r'\(property "([^"]+)" "((?:[^"\\]|\\.)*)"', blk))
         at = re.search(r'\n\t\t\(at ([-\d.]+) ([-\d.]+)(?: ([-\d.]+))?\)', blk)
-        x0, y0, rot = float(at.group(1)), float(at.group(2)), math.radians(float(at.group(3) or 0))
         pads = [(float(x), float(y)) for x, y in re.findall(r'\(pad "[^"]+" \w+ \w+\s*\(at ([-\d.]+) ([-\d.]+)', blk)]
         centre = None
         if pads:
-            cx = (min(p[0] for p in pads) + max(p[0] for p in pads)) / 2
-            cy = (min(p[1] for p in pads) + max(p[1] for p in pads)) / 2
-            # footprint frame -> board (KiCad: y down, angles counter-clockwise on screen)
-            centre = (x0 + cx * math.cos(rot) + cy * math.sin(rot), y0 - cx * math.sin(rot) + cy * math.cos(rot))
-        out[props['Reference']] = (m.group(1).split(':', 1)[-1], props.get('LCSC', '').strip(), props.get('Value', ''),
-                                   centre)
+            centre = ((min(p[0] for p in pads) + max(p[0] for p in pads)) / 2,
+                      (min(p[1] for p in pads) + max(p[1] for p in pads)) / 2)
+        out[props['Reference']] = dict(name=m.group(1).split(':', 1)[-1], lcsc=props.get('LCSC', '').strip(),
+                                       value=props.get('Value', ''), x=float(at.group(1)), y=float(at.group(2)),
+                                       rot=float(at.group(3) or 0), centre=centre)
     return out
 
 
-def correction(footprint):
-    for pattern, corr in JLC_CORRECTIONS:
+def load_corrections():
+    """(lcsc, footprint) -> (rotation to add, dx, dy) for entries jlc_fit.py marked ok (or added by hand)"""
+    out = {}
+    if os.path.exists(CORRECTIONS_CSV):
+        for r in csv.DictReader(open(CORRECTIONS_CSV, encoding='utf-8')):
+            if r.get('status') in ('ok', 'manual'):
+                out[(r['lcsc'], r['footprint'])] = (float(r['rotation']), float(r['dx']), float(r['dy']))
+    return out
+
+
+def fallback(footprint):
+    for pattern, corr in FALLBACK_CORRECTIONS:
         if re.search(pattern, footprint):
             return corr
     return {}
+
+
+def placement(f, corrections):
+    """(x, y, rotation) for JLC's placement file, y up as in KiCad's position export"""
+    c = corrections.get((f['lcsc'], f['name']))
+    if c:
+        rot_add, dx, dy = c
+    else:
+        corr = fallback(f['name'])
+        rot_add = corr.get('rot', 0)
+        dx, dy = f['centre'] if corr.get('centre') and f['centre'] else (0.0, 0.0)
+    ox, oy = rotate(dx, dy, f['rot'])
+    return f['x'] + ox, -(f['y'] + oy), (f['rot'] + rot_add) % 360
+
+
+def position_rows():
+    with tempfile.TemporaryDirectory() as td:
+        pos = os.path.join(td, 'pos.csv')
+        cli('pcb', 'export', 'pos', '--format', 'csv', '--units', 'mm', '--exclude-dnp', '-o', pos, BOARD)
+        return list(csv.DictReader(open(pos, encoding='utf-8')))
+
+
+def placed_refs():
+    """references JLC places: in the position export (no DNP, not excluded) and with an LCSC number"""
+    fields = footprint_fields(BOARD)
+    return sorted((r['Ref'] for r in position_rows() if fields[r['Ref']]['lcsc']), key=natural)
 
 
 def natural(ref):
@@ -105,58 +150,61 @@ def ascii_value(v):
     return v.replace('µ', 'u').replace('Ω', '').replace('±', '+/-').replace('°', 'deg')
 
 
+def undated(path):
+    """lines of a Gerber/drill file without the ones that only carry the export date"""
+    with open(path, encoding='utf-8', errors='replace') as f:
+        return [line for line in f if 'CreationDate' not in line and not re.search(r' date \d{4}-\d\d-\d\d', line)]
+
+
 def main():
     gdir = os.path.join(OUT, 'gerbers')
     os.makedirs(gdir, exist_ok=True)
-    for f in os.listdir(gdir):
-        os.remove(os.path.join(gdir, f))
-    # JLC's recommended KiCad settings: Protel extensions, no X2/netlist attributes,
-    # soldermask subtracted from silkscreen, 4.6 mm format; Excellon mm, decimal,
-    # absolute origin, separate PTH/NPTH, alternate oval-hole mode.
-    cli('pcb', 'export', 'gerbers', '--layers', LAYERS, '--no-x2', '--no-netlist', '--subtract-soldermask',
-        '--precision', '6', '-o', gdir + os.sep, BOARD)
-    cli('pcb', 'export', 'drill', '--format', 'excellon', '--drill-origin', 'absolute',
-        '--excellon-zeros-format', 'decimal', '--excellon-oval-format', 'alternate', '--excellon-separate-th',
-        '--excellon-units', 'mm', '-o', gdir + os.sep, BOARD)
-    for f in os.listdir(gdir):
-        if f.endswith('.gbrjob'):
+    with tempfile.TemporaryDirectory() as td:
+        # JLC's recommended KiCad settings: Protel extensions, no X2/netlist attributes,
+        # soldermask subtracted from silkscreen, 4.6 mm format; Excellon mm, decimal,
+        # absolute origin, separate PTH/NPTH, alternate oval-hole mode.
+        cli('pcb', 'export', 'gerbers', '--layers', LAYERS, '--no-x2', '--no-netlist', '--subtract-soldermask',
+            '--precision', '6', '-o', td + os.sep, BOARD)
+        cli('pcb', 'export', 'drill', '--format', 'excellon', '--drill-origin', 'absolute',
+            '--excellon-zeros-format', 'decimal', '--excellon-oval-format', 'alternate', '--excellon-separate-th',
+            '--excellon-units', 'mm', '-o', td + os.sep, BOARD)
+        new = {f for f in os.listdir(td) if not f.endswith('.gbrjob')}
+        for f in set(os.listdir(gdir)) - new:
             os.remove(os.path.join(gdir, f))
+        for f in new:
+            # keep files whose only change is the export date, so a re-run does not touch them in git
+            old = os.path.join(gdir, f)
+            if not os.path.exists(old) or undated(old) != undated(os.path.join(td, f)):
+                os.replace(os.path.join(td, f), old)
     with zipfile.ZipFile(os.path.join(OUT, 'libreboard-rev3-gerbers.zip'), 'w', zipfile.ZIP_DEFLATED) as z:
         for f in sorted(os.listdir(gdir)):
             z.write(os.path.join(gdir, f), f)
 
-    with tempfile.TemporaryDirectory() as td:
-        pos = os.path.join(td, 'pos.csv')
-        cli('pcb', 'export', 'pos', '--format', 'csv', '--units', 'mm', '--exclude-dnp', '-o', pos, BOARD)
-        rows = list(csv.DictReader(open(pos, encoding='utf-8')))
+    rows = position_rows()
     fields = footprint_fields(BOARD)
-    placed = [r for r in rows if fields[r['Ref']][1]]
+    corrections = load_corrections()
+    placed = [r for r in rows if fields[r['Ref']]['lcsc']]
     skipped = sorted({r['Ref'] for r in rows} - {r['Ref'] for r in placed}, key=natural)
 
     with open(os.path.join(OUT, 'libreboard-rev3-cpl-jlc.csv'), 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f)
         w.writerow(['Designator', 'Mid X', 'Mid Y', 'Layer', 'Rotation'])
         for r in sorted(placed, key=lambda r: natural(r['Ref'])):
-            name, _, _, centre = fields[r['Ref']]
-            corr = correction(name)
-            x, y = float(r['PosX']), float(r['PosY'])
-            if corr.get('centre') and centre:
-                x, y = centre[0], -centre[1]          # position export uses y up
-            rot = (float(r['Rot']) + corr.get('rot', 0)) % 360
+            x, y, rot = placement(fields[r['Ref']], corrections)
             w.writerow([r['Ref'], f"{x:.4f}mm", f"{y:.4f}mm", 'Top' if r['Side'] == 'top' else 'Bottom', f"{rot:g}"])
 
     groups = collections.OrderedDict()
     for r in sorted(placed, key=lambda r: natural(r['Ref'])):
-        groups.setdefault(fields[r['Ref']][1], []).append(r['Ref'])
+        groups.setdefault(fields[r['Ref']]['lcsc'], []).append(r['Ref'])
     with open(os.path.join(OUT, 'libreboard-rev3-bom-jlc.csv'), 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f)
         w.writerow(['Comment', 'Designator', 'Footprint', 'LCSC Part #'])
         for lcsc, refs in groups.items():
-            values = collections.Counter(ascii_value(fields[x][2]) for x in refs)
+            values = collections.Counter(ascii_value(fields[x]['value']) for x in refs)
             comment = values.most_common(1)[0][0]
             if len(values) > 1 and all(v.startswith('12V Fan') for v in values):
                 comment = '12V Fan'
-            names = ' / '.join(sorted({fields[x][0] for x in refs}))
+            names = ' / '.join(sorted({fields[x]['name'] for x in refs}))
             w.writerow([comment, ','.join(refs), names, lcsc])
 
     print(f'{OUT}: {len(os.listdir(gdir))} Gerber/drill files, {len(placed)} placed parts, '
