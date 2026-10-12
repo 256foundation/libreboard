@@ -14,6 +14,7 @@ without an LCSC field (fiducials). BOM lines are grouped by LCSC number.
 Set KICAD_CLI if kicad-cli is not at the default location.
 """
 import collections
+import math
 import csv
 import os
 import re
@@ -28,6 +29,16 @@ OUT = os.path.abspath(sys.argv[1]) if len(sys.argv) > 1 else os.path.join(ROOT, 
 KICAD_CLI = os.environ.get('KICAD_CLI') or (
     '/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli' if sys.platform == 'darwin' else 'kicad-cli')
 LAYERS = 'F.Cu,In1.Cu,In2.Cu,In3.Cu,In4.Cu,B.Cu,F.Paste,B.Paste,F.SilkS,B.SilkS,F.Mask,B.Mask,Edge.Cuts'
+
+# JLC placement corrections, matched on the footprint name (regex), checked in JLC's placement preview.
+#   centre: place at the centre of the footprint's numbered pads instead of the footprint origin.
+#           JLC centres its part on the given point; KiCad puts pin 1 at the origin of these footprints.
+#   rot:    degrees added to KiCad's rotation (JLC's library draws these parts turned by that much).
+JLC_CORRECTIONS = [
+    (r'^PinHeader_', {'centre': True, 'rot': 90}),             # J2, J3, J8: JLC drew J8 turned 90 deg and centred on pin 1
+    (r'^CONN_SD-47053-001', {'centre': True, 'rot': 0}),       # J51-J54 fan headers: centred on pin 1
+    (r'^CM5_Connector_[AB]$', {'rot': 90}),                    # Module1/2: JLC drew them across the footprint
+]
 
 
 def cli(*args):
@@ -57,15 +68,32 @@ def block_end(s, start):
 
 
 def footprint_fields(board):
-    """Reference -> (footprint name, LCSC, Value) from the .kicad_pcb"""
+    """Reference -> (footprint name, LCSC, Value, centre of numbered pads in board mm or None) from the .kicad_pcb"""
     s = open(board, encoding='utf-8').read()
     out = {}
     for m in re.finditer(r'\n\t\(footprint "([^"]+)"', s):
         st = m.start() + 2
         blk = s[st:block_end(s, st)]
         props = dict(re.findall(r'\(property "([^"]+)" "((?:[^"\\]|\\.)*)"', blk))
-        out[props['Reference']] = (m.group(1).split(':', 1)[-1], props.get('LCSC', '').strip(), props.get('Value', ''))
+        at = re.search(r'\n\t\t\(at ([-\d.]+) ([-\d.]+)(?: ([-\d.]+))?\)', blk)
+        x0, y0, rot = float(at.group(1)), float(at.group(2)), math.radians(float(at.group(3) or 0))
+        pads = [(float(x), float(y)) for x, y in re.findall(r'\(pad "[^"]+" \w+ \w+\s*\(at ([-\d.]+) ([-\d.]+)', blk)]
+        centre = None
+        if pads:
+            cx = (min(p[0] for p in pads) + max(p[0] for p in pads)) / 2
+            cy = (min(p[1] for p in pads) + max(p[1] for p in pads)) / 2
+            # footprint frame -> board (KiCad: y down, angles counter-clockwise on screen)
+            centre = (x0 + cx * math.cos(rot) + cy * math.sin(rot), y0 - cx * math.sin(rot) + cy * math.cos(rot))
+        out[props['Reference']] = (m.group(1).split(':', 1)[-1], props.get('LCSC', '').strip(), props.get('Value', ''),
+                                   centre)
     return out
+
+
+def correction(footprint):
+    for pattern, corr in JLC_CORRECTIONS:
+        if re.search(pattern, footprint):
+            return corr
+    return {}
 
 
 def natural(ref):
@@ -109,8 +137,13 @@ def main():
         w = csv.writer(f)
         w.writerow(['Designator', 'Mid X', 'Mid Y', 'Layer', 'Rotation'])
         for r in sorted(placed, key=lambda r: natural(r['Ref'])):
-            w.writerow([r['Ref'], f"{float(r['PosX']):.4f}mm", f"{float(r['PosY']):.4f}mm",
-                        'Top' if r['Side'] == 'top' else 'Bottom', f"{float(r['Rot']) % 360:g}"])
+            name, _, _, centre = fields[r['Ref']]
+            corr = correction(name)
+            x, y = float(r['PosX']), float(r['PosY'])
+            if corr.get('centre') and centre:
+                x, y = centre[0], -centre[1]          # position export uses y up
+            rot = (float(r['Rot']) + corr.get('rot', 0)) % 360
+            w.writerow([r['Ref'], f"{x:.4f}mm", f"{y:.4f}mm", 'Top' if r['Side'] == 'top' else 'Bottom', f"{rot:g}"])
 
     groups = collections.OrderedDict()
     for r in sorted(placed, key=lambda r: natural(r['Ref'])):

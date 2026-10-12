@@ -50,8 +50,15 @@ the case for this first rev3 run.
 - **U4, U14 TPS552892QWRYQRQ1:** the BOM line uses LCSC C22375748, which JLC has 0 of. Plan A is JLC's
   global parts sourcing (Mouser has stock); match the BOM line to those parts. If that fails (plan B: fit
   them by hand), exclude U4/U14 from the placement file in KiCad and re-run the script.
-- **Rotations:** the placement file uses KiCad's rotations. JLC's part library is not always drawn in the
-  same orientation, so check every part below in JLC's placement preview before confirming:
+- **Placement corrections** (table `JLC_CORRECTIONS` in `fab/make_jlc.py`, from JLC's first preview):
+  - pin headers J2, J3, J8 and fan headers J51–J54: KiCad's footprint origin is pin 1, but JLC centres its
+    part on the given point, so these are placed at the centre of their pins; the pin headers also get +90°;
+  - CM5 connectors Module1 (right) and Module2 (left): +90°. **Check in the preview that JLC's pin-1 mark sits
+    at the bottom end, right-hand row of each connector** (towards the "Rev 3" logo). If it is at the top
+    end, change their correction to −90° (270°) and re-run the script.
+- **Rotations:** the placement file uses KiCad's rotations plus the corrections above. JLC's part library is
+  not always drawn in the same orientation, so check every part below in JLC's placement preview before
+  confirming:
   - polarised: C3, C20, C51, C69 (polymer caps), D1–D3 (LEDs), BT1;
   - ICs and transistors: U4–U16, U18–U21, Q1, Q2, Y1;
   - connectors and switches: J1–J22, J51–J54, J100, J101, Module1, Module2 (the two CM5 connectors), U3, SW1, SW2.
