@@ -18,7 +18,24 @@ script after any board change; it rewrites everything in this folder.
 - **Impedance control:** yes (USB 3 / PCIe / USB 2 pairs 90 Ω, Ethernet / CSI-DSI pairs 100 Ω).
 - **Via covering: epoxy-filled and capped.** Vias sit inside SMD pads (J15's 0.3 mm USB-C pads, U15, U16,
   C57–C59 and the exposed pads of U11 and U21); open vias there would wick the solder away.
-- **Surface finish: ENIG** (0.4 mm-pitch CM5 connectors, QFNs, USB-C).
+- **Surface finish: ENIG** for this run (OSP is about half the price; see below). Lead-free HASL is not an
+  option: it is too uneven for the 0.4 mm-pitch CM5 connectors, the QFNs and USB-C.
+
+### ENIG or OSP
+
+Both finishes are flat, so both work for the fine-pitch parts JLC places straight after making the board.
+They differ in what happens afterwards:
+
+| | ENIG (nickel + thin gold) | OSP (organic coating on bare copper) |
+|---|---|---|
+| Hand soldering after JLC assembly | Pads stay solderable after the reflow oven and weeks of storage. | The coating degrades with heat and time. Empty pads (U17, and U4/U14 if they are hand-fitted) have been through the oven and then sit until you solder them: fine for an SSOP like U17 with plenty of flux, risky for the 3 × 5 mm power QFNs U4/U14, whose large pads need full wetting. |
+| Rework during bring-up | Survives repeated heating. | Gets worse with every heat cycle. |
+| Test points and storage | Test points stay probe-able; bare boards keep a year or more. | Exposed copper oxidizes; bare boards keep about 6 months. |
+| Price | Higher. | About half. |
+
+**Rule of thumb:** OSP is fine when JLC places everything that matters (including U4/U14) and little rework
+is expected. Use ENIG when parts are fitted by hand afterwards or when the board will be reworked, which is
+the case for this first rev3 run.
 - Smallest features: 0.127 mm tracks, 0.1 mm clearance, 0.45 mm vias with 0.2 mm holes.
 
 ## Assembly
