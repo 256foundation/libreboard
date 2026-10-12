@@ -10187,10 +10187,6 @@
 		(uuid "426744f5-151b-4336-9db2-19b96ec1a6aa")
 	)
 	(no_connect
-		(at 185.42 118.11)
-		(uuid "53a86fb1-8dde-43dd-91a5-a83e8187a4fe")
-	)
-	(no_connect
 		(at 39.37 100.33)
 		(uuid "6489fbbd-1bc4-4ea3-ab88-9e537d0c503b")
 	)

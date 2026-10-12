@@ -6075,16 +6075,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 96.52) (xy 180.34 111.76)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "0b18ae4b-e508-4f6f-a23a-00f2ca64dfe7")
-	)
-	(wire
-		(pts
 			(xy 71.12 121.92) (xy 74.93 121.92)
 		)
 		(stroke
@@ -22024,6 +22014,269 @@
 			)
 		)
 	)
+	(wire
+		(pts
+			(xy 58.42 111.76) (xy 58.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c51e52e-d9fd-48fc-b03e-f1cf94f2bd12")
+	)
+	(wire
+		(pts
+			(xy 58.42 111.76) (xy 66.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc01c969-ad8b-413d-a933-6151aaf6d19b")
+	)
+	(wire
+		(pts
+			(xy 71.12 111.76) (xy 73.66 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda23e48-4ded-42bc-9c4c-203ba27b7a1f")
+	)
+	(wire
+		(pts
+			(xy 71.12 162.56) (xy 73.66 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "706c4c0a-fc27-4a8e-8a7d-c7767b45a67e")
+	)
+	(junction
+		(at 58.42 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cc4cfdf-18a4-444c-a694-8e3a388327aa")
+	)
+	(label "TACH5"
+		(at 73.66 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d69fbb66-ceae-4a31-8b1a-6ad295eab7a4")
+	)
+	(label "TACH5"
+		(at 73.66 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da9b36de-692c-4f34-8af2-e4fabd9e82e5")
+	)
+	(no_connect
+		(at 71.12 160.02)
+		(uuid "ffb9b930-eb0b-420e-917f-f009cdec9211")
+	)
+	(no_connect
+		(at 45.72 157.48)
+		(uuid "d1d275b9-64e5-44ee-9482-f9f920d640fd")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 68.58 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07d8551f-33be-4d64-aff6-f7db18913ba7")
+		(property "Reference" "R64"
+			(at 65.024 110.744 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 68.58 112.014 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 68.58 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 68.58 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dist. P/N" "10-ERJ-U02F1002XTR-ND"
+			(at 68.58 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "Digikey"
+			(at 68.58 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manf. P/N" "ERJ-U02F1002X"
+			(at 68.58 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 68.58 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Description" "Resistor, 10kΩ, ±1%, 0.1W, SMD 0402 (1005m)"
+			(at 68.58 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 68.58 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 68.58 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 68.58 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 68.58 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 68.58 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c836d55e-0cc8-4ef6-98f9-0cdac813877a")
+		)
+		(pin "2"
+			(uuid "86824804-9990-4e6a-8950-00c9738915a0")
+		)
+		(instances
+			(project "libreboard"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 261.62 300.99 0)
@@ -25566,16 +25819,6 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO_VREF" output
-			(at 180.34 111.76 90)
-			(uuid "b1086f75-01ba-4188-8d36-75a9e2828ca9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CAM_GPIO0" output
 			(at 157.48 111.76 90)
 			(uuid "faede168-45f9-477a-bb52-53f41b551de8")
@@ -25835,16 +26078,6 @@
 		(pin "USBOTG_ID" input
 			(at 170.18 96.52 270)
 			(uuid "aa14c3bd-4acc-4908-9d28-228585a22a9d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_VREF" input
-			(at 180.34 96.52 270)
-			(uuid "9bb20359-0f8b-45bc-9d38-6626ed3a939d")
 			(effects
 				(font
 					(size 1.27 1.27)
