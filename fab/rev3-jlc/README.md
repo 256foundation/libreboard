@@ -50,15 +50,50 @@ the case for this first rev3 run.
 - **U4, U14 TPS552892QWRYQRQ1:** the BOM line uses LCSC C22375748, which JLC has 0 of. Plan A is JLC's
   global parts sourcing (Mouser has stock); match the BOM line to those parts. If that fails (plan B: fit
   them by hand), exclude U4/U14 from the placement file in KiCad and re-run the script.
-- **Placement corrections** (table `JLC_CORRECTIONS` in `fab/make_jlc.py`, from JLC's first preview):
-  - pin headers J2, J3, J8 and fan headers J51–J54: KiCad's footprint origin is pin 1, but JLC centres its
-    part on the given point, so these are placed at the centre of their pins; the pin headers also get +90°;
-  - CM5 connectors Module1 (right) and Module2 (left): +90°. **Check in the preview that JLC's pin-1 mark sits
-    at the bottom end, right-hand row of each connector** (towards the "Rev 3" logo). If it is at the top
-    end, change their correction to −90° (270°) and re-run the script.
-- **Rotations:** the placement file uses KiCad's rotations plus the corrections above. JLC's part library is
-  not always drawn in the same orientation, so check every part below in JLC's placement preview before
-  confirming:
-  - polarised: C3, C20, C51, C69 (polymer caps), D1–D3 (LEDs), BT1;
-  - ICs and transistors: U4–U16, U18–U21, Q1, Q2, Y1;
-  - connectors and switches: J1–J22, J51–J54, J100, J101, Module1, Module2 (the two CM5 connectors), U3, SW1, SW2.
+- **No JLC footprint:** JLC's preview shows these as missing, so JLC's engineers have to place them from
+  our placement point; look for them in the order review.
+  - J22 HDMI, C5240402 (Molex 2086581051). Our footprint is the EDAC 690-019-298-412 one from Raspberry
+    Pi's CM5 IO board, and JLC stocks that exact part: **C5291558** (1,850 in stock, $0.59). JLC's footprint
+    for it matches ours pad for pad, so switching J22's LCSC field to C5291558 (and re-running both scripts)
+    gives JLC the part and its placement, and avoids the open question whether the Molex part fits the
+    EDAC footprint.
+  - J2 2×7 header, C561778 (Molex 10-89-7142, chosen for its C-Grid pin lengths). Placed at the centre of
+    its pins, +270° like J3 and J8. Generic headers with JLC data, e.g. C71397 (BOOMELE, gold) or C492424
+    (XFCN), fit the footprint exactly but have 6/3 mm pins and a 2.5 mm insulator.
+  - C63, R7, R19, R20, R59: plain 0402 parts, placed by package.
+
+## Placement corrections
+
+JLC places every part from its own footprint (JLCEDA/EasyEDA official library, https://easyeda.com,
+https://lceda.cn): the placement point is that footprint's origin and rotation 0 is its orientation, and
+both often differ from our KiCad footprints. `python3 fab/jlc_fit.py` downloads JLC's footprint for every
+LCSC number on the board (cached in `fab/.easyeda-cache/`, git-ignored), fits its pads onto ours and writes
+`fab/jlc-corrections.csv`: per LCSC number and footprint, the rotation to add and where JLC's origin lies
+in our footprint. `make_jlc.py` applies that file; for parts without an entry it falls back to a small
+table in the script. After changing an LCSC number or a footprint, run `jlc_fit.py`, then `make_jlc.py`.
+
+Checked against the final placement file: every JLC pad lands within 0.2 mm of one of ours (U12: 0.47 mm,
+because its hand-soldering pads are longer). Changes from the KiCad position export:
+
+| Parts | Correction | Why |
+|---|---|---|
+| J1, J6, J10, J17 (USB-A) | moved 2.5 mm | JLC's origin is the part centre, ours pin 1. |
+| J3, J8 pin headers; J51–J54 fan headers | centred; J3/J8 also +270° | Same. |
+| U3 (Ethernet), J4 (M.2), J7 (microSD), J11, J15 (USB-C), J14, J16 | moved 0.06–2.4 mm | Different origin. |
+| Module1, Module2 (CM5 connectors) | +270° | JLC's pin 1 on our pin 1. The +90° used before put it on pin 100. |
+| J100, J101 screw terminals | +270° | The four pads are symmetric; JLC's body outline (wire-clamp side) matches ours only this way. |
+| SW1, SW2 | +180°, moved 2.6 mm | Only this way do JLC's mounting legs and button land where ours are; before, the button faced into the board. The two switch pins swap, which does not matter for a switch. |
+| J5 camera/display FPC | moved 0.2 mm | Placed by pad positions: JLC numbers the contacts from the other end (by number it would be +180°, body and mounting tabs on the wrong side). Our footprint and pinout are Raspberry Pi's own CM5 IO board footprint, so the copper is right; expect JLC's pin-1 mark at our pin-22 end. |
+| Q1, Q2, U6, U12, U15, U18, U19 (SOT-23 family) | +180° | JLC's library draws them the other way round. |
+| U5, U8, U10, U11, U13, U16, U20, U21, Y1 | +270° (U20 also 0.1 mm) | JLC's library draws them turned. |
+
+Everything else (passives, LEDs, polymer caps, BT1, U4/U14, U7, U9) needs no correction.
+
+**Check in JLC's preview before confirming:**
+- Module1, Module2: JLC's pin-1 mark at the bottom end, right-hand row of each connector (Module1 pin 1
+  at x 231.4, y 113.1 in KiCad; Module2 pin 101 at x 197.4, y 113.1).
+- SW1, SW2: buttons face the board edge, as on the silkscreen.
+- J100, J101: the wire clamp on the same side as the silkscreen outline.
+- BT1: its pads are symmetric and JLC's outline is too different from ours to decide, so it keeps KiCad's
+  orientation; check that the cell opening matches the silkscreen.
+- J2, J22 (and the five 0402 parts) show as missing: see above.
