@@ -1357,9 +1357,9 @@
    "jlc_type": "extended",
    "jlc_stock": 0,
    "jlc_unit_price": 7.9953,
-   "jlc_decision": "consign (decided 2026-10-11)",
+   "jlc_decision": "JLC global sourcing, else hand-fit (decided 2026-10-11)",
    "compared_specs": "AEC-Q100 version of the same die: 21 pins, RYQ VQFN-HR, VREF 1.2 V, 3-36 V input (both TI datasheets; JLC lists 3-27 V).",
-   "notes": "Buy 20 from Mouser 595-PS552892QWRYQRQ1 (25 in stock 2026-10-11) and supply to JLC. JLC 0, DigiKey 0."
+   "notes": "Plan A: JLC global parts sourcing from Mouser 595-PS552892QWRYQRQ1 (25 in stock 2026-10-11). Plan B: buy at Mouser and hand-fit after assembly (exclude from placement like U17). Automotive grade not required; it is the only TPS552892 in stock. JLC 0, DigiKey 0. TPS55289RYQR rejected (I2C enable needed, cannot self-start U14)."
   },
   {
    "refs": "U5",
