@@ -1777,7 +1777,7 @@
    "jlc_unit_price": 0.1559,
    "jlc_decision": "exact_extended",
    "compared_specs": "same Molex part (leading zeros dropped in LCSC MPN); 1x3P 2.54 mm THT tin",
-   "notes": "DNP - not fitted. Through-hole; would need 20 if fitted.; MPN matches (Molex KK 1x3 2.54 mm). DNP on this board."
+   "notes": "J19 not fitted (DNP); J3 fitted. Through-hole; 10 needed for J3 (20 if J19 were fitted)."
   },
   {
    "refs": "J4",
