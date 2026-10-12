@@ -28,7 +28,7 @@ mounting holes and test points.
 | 1 | **U4, U14** TPS552892RYQR (self-starting buck-boost) | **Not available anywhere:** JLC 1, DigiKey 0, Mouser 0. | **Recommended:** switch to **TPS552892QWRYQRQ1**, the automotive (AEC-Q100) version. It is a drop-in: all 21 pins, the RYQ package, VREF 1.2 V and the 3–36 V input range compared identical between the two TI datasheets. Stock: Mouser **25**, JLC 5 (LCSC C22375748), DigiKey 0. Buy 20 at Mouser and have JLC use them, or build fewer boards. |
 | 2 | **U17** TCA9538DBR (I/O expander) | JLC has 1. | Buy from DigiKey (21k in stock) and supply it to JLC, or use JLC's parts-sourcing from DigiKey. No same-footprint alternative is in stock. |
 | 3 | **U16** SN74AHCT1G125DRLR (LED buffer, SOT-553) | JLC has 0. | Supply from DigiKey (5.4k), **or** change the footprint to SC-70-5 (SN74AHCT1G125DCKR, C350557, 16k at JLC) or SOT-23-5 (DBVR, C7484, 45k). The pinout is the same; only the footprint changes. |
-| 4 | **U3** TMJG4926HENL (MagJack, through-hole) | JLC 0; DigiKey only 4. | Buy elsewhere and supply it, or choose another MagJack. This is also the part with the broken pin-10 winding on your Rev1 board. |
+| 4 | **U3** MagJack (through-hole) | TMJG4926HENL: JLC 0, DigiKey 4. | **Done (2026-10-11):** switched to **LINK-PP LPJG0926HENL** (LCSC C22457393, 2,305 at JLC, about $4.45). Its datasheet shows the same internal schematic, pinout and footprint as TMJG4926HENL. It is rated 0–70 °C instead of −40 to +85 °C. Not found at DigiKey or Mouser; the DigiKey fallback with the right pinout is TMJG4926HENL (931-TMJG4926HENL-ND). **Never accept TMJG0813GENL:** the Rev1 boards were fitted with it. It fits the same holes, but pin 9 is the centre tap and pin 10 is ground, so gigabit could never link. |
 | 5 | **BT1** BAT-HLD-007-SMT-TR (coin-cell holder) | JLC 0. | Supply from DigiKey (4.1k), or change to a holder JLC stocks (needs a footprint change). |
 | 6 | **U11** TUSB4041IPAPR (USB hub) | JLC has exactly 10, with no spare for losses. | Order quickly, or supply 2–3 spares from DigiKey (141 in stock). |
 | 7 | **Module1** (two CM5 connectors, Amphenol 10164227-1001A1RLF) | Both connectors sit in **one** footprint with one reference, but JLC's placement file needs one entry per connector. | Split it into two footprints/references (for example J9A/J9B), or give JLC separate coordinates for each. LCSC C6782225, 2 per board. |
@@ -83,6 +83,7 @@ mounting holes and test points.
   - C60 → `478-KGM05ACG1H6R8CHTR-ND`. AVX renamed 04025A6R8CAT2A to KGM05ACG1H6R8CH.
 - **C72 changed part:** Murata GRM188R71C104KA01D is **obsolete**, and so are both Murata successors →
   Yageo **CC0603KRX7R9BB104** (`311-1344-2-ND`, LCSC C14663 Basic): 100 nF, 50 V, X7R, 0603.
+- **U3 now from LCSC:** LINK-PP LPJG0926HENL is not sold by DigiKey, so U3's distributor is LCSC (C22457393) and the old DigiKey number 931-TMJG4926HENL-ND was removed from the schematic.
 - **C73 wrong number:** `490-1494-2-ND` is a different (X7R, obsolete) part. The correct DigiKey number for
   GRM1885C1H102JA01D could not be looked up (the API failed), so the field will be **cleared — fill it by hand**.
   Mouser carries the part as 81-GRM39C102J50.
@@ -93,7 +94,6 @@ mounting holes and test points.
 - **Out of stock at DigiKey:** TPS552892RYQR, 74LVC1G07SE-7, ASEK-32.768KHZ-L-R-T, AP3441SHE-7B.
 - **Low stock at DigiKey:**
   - LI0402C221R-10: 1 in stock.
-  - TMJG4926HENL: 4.
   - TLV75712PDBVR: 5.
   - 0805ZD106KAT2A (10 µF): 59 for 150 needed.
 - **Reel numbers.** As you asked, the reel (TR) numbers were kept. Many have reel-size minimums

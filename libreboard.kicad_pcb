@@ -8246,7 +8246,7 @@
 				)
 			)
 		)
-		(property "Value" "MagJack-A70-112-331N126"
+		(property "Value" "LPJG0926HENL"
 			(at 0 11.58 0)
 			(layer "F.Fab")
 			(uuid "cd577a30-0e48-4540-ab8c-0e545c28d0ff")
@@ -8257,7 +8257,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.taoglas.com/datasheets/TMJG4926HENL.pdf"
+		(property "Datasheet" "https://www.l-p.com/file/datasheet/lpjg0926henl.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8270,7 +8270,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RJ45 1G MagJack, LPJG0926HENL/TMJG4926HENL pinout (4,5 = CT; 9,10 = TD4; 11-14 = VC). Do not substitute TMJG0813GENL: different pinout (9 = CT, 10 = GND)."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8343,7 +8343,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "931-TMJG4926HENL-ND"
+		(property "Dist. P/N" "C22457393"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8356,7 +8356,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" "LCSC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8369,7 +8369,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "TMJG4926HENL"
+		(property "Manf. P/N" "LPJG0926HENL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8382,7 +8382,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Taoglas Limited"
+		(property "Manufacturer" "LINK-PP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8447,7 +8447,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C37415176"
+		(property "LCSC" "C22457393"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

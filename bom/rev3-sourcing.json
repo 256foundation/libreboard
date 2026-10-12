@@ -48,11 +48,20 @@
    "SRN8040-4R7Y": {
     "Manufacturer": "Bourns",
     "_why": "BOM said Coilcraft; SRN8040 is a Bourns series (DigiKey/JLC both list Bourns)"
+   },
+   "TMJG4926HENL": {
+    "Manufacturer": "LINK-PP",
+    "Manf. P/N": "LPJG0926HENL",
+    "Value": "LPJG0926HENL",
+    "Distributor": "LCSC",
+    "Dist. P/N": "C22457393",
+    "LCSC": "C22457393",
+    "Datasheet": "https://www.l-p.com/file/datasheet/lpjg0926henl.pdf",
+    "_why": "TMJG4926HENL has 0 stock at JLC and 4 at DigiKey; LINK-PP LPJG0926HENL has the identical schematic, pinout and footprint (both datasheets compared) and 2305 at JLC. Rev1 boards got the wrong TMJG0813GENL."
    }
   },
   "write_exact_code_even_if_no_stock": [
    "TPS552892RYQR",
-   "TMJG4926HENL",
    "SN74AHCT1G125DRLR",
    "TCA9538DBR",
    "BAT-HLD-007-SMT-TR"
@@ -1316,24 +1325,24 @@
   {
    "refs": "U3",
    "qty_per_board": 1,
-   "value": "MagJack-A70-112-331N126",
+   "value": "LPJG0926HENL",
    "footprint": "TRJG0926HENL",
-   "manufacturer": "Taoglas Limited",
-   "mpn": "TMJG4926HENL",
-   "original_mpn": "",
-   "digikey_pn": "931-TMJG4926HENL-ND",
-   "digikey_status": "ok",
-   "digikey_stock": 4,
-   "digikey_lifecycle": "Active",
-   "lcsc": "C37415176",
-   "jlc_mpn": "TMJG4926HENL",
-   "jlc_manufacturer": "Taoglas",
+   "manufacturer": "LINK-PP",
+   "mpn": "LPJG0926HENL",
+   "original_mpn": "TMJG4926HENL",
+   "digikey_pn": "",
+   "digikey_status": "not_at_digikey",
+   "digikey_stock": null,
+   "digikey_lifecycle": "",
+   "lcsc": "C22457393",
+   "jlc_mpn": "LPJG0926HENL",
+   "jlc_manufacturer": "Link-PP Intl Technology",
    "jlc_type": "extended",
-   "jlc_stock": 0,
-   "jlc_unit_price": 14.5817,
-   "jlc_decision": "not_at_jlc (exact code stored)",
-   "compared_specs": "Exact part is listed at JLC with stock 0. The parts named in the footprint and value fields also have no stock: TRJG0926HENL (only JLCPCB Assembly placeholder codes, stock 0) and EDAC A70-112-331N126 C43709820 (stock 0).",
-   "notes": "No in-stock connector of the same series or footprint was found. The part has to be consigned or bought elsewhere. DigiKey has only 4.; LOW STOCK at DigiKey: 4 (need 10)."
+   "jlc_stock": 2305,
+   "jlc_unit_price": 4.4464,
+   "jlc_decision": "substitute_extended (pinout verified)",
+   "compared_specs": "Same internal schematic and pin layout as TMJG4926HENL (LINK-PP drawing LP18022610 rev A vs Taoglas SPE-23-8-193-B): TD1-TD4 on pins 1/2, 3/6, 7/8, 9/10; CT 4/5; cable-side centre taps 11-14; green LED 15/16, yellow 17/18; 1CT:1CT, 350 uH OCL, 1500 Vrms hipot, PoE 720 mA. Rated 0-70 C (Taoglas -40-85 C).",
+   "notes": "Switched 2026-10-11. The Rev1 boards were fitted with Taoglas TMJG0813GENL, which fits the same holes but has a different pinout (9 = centre tap, 10 = GND, 4/5 = a signal pair), so gigabit could never link. Never accept TMJG0813GENL. DigiKey alternative with the right pinout: Taoglas TMJG4926HENL, 931-TMJG4926HENL-ND (4 in stock 2026-10-11). LPJG0926HENL not found at DigiKey or Mouser."
   },
   {
    "refs": "U4 U14",
