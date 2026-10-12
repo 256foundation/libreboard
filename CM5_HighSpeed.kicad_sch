@@ -3862,7 +3862,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle"
+		(symbol "libreboard:USB_C_Receptacle"
 			(pin_names
 				(offset 1.016)
 			)
@@ -25746,7 +25746,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle")
+		(lib_id "libreboard:USB_C_Receptacle")
 		(at 29.21 232.41 0)
 		(unit 1)
 		(body_style 1)
@@ -25777,7 +25777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Molex_105450-0101"
+		(property "Footprint" "libreboard:USB_C_Receptacle_Molex_105450-0101"
 			(at 33.02 232.41 0)
 			(hide yes)
 			(show_name no)

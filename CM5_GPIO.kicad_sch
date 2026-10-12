@@ -5278,7 +5278,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Micro_SD_Card_Det2"
+		(symbol "libreboard:Micro_SD_Card_Det2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18976,7 +18976,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Micro_SD_Card_Det2")
+		(lib_id "libreboard:Micro_SD_Card_Det2")
 		(at 255.27 125.73 0)
 		(unit 1)
 		(body_style 1)

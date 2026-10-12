@@ -28815,7 +28815,7 @@
 			)
 		)
 	)
-	(footprint "Connector_USB:USB_C_Receptacle_Molex_105450-0101"
+	(footprint "libreboard:USB_C_Receptacle_Molex_105450-0101"
 		(layer "F.Cu")
 		(uuid "3aa7afdf-0bef-4f43-8d32-4d74be73b636")
 		(at 229.3826 199.1291)

@@ -1398,7 +1398,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
+		(symbol "libreboard:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -18618,7 +18618,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(lib_id "libreboard:USB_C_Receptacle_USB2.0_16P")
 		(at 46.99 59.69 0)
 		(unit 1)
 		(body_style 1)
