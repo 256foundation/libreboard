@@ -17777,7 +17777,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2086581051?display=pdf"
+		(property "Datasheet" ""
 			(at 264.795 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17799,7 +17799,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Connector, HDMI 2.1, Female, Right Angle, 19 pin, SMD"
+		(property "Part Description" "Connector, HDMI Type A, Female, Right Angle, 19 pin, SMD"
 			(at 264.16 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17821,7 +17821,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "900-2086581051TR-ND"
+		(property "Dist. P/N" "C5291558"
 			(at 264.16 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17832,7 +17832,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" "LCSC"
 			(at 264.16 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17843,7 +17843,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "2086581051"
+		(property "Manf. P/N" "690-019-298-412"
 			(at 264.16 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17854,7 +17854,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "EDAC"
 			(at 264.16 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17909,7 +17909,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5240402"
+		(property "LCSC" "C5291558"
 			(at 264.16 50.8 0)
 			(hide yes)
 			(show_name no)

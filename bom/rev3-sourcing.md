@@ -31,8 +31,9 @@ mounting holes and test points.
 | **Module1** (two Amphenol 10164227-1001A1RLF) | One footprint and one reference for both connectors; JLC's placement file needs one entry per connector. | **Split:** Module1 = pins 1–100 (footprint `CM5_Connector_A`, which also carries the mounting holes and module outline), Module2 = pins 101–200 (`CM5_Connector_B`). Each footprint origin is its connector centre, so JLC gets one placement entry per connector. Same pads, nets and routing; no layout work needed. |
 | **M2–M5** SMT nuts | No footprint in the design. | **Fitted by hand.** |
 | **Y1** 24 MHz oscillator | ECS-2520MV-240-DN-TR: 0 at JLC. | **Switched to YXC OT252024MJBA4SL** (C669072, 4.5k at JLC). Checked in the YXC datasheet: pin 1 = tri-state, **enabled when high or floating** (Y1 pin 1 is unconnected), 2 GND, 3 OUT, 4 VDD as on the ECS part; 1.8–3.3 V supply (runs from +1V8), CMOS, ±20 ppm; 2520 land pattern matches the ECS footprint. Not at DigiKey, so Distributor = LCSC. |
-| **J2** 2×7 header | Molex 0010897140: 0 at JLC. | **Switched to Molex 0010897142** (10-89-7142; C561778, 1,026 at JLC; Mouser 538-10-89-7142). Same C-Grid III header with the same 240/110 mil pin lengths and 2.29 mm insulator; gold is 15 µin instead of 30 µin. DigiKey number not found. |
+| **J2** 2×7 header | Molex 0010897140: 0 at JLC. The Molex 0010897142 (C561778) chosen first has no footprint in JLC's library, so JLC's preview cannot show or place it (2026-10-12). | **Switched to a generic header: BOOMELE 2.54-2\*7P** (C71397, 21.5k at JLC, gold, $0.09). JLC's footprint matches ours pad for pad. 6 mm mating / 3 mm tail pins and a 2.5 mm insulator instead of the C-Grid's 6.1 / 2.8 mm and 2.29 mm. Not at DigiKey or Mouser, so Distributor = LCSC. |
 | **J8** 40-pin header | Molex 0010897400: 0 at JLC. | **Switched to Würth 61304021121** (C5364405, 192 at JLC; DigiKey 732-5310-ND). Insulator 2.54 mm instead of 2.29 mm, so a HAT sits 0.25 mm higher. |
+| **J22** HDMI | Molex 2086581051 (C5240402) has no footprint in JLC's library, and it was never checked against our footprint, which is the EDAC 690-019-298-412 from Raspberry Pi's CM5 IO board (2026-10-12). | **Switched to EDAC 690-019-298-412** (C5291558, 1,850 at JLC, $0.59), the part the footprint was drawn for and the one Raspberry Pi fits. JLC's footprint matches ours pad for pad. Not at DigiKey or Mouser, so Distributor = LCSC. |
 | **SW1, SW2** buttons | C&K PTS645VH58-2 LFS: 0 at JLC. | **Switched to C&K PTS645VK39-2 LFS** (C285519, 6.5k at JLC; DigiKey CKN10053-ND). 3.85 mm actuator instead of 5.85 mm, 2.6 N instead of 2 N. Footprints set to KiCad's PTS645Vx39-2LFS (same pads as the Vx58/Vx31 ones used before, so routing stays); needs F8. |
 
 ## 2. Low stock to watch
@@ -88,8 +89,7 @@ mounting holes and test points.
   - L2/L3: manufacturer Coilcraft → **Bourns** (SRN8040 is a Bourns part).
 - **Out of stock at DigiKey:** TPS552892QWRYQRQ1 (and the TPS552892RYQR it replaced), 74LVC1G07SE-7,
   ASEK-32.768KHZ-L-R-T, AP3441SHE-7B.
-- **Not at DigiKey (other distributor in the schematic):** U3 and Y1 (LCSC), U16 (LCSC; lookup failed),
-  J2 (Mouser 538-10-89-7142; lookup failed).
+- **Not at DigiKey (other distributor in the schematic):** U3, Y1, J2 and J22 (LCSC), U16 (LCSC; lookup failed).
 - **Low stock at DigiKey:**
   - LI0402C221R-10: 1 in stock.
   - TLV75712PDBVR: 5.

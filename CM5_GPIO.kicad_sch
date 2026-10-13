@@ -19398,7 +19398,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2212121509_BOOMELE-Boom-Precision-Elec-2-54-2-7P_C71397.pdf"
 			(at 36.83 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19420,7 +19420,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Pin Header, Male, 2x07, 2.54mm P, Vertical, 15 uin gold"
+		(property "Part Description" "Pin Header, Male, 2x07, 2.54mm P, Vertical, gold"
 			(at 36.83 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19431,7 +19431,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "538-10-89-7142"
+		(property "Dist. P/N" "C71397"
 			(at 36.83 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19442,7 +19442,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "LCSC"
 			(at 36.83 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19453,7 +19453,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "0010897142"
+		(property "Manf. P/N" "2.54-2*7PPin"
 			(at 36.83 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19464,7 +19464,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C561778"
+		(property "LCSC" "C71397"
 			(at 36.83 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19475,7 +19475,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "BOOMELE"
 			(at 36.83 177.8 0)
 			(hide yes)
 			(show_name no)

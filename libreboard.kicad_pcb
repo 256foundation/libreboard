@@ -9022,7 +9022,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2086581051?display=pdf"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9108,7 +9108,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Connector, HDMI 2.1, Female, Right Angle, 19 pin, SMD"
+		(property "Part Description" "Connector, HDMI Type A, Female, Right Angle, 19 pin, SMD"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9120,7 +9120,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "900-2086581051TR-ND"
+		(property "Dist. P/N" "C5291558"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9133,7 +9133,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" "LCSC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9146,7 +9146,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "2086581051"
+		(property "Manf. P/N" "690-019-298-412"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9159,7 +9159,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "EDAC"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9224,7 +9224,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5240402"
+		(property "LCSC" "C5291558"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11307,7 +11307,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2212121509_BOOMELE-Boom-Precision-Elec-2-54-2-7P_C71397.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11333,7 +11333,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Pin Header, Male, 2x07, 2.54mm P, Vertical, 15 uin gold"
+		(property "Part Description" "Pin Header, Male, 2x07, 2.54mm P, Vertical, gold"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11346,7 +11346,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "538-10-89-7142"
+		(property "Dist. P/N" "C71397"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11359,7 +11359,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "LCSC"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11372,7 +11372,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "0010897142"
+		(property "Manf. P/N" "2.54-2*7PPin"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11385,7 +11385,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C561778"
+		(property "LCSC" "C71397"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11398,7 +11398,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "BOOMELE"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
