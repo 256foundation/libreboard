@@ -83,8 +83,12 @@ about **$191** at DigiKey/Mouser:
 | J100, J101 × 20 | Keystone 7790, Mouser 534-7790 | $0.45 → $9.00 |
 | SW1, SW2 × 20 | C&K PTS645VK39-2 LFS, Mouser 611-PTS645VK392 | $0.36 → $7.26 |
 
-The parts alone cost about $46 more outside JLC, plus shipping. In return the JLC order loses 8 extended
-BOM lines (about $3 setup each) and JLC's through-hole soldering charge: compare the two JLC quotes.
+**JLC quotes (2026-10-12, 5 boards):** $566.84 with all parts, $476.02 SMT-only. The through-hole parts
+cost **$90.82** at JLC: components $72.28, manual assembly $14.93, hand-soldering labour $3.61. Setup,
+stencil and feeder loading fees are the same in both quotes. The same 16 parts for 5 boards cost about
+**$107** at DigiKey/Mouser (U3 alone $38.45) plus shipping, and 905 solder joints by hand, so letting JLC
+fit them is cheaper. The full order is 0.44 kg heavier (1.82 vs 1.38 kg); the quotes do not show
+shipping.
 
 ## Placement corrections
 
