@@ -6075,7 +6075,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "2073-USB4105-GF-ATR-ND"
+		(property "Dist. P/N" "2073-USB4105-GF-A-120TR-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6101,7 +6101,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "USB4105-GF-A"
+		(property "Manf. P/N" "USB4105-GF-A-120"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6179,7 +6179,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3020560"
+		(property "LCSC" "C5184243"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
