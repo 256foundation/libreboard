@@ -8,6 +8,8 @@ script after any board change; it rewrites everything in this folder.
 | `libreboard-rev3-gerbers.zip` | Upload this for the PCB: 13 Gerber layers + plated/non-plated Excellon drill files (also unzipped in `gerbers/`). The zip is git-ignored; the script recreates it. |
 | `libreboard-rev3-bom-jlc.csv` | Assembly BOM: 88 lines, 187 parts, all with LCSC numbers. |
 | `libreboard-rev3-cpl-jlc.csv` | Placement file: the same 187 parts, all on the top side. |
+| `libreboard-rev3-bom-jlc-smt-only.csv`, `libreboard-rev3-cpl-jlc-smt-only.csv` | The same without the 16 through-hole parts (171 parts, 80 lines), for fitting those by hand; see below. |
+| `libreboard-rev3-tht-hand-fit.csv` | Those 16 parts with their order fields and solder joints. |
 
 ## PCB options
 
@@ -53,6 +55,37 @@ the case for this first rev3 run.
 - **No JLC footprint:** C63, R7, R19, R20 and R59 (plain 0402 parts). JLC's preview shows them as missing;
   check they are in the order review.
 
+## SMT-only order: through-hole parts by hand
+
+Upload `libreboard-rev3-bom-jlc-smt-only.csv` and `libreboard-rev3-cpl-jlc-smt-only.csv` instead of the
+full files to get JLC's price without the through-hole parts. A part counts as through-hole when every
+numbered pad is plated through. J11, J15 (USB-C), J22 (HDMI) and J4 (M.2) have through-hole shell stakes
+or pegs, but their pins are fine-pitch SMD, so they stay with JLC.
+
+By hand: J1, J6, J10, J17 (USB-C), J2, J3, J8 (pin headers), J51–J54 (fan headers), J100, J101 (screw
+terminals), SW1, SW2 and U3 (MagJack): 181 solder joints per board. Two of them are only sold by LCSC,
+so buy these instead:
+- **U3:** Taoglas **TMJG4926HENL** (Mouser 960-TMJG4926HENL), the original part; same pinout and
+  footprint as the LINK-PP LPJG0926HENL. **Not TMJG0813GENL** (see `bom/rev3-sourcing.md`).
+- **J2:** Molex **0010897140** C-Grid header (DigiKey WM9875-ND).
+
+**Parts for 10 boards at list prices (2026-10-12):** about **$145** at JLC (JLC prices of the 16 parts) and
+about **$191** at DigiKey/Mouser:
+
+| Parts (10 boards) | DigiKey/Mouser | Price |
+|---|---|---|
+| J1, J6, J10, J17 × 40 | Molex 216989-0001, Mouser 538-216989-0001 | $1.24 → $49.60 |
+| U3 × 10 | Taoglas TMJG4926HENL, Mouser 960-TMJG4926HENL | $6.75 → $67.50 |
+| J2 × 10 | Molex 0010897140, DigiKey WM9875-ND | $1.93 → $19.27 |
+| J3 × 10 | Molex 0022032031, DigiKey 900-0022032031-ND | $0.22 → $2.19 |
+| J8 × 10 | Würth 61304021121, Mouser 710-61304021121 | $1.70 → $17.00 |
+| J51–J54 × 40 | Molex 0470531000, DigiKey WM4330-ND | $0.48 → $19.16 |
+| J100, J101 × 20 | Keystone 7790, Mouser 534-7790 | $0.45 → $9.00 |
+| SW1, SW2 × 20 | C&K PTS645VK39-2 LFS, Mouser 611-PTS645VK392 | $0.36 → $7.26 |
+
+The parts alone cost about $46 more outside JLC, plus shipping. In return the JLC order loses 8 extended
+BOM lines (about $3 setup each) and JLC's through-hole soldering charge: compare the two JLC quotes.
+
 ## Placement corrections
 
 JLC places every part from its own footprint (JLCEDA/EasyEDA official library, https://easyeda.com,
@@ -68,7 +101,7 @@ because its hand-soldering pads are longer). Changes from the KiCad position exp
 
 | Parts | Correction | Why |
 |---|---|---|
-| J1, J6, J10, J17 (USB-A) | moved 2.5 mm | JLC's origin is the part centre, ours pin 1. |
+| J1, J6, J10, J17 (through-hole USB-C) | moved 2.5 mm | JLC's origin is the part centre, ours pin 1. |
 | J2, J3, J8 pin headers; J51–J54 fan headers | centred; J2/J3/J8 also +270° | Same. |
 | J22 HDMI | moved 2.6 mm | Different origin. |
 | U3 (Ethernet), J4 (M.2), J7 (microSD), J11, J15 (USB-C), J14, J16 | moved 0.06–2.4 mm | Different origin. |
