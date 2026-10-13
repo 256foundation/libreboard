@@ -50,17 +50,8 @@ the case for this first rev3 run.
 - **U4, U14 TPS552892QWRYQRQ1:** the BOM line uses LCSC C22375748, which JLC has 0 of. Plan A is JLC's
   global parts sourcing (Mouser has stock); match the BOM line to those parts. If that fails (plan B: fit
   them by hand), exclude U4/U14 from the placement file in KiCad and re-run the script.
-- **No JLC footprint:** JLC's preview shows these as missing, so JLC's engineers have to place them from
-  our placement point; look for them in the order review.
-  - J22 HDMI, C5240402 (Molex 2086581051). Our footprint is the EDAC 690-019-298-412 one from Raspberry
-    Pi's CM5 IO board, and JLC stocks that exact part: **C5291558** (1,850 in stock, $0.59). JLC's footprint
-    for it matches ours pad for pad, so switching J22's LCSC field to C5291558 (and re-running both scripts)
-    gives JLC the part and its placement, and avoids the open question whether the Molex part fits the
-    EDAC footprint.
-  - J2 2×7 header, C561778 (Molex 10-89-7142, chosen for its C-Grid pin lengths). Placed at the centre of
-    its pins, +270° like J3 and J8. Generic headers with JLC data, e.g. C71397 (BOOMELE, gold) or C492424
-    (XFCN), fit the footprint exactly but have 6/3 mm pins and a 2.5 mm insulator.
-  - C63, R7, R19, R20, R59: plain 0402 parts, placed by package.
+- **No JLC footprint:** C63, R7, R19, R20 and R59 (plain 0402 parts). JLC's preview shows them as missing;
+  check they are in the order review.
 
 ## Placement corrections
 
@@ -78,7 +69,8 @@ because its hand-soldering pads are longer). Changes from the KiCad position exp
 | Parts | Correction | Why |
 |---|---|---|
 | J1, J6, J10, J17 (USB-A) | moved 2.5 mm | JLC's origin is the part centre, ours pin 1. |
-| J3, J8 pin headers; J51–J54 fan headers | centred; J3/J8 also +270° | Same. |
+| J2, J3, J8 pin headers; J51–J54 fan headers | centred; J2/J3/J8 also +270° | Same. |
+| J22 HDMI | moved 2.6 mm | Different origin. |
 | U3 (Ethernet), J4 (M.2), J7 (microSD), J11, J15 (USB-C), J14, J16 | moved 0.06–2.4 mm | Different origin. |
 | Module1, Module2 (CM5 connectors) | +270° | JLC's pin 1 on our pin 1. The +90° used before put it on pin 100. |
 | J100, J101 screw terminals | +270° | The four pads are symmetric; JLC's body outline (wire-clamp side) matches ours only this way. |
@@ -96,4 +88,3 @@ Everything else (passives, LEDs, polymer caps, BT1, U4/U14, U7, U9) needs no cor
 - J100, J101: the wire clamp on the same side as the silkscreen outline.
 - BT1: its pads are symmetric and JLC's outline is too different from ours to decide, so it keeps KiCad's
   orientation; check that the cell opening matches the silkscreen.
-- J2, J22 (and the five 0402 parts) show as missing: see above.
