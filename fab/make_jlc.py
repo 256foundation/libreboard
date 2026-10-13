@@ -6,6 +6,11 @@ Writes to fab/rev3-jlc/ (or the directory given as the first argument):
   libreboard-rev3-gerbers.zip     the same, zipped for upload
   libreboard-rev3-bom-jlc.csv     Comment, Designator, Footprint, LCSC Part #
   libreboard-rev3-cpl-jlc.csv     Designator, Mid X, Mid Y, Layer, Rotation
+  libreboard-rev3-{bom,cpl}-jlc-smt-only.csv
+                                  the same without the through-hole parts (every numbered pad plated
+                                  through), for buying and soldering those by hand
+  libreboard-rev3-tht-hand-fit.csv
+                                  those through-hole parts with their order fields and solder joints
 
 Parts are taken from the board's placement export: DNP footprints and footprints marked
 "exclude from position files" (e.g. hand-fitted U17) are left out, and so is anything
@@ -78,8 +83,9 @@ def rotate(x, y, deg):
 
 
 def footprint_fields(board):
-    """Reference -> dict(name, lcsc, value, x, y, rot, centre) from the .kicad_pcb; centre = centre of the
-    numbered pads in the footprint's own frame"""
+    """Reference -> dict(name, lcsc, value, x, y, rot, centre, tht, joints, props) from the .kicad_pcb;
+    centre = centre of the numbered pads in the footprint's own frame, tht = every numbered pad is plated
+    through (a part with SMD pins and through-hole shell stakes is not), joints = plated through-hole pads"""
     s = open(board, encoding='utf-8').read()
     out = {}
     for m in re.finditer(r'\n\t\(footprint "([^"]+)"', s):
@@ -88,13 +94,17 @@ def footprint_fields(board):
         props = dict(re.findall(r'\(property "([^"]+)" "((?:[^"\\]|\\.)*)"', blk))
         at = re.search(r'\n\t\t\(at ([-\d.]+) ([-\d.]+)(?: ([-\d.]+))?\)', blk)
         pads = [(float(x), float(y)) for x, y in re.findall(r'\(pad "[^"]+" \w+ \w+\s*\(at ([-\d.]+) ([-\d.]+)', blk)]
+        types = re.findall(r'\(pad "([^"]*)" (\w+)', blk)
+        numbered = {t for n, t in types if n}
         centre = None
         if pads:
             centre = ((min(p[0] for p in pads) + max(p[0] for p in pads)) / 2,
                       (min(p[1] for p in pads) + max(p[1] for p in pads)) / 2)
         out[props['Reference']] = dict(name=m.group(1).split(':', 1)[-1], lcsc=props.get('LCSC', '').strip(),
                                        value=props.get('Value', ''), x=float(at.group(1)), y=float(at.group(2)),
-                                       rot=float(at.group(3) or 0), centre=centre)
+                                       rot=float(at.group(3) or 0), centre=centre,
+                                       tht=numbered == {'thru_hole'}, joints=sum(t == 'thru_hole' for _, t in types),
+                                       props=props)
     return out
 
 
@@ -156,6 +166,35 @@ def undated(path):
         return [line for line in f if 'CreationDate' not in line and not re.search(r' date \d{4}-\d\d-\d\d', line)]
 
 
+def write_bom_cpl(rows, fields, corrections, suffix):
+    """JLC placement file and BOM for these position-export rows; returns the number of BOM lines"""
+    with open(os.path.join(OUT, f'libreboard-rev3-cpl-jlc{suffix}.csv'), 'w', newline='', encoding='utf-8') as f:
+        w = csv.writer(f)
+        w.writerow(['Designator', 'Mid X', 'Mid Y', 'Layer', 'Rotation'])
+        for r in sorted(rows, key=lambda r: natural(r['Ref'])):
+            x, y, rot = placement(fields[r['Ref']], corrections)
+            w.writerow([r['Ref'], f"{x:.4f}mm", f"{y:.4f}mm", 'Top' if r['Side'] == 'top' else 'Bottom', f"{rot:g}"])
+
+    groups = collections.OrderedDict()
+    for r in sorted(rows, key=lambda r: natural(r['Ref'])):
+        groups.setdefault(fields[r['Ref']]['lcsc'], []).append(r['Ref'])
+    with open(os.path.join(OUT, f'libreboard-rev3-bom-jlc{suffix}.csv'), 'w', newline='', encoding='utf-8') as f:
+        w = csv.writer(f)
+        w.writerow(['Comment', 'Designator', 'Footprint', 'LCSC Part #'])
+        for lcsc, refs in groups.items():
+            names = ' / '.join(sorted({fields[x]['name'] for x in refs}))
+            w.writerow([group_value(refs, fields), ','.join(refs), names, lcsc])
+    return len(groups)
+
+
+def group_value(refs, fields):
+    """one value for a BOM line: the most common one ('12V Fan 1'..'4' -> '12V Fan')"""
+    values = collections.Counter(ascii_value(fields[x]['value']) for x in refs)
+    if len(values) > 1 and all(v.startswith('12V Fan') for v in values):
+        return '12V Fan'
+    return values.most_common(1)[0][0]
+
+
 def main():
     gdir = os.path.join(OUT, 'gerbers')
     os.makedirs(gdir, exist_ok=True)
@@ -186,29 +225,30 @@ def main():
     placed = [r for r in rows if fields[r['Ref']]['lcsc']]
     skipped = sorted({r['Ref'] for r in rows} - {r['Ref'] for r in placed}, key=natural)
 
-    with open(os.path.join(OUT, 'libreboard-rev3-cpl-jlc.csv'), 'w', newline='', encoding='utf-8') as f:
+    lines = write_bom_cpl(placed, fields, corrections, '')
+    # Through-hole parts left out: bought and soldered by hand. Parts with SMD pins and through-hole shell
+    # stakes or pegs (USB-C J11/J15, HDMI J22, M.2 J4) stay with JLC: they need paste and reflow.
+    smt = [r for r in placed if not fields[r['Ref']]['tht']]
+    tht = [r for r in placed if fields[r['Ref']]['tht']]
+    smt_lines = write_bom_cpl(smt, fields, corrections, '-smt-only')
+    hand = collections.OrderedDict()
+    for r in sorted(tht, key=lambda r: natural(r['Ref'])):
+        p = fields[r['Ref']]['props']
+        hand.setdefault((p.get('Manufacturer', ''), p.get('Manf. P/N', '')), []).append(r['Ref'])
+    with open(os.path.join(OUT, 'libreboard-rev3-tht-hand-fit.csv'), 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f)
-        w.writerow(['Designator', 'Mid X', 'Mid Y', 'Layer', 'Rotation'])
-        for r in sorted(placed, key=lambda r: natural(r['Ref'])):
-            x, y, rot = placement(fields[r['Ref']], corrections)
-            w.writerow([r['Ref'], f"{x:.4f}mm", f"{y:.4f}mm", 'Top' if r['Side'] == 'top' else 'Bottom', f"{rot:g}"])
-
-    groups = collections.OrderedDict()
-    for r in sorted(placed, key=lambda r: natural(r['Ref'])):
-        groups.setdefault(fields[r['Ref']]['lcsc'], []).append(r['Ref'])
-    with open(os.path.join(OUT, 'libreboard-rev3-bom-jlc.csv'), 'w', newline='', encoding='utf-8') as f:
-        w = csv.writer(f)
-        w.writerow(['Comment', 'Designator', 'Footprint', 'LCSC Part #'])
-        for lcsc, refs in groups.items():
-            values = collections.Counter(ascii_value(fields[x]['value']) for x in refs)
-            comment = values.most_common(1)[0][0]
-            if len(values) > 1 and all(v.startswith('12V Fan') for v in values):
-                comment = '12V Fan'
-            names = ' / '.join(sorted({fields[x]['name'] for x in refs}))
-            w.writerow([comment, ','.join(refs), names, lcsc])
+        w.writerow(['Designator', 'Qty', 'Value', 'Manufacturer', 'Manf. P/N', 'Distributor', 'Dist. P/N', 'LCSC',
+                    'Solder joints'])
+        for (manf, mpn), refs in hand.items():
+            p = fields[refs[0]]['props']
+            w.writerow([','.join(refs), len(refs), group_value(refs, fields), manf, mpn, p.get('Distributor', ''),
+                        p.get('Dist. P/N', ''), p.get('LCSC', ''), sum(fields[x]['joints'] for x in refs)])
 
     print(f'{OUT}: {len(os.listdir(gdir))} Gerber/drill files, {len(placed)} placed parts, '
-          f'{len(groups)} BOM lines; left out (no LCSC): {", ".join(skipped) or "none"}')
+          f'{lines} BOM lines; left out (no LCSC): {", ".join(skipped) or "none"}')
+    print(f'SMT only: {len(smt)} parts, {smt_lines} BOM lines; by hand: {len(tht)} through-hole parts '
+          f'({", ".join(sorted((r["Ref"] for r in tht), key=natural))}), '
+          f'{sum(fields[r["Ref"]]["joints"] for r in tht)} solder joints per board')
 
 
 if __name__ == '__main__':
