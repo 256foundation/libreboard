@@ -10,7 +10,7 @@ C1518208,C_0402_1005Metric,C22 C30 C54 C74,C0402,0,0.000,0.000,geometry,2,0.060,
 C29823,C_1206_3216Metric,C23 C53,C1206,0,0.000,0.000,geometry,2,0.118,0.12,0.00,ok,symmetric pads
 C307331,C_0402_1005Metric,C24 C25 C55 C65 C76 C78,C0402,0,0.000,0.000,geometry,2,0.060,0.06,0.00,ok,symmetric pads
 C342307,C_1206_3216Metric,C27 C28 C29,C1206,0,0.000,0.000,geometry,2,0.118,0.12,0.00,ok,symmetric pads
-C15525,C_0402_1005Metric,C34 C46 C71,C0402,0,0.000,0.000,geometry,2,0.060,0.06,0.00,ok,symmetric pads
+C15525,C_0402_1005Metric,C34 C46,C0402,0,0.000,0.000,geometry,2,0.060,0.06,0.00,ok,symmetric pads
 C52923,C_0402_1005Metric,C47 C48 C64,C0402,0,0.000,0.000,geometry,2,0.060,0.06,0.00,ok,symmetric pads
 C46550474,CP_Elec_6.3x5.9,C51,CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-FD_3,0,0.000,0.000,numbers,2,0.130,0.13,0.00,ok,
 C96123,C_1206_3216Metric,C57 C66 C67 C68,C1206,0,0.000,0.000,geometry,2,0.118,0.12,0.00,ok,symmetric pads
@@ -19,6 +19,7 @@ C76947,C_0402_1005Metric,C61,C0402,0,0.000,0.000,geometry,2,0.060,0.06,0.00,ok,s
 C1531,C_0402_1005Metric,C62,C0402,0,0.000,0.000,geometry,2,0.060,0.06,0.00,ok,symmetric pads
 C1517504,C_0402_1005Metric,C63,,,,,,,,,,no JLC footprint,
 C2944013,CP_Elec_6.3x9.9,C69,CAP-SMD_BD6.3-L6.6-W6.6-LS7.3,0,0.000,0.000,numbers,2,0.130,0.13,0.00,ok,
+C408132,C_0402_1005Metric,C71,C0402,0,0.000,0.000,geometry,2,0.060,0.06,0.00,ok,symmetric pads
 C14663,C_0603_1608Metric,C72,C0603,0,0.000,0.000,geometry,2,0.075,0.07,0.00,ok,symmetric pads
 C77026,C_0603_1608Metric,C73,C0603,0,0.000,0.000,geometry,2,0.075,0.07,0.00,ok,symmetric pads
 C125114,LED_0603_1608Metric,D1,LED-SMD_L1.7-W0.6-RD,0,0.000,0.000,numbers,2,0.113,0.11,0.22,ok,

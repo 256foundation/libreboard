@@ -6,9 +6,9 @@ script after any board change; it rewrites everything in this folder.
 | File | What it is |
 |---|---|
 | `libreboard-rev3-gerbers.zip` | Upload this for the PCB: 13 Gerber layers + plated/non-plated Excellon drill files (also unzipped in `gerbers/`). The zip is git-ignored; the script recreates it. |
-| `libreboard-rev3-bom-jlc.csv` | Assembly BOM: 88 lines, 187 parts, all with LCSC numbers. |
+| `libreboard-rev3-bom-jlc.csv` | Assembly BOM: 89 lines, 187 parts, all with LCSC numbers. |
 | `libreboard-rev3-cpl-jlc.csv` | Placement file: the same 187 parts, all on the top side. |
-| `libreboard-rev3-bom-jlc-smt-only.csv`, `libreboard-rev3-cpl-jlc-smt-only.csv` | The same without the 16 through-hole parts (171 parts, 80 lines), for fitting those by hand; see below. |
+| `libreboard-rev3-bom-jlc-smt-only.csv`, `libreboard-rev3-cpl-jlc-smt-only.csv` | The same without the 16 through-hole parts (171 parts, 81 lines), for fitting those by hand; see below. |
 | `libreboard-rev3-tht-hand-fit.csv` | Those 16 parts with their order fields and solder joints. |
 
 ## PCB options
