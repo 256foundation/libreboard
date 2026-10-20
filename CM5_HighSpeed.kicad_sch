@@ -29669,7 +29669,7 @@
 				)
 			)
 		)
-		(property "Value" "OT252024MJBA4SL"
+		(property "Value" "X1G0041710031"
 			(at 177.546 169.418 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29690,7 +29690,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407310922_YXC-Crystal-Oscillators-OT252024MJBA4SL_C669072.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404171436_Seiko-Epson-X1G0041710031_C70559.pdf"
 			(at 156.845 156.845 0)
 			(hide yes)
 			(show_name no)
@@ -29712,7 +29712,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "C669072"
+		(property "Dist. P/N" "C70559"
 			(at 161.29 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -29734,7 +29734,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "OT252024MJBA4SL"
+		(property "Manf. P/N" "X1G0041710031"
 			(at 161.29 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -29745,7 +29745,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C669072"
+		(property "LCSC" "C70559"
 			(at 161.29 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -29756,7 +29756,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YXC"
+		(property "Manufacturer" "Seiko Epson"
 			(at 161.29 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -29767,7 +29767,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Oscillator, 24MHz, CMOS, 1.8V~3.3V, 20ppm, pin 1 enables when open"
+		(property "Part Description" "Oscillator SG-210STF, 24MHz, CMOS, 1.6V~3.6V, 50ppm, pin 1 (ST) runs when open"
 			(at 161.29 160.02 0)
 			(hide yes)
 			(show_name no)
