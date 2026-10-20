@@ -93517,9 +93517,9 @@
 		(layer "User.1")
 		(uuid "f487d448-5453-486c-ac69-9ad536f4c62f")
 	)
-	(gr_text "Board thickness  : 1.6mm\nFinished copper weight inners : 24.9um or greater\nFinished copper weight outers : 35um or greater\n\nBoard finish : OSP\nMaterial type : FR4\nColour of solder resists : Green\nColour of silk screens : White Only on the top side\nBoard to : UL94-V0\nTG >=130\n\n50R trace width 0.13mm@ 3GHz\n90R diff pair width 0.147 @ 2.5GHz\n100R diff pair width 0.127 @ 2GHz"
+	(gr_text "Board thickness  : 1.6mm nominal (JLC06161H-3313: 1.54mm)\nFinished copper weight inners : 15.2um (0.5oz)\nFinished copper weight outers : 35um (1oz)\n\nBoard finish : ENIG\nMaterial type : FR4\nColour of solder resists : Green\nColour of silk screens : White, both sides\nBoard to : UL94-V0\nTG >=130\n\n50R trace width 0.13mm@ 3GHz\n90R diff pair width 0.147 @ 2.5GHz\n100R diff pair width 0.127 @ 2GHz\n\nOrder settings: fab/rev3-jlc/README.md"
 		(at 129.9526 53.2041 0)
-		(layer "F.Cu")
+		(layer "Cmts.User")
 		(uuid "70b5eb35-5c64-4052-b810-0242782904cd")
 		(effects
 			(font
