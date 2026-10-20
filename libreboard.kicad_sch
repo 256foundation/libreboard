@@ -12560,7 +12560,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ae7601c-1dfe-4f7c-b49f-425a468c9f45")
 		(property "Reference" "C26"
@@ -12574,7 +12574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56µF"
+		(property "Value" "47µF"
 			(at 307.34 233.1338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12662,7 +12662,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P122099TR-ND"
+		(property "Dist. P/N" "C54864098"
 			(at 303.53 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -12673,7 +12673,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" "LCSC"
 			(at 303.53 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -12684,7 +12684,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "20SVF56M"
+		(property "Manf. P/N" "250AVCP470M0506"
 			(at 303.53 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -12695,7 +12695,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "APAQ Technology"
 			(at 303.53 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -12706,7 +12706,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Capacitor, Aluminum, 56µF, ±20%, 20V, 30mΩ ESR"
+		(property "Part Description" "Capacitor, Polymer Aluminum, 47µF, ±20%, 25V, 35mΩ ESR, D5x5.8mm"
 			(at 303.53 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -12717,7 +12717,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2162042"
+		(property "LCSC" "C54864098"
 			(at 303.53 232.41 0)
 			(hide yes)
 			(show_name no)

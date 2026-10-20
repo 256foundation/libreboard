@@ -81082,7 +81082,7 @@
 				)
 			)
 		)
-		(property "Value" "56µF"
+		(property "Value" "47µF"
 			(at 0 3.7 90)
 			(layer "F.Fab")
 			(uuid "39df329a-58a4-40a0-be7e-40dccd057a73")
@@ -81169,7 +81169,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "P122099TR-ND"
+		(property "Dist. P/N" "C54864098"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -81182,7 +81182,7 @@
 				)
 			)
 		)
-		(property "Distributor" "Digikey"
+		(property "Distributor" "LCSC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -81195,7 +81195,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "20SVF56M"
+		(property "Manf. P/N" "250AVCP470M0506"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -81208,7 +81208,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "APAQ Technology"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -81221,7 +81221,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Capacitor, Aluminum, 56µF, ±20%, 20V, 30mΩ ESR"
+		(property "Part Description" "Capacitor, Polymer Aluminum, 47µF, ±20%, 25V, 35mΩ ESR, D5x5.8mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -81234,7 +81234,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2162042"
+		(property "LCSC" "C54864098"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -81257,7 +81257,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.76 -2.76)
