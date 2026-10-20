@@ -38,7 +38,8 @@ They differ in what happens afterwards:
 **Rule of thumb:** OSP is fine when JLC places everything that matters (including U4/U14) and little rework
 is expected. Use ENIG when parts are fitted by hand afterwards or when the board will be reworked, which is
 the case for this first rev3 run.
-- Smallest features: 0.127 mm tracks, 0.1 mm clearance, 0.45 mm vias with 0.2 mm holes.
+- Smallest features: 0.1 mm tracks (short neck-downs on the hub port D− lines at J1, J6, J10), 0.1 mm
+  clearance, 0.45 mm vias with 0.2 mm holes (789 of them).
 
 ## Assembly
 
