@@ -6,9 +6,9 @@ script after any board change; it rewrites everything in this folder.
 | File | What it is |
 |---|---|
 | `libreboard-rev3-gerbers.zip` | Upload this for the PCB: 13 Gerber layers + plated/non-plated Excellon drill files (also unzipped in `gerbers/`). The zip is git-ignored; the script recreates it. |
-| `libreboard-rev3-bom-jlc.csv` | Assembly BOM: 89 lines, 187 parts, all with LCSC numbers. |
-| `libreboard-rev3-cpl-jlc.csv` | Placement file: the same 187 parts, all on the top side. |
-| `libreboard-rev3-bom-jlc-smt-only.csv`, `libreboard-rev3-cpl-jlc-smt-only.csv` | The same without the 16 through-hole parts (171 parts, 81 lines), for fitting those by hand; see below. |
+| `libreboard-rev3-bom-jlc.csv` | Assembly BOM: 90 lines, 188 parts, all with LCSC numbers. |
+| `libreboard-rev3-cpl-jlc.csv` | Placement file: the same 188 parts, all on the top side. |
+| `libreboard-rev3-bom-jlc-smt-only.csv`, `libreboard-rev3-cpl-jlc-smt-only.csv` | The same without the 16 through-hole parts (172 parts, 82 lines), for fitting those by hand; see below. |
 | `libreboard-rev3-tht-hand-fit.csv` | Those 16 parts with their order fields and solder joints. |
 
 ## PCB options
@@ -48,15 +48,17 @@ the case for this first rev3 run.
 - **Top side only, SMT + through-hole.** Through-hole parts: J1, J2, J3, J6, J8, J10, J17, J22, J51–J54,
   J100, J101, SW1, SW2, U3.
 - **Not placed by JLC:**
-  - U1, U2 (Ethernet TVS), C26, J19: not fitted (DNP);
+  - U1, U2 (Ethernet TVS), J19: not fitted (DNP);
   - U17 TCA9538DBR: buy from DigiKey and fit by hand (excluded from the placement file);
   - M2–M5 SMT nuts: fitted by hand (no footprint);
   - fiducials, test points and mounting holes: copper only.
-- **U4, U14 TPS552892QWRYQRQ1:** the BOM line uses LCSC C22375748, which JLC has 0 of. Plan A is JLC's
-  global parts sourcing (Mouser has stock); match the BOM line to those parts. If that fails (plan B: fit
-  them by hand), exclude U4/U14 from the placement file in KiCad and re-run the script.
-- **No JLC footprint:** C63, R7, R19, R20 and R59 (plain 0402 parts). JLC's preview shows them as missing;
-  check they are in the order review.
+- **U4, U14 TPS552892QWRYQRQ1** (C22375748): JLC had 539 in stock on 2026-10-20, so JLC places them
+  from its own stock. (The non-automotive TPS552892RYQR has 1.) Before that the plan was JLC's global
+  sourcing or fitting them by hand.
+- **No JLC footprint:** C63, R7, R19, R20 and R59 (plain 0402 parts), and C26 (APAQ 250AVCP470M0506,
+  47 µF polymer can). JLC's preview shows them as missing; check they are in the order review, and that
+  C26's "+" (the can's unmarked side, opposite the dark stripe) sits on the "+" of the silkscreen, at the
+  bottom of the footprint.
 
 ## SMT-only order: through-hole parts by hand
 

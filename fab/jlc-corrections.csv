@@ -9,6 +9,7 @@ C440198,C_0805_2012Metric,C21 C52,C0805,0,0.000,0.000,geometry,2,0.050,0.05,0.00
 C1518208,C_0402_1005Metric,C22 C30 C54 C74,C0402,0,0.000,0.000,geometry,2,0.060,0.06,0.00,ok,symmetric pads
 C29823,C_1206_3216Metric,C23 C53,C1206,0,0.000,0.000,geometry,2,0.118,0.12,0.00,ok,symmetric pads
 C307331,C_0402_1005Metric,C24 C25 C55 C65 C76 C78,C0402,0,0.000,0.000,geometry,2,0.060,0.06,0.00,ok,symmetric pads
+C54864098,CP_Elec_5x5.9,C26,,,,,,,,,,no JLC footprint,
 C342307,C_1206_3216Metric,C27 C28 C29,C1206,0,0.000,0.000,geometry,2,0.118,0.12,0.00,ok,symmetric pads
 C15525,C_0402_1005Metric,C34 C46,C0402,0,0.000,0.000,geometry,2,0.060,0.06,0.00,ok,symmetric pads
 C52923,C_0402_1005Metric,C47 C48 C64,C0402,0,0.000,0.000,geometry,2,0.060,0.06,0.00,ok,symmetric pads
