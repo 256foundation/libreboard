@@ -16,7 +16,9 @@ script after any board change; it rewrites everything in this folder.
 - **6 layers**, 125 × 125 mm, 1.6 mm.
 - **Stackup: JLC06161H-3313** (checked against JLC's picker 2026-10-20): 3313 prepreg 0.0994 mm (L1–L2,
   L5–L6), 0.55 mm cores, 2116 prepreg 0.1088 mm (L3–L4), 1 oz outer / 0.5 oz inner copper; the same as the
-  KiCad stackup. The 90 Ω and 100 Ω pair widths in the net classes assume it.
+  KiCad stackup. The 90 Ω and 100 Ω pair widths in the net classes assume it. JLC warns that its real
+  thickness is 1.5384 mm (±10%), not 1.6 mm: accept it. That is our stackup without solder mask; the board
+  has no card-edge fingers, and the through-hole pins and J11's 1.2 mm shell stakes are unaffected.
 - **Impedance control:** yes (USB 3 / PCIe / USB 2 pairs 90 Ω, Ethernet / CSI-DSI pairs 100 Ω).
 - **Via covering: epoxy-filled and capped.** Vias sit inside SMD pads (J15's 0.3 mm USB-C pads, U15, U16,
   C57–C59 and the exposed pads of U11 and U21); open vias there would wick the solder away.
