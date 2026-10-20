@@ -900,8 +900,8 @@
    "notes": "strip trailing ' - Cut Tape' text; Exact MPN not at JLC; no basic/preferred 33uF 1206 exists. Need 30.; Lookup of 445-8046-1-ND resolved to its T&R sibling 445-8046-2-ND with matching MPN (TDK C3216X5R1E336M160AC, 33uF 25V X5R +-20% 1206); existing cut-tape number kept. Stock/price shown are those retur"
   },
   {
-   "refs": "C34 C46 C71",
-   "qty_per_board": 3,
+   "refs": "C34 C46",
+   "qty_per_board": 2,
    "value": "10µF",
    "footprint": "C_0402_1005Metric",
    "manufacturer": "Kyocera",
@@ -920,6 +920,28 @@
    "jlc_decision": "substitute",
    "compared_specs": "orig 10uF 6.3V X5R +-20% 0402 -> sub 10uF 6.3V X5R +-20% 0402 (identical ratings)",
    "notes": "Exact part at JLC is extended C2178725 (stock 6189). Need 30.; DigiKey returns mfr_part_number 04026D106MAT2A for this number (DigiKey PN uses Kyocera's new KGM name). 10uF 6.3V X5R +-20% 0402. T&R min_qty 10000."
+  },
+  {
+   "refs": "C71",
+   "qty_per_board": 1,
+   "value": "10µF",
+   "footprint": "C_0402_1005Metric",
+   "manufacturer": "Murata",
+   "mpn": "GRM155R61A106ME11D",
+   "original_mpn": "04026D106MAT2A",
+   "digikey_pn": "490-GRM155R61A106ME11DTR-ND",
+   "digikey_status": "ok",
+   "digikey_stock": 0,
+   "digikey_lifecycle": "Active",
+   "lcsc": "C408132",
+   "jlc_mpn": "GRM155R61A106ME11D",
+   "jlc_manufacturer": "Murata Electronics",
+   "jlc_type": "extended",
+   "jlc_stock": 184526,
+   "jlc_unit_price": 0.0453,
+   "jlc_decision": "upgrade (decided 2026-10-20)",
+   "compared_specs": "10uF 0402 X5R +-20%, 10 V instead of 6.3 V (C71 sits on +5v at 5.19 V)",
+   "notes": "Voltage margin only; any 0402 10 uF keeps a fraction of its capacity at 5 V. DigiKey TR reel number (0 in stock on 2026-10-20, Active); Mouser 81-GRM155R61A106ME1D."
   },
   {
    "refs": "C51",

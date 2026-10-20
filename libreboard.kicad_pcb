@@ -31346,7 +31346,7 @@
 				)
 			)
 		)
-		(property "Part Description" "Capacitor, Ceramic, 10µF, ±20%, 6.3V, X5R, 0402 (1005m)"
+		(property "Part Description" "Capacitor, Ceramic, 10µF, ±20%, 10V, X5R, 0402 (1005m)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31372,7 +31372,7 @@
 				)
 			)
 		)
-		(property "Dist. P/N" "478-KGM05CR50J106MHTR-ND"
+		(property "Dist. P/N" "490-GRM155R61A106ME11DTR-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31398,7 +31398,7 @@
 				)
 			)
 		)
-		(property "Manf. P/N" "04026D106MAT2A"
+		(property "Manf. P/N" "GRM155R61A106ME11D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31411,7 +31411,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Kyocera"
+		(property "Manufacturer" "Murata"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31476,7 +31476,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15525"
+		(property "LCSC" "C408132"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
